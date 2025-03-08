@@ -1,21 +1,21 @@
 {
-  "name": "郁金香茶",
+  "name": "Tulip Tea",
   "icon": "lushscentedparadise:tulip_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 4,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“繁花似锦，明艳动人，温暖的气息在茶香中绽放。”$(br2)郁金香茶是一种绚丽而温润的茶饮，由干燥的郁金香花瓣制成。它不仅色泽美观，口感甘甜，更能短暂提升旅人的最大生命值，使身体更为强健。"
+      "text": "“A sea of vibrant blooms, dazzling and bright—warmth unfolds within the tea’s fragrance.”$(br2)Tulip Tea is a radiant and soothing beverage made from dried tulip petals. With its beautiful color and naturally sweet taste, drinking it temporarily increases the traveler’s maximum health, making them more resilient."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)郁金香茶的制作十分简单，只需将$(br)任何颜色的干燥郁金香花瓣与糖调和，即可获得这款充满生机的茶饮。$(br)适合在冒险前饮用，为自己提供额外的生命上限。"
+      "text": "$(br2)$(br)To prepare Tulip Tea, $(br)blend any color of dried tulip petals with sugar.$(br)It is best consumed before an adventure, providing additional health capacity for extra protection."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:tulip_tea",
-      "text": "饮用郁金香茶后，旅人将获得短暂的最大生命提升，使身体更加耐久，适合战斗或挑战强敌前使用。$(br)这是一款带来活力的茶饮，赋予旅人更多的安全感。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Tulip Tea, travelers gain a temporary increase in maximum health, making them more durable in battle and better prepared for challenging encounters.$(br)This invigorating tea grants a sense of security and endurance.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

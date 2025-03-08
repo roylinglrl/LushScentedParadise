@@ -1,25 +1,25 @@
 {
-  "name": "生姜蜂蜜红茶",
+  "name": "Ginger Honey Black Tea",
   "icon": "lushscentedparadise:ginger_honey_black_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 48,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#D2691E)🔥 熔岩淬炼·烈阳之饮 ☀$()$(br2)$(l)$(#FF4500)「啜饮地心之火，铸就无畏之躯」$()$(br)当$(#FF8C00)干生姜$()的炽烈与$(#DAA520)岩层蜂蜜$()的醇厚，在$(#8B0000)陈年红茶$()中沸腾，最后撒入$(#4169E1)矢车菊花瓣$()——这杯能令$(l)血肉化为钢铁$()的战士之饮便淬炼完成。"
+      "text": "$(#D2691E)🔥 Forged in Lava · Sunfire Elixir ☀$()$(br2)$(l)$(#FF4500)「Sipping the fire of the earth, forging an indomitable body」$()$(br)The blazing heat of $(#FF8C00)dried ginger$(), the richness of $(#DAA520)rock honey$(), and the deep aroma of $(#8B0000)aged black tea$() boil together before being completed with a sprinkle of $(#4169E1)cornflower petals$()—thus, the warrior’s elixir, capable of $(l)turning flesh into steel$(), is tempered."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:ginger_honey_black_tea",
-      "text": "$(#FF8C00)▌ 熔炉三重奏 $()$(br2)$(l)$(#CD5C5C)🛡 烈焰臣服$()$(br)连$(#FF4500)岩浆$()的热吻都化作暖风$(br2)$(l)$(#8B0000)💪 巨人脉搏$()$(br)肌肉纤维如$(#DAA520)钢丝$()般绷紧$(br2)$(l)$(#00BFFF)⚡ 赤兔疾驰$()$(br)足底迸发$(#FFD700)火星$()的迅捷"
+      "text": "$(#FF8C00)▌ Furnace Trio $()$(br2)$(l)$(#CD5C5C)🛡 Flames Bow Down$()$(br)Even the $(#FF4500)kiss of magma$() feels like a warm breeze.$(br2)$(l)$(#8B0000)💪 Giant’s Pulse$()$(br)Muscle fibers tense like $(#DAA520)steel cables$().$(br2)$(l)$(#00BFFF)⚡ Crimson Hare’s Sprint$()$(br)Feet spark with $(#FFD700)fiery bursts$(), enhancing speed."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B0000)▌ 炼金纪要 $()$(br)- 将$(#FF8C00)姜片$()烤至边缘$(#CD3700)焦褐卷曲$()$(br)- $(#DAA520)蜂蜜$()需与$(#4B0082)矢车菊$()搅拌至$(#FFD700)拉丝$()状态$(br)- 注入$(#8B0000)茶汤$()时须高冲形成$(#00CED1)琥珀色漩涡$()$(br2)$(#FF0000)⚠$() 若液体散发$(#7FFF00)青绿色蒸汽$()代表姜素过量"
+      "text": "$(br2)$(#8B0000)▌ Alchemical Forge Notes $()$(br)- Roast $(#FF8C00)ginger slices$() until their edges curl and turn $(#CD3700)charred brown$().$(br)- $(#DAA520)Honey$() must be mixed with $(#4B0082)cornflower$() until it forms $(#FFD700)silken strands$().$(br)- Pour $(#8B0000)tea infusion$() from a height to form a $(#00CED1)golden amber vortex$().$(br2)$(#FF0000)⚠$() If the liquid emits $(#7FFF00)green steam$(), it means the ginger concentration is too high."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)『 锻炉史诗 』$()$(br)矮人铁匠的锻造谣如是说：$(br)'当$(#FF8C00)姜火$()在$(#8B0000)铁胃$()中翻腾，$(br)连$(#CD5C5C)炎魔$()都要嫉妒这$(#FF4500)抗火之躯$()——$(br)而$(#00BFFF)疾风$()掠过$(#DAA520)蜜镀铠甲$()的声响，$(br)正是战士奔赴$(#4169E1)荣耀$()的战鼓'"
+      "text": "$(br2)$(#8B4513)『 Epic of the Forge 』$()$(br)A dwarven blacksmith’s battle hymn:$(br)'When the $(#FF8C00)flames of ginger$() churn within the $(#8B0000)iron stomach$(),$(br)even the $(#CD5C5C)Infernal Behemoth$() will envy this $(#FF4500)fire-resistant flesh$()—$(br)and as the $(#00BFFF)wind$() rushes past the $(#DAA520)honey-gilded armor$(),$(br)it beats like the war drums of a warrior charging into $(#4169E1)glory$().'"
     }
   ]
 }

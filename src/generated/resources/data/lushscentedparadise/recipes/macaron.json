@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:cocoa_powder"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "lushscentedparadise:vanilla_syrup"
+    },
+    {
+      "item": "lushscentedparadise:dried_hibiscus"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "lushscentedparadise:macaron"
+  }
+}

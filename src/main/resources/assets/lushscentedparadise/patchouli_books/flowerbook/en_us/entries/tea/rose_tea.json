@@ -1,21 +1,21 @@
 {
-  "name": "玫瑰茶",
+  "name": "Rose Tea",
   "icon": "lushscentedparadise:rose_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 9,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“鲜红色的花朵，芬芳馥郁，温柔之中，蕴含奔腾的力量。”$(br2)玫瑰茶是一款香气浓郁而富有活力的茶饮，由干燥的玫瑰花瓣制成。它的茶汤呈现淡雅的红色，入口微甜，饮用后能提供高效的速度加成，使旅人步伐更加轻盈迅捷。"
+      "text": "“Bright red petals, rich in fragrance—gentle yet carrying an untamed energy.”$(br2)Rose Tea is a highly aromatic and invigorating beverage made from dried rose petals. The tea has a soft red hue and a mildly sweet taste. Drinking it provides a strong Speed boost, making the traveler’s steps lighter and faster."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)玫瑰茶的制作方式十分简单，只需将$(br)干燥的玫瑰花瓣与糖调和，即可获得这款芳香浓郁的茶饮。$(br)适合在旅途中使用，让你快速穿越世界，节省宝贵时间。"
+      "text": "$(br2)$(br)Rose Tea is simple to prepare—$(br)blend dried rose petals with sugar to create this fragrant and energetic tea.$(br)It is best consumed during travel, allowing for quicker movement and saving valuable time."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:rose_tea",
-      "text": "饮用玫瑰茶后，旅人将获得高效的速度加成，使行走与奔跑速度较长时间的提升。$(br)这是一款极具活力的茶饮，适合急行军或快速撤退时使用。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Rose Tea, travelers gain a strong Speed boost, significantly increasing their walking and running speed for an extended duration.$(br)This tea is perfect for fast-paced journeys, whether advancing swiftly or making a quick escape.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

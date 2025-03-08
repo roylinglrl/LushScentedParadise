@@ -1,21 +1,21 @@
 {
-  "name": "虞美人茶",
+  "name": "Poppy Tea",
   "icon": "lushscentedparadise:poppy_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 2,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“虞美人绽放之时，微风轻抚，柔美而坚韧。”$(br2)虞美人茶是一种色泽艳丽、风味独特的茶饮，由干燥的虞美人花瓣制成。它不仅口感柔和，带有淡淡的甘甜，还能让旅人在疲惫时获得短暂的生命恢复，舒缓身心，焕发活力。"
+      "text": "“As the poppies bloom, a gentle breeze passes by—delicate yet resilient.”$(br2)Poppy Tea is a brightly colored and uniquely flavored beverage made from dried poppy petals. With its smooth taste and a hint of sweetness, drinking it grants travelers short-term health regeneration, soothing the body and revitalizing energy."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)虞美人茶的制作方式简单，只需将$(br)干燥的虞美人花瓣与糖调和，即可获得这款温暖的茶饮。$(br)适合在旅途中饮用，让你在短暂的停歇中恢复状态。"
+      "text": "$(br2)$(br)Poppy Tea is simple to prepare—$(br)blend dried poppy petals with sugar to create this warm and revitalizing tea.$(br)It is best consumed during travels, allowing for quick recovery during moments of rest."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:poppy_tea",
-      "text": "饮用虞美人茶后，旅人将获得短暂的生命恢复，使身体逐渐恢复活力。$(br)这是一款温暖而轻柔的茶饮，适合在旅途中缓解疲劳。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Poppy Tea, travelers gain temporary health regeneration, gradually restoring vitality.$(br)This tea is a warm and gentle beverage, perfect for relieving fatigue on long journeys.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
-  "name": "马鞭草",
+  "name": "Verbena",
   "icon": "lushscentedparadise:verbena_seeds",
   "category": "lushscentedparadise:seed",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“紫红点缀，芳香淡雅，溪水浸润，孕育灵草。”$(br2)马鞭草是一种生长在湿润环境中的草本植物，其紫红色的小花不仅具有观赏价值，还被广泛用于草药与茶饮之中，因其清香怡人且略带药效，被称为‘河畔之花’。"
+      "text": "“Crimson blooms, a subtle fragrance, nurtured by flowing waters, a sacred herb of the riverside.”$(br2)Verbena is a herbaceous plant that thrives in moist environments. Its tiny crimson flowers not only have ornamental value but are also widely used in herbal medicine and tea-making. With its refreshing aroma and mild medicinal properties, it is known as the ‘Flower of the Riverbank.’"
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:verbena_seeds",
-      "text": "野生马鞭草常见于河流两岸和潮湿的草原地带，它依靠溪流的滋养，在水源附近茂盛生长。旅人可以在这些环境中找到野生马鞭草，并采集其种子，以便进行人工种植，使其成为稳定的茶饮原料来源。"
+      "text": "Wild verbena is commonly found along riverbanks and in humid grasslands, flourishing near water sources. Travelers can search these areas for wild verbena and collect its seeds to cultivate a stable supply of tea ingredients."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:verbena",
-      "text": "马鞭草植株在成熟后，可收获紫红色的小花及额外的种子，便于持续种植。$(br)马鞭草的花朵带有淡淡的香气，可用于泡制茶饮，带来清新舒缓的体验，同时也是调配草药的理想选择。"
+      "text": "When mature, verbena plants yield delicate crimson flowers and additional seeds for continued cultivation.$(br)The flowers carry a light and pleasant fragrance, making them ideal for brewing refreshing herbal teas or blending into medicinal preparations."
     }
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "lushscentedparadise:clean_water"
+  },
+  "mana": 600,
+  "output": {
+    "item": "lushscentedparadise:mana_water"
+  }
+}

@@ -1,4 +1,4 @@
-package net.royling.LushScentedParadise.Item.newFlower;
+package net.royling.LushScentedParadise.ModBlock.newFlower;
 
 import net.minecraft.world.level.block.BushBlock;
 import net.minecraft.world.phys.shapes.VoxelShape;

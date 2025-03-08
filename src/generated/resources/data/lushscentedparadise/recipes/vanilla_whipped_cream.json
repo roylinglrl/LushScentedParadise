@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:cream"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "lushscentedparadise:vanilla_syrup"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:vanilla_whipped_cream"
+  }
+}

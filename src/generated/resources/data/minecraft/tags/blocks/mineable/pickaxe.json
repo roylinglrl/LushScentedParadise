@@ -1,5 +1,10 @@
 {
   "values": [
-    "lushscentedparadise:teapot"
+    "lushscentedparadise:teapot",
+    "lushscentedparadise:star_silver_ore",
+    "lushscentedparadise:deepslate_star_silver_ore",
+    "lushscentedparadise:star_silver_block",
+    "lushscentedparadise:raw_star_silver_block",
+    "lushscentedparadise:colorful_flower_block"
   ]
 }

@@ -1,21 +1,21 @@
 {
-  "name": "薄荷",
+  "name": "Mint",
   "icon": "lushscentedparadise:mint_seeds",
   "category": "lushscentedparadise:seed",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“清凉入喉，芳香四溢，微风拂叶，遍地生机。”$(br2)薄荷是一种生长迅速且生命力旺盛的草本植物，以其独特的清凉气息而闻名。无论是泡茶、调味，还是入药，薄荷都拥有广泛的用途。"
+      "text": "“A cool sensation glides down the throat, filling the air with its crisp fragrance—its leaves dancing with the wind, brimming with life.”$(br2)Mint is a fast-growing, highly resilient herb, renowned for its distinct cooling aroma. Whether used for brewing tea, flavoring food, or as a medicinal herb, mint has a wide range of applications."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:mint_seeds",
-      "text": "薄荷适应性极强，尤其偏爱湿润的环境。旅人可在沼泽、河岸附近发现野生薄荷，并通过薄荷种子进行人工栽培，使其更方便采摘。"
+      "text": "Mint is highly adaptable, thriving especially in moist environments. Travelers can find wild mint growing along riverbanks and swamps, and by collecting its seeds, they can cultivate it for easy harvesting."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:mint_leave",
-      "text": "薄荷植株在收获时会掉落薄荷叶与少量薄荷种子。$(br)薄荷的生长周期较短，适合大规模种植，并可多次采收，是旅途中不可或缺的清凉良伴。"
+      "text": "When harvested, mint plants drop fresh mint leaves along with a small number of mint seeds.$(br)Due to its short growth cycle, mint is ideal for large-scale farming and can be harvested multiple times—an essential companion for refreshing journeys."
     }
   ]
 }

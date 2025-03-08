@@ -1,21 +1,21 @@
 {
-  "name": "薄荷茶",
+  "name": "Mint Tea",
   "icon": "lushscentedparadise:mint_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 24,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“清凉入喉，微风拂面，火焰之中，亦能自在前行。”$(br2)薄荷茶是一款清爽提神的茶饮，由两份干燥的薄荷叶制成。茶汤清澈透亮，带有沁人心脾的清凉感，饮用后可提供短时间的抗火和速度加成，让旅人更加灵活自如。"
+      "text": "“A cooling sensation down the throat, a gentle breeze against the skin—moving freely even through flames.”$(br2)Mint Tea is a refreshing and invigorating beverage made from two portions of dried mint leaves. The tea is crystal-clear with a revitalizing coolness. Drinking it grants temporary Fire Resistance and Speed, making travelers more agile and comfortable in harsh environments."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)薄荷茶的制作需要$(br)两份干燥的薄荷叶熬煮而成。$(br)适合在危险环境或高温地带饮用，让你在烈焰之中也能从容穿行。"
+      "text": "$(br2)$(br)To prepare Mint Tea, $(br)boil two portions of dried mint leaves.$(br)It is best consumed in dangerous or high-temperature environments, allowing travelers to move confidently even through flames."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:mint_tea",
-      "text": "饮用薄荷茶后，旅人将获得短时间的抗火和速度加成，使其能够在火焰中更从容地行动。$(br)这是一款适合探索炽热区域的茶饮，为旅人提供额外的灵活性。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Mint Tea, travelers gain temporary Fire Resistance and Speed, enabling them to move more easily through fire and intense heat.$(br)This tea is ideal for exploring scorching regions, providing extra mobility and protection.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

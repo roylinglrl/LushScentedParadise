@@ -1,21 +1,21 @@
 {
-  "name": "蕨菜茶",
+  "name": "Fern Tea",
   "icon": "lushscentedparadise:fern_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 15,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“山野蕨嫩，回甘生津，苦涩之后，是奔跑的快感。”$(br2)蕨菜茶是一款带有野性气息的茶饮，由蕨菜、糖与蜂蜜调和而成。它能提供适量的饱食度，并在大多数情况下赋予旅人速度加成，但偶尔也会带来轻微的毒性影响。"
+      "text": "“Wild ferns, refreshing and invigorating—the bitterness fades, leaving behind the joy of speed.”$(br2)Fern Tea is a wild, earthy drink made by blending fern leaves, sugar, and honey. It restores a small amount of hunger and often grants a Speed boost, though there is a slight chance of mild poisoning."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)蕨菜茶的制作需要$(br)蕨菜、糖和蜂蜜混合调制。$(br)适合在旅途中饮用，让旅人快速前行，同时恢复一定的饱食度，但请留意可能的副作用。"
+      "text": "$(br2)$(br)Fern Tea is crafted by $(br)mixing fern leaves with sugar and honey.$(br)It is a great choice for travelers, allowing them to move quickly while also restoring some hunger, but beware of potential side effects."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:fern_tea",
-      "text": "饮用蕨菜茶后，旅人将获得一定的饱食度，并有较高概率获得速度加成，但也有小概率受到短暂的中毒影响。$(br)这是一款适合探索与奔跑的茶饮，但请谨慎使用。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Fern Tea, travelers restore some hunger and have a high chance of receiving a Speed boost, though there is a small chance of mild poisoning.$(br)This tea is ideal for exploration and running, but should be consumed with caution.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

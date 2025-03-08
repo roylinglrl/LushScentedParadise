@@ -1,25 +1,25 @@
 {
-  "name": "火灼木槿花茶",
+  "name": "Fire Hibiscus Tea",
   "icon": "lushscentedparadise:fire_hibiscus_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 57,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B0000)🔥 灰烬涅槃·心火永续 🌺$()$(br2)$(l)$(#FF4500)「饮下凤凰之泪，让余烬重燃生命」$()$(br)当$(#4B0082)焦化木槿$()在$(#8B0000)烈焰粉尘$()中绽放，$(#DAA520)熔岩蜜糖$()包裹着$(#FF6347)火把花蕊$()的炽烈——这是能在$(l)瞬息治愈创伤$()并$(l)延续生命之火$()的灰烬圣饮。"
+      "text": "$(#8B0000)🔥 Ashen Rebirth · Everlasting Heartflame 🌺$()$(br2)$(l)$(#FF4500)「Drink the Phoenix’s tears, let embers reignite the spirit」$()$(br)As $(#4B0082)Charred Hibiscus$() blooms within $(#8B0000)Infernal Ember Dust$(), and $(#DAA520)Molten Honey$() wraps around the fiery core of $(#FF6347)Torch Flower$()—an ashen elixir is formed, capable of $(l)instant wound healing$() and $(l)rekindling the flame of life$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:fire_hibiscus_tea",
-      "text": "$(#8B0000)▌ 双相炽疗 $()$(br2)$(l)$(#FF0000)❤🔥 心火爆燃$()$(br)伤口处迸发$(#FF4500)熔岩脉络$()瞬间愈合$(br2)$(l)$(#CD5C5C)🛡 余烬庇护$()$(br)体表持续浮现$(#8B0000)灰烬护膜$()缓慢修复"
+      "text": "$(#8B0000)▌ Dual Flame Restoration $()$(br2)$(l)$(#FF0000)❤🔥 Heartflame Burst$()$(br)Wounds erupt with $(#FF4500)molten lava veins$(), instantly sealing themselves.$(br2)$(l)$(#CD5C5C)🛡 Ember Shield$()$(br)A $(#8B0000)floating ash membrane$() continuously restores durability."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#2F4F4F)▌ 熔火工序 $()$(br)- 将$(#4B0082)木槿花$()在$(#8B0000)地狱火$()中烤至$(#CD3700)暗红半碳化$()$(br)- $(#FF6347)火把花粉$()需与$(#DAA520)结晶糖$()熔成$(#FF4500)琥珀胶体$()$(br)- 混合时最好用$(#B22222)黑曜石棒$()以$(#FF0000)逆时针七圈$()剧烈搅拌，防止烫手$(br2)$(#FFD700)※$() 完美成品会形成$(#8B0000)凤凰振翅纹路$()"
+      "text": "$(br2)$(#2F4F4F)▌ Blazing Alchemy $()$(br)- Roast $(#4B0082)Hibiscus petals$() in $(#8B0000)Nether flames$() until they turn $(#CD3700)dark red, semi-charred$().$(br)- $(#FF6347)Torch Flower pollen$() must be melted with $(#DAA520)crystalized sugar$() into a $(#FF4500)amber gel$().$(br)- Stir the mixture vigorously using a $(#B22222)Obsidian Rod$(), counterclockwise, exactly $(#FF0000)seven times$() to prevent overheating.$(br2)$(#FFD700)※$() A perfect brew will display $(#8B0000)Phoenix Wing patterns$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)『 不死鸟传说 』$()$(br)古代炼金术士卷轴残页：$(br)'饮此$(#8B0000)炽血琼浆$()者，$(br)将经历$(#FF4500)心火焚身$()的剧痛与$(#CD5C5C)灰烬重生$()的奇迹——$(br)每个$(#4B0082)木槿花瓣$()都是$(#FF6347)凤凰$()的$(#DAA520)涅槃契约$()，$(br)而$(#2F4F4F)余烬$()中永存$(#FF0000)生命火种$()'"
+      "text": "$(br2)$(#8B4513)『 Legend of the Undying Bird 』$()$(br)A fragment from an ancient alchemist’s scroll:$(br)'Those who drink this $(#8B0000)Blazing Blood Elixir$(),$(br)shall endure the agony of $(#FF4500)Heartflame Ignition$() and witness the miracle of $(#CD5C5C)Ashen Rebirth$()—$(br)each $(#4B0082)Hibiscus petal$() carries the $(#FF6347)Phoenix$()’s $(#DAA520)contract of resurrection$(),$(br)and within $(#2F4F4F)embers$() shall forever remain the $(#FF0000)Seed of Life$().'"
     }
   ]
 }

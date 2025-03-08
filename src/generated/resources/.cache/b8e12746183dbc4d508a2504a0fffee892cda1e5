@@ -1,2 +1,27 @@
-// 1.20.1	2025-03-03T08:21:01.3438483	Tags for minecraft:item mod id lushscentedparadise
+// 1.20.1	2025-03-13T16:41:32.845062	Tags for minecraft:item mod id lushscentedparadise
+3488f08e26e1a311e36fbd529acd7b5e5dd79a7d data/forge/tags/items/armors.json
+6f5d9cf3aa9ccd675388284e729109cfbe3ce3de data/forge/tags/items/armors/boots.json
+98abfc6b21338c60e443b5d37e0042b438bf89d0 data/forge/tags/items/armors/chestplate.json
+9d84d565d397675b4b2b4e05b11e4de972ec2cf8 data/forge/tags/items/armors/helmets.json
+6a797ec59fd19f92f8ae0b4f83587ebabb219b86 data/forge/tags/items/armors/leggings.json
+055e968c29bef1c05da0ebe920d2fe2bc0c66fdd data/forge/tags/items/crops.json
+987be53fb0c4b678621b8e7e35cf349f2a819e1f data/forge/tags/items/ingots.json
+835fa610133c6bd018eacb2cd264445e3d46f7d7 data/forge/tags/items/ingots/colorful_flower.json
+9db6d9d2277b8b03840a4229dda18beff3b7fcf3 data/forge/tags/items/ingots/star_silver.json
+c1aabd7ec59bdebbb9c8cb3105caf61017443452 data/forge/tags/items/raw_materials.json
+88ed20239a19aeee8102125258e01154085e24c6 data/forge/tags/items/seeds.json
+9b36c7c3b2662efb09bd459815ca3371a8df595b data/forge/tags/items/shears.json
+c429185694f1a2b7f1d3a85c31798b7281e266d0 data/forge/tags/items/storage_blocks.json
+4097342fdb36d1abd389b760d55c671c81d1c55b data/forge/tags/items/tools.json
+4e2de0ec7906af6fe8badf13a19a8265a4dcf75e data/minecraft/tags/items/axes.json
+2b82e8131e331015b6e8fe435e6a335609608222 data/minecraft/tags/items/breaks_decorated_pots.json
+d92c475c68d5db856dff74fa65c0b0fe684c2a3e data/minecraft/tags/items/cluster_max_harvestables.json
+cf6c8dd267c53cf1115db0250c6ee0cdc6e86495 data/minecraft/tags/items/fishes.json
+a4149948a656435b2f8db13b60cb87820dd7a8b9 data/minecraft/tags/items/flowers.json
+cfcfa6caa4d094015defadbf671e15de2049803a data/minecraft/tags/items/hoes.json
 4c201846920d0a1a478b5db422d8e4297b369ae7 data/minecraft/tags/items/music_discs.json
+8d7a65e46a654d631f104467040c12afc5641678 data/minecraft/tags/items/pickaxes.json
+db3d9f3c24ba2bb0b59173e920e038c1512d07a3 data/minecraft/tags/items/shovels.json
+a4149948a656435b2f8db13b60cb87820dd7a8b9 data/minecraft/tags/items/small_flowers.json
+d92c475c68d5db856dff74fa65c0b0fe684c2a3e data/minecraft/tags/items/swords.json
+4097342fdb36d1abd389b760d55c671c81d1c55b data/minecraft/tags/items/tools.json

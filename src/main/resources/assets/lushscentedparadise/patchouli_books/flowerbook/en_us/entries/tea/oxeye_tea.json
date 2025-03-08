@@ -1,21 +1,21 @@
 {
-  "name": "滨菊茶",
+  "name": "Oxeye Daisy Tea",
   "icon": "lushscentedparadise:oxeye_daisy_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 5,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“迎海而生，傲然不屈，清香淡雅，安定心神。”$(br2)滨菊茶是一种温和而富有力量的茶饮，由干燥的滨菊花瓣制成。其茶汤清透，带有淡淡的草本香气，饮用后能提升旅人的抗性，使身体更能抵御伤害。"
+      "text": "“Born by the sea, standing strong against the wind, exuding a gentle fragrance that calms the mind.”$(br2)Oxeye Daisy Tea is a mild yet powerful beverage made from dried oxeye daisy petals. The tea is clear with a faint herbal aroma. Drinking it grants a temporary Resistance boost, making the traveler more resilient to damage."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)滨菊茶的制作十分简单，只需将$(br)干燥的滨菊花瓣与糖调和，即可获得这款富有保护力的茶饮。$(br)适合在战斗或危险环境中饮用，以增强自身的防御能力。"
+      "text": "$(br2)$(br)Oxeye Daisy Tea is simple to prepare—$(br)blend dried oxeye daisy petals with sugar to create this protective tea.$(br)It is best consumed before battles or in hazardous environments to enhance personal defense."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:oxeye_daisy_tea",
-      "text": "饮用滨菊茶后，旅人将获得短暂的抗性提升，使身体更能抵挡外界的伤害。$(br)这是一款安定身心的茶饮，适合在危险旅程前饮用。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Oxeye Daisy Tea, travelers gain a temporary Resistance boost, reducing incoming damage.$(br)This tea is a calming and protective drink, ideal for preparation before dangerous journeys.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

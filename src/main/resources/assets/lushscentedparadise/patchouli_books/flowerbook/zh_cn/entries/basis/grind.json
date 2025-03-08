@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:mortar_and_pestle",
+      "recipe": "lushscentedparadise:original/mortar_and_pestle",
       "text": "$(#8B4513)研磨$()不仅仅是将物品碾碎，它是一种$(#FFD700)提炼自然精华$()的技艺。每一次$(#A9A9A9)细腻的碾磨$()，都可能创造出新的$(#8B0000)风味$()、新的$(#32CD32)疗效$()，甚至$(#8A2BE2)开启新的可能性$()。"
     },
     {

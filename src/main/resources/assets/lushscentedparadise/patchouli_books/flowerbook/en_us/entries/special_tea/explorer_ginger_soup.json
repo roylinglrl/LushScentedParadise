@@ -1,25 +1,25 @@
 {
-  "name": "爆爆姜汤",
+  "name": "Explorer’s Ginger Soup",
   "icon": "lushscentedparadise:explosive_ginger_soup",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 53,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#D2691E)💥 冰火协奏·爆裂美学 ❄$()$(br2)$(l)$(#8B0000)「以灼喉之痛换取寒霜免疫，这是雪原旅者的疯狂赌约」$()$(br)当$(#D2691E)干姜$()的辛辣与$(#696969)火药$()的暴烈在$(#8B4513)燧石火花$()中碰撞，$(#2F4F4F)木炭$()将沸腾的$(#CD5C5C)剧毒熔浆$()凝成能$(l)同时抵御极寒与烈焰$()的危险琼浆。"
+      "text": "$(#D2691E)💥 Fire and Ice Symphony · The Art of Explosion ❄$()$(br2)$(l)$(#8B0000)「A searing gamble for immunity to frostbite—this is the madness of snowfield wanderers」$()$(br)The fiery burn of $(#D2691E)dried ginger$() collides with the fury of $(#696969)gunpowder$(), ignited by $(#8B4513)flint sparks$(), while $(#2F4F4F)charcoal$() solidifies the boiling $(#CD5C5C)toxic magma$() into an elixir capable of $(l)resisting both extreme cold and searing heat$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:explosive_ginger_soup",
-      "text": "$(#D2691E)▌ 悖论守护 $()$(br2)$(l)$(#FF4500)🔥 熔岩皮肤$()$(br)连$(#CD5C5C)地狱火$()都成为温和的抚摸$(br2)$(l)$(#4169E1)❄ 霜脉冻结$()$(br)暴风雪中可赤裸双足行走$(br2)$(#32CD32)☣ 毒性代价 $()$(br)$(l)$(#006400)💀 脏腑灼烧$()$(br)每口呼吸都伴随$(#32CD32)翡翠色痛楚$()"
+      "text": "$(#D2691E)▌ Paradoxical Protection $()$(br2)$(l)$(#FF4500)🔥 Lava Skin$()$(br)Even $(#CD5C5C)Nether flames$() feel like a gentle touch.$(br2)$(l)$(#4169E1)❄ Frost Veins$()$(br)Allows one to walk barefoot in a blizzard.$(br2)$(#32CD32)☣ Toxic Consequence $()$(br)$(l)$(#006400)💀 Organ Burn$()$(br)Each breath carries a $(#32CD32)deep emerald pain$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)▌ 爆裂工艺 $()$(br)- 将$(#D2691E)姜块$()在$(#696969)火药粉尘$()中熏制至$(#8B0000)暗红色$()$(br)- 用$(#8B4513)燧石刀$()刮取$(#2F4F4F)炭芯$()的$(#000000)焦黑结晶$()$(br)- 混合时最好穿戴$(#A9A9A9)铁质护具$()并保持$(#00BFFF)逆风站位$()$(br2)$(#FF0000)⚠$() 若液体发出$(#7CFC00)类似苦力怕的嘶鸣声$()必须立刻撤离"
+      "text": "$(br2)$(#8B4513)▌ Explosive Brewing Process $()$(br)- Smoke $(#D2691E)ginger chunks$() in $(#696969)gunpowder dust$() until they turn $(#8B0000)dark red$().$(br)- Use a $(#8B4513)flint knife$() to scrape $(#2F4F4F)charcoal core$() into $(#000000)blackened crystals$().$(br)- When mixing, it is recommended to wear $(#A9A9A9)iron armor$() and stand $(#00BFFF)upwind$().$(br2)$(#FF0000)⚠$() If the liquid emits a $(#7CFC00)Creeper-like hissing sound$(), evacuate immediately."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#696969)『 雪原生存法则 』$()$(br)流浪商人的羊皮卷残页：$(br)'只有吞下这杯$(#D2691E)爆裂之血$()的疯子，$(br)才能在$(#4169E1)极地$()裸身狩猎$(#8B0000)岩浆怪$()——$(br)但$(#32CD32)每份温暖$()都需用$(#006400)内脏腐蚀$()支付，$(br)直到$(#2F4F4F)炭化的胃袋$()成为最后的$(#8B4513)勋章$()'"
+      "text": "$(br2)$(#696969)『 Snowfield Survival Guide 』$()$(br)A tattered page from a wandering merchant’s journal:$(br)'Only those mad enough to drink this $(#D2691E)explosive blood$(),$(br)can hunt $(#4169E1)polar beasts$() bare-chested in the $(#8B0000)lava fields$()—$(br)but know this:$(br)$(#32CD32)every moment of warmth$() must be paid for in $(#006400)internal decay$(),$(br)until the $(#2F4F4F)charred remains of your stomach$() become your final $(#8B4513)badge of honor$().'"
     }
   ]
 }

@@ -535,6 +535,7 @@ public class ModFoods {
             .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 3600, 0), 1.0F)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 0), 1.0F)
             .build();
+    //
 
 
     /**
@@ -1331,7 +1332,60 @@ public class ModFoods {
             super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
         }
     });
-
+    // 冰红茶
+    public static final FoodProperties ICE_BLACK_TEA_P = new FoodProperties.Builder()
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(ModEffects.FAST_FALLING.get(), 3600, 0), 1.0F).build();
+    public static final RegistryObject<Item> ICE_BLACK_TEA = TEAS.register("ice_black_tea", () -> new tea(new Item.Properties().food(ModFoods.ICE_BLACK_TEA_P).stacksTo(16).rarity(Rarity.UNCOMMON), 25)
+    {
+        @Override
+        public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel, @NotNull List<Component> pTooltipComponents, @NotNull TooltipFlag pIsAdvanced) {
+            pTooltipComponents.add(Component.translatable("tooltip.lushscentedparadise.ice_black_tea.text1").setStyle(Style.EMPTY.withColor(ChatFormatting.WHITE)));
+            super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+        }
+    });
+    //星银花茶
+    public static final FoodProperties STAR_SILVER_POTION_P = new FoodProperties.Builder()
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 3600, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3600, 0), 1.0F)
+            .build();
+    public static final RegistryObject<Item> STAR_SILVER_POTION = TEAS.register("star_silver_potion", () -> new tea(new Item.Properties().food(ModFoods.STAR_SILVER_POTION_P).stacksTo(16).rarity(Rarity.UNCOMMON), 25)
+    {
+        @Override
+        public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel, @NotNull List<Component> pTooltipComponents, @NotNull TooltipFlag pIsAdvanced) {
+            pTooltipComponents.add(Component.translatable("tooltip.lushscentedparadise.star_silver_potion.text1").setStyle(Style.EMPTY.withColor(ChatFormatting.WHITE)));
+            super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+        }
+    });
+    //深渊沉影
+    public static final FoodProperties ABYSSAL_BREW_P = new FoodProperties.Builder()
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.INVISIBILITY, 6400, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, 0), 1.0F)
+            .build();
+    public static final RegistryObject<Item> ABYSSAL_BREW = TEAS.register("abyssal_brew", () -> new tea(new Item.Properties().food(ModFoods.ABYSSAL_BREW_P).stacksTo(16).rarity(Rarity.RARE), 25)
+    {
+        @Override
+        public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel, @NotNull List<Component> pTooltipComponents, @NotNull TooltipFlag pIsAdvanced) {
+            pTooltipComponents.add(Component.translatable("tooltip.lushscentedparadise.abyssal_brew.text1").setStyle(Style.EMPTY.withColor(ChatFormatting.DARK_PURPLE)));
+            super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+        }
+    });
+    //淬炼星尘
+    public static final FoodProperties CELESTIAL_EXTRACT_P = new FoodProperties.Builder()
+            .nutrition(0).saturationMod(0f)
+            .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 2400, 0), 1.0F)
+            .effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 4800, 0), 1.0F)
+            .build();
+    public static final RegistryObject<Item> CELESTIAL_EXTRACT = TEAS.register("celestial_extract", () -> new tea(new Item.Properties().food(ModFoods.CELESTIAL_EXTRACT_P).stacksTo(16).rarity(Rarity.EPIC), 25)
+    {
+        @Override
+        public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel, @NotNull List<Component> pTooltipComponents, @NotNull TooltipFlag pIsAdvanced) {
+            pTooltipComponents.add(Component.translatable("tooltip.lushscentedparadise.celestial_extract.text1").setStyle(Style.EMPTY.withColor(ChatFormatting.GOLD)));
+            super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+        }
+    });
     public static void register(IEventBus E){
         TEAS.register(E);
     }

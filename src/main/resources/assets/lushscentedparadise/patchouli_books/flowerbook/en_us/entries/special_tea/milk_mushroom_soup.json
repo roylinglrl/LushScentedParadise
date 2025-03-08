@@ -1,25 +1,25 @@
 {
-  "name": "牛奶蘑菇浓汤",
+  "name": "Milk Mushroom Soup",
   "icon": "lushscentedparadise:milk_mushroom_soup",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 73,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B4513)🌳 根脉共生·大地恩典 🥣$()$(br2)$(l)$(#D2691E)「以速度为祭品，换取古树般坚韧的生命力」$()$(br)当$(#8B4513)森蚺蘑菇$()的厚重、$(#FF8C00)日光胡萝卜$()的滋养、$(#8B0000)甜菜精血$()的活力与$(#EEE8AA)月华乳脂$()在$(#556B2F)橡木釜$()中熬煮——这是能让$(l)血肉与大地共鸣$()的德鲁伊终极疗愈秘方。"
+      "text": "$(#8B4513)🌳 Rootbound Symphony · Earth’s Blessing 🥣$()$(br2)$(l)$(#D2691E)「Sacrificing speed to obtain the endurance of an ancient tree」$()$(br)The robustness of $(#8B4513)Forest Anaconda Mushrooms$(), the nourishment of $(#FF8C00)Sunlight Carrots$(), the vitality of $(#8B0000)Beet Essence$(), and the richness of $(#EEE8AA)Moonlight Cream$() simmer together in the $(#556B2F)Oakwood Cauldron$()—a druidic elixir that allows $(l)the body to resonate with the earth$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:milk_mushroom_soup",
-      "text": "$(#8B4513)▌ 自然天平 $()$(br2)$(l)$(#FF69B4)🌱 生命洪流$()$(br)血管涌动$(#FF6B6B)樱色光波$()持续修复创伤$(br2)$(l)$(#006400)🌳 古树根脉$()$(br)最大生命值提升$(#32CD32)❤×4$()$(br2)$(#696969)⚠ 大地束缚 $()$(br)$(l)$(#808080)⛓ 根须缠绕$()$(br)移动时足部生长$(#8B4513)木质纹理$()减速"
+      "text": "$(#8B4513)▌ Nature’s Balance $()$(br2)$(l)$(#FF69B4)🌱 Life Stream$()$(br)Veins glow with $(#FF6B6B)sakura-colored waves$(), continuously healing wounds.$(br2)$(l)$(#006400)🌳 Ancient Root Vessels$()$(br)Maximum health increases by $(#32CD32)❤×4$().$(br2)$(#696969)⚠ Earthbound Shackles $()$(br)$(l)$(#808080)⛓ Root Bind$()$(br)Walking causes $(#8B4513)wood-like textures$() to grow on the feet, reducing movement speed."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#556B2F)▌ 森林仪式 $()$(br)- 将$(#8B4513)蘑菇伞盖$()在$(#FF8C00)正午阳光$()下曝晒至$(#D2691E)琥珀化$()$(br)- 用$(#8B0000)甜菜汁$()腌制$(#FF8C00)胡萝卜$()形成$(#CD5C5C)血色晶簇$()$(br)- 混合$(#EEE8AA)乳脂$()时需完成$(#006400)三顺三逆$()搅拌咒文$(br2)$(#DAA520)※$() 当浓汤呈现$(#8B4513)树轮纹路$()并散发$(#32CD32)青草芬芳$()即告成功"
+      "text": "$(br2)$(#556B2F)▌ Forest Ritual $()$(br)- Sun-dry $(#8B4513)mushroom caps$() under $(#FF8C00)noon sunlight$() until they become $(#D2691E)amber-hued$().$(br)- Soak $(#FF8C00)carrots$() in $(#8B0000)beet juice$() to form $(#CD5C5C)blood-red crystal clusters$().$(br)- When mixing in $(#EEE8AA)cream$(), perform the $(#006400)three-forward, three-reverse$() stirring ritual.$(br2)$(#DAA520)※$() A successful brew will display $(#8B4513)tree-ring patterns$() and emit $(#32CD32)fresh grassy aroma$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)『 古树医典 』$()$(br)树皮上的德鲁伊文字记载：$(br)'此汤饮者将获得：$(br)- $(#FF69B4)森林妖精$()的再生力$(br)- $(#006400)战争古树$()的生命容器$(br)但需承受$(#696969)大地母亲$()的$(#8B4513)根脉束缚$()——$(br)移动时如$(#556B2F)深陷泥沼$()，$(br)这是自然对$(#FF8C00)贪婪索取者$()的$(#8B0000)温柔惩戒$()'"
+      "text": "$(br2)$(#8B4513)『 Ancient Tree Codex 』$()$(br)Druidic inscriptions carved into bark:$(br)'Those who drink this shall gain:$(br)- $(#FF69B4)The regenerative force of forest spirits$().$(br)- $(#006400)The endurance of ancient war trees$().$(br)However, they must bear the $(#696969)Earth Mother’s$() $(#8B4513)root-binding restraint$()—$(br)as if $(#556B2F)trudging through a swamp$(),$(br)a gentle punishment for $(#FF8C00)those who greedily take from nature$().'"
     }
   ]
 }

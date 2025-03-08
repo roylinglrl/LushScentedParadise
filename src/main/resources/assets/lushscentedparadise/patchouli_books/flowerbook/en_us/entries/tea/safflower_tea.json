@@ -1,21 +1,21 @@
 {
-  "name": "红花茶",
+  "name": "Safflower Tea",
   "icon": "lushscentedparadise:safflower_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 33,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“烈日下绽放，焰火般的花朵孕育着守护的力量。”$(br2)红花茶是一款充满热力的茶饮，由晒干的红花与糖制成。茶汤呈现鲜艳的橙红色，饮用后可提供抗火与沙漠行者效果，使旅人在炎热环境下更加灵活。"
+      "text": "“Blooming under the scorching sun, its fiery petals carry the power of protection.”$(br2)Safflower Tea is a heat-infused beverage made from dried safflower petals and sugar. The tea has a vibrant orange-red hue. Drinking it grants Fire Resistance and the Desert Walker effect, allowing travelers to move more easily in hot environments."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)红花茶的制作需要$(br)晒干的红花与糖混合熬煮。$(br)适合在炎热地形或火焰环境中饮用，增强生存能力。"
+      "text": "$(br2)$(br)To prepare Safflower Tea, $(br)boil dried safflower petals with sugar.$(br)It is best consumed in hot terrains or fiery environments, increasing survivability in extreme conditions."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:safflower_tea",
-      "text": "饮用红花茶后，旅人将获得抗火与沙漠行者效果，使其能够在火焰与沙漠地形中更自如地行动。$(br)这是一款适用于高温环境的功能茶饮。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Safflower Tea, travelers gain Fire Resistance and the Desert Walker effect, allowing them to navigate flames and desert landscapes with ease.$(br)This tea is perfect for high-temperature environments.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

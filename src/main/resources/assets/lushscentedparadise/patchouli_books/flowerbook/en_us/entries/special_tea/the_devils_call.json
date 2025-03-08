@@ -1,25 +1,25 @@
 {
-  "name": "恶魔唤声",
+  "name": "The Devil's Call",
   "icon": "lushscentedparadise:the_devils_call",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 78,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B0000)👿 深渊回响·恶魔契约 ⚡$()$(br2)$(l)$(#4B0082)「每口啜饮都是与深渊的耳语，换取撕裂现实的狂暴」$()$(br)当$(#8B0000)凋零玫瑰$()的死寂、$(#98FB98)铃兰$()的剧毒、$(#FF69B4)芍药$()的狂乱与$(#DAA520)河豚$()的麻痹在$(#483D8B)恶魔坩埚$()中达成$(l)危险平衡$()——这是能令$(l)凡人窃取恶魔战力的$()禁忌战歌饮剂。"
+      "text": "$(#8B0000)👿 Abyssal Echo · Devil's Pact ⚡$()$(br2)$(l)$(#4B0082)「Each sip is a whisper from the abyss, exchanging reason for destructive frenzy」$()$(br)When the $(#8B0000)Wither Rose$()’s deathly silence, $(#98FB98)Lily of the Valley$()’s poison, $(#FF69B4)Peony$()’s madness, and $(#DAA520)Pufferfish$()’s paralysis achieve $(l)a dangerous equilibrium$() within the $(#483D8B)Demonic Crucible$()—this becomes a $(l)forbidden war anthem$(), enabling mortals to $(l)steal the power of demons$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:the_devils_call",
-      "text": "$(#8B0000)▌ 深渊三重奏 $()$(br2)$(l)$(#FF4500)💢 熔岩脉动$()$(br)攻击时迸发$(#CD5C5C)火山裂纹$()特效$(br2)$(l)$(#9370DB)⚡ 闪电反射$()$(br)移动轨迹残留$(#00BFFF)蓝色电弧$()$(br2)$(l)$(#32CD32)🌪 飓风引擎$()$(br)每次挥击引发$(#98FB98)气爆漩涡$()"
+      "text": "$(#8B0000)▌ Abyssal Trio $()$(br2)$(l)$(#FF4500)💢 Lava Pulse$()$(br)Strikes cause $(#CD5C5C)volcanic fissures$() to erupt.$(br2)$(l)$(#9370DB)⚡ Lightning Reflex$()$(br)Movement leaves behind $(#00BFFF)blue electric arcs$().$(br2)$(l)$(#32CD32)🌪 Hurricane Engine$()$(br)Each swing triggers $(#98FB98)airburst vortices$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#4B0082)▌ 地狱调制 $()$(br)- 用$(#8B0000)骨刃$()将$(#FF69B4)芍药$()刻出$(#FF0000)血咒纹路$()$(br)- 将$(#DAA520)河豚毒腺$()与$(#98FB98)铃兰粉$()在$(#483D8B)硫磺火$()中炼成$(#32CD32)翡翠毒胶$()$(br)- 把$(#8B0000)凋零玫瑰$()碾作$(#696969)骨灰$()撒入沸腾毒胶$(br2)$(#FFD700)※$() 当液体呈现$(#8B0000)熔岩漩涡$()并浮现$(#9370DB)恶魔竖瞳$()即刻停火"
+      "text": "$(br2)$(#4B0082)▌ Hellish Brewing $()$(br)- Carve $(#FF69B4)Peony$() with a $(#8B0000)bone blade$(), inscribing $(#FF0000)blood curse patterns$().$(br)- Refine $(#DAA520)Pufferfish glands$() and $(#98FB98)Lily of the Valley powder$() over $(#483D8B)sulfur flames$() into $(#32CD32)emerald venom gel$().$(br)- Crush $(#8B0000)Wither Rose$() into $(#696969)ashen bone dust$() and mix into the boiling gel.$(br2)$(#FFD700)※$() The brew is complete when $(#8B0000)lava whirlpools$() appear and $(#9370DB)demonic vertical pupils$() surface."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#483D8B)『 深渊契约条款 』$()$(br)燃烧的羊皮卷残文：$(br)'饮此$(#8B0000)恶魔血酿$()者，将获得：$(br)- $(#FF4500)巴弗灭$()的狂暴力量$(br)- $(#00BFFF)阿斯摩太$()的极致速度$(br)- $(#9370DB)玛门$()的贪婪急迫$(br)代价是每$(#32CD32)10秒$()承受$(#8B0000)1点$()$(l)$(#FF0000)灵魂灼烧$()伤害，$(br)且效果结束时触发$(#483D8B)恶魔印记$()的$(#000000)永久追踪$()'$(br)你真的要牺牲掉灵魂吗？"
+      "text": "$(br2)$(#483D8B)『 Abyssal Contract Terms 』$()$(br)Burned parchment remnant:$(br)'Those who drink this $(#8B0000)Devil’s Blood Brew$() shall obtain:$(br)- $(#FF4500)Baphomet’s wrathful strength$().$(br)- $(#00BFFF)Asmodeus’ extreme speed$().$(br)- $(#9370DB)Mammon’s insatiable greed$().$(br)However, every $(#32CD32)10 seconds$(), they must endure $(#8B0000)1 point$() of $(l)$(#FF0000)soul-burning damage$(),$(br)and when the effects end, $(#483D8B)Demonic Mark$() shall $(#000000)track them forever$().$(br)Will you truly sacrifice your soul?"
     }
   ]
 }

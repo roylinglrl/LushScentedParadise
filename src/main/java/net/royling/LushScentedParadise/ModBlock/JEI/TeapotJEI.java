@@ -18,8 +18,10 @@ import net.royling.LushScentedParadise.ModBlock.TeapotBlock.TeapotScreen;
 
 import java.util.List;
 
+@SuppressWarnings("removal")
 @JeiPlugin
 public class TeapotJEI implements IModPlugin {
+
     public static final ResourceLocation PLUGIN_ID =
             new ResourceLocation(LushScentedParadise.MODID,"teapot_plugin");
     private static IJeiRuntime jeiRuntime;

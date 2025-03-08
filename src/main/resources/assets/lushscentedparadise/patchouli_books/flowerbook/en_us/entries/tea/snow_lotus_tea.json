@@ -1,21 +1,21 @@
 {
-  "name": "雪莲茶",
+  "name": "Snow Lotus Tea",
   "icon": "lushscentedparadise:snow_lotus_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 34,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“冰雪孕育的珍宝，蕴藏着生命的奇迹。”$(br2)雪莲茶是一款稀有而强效的茶饮，由晒干的雪莲与糖制成。茶汤清澈微蓝，饮用后可提供高强度生命恢复，并解除凋零效果，使旅人迅速恢复状态。"
+      "text": "“A treasure nurtured by ice and snow, containing the miracle of life.”$(br2)Snow Lotus Tea is a rare and powerful beverage made from dried snow lotus petals and sugar. The tea is crystal clear with a faint blue tint. Drinking it grants high-level health regeneration and removes the Wither effect, allowing travelers to recover quickly."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)雪莲茶的制作需要$(br)晒干的雪莲与糖混合熬煮。$(br)适合在战斗后或遭受凋零状态时饮用，以迅速恢复生命力。"
+      "text": "$(br2)$(br)To prepare Snow Lotus Tea, $(br)boil dried snow lotus petals with sugar.$(br)It is best consumed after battle or when afflicted by the Wither effect, rapidly restoring vitality."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:snow_lotus_tea",
-      "text": "饮用雪莲茶后，旅人将获得高强度的生命恢复，并解除凋零效果，使身体迅速恢复状态。$(br)这是一款珍贵的恢复茶饮，适用于紧急状况。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Snow Lotus Tea, travelers gain high-level health regeneration and have the Wither effect removed, restoring their condition quickly.$(br)This is a rare and precious recovery tea, perfect for emergency situations.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

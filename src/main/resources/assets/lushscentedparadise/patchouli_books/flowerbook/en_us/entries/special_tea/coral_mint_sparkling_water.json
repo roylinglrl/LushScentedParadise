@@ -1,25 +1,25 @@
 {
-  "name": "珊瑚薄荷气泡水",
+  "name": "Coral Mint Sparkling Water",
   "icon": "lushscentedparadise:coral_mint_sparkling_water",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 71,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#00CED1)🌊 海风协奏·极速潮汐 🌱$()$(br2)$(l)$(#3CB371)「让薄荷的清凉化作海豚之鳍，每一口都是浪尖的舞蹈」$()$(br)当$(#3CB371)霜冻薄荷$()的凛冽、$(#00BFFF)千年冰核$()的纯净、$(#DAA520)日光糖晶$()的甘甜与$(#FF6B6B)珊瑚粉末$()的生命力在$(#4682B4)潮汐摇壶$()中碰撞——这是能令$(l)血肉共鸣洋流韵律$()的极速秘饮。"
+      "text": "$(#00CED1)🌊 Ocean Breeze Concerto · Tidal Speed Surge 🌱$()$(br2)$(l)$(#3CB371)「Let mint’s coolness become the fin of a dolphin, each sip a dance upon the waves」$()$(br)When the chill of $(#3CB371)frosted mint$(), the purity of $(#00BFFF)millennia-old ice core$(), the sweetness of $(#DAA520)sunlight sugar crystals$(), and the vitality of $(#FF6B6B)coral powder$() collide within the $(#4682B4)Tidal Shaker$()—a swift elixir is born, one that makes $(l)the body resonate with the rhythm of ocean currents$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:coral_mint_sparkling_water",
-      "text": "$(#00BFFF)▌ 海豚神速 $()$(br2)$(l)$(#32CD32)🌪 激流疾走$()$(br)移动时拖曳$(#7FFFD4)气泡轨迹$()如$(#00CED1)旗鱼$()破浪$(br2)$(l)$(#FF6B6B)🐚 珊瑚赋能$()$(br)每次踏步地面浮现$(#FF4500)珊瑚光纹$()推进"
+      "text": "$(#00BFFF)▌ Dolphin’s Swiftness $()$(br2)$(l)$(#32CD32)🌪 Rapid Flow Acceleration$()$(br)While moving, leave behind a $(#7FFFD4)bubble trail$() like a $(#00CED1)sailfish$() slicing through the waves.$(br2)$(l)$(#FF6B6B)🐚 Coral Empowerment$()$(br)Each step imprints $(#FF4500)glowing coral patterns$() on the ground, boosting movement."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#3CB371)▌ 浪涌工艺 $()$(br)- 用$(#4682B4)珊瑚研钵$()将$(#3CB371)薄荷$()研磨出$(#7FFFD4)冰雾$()$(br)- 将$(#00BFFF)冰块$()雕刻成$(#87CEEB)微型漩涡$()形状$(br)- 混合时以$(#FF6B6B)每秒三次$()频率摇动$(#4682B4)潮汐摇壶$()$(br2)$(#7FFFD4)※$() 当液体呈现$(#00CED1)分层气泡柱$()与$(#3CB371)翡翠光晕$()即达完美"
+      "text": "$(br2)$(#3CB371)▌ Wave Surge Brewing $()$(br)- Use a $(#4682B4)coral mortar$() to grind $(#3CB371)mint$() into $(#7FFFD4)icy mist$().$(br)- Sculpt $(#00BFFF)ice blocks$() into $(#87CEEB)miniature whirlpools$().$(br)- Shake the mixture in the $(#4682B4)Tidal Shaker$() at a $(#FF6B6B)rate of three shakes per second$().$(br2)$(#7FFFD4)※$() A perfect brew forms $(#00CED1)layered bubble columns$() with a $(#3CB371)jade-green halo$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#4682B4)『 人鱼歌谣 』$()$(br)潮声洞窟的贝壳刻文：$(br)'饮下这杯$(#00CED1)液态海风$()者，$(br)将获得$(#3CB371)海豚$()的迅捷与$(#FF6B6B)珊瑚$()的爆发力——$(br)当$(#DAA520)糖晶$()的甘甜尚在舌尖，$(br)你的$(#32CD32)身影$()已如$(#00BFFF)离弦之箭$()穿透$(#4682B4)浪涛$()'"
+      "text": "$(br2)$(#4682B4)『 The Mermaid’s Song 』$()$(br)Shell carvings from the Tidal Cave:$(br)'Those who drink this $(#00CED1)liquid ocean breeze$()$(br)shall gain the swiftness of $(#3CB371)dolphins$() and the explosive force of $(#FF6B6B)coral$()—$(br)By the time the sweetness of $(#DAA520)sugar crystals$() lingers on your tongue,$(br)your $(#32CD32)silhouette$() has already pierced through the $(#00BFFF)waves$() like an $(#4682B4)arrow$() unleashed.'"
     }
   ]
 }

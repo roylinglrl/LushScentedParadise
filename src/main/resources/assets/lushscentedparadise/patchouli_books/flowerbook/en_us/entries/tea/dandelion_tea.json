@@ -1,21 +1,21 @@
 {
-  "name": "蒲公英茶",
+  "name": "Dandelion Tea",
   "icon": "lushscentedparadise:dandelion_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 1,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“风起之时，种子飘零，落地生根，化作甘甜。”$(br2)蒲公英茶是一种清新爽口的草本茶，以晒干的蒲公英花朵为主要原料。它不仅口感甘甜，还能赋予旅人轻盈迅捷的步伐，使其更轻松地穿行于大地之间。"
+      "text": "“When the wind rises, seeds drift, take root, and transform into sweetness.”$(br2)Dandelion Tea is a refreshing herbal drink made from sun-dried dandelion flowers. It has a naturally sweet taste and grants travelers a light and swift step, making movement across the land effortless."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)蒲公英茶的制作十分简单，只需将$(br)晒干的蒲公英花与糖调和，即可获得这款清香四溢的茶饮。$(br)适合在旅途中享用，使你行走更轻快自如。"
+      "text": "$(br2)$(br)Dandelion Tea is simple to prepare—$(br)just blend sun-dried dandelion flowers with sugar to create this fragrant tea.$(br)Perfect for enjoying on a journey, helping travelers move with greater ease."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:dandelion_tea",
-      "text": "饮用蒲公英茶后，旅人将获得迅捷效果，使行走速度短暂提升。$(br)它既是轻盈之选，也能为长途跋涉带来些许助力。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Dandelion Tea, travelers gain a temporary Speed boost, allowing for faster movement.$(br)This tea is a light and refreshing choice, offering slight assistance for long journeys.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

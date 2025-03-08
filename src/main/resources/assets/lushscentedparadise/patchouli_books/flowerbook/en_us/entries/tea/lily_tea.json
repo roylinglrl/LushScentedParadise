@@ -1,21 +1,21 @@
 {
-  "name": "百合花茶",
+  "name": "Lily Tea",
   "icon": "lushscentedparadise:lily_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 32,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“宁静悠然，生机盎然，滋养身心，焕发力量。”$(br2)百合花茶是一款温润滋补的茶饮，由晒干的百合花与糖制成。饮用后可提供最大生命值提升，使旅人更为强健。"
+      "text": "“Serene and vibrant, nourishing both body and soul, revitalizing strength.”$(br2)Lily Tea is a soothing and nourishing tea made from dried lily petals and sugar. Drinking it grants a Max Health boost, making travelers more resilient."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)百合花茶的制作需要$(br)晒干的百合花与糖混合熬煮。$(br)适合在战斗或冒险前饮用，为旅人提供额外的生命力。"
+      "text": "$(br2)$(br)To prepare Lily Tea, $(br)boil dried lily petals with sugar.$(br)It is best consumed before battles or adventures, providing additional vitality for travelers."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:lily_tea",
-      "text": "饮用百合花茶后，旅人将获得最大生命值提升，使身体更为强韧。$(br)这是一款适用于挑战与战斗前的增益茶饮。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Lily Tea, travelers receive a Max Health boost, making their bodies more resilient.$(br)This is an ideal tea for combat and challenging encounters.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

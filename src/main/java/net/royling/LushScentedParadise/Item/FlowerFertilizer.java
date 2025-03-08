@@ -15,8 +15,7 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.phys.AABB;
-import net.royling.LushScentedParadise.Item.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.ModBlock.newFlower.ModFlowers;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
@@ -32,43 +31,47 @@ public class FlowerFertilizer extends Item {
     @Override
     public @NotNull InteractionResult useOn(UseOnContext pContext) {
         Level level = pContext.getLevel();
-        if(!(level instanceof ServerLevel serverLevel)) return InteractionResult.PASS;
+        if (!(level instanceof ServerLevel serverLevel)) return InteractionResult.PASS;
         BlockPos clickedPos = pContext.getClickedPos();
         RandomSource random = serverLevel.getRandom();
-        ResourceKey<Biome> biomekey = serverLevel.getBiome(clickedPos).unwrapKey().orElse(null);
-        if(biomekey==null) return InteractionResult.FAIL;
+        ResourceKey<Biome> biomeKey = serverLevel.getBiome(clickedPos).unwrapKey().orElse(null);
+        if (biomeKey == null) return InteractionResult.FAIL;
 
-        List<BlockState> possiblePlants = getPlantsForBiome(biomekey);
-        if(possiblePlants.isEmpty()) return InteractionResult.FAIL;
+        List<BlockState> possiblePlants = getPlantsForBiome(biomeKey);
+        if (possiblePlants.isEmpty()) return InteractionResult.FAIL;
 
         List<BlockPos> validPosi = getValidSoilPos(serverLevel, clickedPos);
-        for (int i = validPosi.size() - 1; i > 0; i--) {
-            int j = random.nextInt(i + 1);
-            BlockPos temp = validPosi.get(i);
-            validPosi.set(i, validPosi.get(j));
-            validPosi.set(j, temp);
-        }
 
-        float prob = 0.7f;
+        float prob = 0.35f;
         int plantCount = 0;
         int attempts = 0;
+        List<BlockPos> plantedPositions = new ArrayList<>();
 
-        for(BlockPos pos : validPosi){
-            if(plantCount >=7 || attempts >=7) break; // 最多尝试7次
-            if(isValidSoil(serverLevel, pos)) {
-                if(random.nextFloat() <= prob) {
-                    BlockState plant = possiblePlants.get(random.nextInt(possiblePlants.size()));
-                    serverLevel.setBlockAndUpdate(pos.above(), plant);
-                    plantCount++;
+        for (BlockPos pos : validPosi) {
+            if (plantCount >= 7 || attempts >= 10) break;
+
+            if (random.nextFloat() <= prob) {
+                BlockState plant = possiblePlants.get(random.nextInt(possiblePlants.size()));
+                serverLevel.setBlockAndUpdate(pos.above(), plant);
+                plantedPositions.add(pos);
+                plantCount++;
+            }
+            prob -= 0.05f;
+            attempts++;
+        }
+        if(plantCount>0) {
+            for (BlockPos pos : validPosi) {
+                if (!plantedPositions.contains(pos)) {
+                    if (random.nextFloat() <= 0.5f) {
+                        serverLevel.setBlockAndUpdate(pos.above(), Blocks.GRASS.defaultBlockState());
+                    }
                 }
-                prob -= 0.1f; // 每次尝试后递减概率
-                attempts++;
             }
         }
 
-        if(plantCount > 0){
+        if (plantCount > 0) {
             pContext.getItemInHand().shrink(1);
-            serverLevel.playSound(null,clickedPos.above(), SoundEvents.BONE_MEAL_USE, SoundSource.BLOCKS,1.0F,0.8F);
+            serverLevel.playSound(null, clickedPos.above(), SoundEvents.BONE_MEAL_USE, SoundSource.BLOCKS, 1.0F, 0.8F);
             serverLevel.sendParticles(
                     ParticleTypes.HAPPY_VILLAGER,
                     clickedPos.above().getX() + 0.5,
@@ -80,6 +83,7 @@ public class FlowerFertilizer extends Item {
         }
         return InteractionResult.FAIL;
     }
+
 
     private static final Map<ResourceKey<Biome>, List<BlockState>> BIOME_TO_PLANTS = Map.of(
             Biomes.PLAINS, List.of(
@@ -133,14 +137,22 @@ public class FlowerFertilizer extends Item {
     }
 
 
-    private List<BlockPos> getValidSoilPos(ServerLevel level, BlockPos centerPos){
+    private List<BlockPos> getValidSoilPos(ServerLevel level, BlockPos centerPos) {
         List<BlockPos> validPositions = new ArrayList<>();
-        AABB box = new AABB(centerPos).inflate(3, 1, 3);
-
-        BlockPos.betweenClosedStream(box)
-                .map(BlockPos::immutable)
-                .filter(pos -> isValidSoil(level, pos))
-                .forEach(validPositions::add);
+        int radius = 3;
+        for (int dx = -radius; dx <= radius; dx++) {
+            for (int dz = -radius; dz <= radius; dz++) {
+                BlockPos pos = centerPos.offset(dx, 0, dz);
+                if (isValidSoil(level, pos)) {
+                    validPositions.add(pos);
+                }
+            }
+        }
+        validPositions.sort((pos1, pos2) -> {
+            int d1 = Math.abs(pos1.getX() - centerPos.getX()) + Math.abs(pos1.getZ() - centerPos.getZ());
+            int d2 = Math.abs(pos2.getX() - centerPos.getX()) + Math.abs(pos2.getZ() - centerPos.getZ());
+            return Integer.compare(d1, d2);
+        });
 
         return validPositions;
     }
@@ -149,7 +161,6 @@ public class FlowerFertilizer extends Item {
     private boolean isValidSoil(ServerLevel level, BlockPos pos) {
         BlockState state = level.getBlockState(pos);
         BlockState aboveState = level.getBlockState(pos.above());
-        // 检查所有土壤类型，且上方为空气或可替换方块
         return (state.is(Blocks.GRASS_BLOCK) ||
                 state.is(Blocks.DIRT) ||
                 state.is(Blocks.PODZOL) ||

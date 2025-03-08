@@ -1,21 +1,21 @@
 {
-  "name": "甘草汤",
+  "name": "Licorice Soup",
   "icon": "lushscentedparadise:licorice_soup",
   "category": "lushscentedparadise:tea",
   "sortnum": 39,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“甘甜回味，清润生津，涤尽体内的浊气。”$(br2)甘草汤是一款温和养生的药汤，由干燥的甘草与糖调制而成。茶汤呈琥珀色，入口甘甜，饮用后可提供生命恢复效果，并解除中毒状态，让旅人恢复活力。"
+      "text": "“Sweet aftertaste, soothing and hydrating, cleansing the body's impurities.”$(br2)Licorice Soup is a gentle and nourishing medicinal broth made from dried licorice and sugar. The amber-colored tea has a naturally sweet taste. Drinking it provides health regeneration and removes poison effects, helping travelers recover their vitality."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)甘草汤的制作需要$(br)两份干燥的甘草与糖混合熬煮。$(br)适合在遭受毒素侵害时饮用，帮助旅人恢复健康。"
+      "text": "$(br2)$(br)To prepare Licorice Soup, $(br)boil two portions of dried licorice with sugar.$(br)It is best consumed when suffering from poison, aiding travelers in restoring their health."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:licorice_soup",
-      "text": "饮用甘草汤后，旅人将获得生命恢复效果，并解除中毒影响，使身体恢复正常状态。$(br)这是一款适用于解毒与恢复的药汤。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Licorice Soup, travelers gain a health regeneration effect and have poison effects removed, restoring their body to a normal state.$(br)This medicinal soup is ideal for detoxification and recovery.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

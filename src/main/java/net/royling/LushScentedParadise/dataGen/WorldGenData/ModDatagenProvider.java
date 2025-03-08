@@ -7,6 +7,8 @@ import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BiomeTags;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.level.block.Block;
@@ -16,17 +18,20 @@ import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
+import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.SimpleBlockConfiguration;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.placement.*;
+import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
+import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import net.minecraftforge.common.data.DatapackBuiltinEntriesProvider;
 import net.minecraftforge.common.world.BiomeModifier;
 import net.minecraftforge.common.world.ForgeBiomeModifiers;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.royling.LushScentedParadise.Item.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.ModBlock.newFlower.ModFlowers;
 import net.royling.LushScentedParadise.LushScentedParadise;
+import net.royling.LushScentedParadise.Registry.ModBlocks;
 
 import java.util.List;
 import java.util.Objects;
@@ -35,6 +40,11 @@ import java.util.concurrent.CompletableFuture;
 
 @SuppressWarnings("removal")
 public class ModDatagenProvider extends DatapackBuiltinEntriesProvider {
+    public static final ResourceKey<BiomeModifier> ADD_STAR_SILVER_ORE = resourceKey("add_star_silver_ore");
+    private static ResourceKey<BiomeModifier> resourceKey(String name){
+        return ResourceKey.create(ForgeRegistries.Keys.BIOME_MODIFIERS,new ResourceLocation(LushScentedParadise.MODID,name));
+    }
+
     public ModDatagenProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
         super(output, registries,
                 new RegistrySetBuilder()
@@ -74,9 +84,10 @@ public class ModDatagenProvider extends DatapackBuiltinEntriesProvider {
                 new FlowerFeatureData("wild_coffee",ModFlowers.WILD_COFFEE.get(),8,4,3,"flower"),
                 new FlowerFeatureData("wild_vanilla",ModFlowers.WILD_VANILLA.get(),8,4,3,"flower")
 
+
         );
         for (FlowerFeatureData flower : flowers) {
-            if(flower.rule == "flower"){
+            if(Objects.equals(flower.rule, "flower")){
             ResourceKey<ConfiguredFeature<?, ?>> key = ResourceKey.create(
                     Registries.CONFIGURED_FEATURE, new ResourceLocation(LushScentedParadise.MODID, flower.name)
             );
@@ -86,7 +97,7 @@ public class ModDatagenProvider extends DatapackBuiltinEntriesProvider {
 
             ));
         }
-            else if(flower.rule == "cave"){
+            else if(Objects.equals(flower.rule, "cave")){
                 ResourceKey<ConfiguredFeature<?, ?>> key = ResourceKey.create(
                         Registries.CONFIGURED_FEATURE, new ResourceLocation(LushScentedParadise.MODID, flower.name)
                 );
@@ -95,6 +106,19 @@ public class ModDatagenProvider extends DatapackBuiltinEntriesProvider {
                 )));
             }
         }
+        //矿石配置
+        RuleTest stoneRule = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
+        RuleTest deepslateRule = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        List<OreConfiguration.TargetBlockState> starSilverOre = List.of(
+                OreConfiguration.target(stoneRule, ModBlocks.STAR_SILVER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateRule, ModBlocks.DEEPSLATE_STAR_SILVER_ORE.get().defaultBlockState())
+        );
+        ResourceKey<ConfiguredFeature<?, ?>> STAR_SILVER_ORE_KEY = ResourceKey.create(
+                Registries.CONFIGURED_FEATURE, new ResourceLocation(LushScentedParadise.MODID, "star_silver_ore")
+        );
+        context.register(STAR_SILVER_ORE_KEY, new ConfiguredFeature<>(
+                Feature.ORE, new OreConfiguration(starSilverOre, 8) // 8 表示矿脉大小
+        ));
     }
     private static void bootstrapPlacedFeatures(BootstapContext<PlacedFeature> context) {
         List<FlowerFeatureData> flowers = List.of(
@@ -127,6 +151,7 @@ public class ModDatagenProvider extends DatapackBuiltinEntriesProvider {
 
                 new FlowerFeatureData("wild_coffee",ModFlowers.WILD_COFFEE.get(),8,4,3,"flower"),
                 new FlowerFeatureData("wild_vanilla",ModFlowers.WILD_VANILLA.get(),8,4,3,"flower")
+
         );
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
         for (FlowerFeatureData flower : flowers) {
@@ -150,28 +175,30 @@ public class ModDatagenProvider extends DatapackBuiltinEntriesProvider {
             }
             if(Objects.equals(flower.rule, "cave")){
                 ResourceKey<PlacedFeature> key = ResourceKey.create(
-                        Registries.PLACED_FEATURE, new ResourceLocation(LushScentedParadise.MODID, flower.name)
-                );
-                context.register(key, new PlacedFeature(
-                                configuredFeatures.getOrThrow(ResourceKey.create(
-                                                Registries.CONFIGURED_FEATURE,
-                                                new ResourceLocation(LushScentedParadise.MODID, flower.name)
-                                        )
-                                ), List.of(
-                        CountPlacement.of(10),
-                        InSquarePlacement.spread(),
-                        RarityFilter.onAverageOnceEvery(72),
-                        InSquarePlacement.spread(),
-                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(30)),
-                        BlockPredicateFilter.forPredicate(BlockPredicate.allOf(BlockPredicate.matchesBlocks(
-                                List.of(Blocks.STONE, Blocks.DEEPSLATE, Blocks.TUFF, Blocks.ANDESITE,Blocks.CLAY)),
-                                BlockPredicate.hasSturdyFace(Direction.UP))),
-                        BiomeFilter.biome()
-                        ))
-                );
+                        Registries.PLACED_FEATURE, new ResourceLocation(LushScentedParadise.MODID, flower.name));
+
+                context.register(key,new PlacedFeature(configuredFeatures.getOrThrow(ResourceKey.create(Registries.CONFIGURED_FEATURE,new ResourceLocation(LushScentedParadise.MODID,flower.name))),
+                        List.of(
+                                CountPlacement.of(40),
+                                RarityFilter.onAverageOnceEvery(72),
+                                InSquarePlacement.spread(),
+                                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(30)),
+                                BlockPredicateFilter.forPredicate(
+                                        BlockPredicate.allOf(BlockPredicate.hasSturdyFace(Vec3i.ZERO,Direction.UP),BlockPredicate.matchesBlocks(List.of(Blocks.AIR)))),
+                                BiomeFilter.biome())));
             }
             }
-        }
+        HolderGetter<ConfiguredFeature<?, ?>> oreconfiguredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
+        ResourceKey<PlacedFeature> STAR_SILVER_ORE_PLACED = ResourceKey.create(
+                Registries.PLACED_FEATURE, new ResourceLocation(LushScentedParadise.MODID, "star_silver_ore_placed")
+        );
+        context.register(STAR_SILVER_ORE_PLACED,new PlacedFeature(
+                configuredFeatures.getOrThrow(ResourceKey.create(
+                        Registries.CONFIGURED_FEATURE,new ResourceLocation(LushScentedParadise.MODID,"star_silver_ore")
+                )),List.of(CountPlacement.of(4),InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.absolute(-64),VerticalAnchor.absolute(32)),BiomeFilter.biome())
+        ));
+    }
     private static void bootstrapBiomeModifiers(BootstapContext<BiomeModifier> context) {
         List<BiomeFeatureData> flowers = List.of(
                 /**
@@ -200,7 +227,6 @@ public class ModDatagenProvider extends DatapackBuiltinEntriesProvider {
                 new BiomeFeatureData("wild_kudzu","wild_kudzu",List.of(Biomes.PLAINS,Biomes.MEADOW,Biomes.SAVANNA),"flower"),
                 new BiomeFeatureData("wild_poria","wild_poria",List.of(Biomes.FOREST,Biomes.FLOWER_FOREST,Biomes.BIRCH_FOREST),"flower"),
                 new BiomeFeatureData("wild_flax","wild_flax",List.of(Biomes.SAVANNA),"flower"),
-
                 new BiomeFeatureData("wild_coffee","wild_coffee",List.of(Biomes.JUNGLE,Biomes.BAMBOO_JUNGLE,Biomes.SPARSE_JUNGLE),"flower"),
                 new BiomeFeatureData("wild_vanilla","wild_vanilla",List.of(Biomes.JUNGLE,Biomes.BAMBOO_JUNGLE,Biomes.SPARSE_JUNGLE),"flower")
         );
@@ -212,26 +238,32 @@ public class ModDatagenProvider extends DatapackBuiltinEntriesProvider {
                     ForgeRegistries.Keys.BIOME_MODIFIERS,
                     new ResourceLocation(LushScentedParadise.MODID, flower.featureId + "_modifier")
             );
-            HolderSet<Biome> biomeHolder = HolderSet.direct(flower.biomes.stream()
-                            .map(biomes::getOrThrow).toList());
+            HolderSet<Biome> biomeHolder;
+            biomeHolder = HolderSet.direct(flower.biomes.stream().map(biomes::getOrThrow).toList());
             HolderSet<PlacedFeature> featureHolder = HolderSet.direct(
                     placedFeatures.getOrThrow(ResourceKey.create(
                             Registries.PLACED_FEATURE,
                             new ResourceLocation(LushScentedParadise.MODID,flower.featureId))
                     ));
-            if(flower.rule=="flower"){
+            if(Objects.equals(flower.rule, "flower")){
             context.register(key, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                     biomeHolder, featureHolder, GenerationStep.Decoration.VEGETAL_DECORATION)
 
                 );
             }
-            else if(flower.rule=="cave"){
+            else if(Objects.equals(flower.rule, "cave")){
                 context.register(key, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
-                        biomeHolder, featureHolder, GenerationStep.Decoration.UNDERGROUND_ORES)
+                        biomeHolder, featureHolder, GenerationStep.Decoration.UNDERGROUND_DECORATION)
 
                 );
             }
         }
+        ResourceKey<BiomeModifier> ADD_STAR_SILVER_ORE = ResourceKey.create(
+                ForgeRegistries.Keys.BIOME_MODIFIERS, new ResourceLocation(LushScentedParadise.MODID, "add_star_silver_ore")
+        );
+        context.register(ADD_STAR_SILVER_ORE,new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_OVERWORLD),HolderSet.direct(placedFeatures.getOrThrow(ResourceKey.create(Registries.PLACED_FEATURE,new ResourceLocation(LushScentedParadise.MODID,"star_silver_ore_placed")))),GenerationStep.Decoration.UNDERGROUND_ORES
+        ));
     }
     private static class FlowerFeatureData {
         String name;
@@ -263,6 +295,11 @@ public class ModDatagenProvider extends DatapackBuiltinEntriesProvider {
             this.biomes = biomes;
             this.rule = rule;
         }
+    }
+    private static List<ResourceKey<Biome>> getAllBiomes(){
+        return ForgeRegistries.BIOMES.getValues().stream().map(biome -> ResourceKey.create(
+                Registries.BIOME, Objects.requireNonNull(ForgeRegistries.BIOMES.getKey(biome))
+        )).toList();
     }
 }
 

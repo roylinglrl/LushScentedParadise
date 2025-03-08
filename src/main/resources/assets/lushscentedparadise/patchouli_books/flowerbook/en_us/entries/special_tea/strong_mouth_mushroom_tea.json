@@ -1,25 +1,25 @@
 {
-  "name": "烈口蘑菇茶饮",
+  "name": "Strong Mouth Mushroom Tea",
   "icon": "lushscentedparadise:strong_mouth_mushroom_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 69,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B0000)🔥 炎魔契约·灰烬新生 🍄$()$(br2)$(l)$(#FF4500)「以脏腑灼烧为代价，换取撕裂暗夜的赤瞳与踏碎大地的疾行」$()$(br)当$(#8B0000)猩红伞菌$()的剧毒、$(#FF4500)地狱火灰$()的暴烈、$(#006400)翡翠叶脉$()的生机与$(#8B0000)赤铁叶脉$()的浑厚在$(#483D8B)黑曜石釜$()中强制调和——这是能令$(l)凡人触碰恶魔领域$()的禁忌炼金术产物。"
+      "text": "$(#8B0000)🔥 Infernal Pact · Ashen Rebirth 🍄$()$(br2)$(l)$(#FF4500)「Burning the viscera in exchange for crimson eyes that pierce the night and feet that shatter the earth」$()$(br)When the toxicity of $(#8B0000)Crimson Cap Mushroom$(), the fury of $(#FF4500)Netherfire Ash$(), the vitality of $(#006400)Emerald Veins$(), and the resilience of $(#8B0000)Scarlet Iron Veins$() are forcibly fused within the $(#483D8B)Obsidian Cauldron$()—this becomes an alchemical taboo capable of $(l)allowing mortals to touch the domain of demons$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:strong_mouth_mushroom_tea",
-      "text": "$(#8B0000)▌ 恶魔交易 $()$(br2)$(l)$(#4169E1)👁 炎魔之瞳$()$(br)视野覆盖$(#000080)永夜$()也无法遮蔽的$(#8B0000)血红外膜$()$(br2)$(l)$(#FF4500)⚡ 熔岩脉动$()$(br)攻击时拳峰迸发$(#CD5C5C)火山裂纹$()$(br2)$(l)$(#32CD32)🌪 灰烬疾行$()$(br)移动轨迹残留$(#7CFC00)荧光火星$()$(br2)$(#4B0082)☠ 毒血代价 $()$(br)$(l)$(#006400)🍃 脏腑野火$()$(br)体内持续灼烧$(#8B0000)猩红毒素$()"
+      "text": "$(#8B0000)▌ Demonic Transaction $()$(br2)$(l)$(#4169E1)👁 Infernal Eyes$()$(br)Vision pierces through $(#000080)eternal darkness$(), revealing $(#8B0000)blood-red membranes$().$(br2)$(l)$(#FF4500)⚡ Lava Pulse$()$(br)Fists erupt with $(#CD5C5C)volcanic cracks$() upon impact.$(br2)$(l)$(#32CD32)🌪 Ash Sprint$()$(br)Movement leaves behind $(#7CFC00)glowing embers$().$(br2)$(#4B0082)☠ Poisonous Blood Price $()$(br)$(l)$(#006400)🍃 Viscera Wildfire$()$(br)Organs burn continuously, infused with $(#8B0000)crimson toxins$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#483D8B)▌ 深渊工艺 $()$(br)- 用$(#696969)黑曜石研钵$()将$(#8B0000)红蘑菇$()捣成$(#CD5C5C)血浆状糊$()$(br)- $(#FF4500)烈焰粉$()需与$(#006400)绿茶$()在$(#8B0000)龙息火候$()下预熔$(br)- 加入$(#8B0000)红茶$()时必须完成$(#FF0000)逆五芒星$()搅拌轨迹$(br2)$(#FFD700)※$() 当液体浮现$(#8B0000)龙鳞纹路$()并散发$(#7CFC00)翡翠毒雾$()时立即熄火"
+      "text": "$(br2)$(#483D8B)▌ Abyssal Crafting $()$(br)- Crush $(#8B0000)Red Mushrooms$() in a $(#696969)Obsidian Mortar$() until they form $(#CD5C5C)a blood-like paste$().$(br)- $(#FF4500)Blaze Powder$() must be pre-melted with $(#006400)Green Tea$() under $(#8B0000)Dragon’s Breath Flame$().$(br)- When adding $(#8B0000)Black Tea$(), one must complete the $(#FF0000)Reverse Pentagram Stirring Pattern$().$(br2)$(#FFD700)※$() Stop heating immediately when the liquid displays $(#8B0000)dragon-scale patterns$() and emits $(#7CFC00)emerald toxic mist$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B0000)『 被焚毁的炼金笔记 』$()$(br)残存页角记载：$(br)'饮此$(#CD5C5C)恶魔血酿$()者，$(br)将同时获得：$(br)- $(#4169E1)暗渊凝视者$()的夜视能力$(br)- $(#FF4500)炎魔$()的挖掘怪力$(br)- $(#32CD32)风精灵$()的极致速度$(br)但$(#4B0082)每份力量$()都需用$(#006400)内脏灼伤$()支付，$(br)直到$(#8B0000)猩红毒素$()将你转化为$(#483D8B)灰烬傀儡$()'"
+      "text": "$(br2)$(#8B0000)『 Burned Alchemy Notes 』$()$(br)A surviving fragment reads:$(br)'Those who consume this $(#CD5C5C)Demonic Blood Brew$(),$(br)shall gain:$(br)- $(#4169E1)The night vision of an Abyss Watcher$().$(br)- $(#FF4500)The destructive strength of an Infernal Titan$().$(br)- $(#32CD32)The extreme speed of a Wind Sprite$().$(br)However, $(#4B0082)every ounce of power$() must be repaid with $(#006400)burning organs$(),$(br)until $(#8B0000)Crimson Toxins$() transform the body into an $(#483D8B)Ash Puppet$().'"
     }
   ]
 }

@@ -1,25 +1,26 @@
 {
-  "name": "玫瑰苹果茶",
+  "name": "Rose Apple Tea",
   "icon": "lushscentedparadise:rose_apple_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 56,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B0000)🌹 永恒誓约·生命礼赞 🍎$()$(br2)$(l)$(#FF69B4)「让玫瑰的荆棘守护血脉，苹果的甜蜜滋养灵魂」$()$(br)当$(#8B0000)风干玫瑰$()的坚韧融入$(#006400)陈年茶汤$()，$(#FF4500)霜糖苹果$()与$(#DAA520)日光结晶$()在$(#B22222)红玉盏$()中共鸣——这是能令$(l)血肉突破生命桎梏$()的永生者秘药。"
+      "text": "$(#8B0000)🌹 Eternal Vow · Hymn of Life 🍎$()$(br2)$(l)$(#FF69B4)「Let the thorns of the rose protect your blood, and the sweetness of apples nourish your soul」$()$(br)When the resilience of $(#8B0000)Dried Rose Petals$() merges with the depth of $(#006400)Aged Tea$(), and $(#FF4500)Frosted Apple$() resonates with the golden essence of $(#DAA520)Sunlight Crystals$() in the sacred $(#B22222)Ruby Chalice$()—an elixir capable of $(l)breaking the limits of mortal flesh$() is born."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:rose_apple_tea",
-      "text": "$(#8B0000)▌ 生命双生 $()$(br2)$(l)$(#FF0000)❤ 钢铁之心$()$(br)心脏泵动时浮现$(#8B0000)玫瑰状血纹$()$(br2)$(l)$(#98FB98)🌱 不朽嫩芽$()$(br)伤口愈合速度堪比$(#006400)古树新生$()"
+      "text": "$(#8B0000)▌ Twin Forces of Life $()$(br2)$(l)$(#FF0000)❤ Heart of Steel$()$(br)A $(#8B0000)rose-shaped blood pattern$() pulses with every heartbeat.$(br2)$(l)$(#98FB98)🌱 Undying Sprout$()$(br)Wounds heal as fast as $(#006400)ancient trees regenerate$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#2F4F4F)▌ 永生者工艺 $()$(br)- 用$(#8B4513)干净的石臼$()将$(#8B0000)晒干的玫瑰$()研磨出$(#B22222)血色晨露$()$(br)- $(#FF4500)苹果片$()需在$(#DAA520)琥珀糖浆$()中浸泡至$(#FFD700)半透明$()$(br)- 混合时以$(#9370DB)逆五芒星轨迹$()搅拌$(#006400)茶汤$()$(br2)$(#FF69B4)※$() 成功时液体表面形成$(#8B0000)双同心圆波纹$()"
+      "text": "$(br2)$(#2F4F4F)▌ Craft of the Immortal $()$(br)- Grind $(#8B0000)Sun-Dried Rose Petals$() in a $(#8B4513)clean stone mortar$() until they release $(#B22222)crimson morning dew$().$(br)- Soak $(#FF4500)Apple Slices$() in $(#DAA520)Amber Syrup$() until they turn $(#FFD700)semi-translucent$().$(br)- When mixing, stir the $(#006400)tea infusion$() in a $(#9370DB)reverse pentagram$() motion.$(br2)$(#FF69B4)※$() A successful brew will form $(#8B0000)two concentric ring ripples$() on the surface."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B0000)『 炼金禁典摘录 』$()$(br)被封印的永生者手记：$(br)'饮下这杯$(#FF69B4)玫瑰血誓$()者，$(br)将获得$(#FF0000)巨龙$()般强韧的$(#8B0000)生命容器$()——$(br)而$(#006400)苹果$()的生机与$(#2F4F4F)茶叶$()的沉淀，$(br)会在每个$(#DAA520)黎明$()重新$(#98FB98)编织$()你的$(#8B0000)血肉$()'"
+      "text": "$(br2)$(#8B0000)『 Excerpt from the Forbidden Alchemy Codex 』$()$(br)A sealed note from an immortal being:$(br)'Those who drink this $(#FF69B4)Rose Blood Oath$(),$(br)shall gain a $(#FF0000)Dragon’s Resilience$() and an $(#8B0000)Immortal Vessel$()—$(br)While the $(#006400)life force of apples$() and the wisdom of $(#2F4F4F)aged tea$()$(br)will reconstruct their $(#8B0000)flesh$() at each $(#DAA520)dawn$().'"
     }
   ]
 }
+

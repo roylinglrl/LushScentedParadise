@@ -1,25 +1,25 @@
 {
-  "name": "美西螈茶",
+  "name": "Axolotl Tea",
   "icon": "lushscentedparadise:axolotl_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 66,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#FF69B4)🌊 珊瑚秘境·再生奇迹 🦈$()$(br2)$(l)$(#9370DB)「饮此潮汐精华者，将获人鱼之息与珊瑚之躯」$()$(br)美西螈最爱的食物$(#FF8C00)小丑鱼$()的灵动生机、$(#228B22)深海昆布$()的柔韧、$(#DAA520)日光蜜露$()的甘醇与$(#BA55D3)薰衣草$()的安神之力在$(#00BFFF)潮汐研钵$()中交融——这是能让$(l)血肉获得海洋再生力$()的远古渔夫秘方。"
+      "text": "$(#FF69B4)🌊 Coral Sanctuary · Miracle of Regeneration 🦈$()$(br2)$(l)$(#9370DB)「Those who drink this tide-infused essence shall receive the Breath of the Mermaid and the Body of Coral」$()$(br)The agility of $(#FF8C00)clownfish$(), the resilience of $(#228B22)deep-sea kelp$(), the sweetness of $(#DAA520)sunlight nectar$(), and the soothing power of $(#BA55D3)lavender$() blend together in the $(#00BFFF)Tidal Mortar$()—an ancient fisherman's secret to granting $(l)flesh the regenerative power of the ocean$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:axolotl_tea",
-      "text": "$(#9370DB)▌ 潮汐双恩 $()$(br2)$(l)$(#FF69B4)💖 珊瑚愈合$()$(br)伤口处生长$(#FF1493)粉红珊瑚纹$()持续修复$(br2)$(l)$(#4169E1)🧜 人鱼之息$()$(br)水下自动生成$(#00CED1)气泡珊瑚$()供应氧气"
+      "text": "$(#9370DB)▌ Dual Blessings of the Tide $()$(br2)$(l)$(#FF69B4)💖 Coral Healing$()$(br)Wounds develop $(#FF1493)pink coral patterns$() and heal over time.$(br2)$(l)$(#4169E1)🧜 Breath of the Mermaid$()$(br)Automatically generates $(#00CED1)bubble coral$() underwater, supplying oxygen."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#228B22)▌ 海民古法 $()$(br)- 将$(#FF8C00)小丑鱼$()与$(#BA55D3)薰衣草$()用$(#00BFFF)月光海水$()浸泡$(#9370DB)三昼夜$()$(br)- $(#228B22)海带$()需经$(#DAA520)蜂蜜$()腌制至呈现$(#32CD32)翡翠脉络$()$(br)- 混合时按$(#FF69B4)潮汐节拍$()用$(#483D8B)螺壳棒$()搅拌$(br2)$(#7FFFD4)※$() 成功时液体浮现$(#FF1493)美西螈的幻影$()与$(#00BFFF)漩涡纹路$()"
+      "text": "$(br2)$(#228B22)▌ Ancient Maritime Recipe $()$(br)- Soak $(#FF8C00)clownfish$() and $(#BA55D3)lavender$() in $(#00BFFF)moonlit seawater$() for $(#9370DB)three days and nights$().$(br)- $(#228B22)Kelp$() must be cured in $(#DAA520)honey$() until it develops $(#32CD32)emerald veins$().$(br)- Stir with a $(#483D8B)conch shell rod$(), following the $(#FF69B4)rhythm of the tide$().$(br2)$(#7FFFD4)※$() If successful, the liquid will reveal $(#FF1493)axolotl illusions$() and $(#00BFFF)whirlpool patterns$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#483D8B)『 沉船日记 』$()$(br)古代渔夫在漂流瓶中的记录：$(br)'饮下这杯$(#9370DB)液态珊瑚$()后，$(br)我在$(#00BFFF)海底$()呼吸如陆上般自在，$(#FF69B4)伤口$()以肉眼可见的速度$(#32CD32)愈合$()——$(br)但要当心$(#228B22)月圆之夜$()的$(#FF8C00)鱼群逆流$()，$(br)那是$(#BA55D3)海洋恩赐$()即将$(#00CED1)退潮$()的预兆'"
+      "text": "$(br2)$(#483D8B)『 Shipwreck Journal 』$()$(br)A record found inside a drifting bottle:$(br)'After drinking this $(#9370DB)liquid coral$(),$(br)I could breathe underwater $(#00BFFF)as easily as on land$(),$(br)and my $(#FF69B4)wounds$() healed $(#32CD32)visibly before my eyes$()—$(br)but beware of $(#228B22)fish swimming against the tide$() on $(#FF8C00)full moon nights$().$(br)That is the sign that the $(#BA55D3)ocean’s blessing$() is about to $(#00CED1)fade away$().'"
     }
   ]
 }

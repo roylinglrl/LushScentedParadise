@@ -1,6 +1,7 @@
-package net.royling.LushScentedParadise.Item.newFlower;
+package net.royling.LushScentedParadise.ModBlock.newFlower;
 
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
@@ -146,7 +147,7 @@ public class ModFlowers {
     public static final RegistryObject<Block> GINGER = FLOWERS.register("ginger",
             ()->new ModWildCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().randomTicks(),ModFlowers.GINGER_ITEM));
     public static final RegistryObject<Item> GINGER_ITEM = FLOWER_ITEMS.register("ginger",
-            ()->new ItemNameBlockItem(ModFlowers.GINGER.get(),new Item.Properties()));
+            ()->new ItemNameBlockItem(ModFlowers.GINGER.get(),new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
     //白茶
     public static final RegistryObject<Block> WHITE_TEA = FLOWERS.register("white_tea",
         () -> new ModWildCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().randomTicks(),ModFlowers.WHITE_TEA_SEED));
@@ -181,14 +182,14 @@ public class ModFlowers {
     public static final RegistryObject<Item> LICORICE_SEED = FLOWER_ITEMS.register("licorice_seeds",
             () -> new ItemNameBlockItem(ModFlowers.LICORICE.get(), new Item.Properties()));
     public static final RegistryObject<Item> LICORICE_ROOT = FLOWER_ITEMS.register("licorice_root",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
     //黄芪
     public static final RegistryObject<Block> ASTRAGALUS = FLOWERS.register("astragalus",
             () -> new ModWildCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().randomTicks(),ModFlowers.ASTRAGALUS_SEED));
     public static final RegistryObject<Item> ASTRAGALUS_SEED = FLOWER_ITEMS.register("astragalus_seeds",
             () -> new ItemNameBlockItem(ModFlowers.ASTRAGALUS.get(), new Item.Properties()));
     public static final RegistryObject<Item> ASTRAGALUS_ROOT = FLOWER_ITEMS.register("astragalus_root",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
     //马鞭草
     public static final RegistryObject<Block> VERBENA = FLOWERS.register("verbena",
             () -> new ModWildCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().randomTicks(),ModFlowers.VERBENA_SEED));
@@ -200,29 +201,22 @@ public class ModFlowers {
     public static final RegistryObject<Block> BURDOCK = FLOWERS.register("burdock",
             () -> new ModWildCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().randomTicks(),ModFlowers.BURDOCK_ITEM));
     public static final RegistryObject<Item> BURDOCK_ITEM = FLOWER_ITEMS.register("burdock",
-            () -> new ItemNameBlockItem(ModFlowers.BURDOCK.get(), new Item.Properties()));
+            () -> new ItemNameBlockItem(ModFlowers.BURDOCK.get(), new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
     //葛根
     public static final RegistryObject<Block> KUDZU = FLOWERS.register("kudzu",
             () -> new ModWildCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().randomTicks(),ModFlowers.KUDZU_ITEM));
     public static final RegistryObject<Item> KUDZU_ITEM = FLOWER_ITEMS.register("kudzu",
-            () -> new ItemNameBlockItem(ModFlowers.KUDZU.get(), new Item.Properties()));
+            () -> new ItemNameBlockItem(ModFlowers.KUDZU.get(), new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
     //茯苓
     public static final RegistryObject<Block> PORIA = FLOWERS.register("poria",
             () -> new ModWildCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().randomTicks(),ModFlowers.PORIA_ITEM));
     public static final RegistryObject<Item> PORIA_ITEM = FLOWER_ITEMS.register("poria",
-            () -> new ItemNameBlockItem(ModFlowers.PORIA.get(), new Item.Properties()));
-    //亚麻籽
+            () -> new ItemNameBlockItem(ModFlowers.PORIA.get(), new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
+    //亚麻
     public static final RegistryObject<Block> FLAX = FLOWERS.register("flax",
             () -> new ModWildCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().randomTicks(),ModFlowers.FLAX_ITEM));
     public static final RegistryObject<Item> FLAX_ITEM = FLOWER_ITEMS.register("flax",
             () -> new ItemNameBlockItem(ModFlowers.FLAX.get(), new Item.Properties()));
-    //洞穴花 大小
-    public static final RegistryObject<Block> TALL_SILENT_ORCHID_ABYSS = FLOWERS.register("tall_silent_orchid_abyss",
-            ()->new TallSilentOrchidAbyss(BlockBehaviour.Properties.copy(Blocks.ROSE_BUSH).noOcclusion()));
-    public static final RegistryObject<Block> SORT_SILENT_ORCHID_ABYSS = FLOWERS.register("sort_silent_orchid_abyss",
-            ()->new SortSilentOrchidAbyss(BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion().randomTicks()));
-    public static final RegistryObject<Item> SILENT_ORCHID_ABYSS = FLOWER_ITEMS.register("silent_orchid_abyss",
-            ()->new ItemNameBlockItem(ModFlowers.SORT_SILENT_ORCHID_ABYSS.get(),new Item.Properties()));
     //野生作物 野茶
     public static final RegistryObject<Block> WILD_TEA = FLOWERS.register("wild_tea",
             ()->new WildCropBlock(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK).noCollission().strength(0.1f)));

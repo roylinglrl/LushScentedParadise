@@ -16,7 +16,7 @@ import net.royling.LushScentedParadise.ModBlock.DryingRack.DryingRecipe;
 import net.royling.LushScentedParadise.Registry.ModBlocks;
 import org.jetbrains.annotations.Nullable;
 import oshi.driver.unix.aix.Ls;
-
+@SuppressWarnings("removal")
 public class DryingRecipeCategory implements IRecipeCategory<DryingRecipe> {
     public static final RecipeType<DryingRecipe> TYPE = RecipeType.create(LushScentedParadise.MODID,"drying",DryingRecipe.class);
     private final IDrawable background;

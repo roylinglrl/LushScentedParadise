@@ -1,17 +1,24 @@
 package net.royling.LushScentedParadise.dataGen;
 
-import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ConfiguredModel;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.royling.LushScentedParadise.LushScentedParadise;
-import net.royling.LushScentedParadise.Item.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.ModBlock.newFlower.ModFlowers;
 import net.royling.LushScentedParadise.Registry.ModBlocks;
 
+import java.util.Objects;
+
+@SuppressWarnings("removal")
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
         super(output, LushScentedParadise.MODID, exFileHelper);
@@ -20,8 +27,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @SuppressWarnings("removal")
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.TEAPOT);
-        blockWithItem(ModBlocks.DRYING_RACK);
+        logBlock(ModBlocks.DRYING_RACK.get());
+        logBlockWithAxis(ModBlocks.ABYSS_SILENCE_MUSHROOM_BLOCK.get());
+
+
+        blockWithItem(ModBlocks.STAR_SILVER_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_STAR_SILVER_ORE);
+        blockWithItem(ModBlocks.ABYSS_SILENCE_MUSHROOM_CAP);
+        blockWithItem(ModBlocks.STAR_SILVER_BLOCK);
+        blockWithItem(ModBlocks.RAW_STAR_SILVER_BLOCK);
+        blockWithItem(ModBlocks.COLORFUL_FLOWER_BLOCK);
+
         wildCropBlockItem(ModFlowers.WILD_TEA.get(),"wild_tea");
         wildCropBlockItem(ModFlowers.WILD_ASTRAGALUS.get(),"wild_astragalus");
         wildCropBlockItem(ModFlowers.WILD_MINT.get(),"wild_mint");
@@ -34,8 +50,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         wildCropBlockItem(ModFlowers.WILD_FLAX.get(),"wild_flax");
         wildCropBlockItem(ModFlowers.WILD_COFFEE.get(),"wild_coffee");
         wildCropBlockItem(ModFlowers.WILD_VANILLA.get(),"wild_vanilla");
-
-
+        wildCropBlockItem(ModBlocks.ABYSS_SILENCE_MUSHROOM.get(),"abyss_silence_mushroom");
 
         simpleBlockWithItem(ModFlowers.POTTED_VIOLET.get(), models().singleTexture("potted_violet",
                 new ResourceLocation("flower_pot_cross"), "plant", blockTexture(ModFlowers.VIOLET.get())).renderType("cutout"));
@@ -86,5 +101,25 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 .renderType("cutout");
         itemModels().getBuilder(blockName).parent(models().getExistingFile(mcLoc("item/generated"))).texture("layer0",new ResourceLocation(LushScentedParadise.MODID,"block/"+texutre));
 
+    }
+    private void logBlock(Block block) {
+        ModelFile model = models().cubeColumn(
+                name(block),
+                modLoc("block/" + name(block) + "_side"),
+                modLoc("block/" + name(block) + "_top")
+        );
+        simpleBlock(block, model);
+        itemModels().withExistingParent(name(block),modLoc("block/"+name(block)));
+    }
+    private void logBlockWithAxis(Block block){
+        ModelFile model = models().cubeColumn(name(block),modLoc("block/"+name(block)+"_side"),modLoc("block/"+name(block)+"_top"));
+        getVariantBuilder(block).forAllStates(state -> {
+            Direction.Axis axis = state.getValue(RotatedPillarBlock.AXIS);
+            return ConfiguredModel.builder().modelFile(model).rotationX(axis == Direction.Axis.Y ? 0:90).rotationY(axis== Direction.Axis.X?90:0).build();
+        });
+        itemModels().withExistingParent(name(block),modLoc("block/"+name(block)));
+    }
+    private String name(Block block) {
+        return Objects.requireNonNull(ForgeRegistries.BLOCKS.getKey(block)).getPath();
     }
 }

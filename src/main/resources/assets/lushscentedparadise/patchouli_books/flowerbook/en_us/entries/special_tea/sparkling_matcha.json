@@ -1,25 +1,25 @@
 {
-  "name": "闪耀抹茶",
+  "name": "Sparkling Matcha",
   "icon": "lushscentedparadise:sparkling_matcha",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 46,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#88F28B)✨ 星尘淬炼·流光茶饮 ✨$()$(br2)$(l)$(#FFD74D)「掌中星河倾落，杯中永夜生辉」$()$(br)当$(#A8FF60)干燥的发光浆果$()与$(#FF78C4)闪耀西瓜$()在$(#61F2FF)荧光墨囊$()中交融，翡翠色的茶汤会自然浮现$(#E6E6FA)星尘光斑$()——这是夜行者在黑暗中导航的液态罗盘。"
+      "text": "$(#88F28B)✨ Starlit Refinement · Luminous Tea ✨$()$(br2)$(l)$(#FFD74D)「Galaxies spill from your palms, eternal night shines within your cup」$()$(br)When $(#A8FF60)Dried Glow Berries$() and $(#FF78C4)Radiant Watermelon$() merge within the $(#61F2FF)Luminescent Ink Sac$(), the emerald tea shall naturally manifest $(#E6E6FA)stardust glimmers$()—a liquid compass for night travelers navigating through darkness."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:sparkling_matcha",
-      "text": "$(#C0A0FF)▌ 三重祝福 $()$(br2)$(l)$(#FF69B4)❤生命脉动$()$(br)温暖的能量流遍全身$(br2)$(l)$(#87CEEB)🌙 暗瞳觉醒$()$(br)让最深沉的黑暗无处藏匿$(br2)$(l)$(#98FB98)⚡ 风之轻语$()$(br)足尖掠过地面如踏流光"
+      "text": "$(#C0A0FF)▌ Triple Blessings $()$(br2)$(l)$(#FF69B4)❤ Life Pulse$()$(br)A warm energy flows throughout the body.$(br2)$(l)$(#87CEEB)🌙 Night Sight Awakening$()$(br)No darkness can hide its secrets from your vision.$(br2)$(l)$(#98FB98)⚡ Wind’s Whisper$()$(br)Feet glide over the ground as if walking on light."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#FF78C4)▌ 淬茶秘录 $()$(br)- 将$(#A8FF60)发光浆果$()晾至呈现$(#FFFACD)琥珀质感$()$(br)- 取$(#FF78C4)西瓜晶核$()与$(#61F2FF)活性墨汁$()慢火熬煮$(br)- 最后撒入$(#3A5F3A)茶叶$()时需逆时针搅拌$(br2)$(#FFD700)※$() 茶汤泛起$(#7CFC00)萤火气泡$()即为成功标志"
+      "text": "$(br2)$(#FF78C4)▌ Tea Brewing Secrets $()$(br)- Dry $(#A8FF60)Glow Berries$() until they exhibit a $(#FFFACD)golden amber texture$().$(br)- Simmer $(#FF78C4)Watermelon Crystal Core$() with $(#61F2FF)Active Ink$() over low heat.$(br)- When adding $(#3A5F3A)Tea Leaves$(), stir $(#9370DB)counterclockwise$().$(br2)$(#FFD700)※$() The tea is perfected when $(#7CFC00)glowing firefly bubbles$() appear on the surface."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#9370DB)『 星夜茶语 』$()$(br)古老的制茶谣这样吟唱：$(br)'当$(#A8FF60)浆果$()的星芒坠入$(#000000)永夜$()，$(br)捧起这盏$(#61F2FF)流动的银河$()吧——$(br)你的$(#98FB98)脚步$()将比$(#87CEEB)猫头鹰$()更轻盈，$(br)而$(#FFD74D)瞳孔$()能捕捉最幽微的$(#E6E6FA)星光$()'"
+      "text": "$(br2)$(#9370DB)『 Nocturnal Tea Verse 』$()$(br)An ancient tea chant sings:$(br)'When the $(#A8FF60)Glow Berry$() stardust falls into the $(#000000)eternal night$(),$(br)lift this $(#61F2FF)flowing galaxy$() to your lips—$(br)your $(#98FB98)steps$() shall become lighter than the $(#87CEEB)owl’s wings$(),$(br)and your $(#FFD74D)eyes$() shall capture even the faintest $(#E6E6FA)starshine$().'"
     }
   ]
 }

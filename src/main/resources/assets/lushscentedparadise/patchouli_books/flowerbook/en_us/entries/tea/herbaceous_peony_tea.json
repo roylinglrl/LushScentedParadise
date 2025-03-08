@@ -1,21 +1,21 @@
 {
-  "name": "芍药茶",
+  "name": "Herbaceous Peony Tea",
   "icon": "lushscentedparadise:herbaceous_peony_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 29,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“芍药花开，夜色微光，代价换取片刻的视野。”$(br2)芍药茶是一款带有独特药香的茶饮，由晒干的芍药花与糖制成。饮用后可提供夜视效果，但会受到一次轻微伤害。"
+      "text": "“As peonies bloom under the dim light, clarity comes at a small cost.”$(br2)Herbaceous Peony Tea is a medicinally fragrant tea made from dried peony petals and sugar. Drinking it grants Night Vision but also inflicts slight damage upon consumption."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)芍药茶的制作需要$(br)晒干的芍药花与糖混合熬煮。$(br)适合在夜间探险时饮用，但请注意，它的效果并非完全没有代价。"
+      "text": "$(br2)$(br)To prepare Herbaceous Peony Tea, $(br)boil dried peony petals with sugar.$(br)It is useful for nighttime exploration, but be aware—its effects are not without consequences."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:herbaceous_peony_tea",
-      "text": "饮用芍药茶后，旅人将获得夜视效果，但会受到一次少量的伤害。$(br)这是一款适用于夜间探索的茶饮，适合谨慎使用。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Herbaceous Peony Tea, travelers gain Night Vision but take minor damage.$(br)This tea is suitable for nighttime expeditions but should be used with caution.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

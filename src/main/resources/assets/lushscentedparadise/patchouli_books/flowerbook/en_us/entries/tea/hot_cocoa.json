@@ -1,21 +1,21 @@
 {
-  "name": "热可可",
+  "name": "Hot Cocoa",
   "icon": "lushscentedparadise:hot_cocoa",
   "category": "lushscentedparadise:tea",
   "sortnum": 18,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“寒冬之夜，炉火旁，一杯热可可带来的不仅是温暖，还有安心。”$(br2)热可可是一款浓郁香甜的饮品，由磨好的可可粉、糖与牛奶精心熬煮而成。它不仅能为旅人提供瞬间治疗，还能在寒冷环境下提供防寒效果，让人从内到外都充满温暖。"
+      "text": "“On a cold winter night, by the fireplace, a cup of hot cocoa brings not only warmth but also comfort.”$(br2)Hot Cocoa is a rich and sweet drink made by carefully simmering ground cocoa powder, sugar, and milk. It provides instant healing while also granting Cold Resistance, ensuring warmth from the inside out."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)热可可的制作需要$(br)两份磨好的可可粉、一份糖与一份牛奶混合熬煮。$(br)适合在寒冷环境中饮用，帮助旅人抵御严寒，同时快速恢复生命值。"
+      "text": "$(br2)$(br)To prepare Hot Cocoa, $(br)boil two portions of ground cocoa powder with sugar and milk.$(br)It is perfect for cold environments, helping travelers withstand harsh winter conditions while quickly restoring health."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:hot_cocoa",
-      "text": "饮用热可可后，旅人将获得瞬间治疗效果，并能在寒冷环境中保持温暖，不受低温影响。$(br)这是一款温暖而安心的饮品，适合在冰雪旅途中享用。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Hot Cocoa, travelers receive an Instant Health effect and gain Cold Resistance, preventing them from being affected by freezing temperatures.$(br)This warm and comforting drink is ideal for snowy adventures.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

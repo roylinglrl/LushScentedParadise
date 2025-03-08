@@ -1,21 +1,21 @@
 {
-  "name": "紫苏花茶",
+  "name": "Perilla Tea",
   "icon": "lushscentedparadise:perilla_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 37,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“紫气东来，芳香浓郁，积蓄的力量在瞬间爆发。”$(br2)紫苏花茶是一款极具爆发力的茶饮，由晒干的紫苏花与糖调制而成。茶汤呈现深紫色，入口微辛，饮用后可提供短暂但极高强度的力量加成，使旅人在短时间内爆发更强的攻击力。"
+      "text": "“A surge of purple energy, rich in aroma, building up power for an explosive burst.”$(br2)Perilla Tea is a highly potent and explosive beverage made from dried perilla flowers and sugar. The tea has a deep purple hue and a slightly spicy taste. Drinking it provides a short but intense Strength boost, greatly enhancing the traveler’s attack power for a brief period."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)紫苏花茶的制作需要$(br)晒干的紫苏花与糖混合熬煮。$(br)适合在战斗前饮用，为短时间内的攻击提供巨大增益，让敌人难以招架。"
+      "text": "$(br2)$(br)To prepare Perilla Tea, $(br)boil dried perilla flowers with sugar.$(br)It is best consumed before battle, offering a massive attack boost for a short duration, making it difficult for enemies to withstand the onslaught."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:perilla_tea",
-      "text": "饮用紫苏花茶后，旅人将获得短暂但极强的力量加成，使攻击伤害大幅度提升。$(br)这是一款适用于短时间高爆发战斗的茶饮，适合强敌对决。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Perilla Tea, travelers gain a short but powerful Strength boost, significantly increasing attack damage.$(br)This tea is ideal for high-intensity combat, perfect for facing formidable foes.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

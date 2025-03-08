@@ -1,21 +1,21 @@
 {
-  "name": "甜浆果茶",
+  "name": "Sweet Berries Tea",
   "icon": "lushscentedparadise:sweet_berries_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 13,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“酸甜交织，点缀旅途的美好时刻。”$(br2)甜浆果茶是一款口感清新、回味甘甜的茶饮，由干燥的甜浆果制成，并以糖调和，使茶汤更加香甜。饮用后可短暂恢复旅人的生命，让疲惫的身心得到一丝缓解。"
+      "text": "“A delightful blend of sweet and tart, adding joy to the journey.”$(br2)Sweet Berries Tea is a refreshing and subtly sweet beverage made from dried sweet berries, blended with sugar to enhance its flavor. Drinking it provides brief health regeneration, offering a moment of relief for weary travelers."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)甜浆果茶的制作需要$(br)三份干燥的甜浆果与糖混合调制。$(br)适合在旅途中饮用，为探索者提供温和的生命恢复。"
+      "text": "$(br2)$(br)To prepare Sweet Berries Tea, $(br)mix three portions of dried sweet berries with sugar.$(br)It is best consumed during travels, providing gentle health restoration for explorers."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:sweet_berries_tea",
-      "text": "饮用甜浆果茶后，旅人将获得短暂的生命恢复，使身体在旅途中得到缓慢的恢复。$(br)这是一款甜美而实用的茶饮，适合在探索和战斗间隙补充状态。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Sweet Berries Tea, travelers gain a short-term health regeneration effect, allowing for gradual recovery on their journey.$(br)This is a sweet and practical tea, perfect for replenishing energy between exploration and battles.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

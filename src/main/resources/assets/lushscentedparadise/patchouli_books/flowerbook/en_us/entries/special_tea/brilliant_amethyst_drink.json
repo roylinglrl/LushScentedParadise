@@ -1,25 +1,25 @@
 {
-  "name": "绚丽紫晶特饮",
+  "name": "Brilliant Amethyst Drink",
   "icon": "lushscentedparadise:brilliant_amethyst_drink",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 60,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#9370DB)🔮 星穹萃取·紫微赐福 🌌$()$(br2)$(l)$(#8A2BE2)「饮此银河碎片者，可窥命运丝线，抚平生命创痕」$()$(br)将$(#BA55D3)紫晶簇$()的宇宙能量注入$(#B0B0B0)月华乳脂$()，$(#DAA520)琥珀蜜露$()承载着$(#9370DB)紫罗兰$()的祝福——这是能同时$(l)治愈肉体$()、$(l)洞悉黑暗$()与$(l)扭转运势$()的星空奇迹。"
+      "text": "$(#9370DB)🔮 Cosmic Infusion · Blessing of the Purple Star 🌌$()$(br2)$(l)$(#8A2BE2)「Those who drink this fragment of the galaxy may glimpse the threads of fate and mend the scars of life」$()$(br)The $(#BA55D3)amethyst cluster$()'s cosmic energy is infused into $(#B0B0B0)lunar cream$(), while $(#DAA520)amber honeydew$() carries the blessing of $(#9370DB)violets$()—a celestial miracle capable of $(l)healing the body$(), $(l)illuminating the darkness$(), and $(l)altering destiny$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:brilliant_amethyst_drink",
-      "text": "$(#8A2BE2)▌ 三相星芒 $()$(br2)$(l)$(#FF69B4)💖 星脉愈合$()$(br)伤口处浮现$(#FF1493)玫瑰星云$()状再生光纹$(br2)$(l)$(#4169E1)👁 夜瞳觉醒$()$(br)瞳孔倒映$(#000080)虚空$()中最细微的$(#9370DB)星屑轨迹$()$(br2)$(l)$(#32CD32)🍀 命运偏转$()$(br)行动时身后拖曳$(#7CFC00)翡翠色幸运残影$()"
+      "text": "$(#8A2BE2)▌ Tri-Star Phenomenon $()$(br2)$(l)$(#FF69B4)💖 Stellar Regeneration$()$(br)Wounds bloom with $(#FF1493)rose nebula-shaped$() healing light.$(br2)$(l)$(#4169E1)👁 Awakening of the Night Eye$()$(br)Pupils reflect the $(#000080)void$(), perceiving the $(#9370DB)faintest star trails$().$(br2)$(l)$(#32CD32)🍀 Fate Shift$()$(br)A $(#7CFC00)jade-hued lucky afterimage$() follows the drinker's movements."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#4B0082)▌ 占星工艺 $()$(br)- 用$(#9370DB)水晶镐$()采集$(#BA55D3)紫晶尖端$()的$(#E6E6FA)星尘能量$()$(br)- 将$(#E6E6FA)紫罗兰$()在$(#B0B0B0)牛奶$()中$(#87CEEB)月光浸渍$()整夜$(br)- 混合时以$(#FFD700)黄道十二宫$()轨迹搅拌$(#DAA520)蜂蜜$()$(br2)$(#800080)✨$() 完美成品会形成$(#9370DB)微型银河漩涡$()"
+      "text": "$(br2)$(#4B0082)▌ Astrological Brewing Method $()$(br)- Extract $(#BA55D3)stellar dust energy$() from the $(#9370DB)tip of an amethyst crystal$() using a $(#E6E6FA)crystal pickaxe$().$(br)- Soak $(#E6E6FA)violets$() in $(#B0B0B0)milk$() under $(#87CEEB)moonlight$() overnight.$(br)- Stir the mixture along the $(#FFD700)Zodiac constellations$() while blending in $(#DAA520)honey$().$(br2)$(#800080)✨$() A perfect brew will form a $(#9370DB)miniature galaxy vortex$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#483D8B)『 星语者手记 』$()$(br)古代观星塔的石板铭刻：$(br)'当$(#BA55D3)紫晶$()与$(#E6E6FA)罗兰$()在$(#DAA520)琥珀海$()中相拥，$(br)饮者将获得$(#4169E1)猫头鹰$()的夜瞳、$(#32CD32)四叶草$()的眷顾——$(br)而$(#FF69B4)伤口$()愈合时迸发的$(#FF1493)星云$()，$(br)正是$(#9370DB)宇宙$()对$(#8A2BE2)坚韧生命$()的$(#4B0082)无声礼赞$()'"
+      "text": "$(br2)$(#483D8B)『 The Starseer's Journal 』$()$(br)An inscription found in an ancient observatory:$(br)'When $(#BA55D3)amethyst$() and $(#E6E6FA)violet$() embrace within the $(#DAA520)amber sea$(),$(br)the drinker shall gain the $(#4169E1)owl’s night vision$(), the $(#32CD32)four-leaf clover’s blessing$(),$(br)and as $(#FF69B4)wounds$() mend, they shall bloom with $(#FF1493)nebulae$()—$(br)a silent tribute from the $(#9370DB)cosmos$() to $(#8A2BE2)resilient life$().'"
     }
   ]
 }

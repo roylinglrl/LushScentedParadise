@@ -1,25 +1,25 @@
 {
-  "name": "玉蝴蝶幻翼",
+  "name": "Oenothera Lindheimeri Phantom",
   "icon": "lushscentedparadise:oenothera_lindheimeri_phantom",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 75,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#BA55D3)🦋 虚空蝶舞·失重诗篇 🌌$()$(br2)$(l)$(#9370DB)「饮此星尘琼浆者，可暂获末影之蝶的舞空权能」$()$(br)当$(#BA55D3)山桃草$()的幻光、$(#FFD700)星糖结晶$()的轻盈、$(#B0C4DE)幻翼膜$()的虚空特性与$(#9370DB)紫颂精华$()在$(#4B0082)末地石臼$()中共振——这是能让$(l)重力法则短暂失效$()的禁忌悬浮秘药。"
+      "text": "$(#BA55D3)🦋 Void Butterfly Waltz · Weightless Ballad 🌌$()$(br2)$(l)$(#9370DB)「Those who sip this stardust nectar may briefly inherit the flight of the Ender Butterfly」$()$(br)The illusionary glow of $(#BA55D3)Gaura$(), the airy lightness of $(#FFD700)Star Sugar Crystals$(), the void properties of $(#B0C4DE)Phantom Wing Membrane$(), and the spatial essence of $(#9370DB)Chorus Extract$() resonate within the $(#4B0082)End Stone Mortar$()—a forbidden levitation elixir capable of $(l)momentarily negating gravity$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:oenothera_lindheimeri_phantom",
-      "text": "$(#9370DB)▌ 三重幻舞 $()$(br2)$(l)$(#B0C4DE)🪶 虚空蝶翼$()$(br)周身环绕$(#E6E6FA)半透明蝶鳞$()实现漂浮$(br2)$(l)$(#BA55D3)🌀 星尘缓降$()$(br)坠落时迸发$(#9370DB)紫色星环$()减速$(br2)$(l)$(#7CFC00)🐇 月面弹跳$()$(br)跳跃高度突破$(#32CD32)常规限制$()"
+      "text": "$(#9370DB)▌ Triple Phantom Waltz $()$(br2)$(l)$(#B0C4DE)🪶 Void Butterfly Wings$()$(br)Surrounds the body with $(#E6E6FA)semi-transparent butterfly scales$(), enabling floating.$(br2)$(l)$(#BA55D3)🌀 Stardust Slowfall$()$(br)Releases $(#9370DB)purple star rings$() when falling, reducing speed.$(br2)$(l)$(#7CFC00)🐇 Lunar Leap$()$(br)Jumping height surpasses $(#32CD32)ordinary limits$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#4B0082)▌ 末地调制 $()$(br)- 用$(#9370DB)紫颂花$()萃取$(#BA55D3)山桃草$()的$(#FF69B4)粉紫幻光$()$(br)- 将$(#B0C4DE)幻翼膜$()折叠成$(#E6E6FA)千纸鹤$()形态浸渍$(br)- 加入$(#FFD700)星糖$()时需完成$(#BA55D3)∞字形$()搅拌轨迹$(br2)$(#00BFFF)※$() 成功时液体呈现$(#9370DB)蝶翼光纹$()与$(#B0C4DE)虚空粒子$()"
+      "text": "$(br2)$(#4B0082)▌ Ender Brewing Process $()$(br)- Extract $(#9370DB)Gaura$()’s $(#FF69B4)rosy-violet glow$() using $(#9370DB)Chorus Flowers$().$(br)- Fold $(#B0C4DE)Phantom Wing Membrane$() into a $(#E6E6FA)paper crane$() shape and soak it.$(br)- When adding $(#FFD700)Star Sugar Crystals$(), stir in an $(#BA55D3)infinity-symbol$() motion.$(br2)$(#00BFFF)※$() A successful brew will display $(#9370DB)butterfly wing light patterns$() and $(#B0C4DE)void particles$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#6A5ACD)『 观星者手记 』$()$(br)末地城石碑的刻文：$(br)'此饮融合：$(br)- $(#BA55D3)山桃草$()的幻梦$(br)- $(#B0C4DE)幻翼$()的失重$(br)- $(#9370DB)紫颂$()的空间感知$(br)饮者将如$(#E6E6FA)末影龙$()般$(#B0C4DE)凌空起舞$()，$(br)但需在$(#FFD700)星糖辉光$()消散前着陆，$(br)否则会触发$(#4B0082)虚空漩涡$()的$(#000000)吞噬协议$()'"
+      "text": "$(br2)$(#6A5ACD)『 Astronomer’s Journal 』$()$(br)An inscription found in an End City stone tablet:$(br)'This drink fuses:$(br)- The dreamlike glow of $(#BA55D3)Gaura$()$(br)- The weightlessness of $(#B0C4DE)Phantom Wings$()$(br)- The spatial awareness of $(#9370DB)Chorus Extract$()$(br)The drinker shall waltz through the air like an $(#E6E6FA)Ender Dragon$(),$(br)but must land before the $(#FFD700)Star Sugar Glow$() fades,$(br)lest they activate the $(#4B0082)Void Vortex$()'s $(#000000)consumption protocol$()'."
     }
   ]
 }

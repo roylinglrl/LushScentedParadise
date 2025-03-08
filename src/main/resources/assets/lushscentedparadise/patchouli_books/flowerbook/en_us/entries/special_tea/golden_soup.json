@@ -1,25 +1,25 @@
 {
-  "name": "黄金汤",
+  "name": "Golden Soup",
   "icon": "lushscentedparadise:golden_soup",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 61,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#D4AF37)🏮 命运熔铸·不朽赐福 🪔$()$(br2)$(l)$(#FFD700)「饮此鎏金琼浆者，命运纺车将永驻光明面」$()$(br)当$(#DAA520)金胡萝卜$()的日轮之力、$(#FF8C00)熔金西瓜$()的盛夏光辉、$(#B8860B)金盏干花$()的千年祈愿与$(#D4AF37)神铸金锭$()在$(#8B4513)圣火熔炉$()中交融——这是能令$(l)幸运女神永久垂青$()的炼金术终极杰作。"
+      "text": "$(#D4AF37)🏮 Fate Forged in Gold · Eternal Blessing 🪔$()$(br2)$(l)$(#FFD700)「Those who drink this golden nectar shall forever bask in the light of fortune」$()$(br)The solar essence of $(#DAA520)Golden Carrot$(), the radiant glow of $(#FF8C00)Molten Gold Melon$(), the millennium-old wish of $(#B8860B)Dried Marigold$(), and the divine purity of $(#D4AF37)God-Forged Gold Ingot$() merge in the sacred flames of the $(#8B4513)Holy Furnace$()—thus forming the ultimate alchemical masterpiece capable of $(l)winning the favor of the Goddess of Fortune$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:golden_soup",
-      "text": "$(#FFD700)▌ 永恒天命 $()$(br2)$(l)$(#32CD32)🍀 四叶铭文$()$(br)皮肤表面浮现$(#7CFC00)翡翠色命运刻痕$()$(br2)$(l)$(#FFD700)✨ 金脉共鸣$()$(br)行动时引发$(#DAA520)黄金粒子$()的祝福涟漪$(br2)$(l)$(#8B4513)⚖ 因果偏转$()$(br)所有概率事件自动倾向$(#FF8C00)最有利解$()"
+      "text": "$(#FFD700)▌ Eternal Destiny $()$(br2)$(l)$(#32CD32)🍀 Four-Leaf Inscription$()$(br)Emerald-colored $(#7CFC00)fate markings$() appear on the skin.$(br2)$(l)$(#FFD700)✨ Gold Vein Resonance$()$(br)Each movement triggers $(#DAA520)golden particle$() blessings.$(br2)$(l)$(#8B4513)⚖ Causal Shift$()$(br)All probability-based events lean toward the $(#FF8C00)most favorable outcome$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#B8860B)▌ 点金秘仪 $()$(br)- 用$(#D4AF37)洗净金刀$()切割$(#DAA520)金胡萝卜$()成$(#FFD700)正十二面体$()$(br)- 将$(#FF8C00)西瓜瓤$()在$(#8B4513)白色的石臼$()中捣至$(#CD853F)液态琥珀$()状态$(br)- $(#B8860B)金盏花$()需经$(#FFD700)正午阳光$()直射$(#D4AF37)三刻钟$()脱水$(br)- 最后投入$(#D4AF37)金锭$()时须同步完成$(#32CD32)七芒星阵$()绘制$(br2)$(#FF4500)※$() 当汤面浮现$(#FFD700)日轮图腾$()且散发$(#7CFC00)翡翠光晕$()即炼成"
+      "text": "$(br2)$(#B8860B)▌ Ritual of Transmutation $()$(br)- Use a $(#D4AF37)purified golden blade$() to cut $(#DAA520)Golden Carrots$() into a $(#FFD700)dodecahedron$().$(br)- Mash $(#FF8C00)melon flesh$() in a $(#8B4513)white stone mortar$() until it reaches a $(#CD853F)liquid amber$() state.$(br)- $(#B8860B)Dried Marigold$() must be sun-dried under $(#FFD700)noon sunlight$() for exactly $(#D4AF37)three quarters of an hour$().$(br)- When adding the $(#D4AF37)Gold Ingot$(), simultaneously complete the $(#32CD32)Seven-Point Star Array$().$(br2)$(#FF4500)※$() When a $(#FFD700)solar emblem$() appears on the soup’s surface and emits a $(#7CFC00)jade-green glow$(), the brew is complete."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)『 迈达斯法典 』$()$(br)古代黄金王朝的碑文记载：$(br)'唯有饮尽这杯$(#D4AF37)凝固的旭日$()，$(br)才能获得$(#FFD700)点金手$()的祝福——$(br)你的$(#32CD32)每个选择$()都将导向$(#7CFC00)丰饶之路$()，$(br)连$(#B8860B)命运三女神$()的$(#8B4513)纺线$()都会主动$(#FF8C00)缠绕$()于你的$(#DAA520)指尖$()'"
+      "text": "$(br2)$(#8B4513)『 The Midas Codex 』$()$(br)An inscription from the ancient Golden Empire records:$(br)'Only those who consume this $(#D4AF37)solidified sunrise$(),$(br)shall receive the $(#FFD700)Touch of Gold$()—$(br)their $(#32CD32)every decision$() shall lead to $(#7CFC00)prosperity$(),$(br)even the $(#B8860B)Threads of Fate$() spun by the $(#8B4513)Three Sisters$()$(br)shall weave themselves willingly around their $(#DAA520)fingertips$().'"
     }
   ]
 }

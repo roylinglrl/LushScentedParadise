@@ -61,4 +61,14 @@ public class DryingRackBlock extends Block implements EntityBlock {
     public RenderShape getRenderShape(BlockState pState) {
         return RenderShape.MODEL;
     }
+
+    @Override
+    public void onRemove(BlockState state, Level level, BlockPos pos, BlockState newState, boolean isMoving) {
+        if (!state.is(newState.getBlock())) {
+            if (level.getBlockEntity(pos) instanceof DryingRackBlockEntity blockEntity) {
+                blockEntity.ejectAllItems(level, pos);
+            }
+        }
+        super.onRemove(state, level, pos, newState, isMoving);
+    }
 }

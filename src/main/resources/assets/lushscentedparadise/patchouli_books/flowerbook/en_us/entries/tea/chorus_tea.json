@@ -1,21 +1,21 @@
 {
-  "name": "紫颂茶",
+  "name": "Chorus Tea",
   "icon": "lushscentedparadise:chorus_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 14,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“扭曲的力量，被温和地驯服，化作澎湃的能量。”$(br2)紫颂茶是一款神秘而强大的茶饮，由爆裂紫颂果与牛奶调制而成。牛奶的温和特性中和了紫颂果的混乱能量，使茶饮不仅拥有强烈的风味，还能为旅人带来显著的力量提升。"
+      "text": "“Twisted power, gently tamed into a surge of energy.”$(br2)Chorus Tea is a mysterious and powerful beverage made from popped chorus fruit and milk. The soothing properties of milk neutralize the chaotic energy of chorus fruit, resulting in a tea with a bold flavor that grants a significant strength boost to travelers."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)紫颂茶的制作需要$(br)爆裂紫颂果与牛奶混合调制。$(br)适合在战斗前饮用，让旅人获得更强大的战斗能力，同时避免紫颂果的不稳定副作用。"
+      "text": "$(br2)$(br)To brew Chorus Tea, $(br)mix popped chorus fruit with milk.$(br)This tea is best consumed before battle, granting travelers increased combat power while preventing the unstable side effects of chorus fruit."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:chorus_tea",
-      "text": "饮用紫颂茶后，旅人将获得显著的力量加成，使攻击力提升。$(br)这是一款专为战斗而生的茶饮，适合想要提升自身战斗力的冒险者。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Chorus Tea, travelers will receive a noticeable strength boost, increasing their attack power.$(br)This tea is designed for combat and is ideal for adventurers seeking to enhance their battle prowess.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

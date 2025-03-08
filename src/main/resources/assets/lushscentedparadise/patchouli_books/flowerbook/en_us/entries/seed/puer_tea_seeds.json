@@ -1,21 +1,21 @@
 {
-  "name": "普洱茶",
+  "name": "Pu'er Tea",
   "icon": "lushscentedparadise:puer_tea_seeds",
   "category": "lushscentedparadise:seed",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“岁月沉香，陈韵悠长，山野灵气，化入一叶。”$(br2)普洱茶是一种经过长时间陈化的深度发酵茶，其独特的后发酵工艺赋予了它醇厚的口感与独特的陈香。茶汤深红透亮，入口甘滑，具有越陈越香的特性，被誉为‘可以喝的古董’。"
+      "text": "“Aged aroma of time, mellow and lingering, infused with the essence of mountain and wilderness.”$(br2)Pu'er tea is a deeply fermented tea aged over long periods, giving it a rich taste and a distinct aged fragrance. The tea infusion is deep red and translucent, smooth upon entry, and known for its characteristic of becoming more flavorful as it ages. It is often called ‘a drinkable antique.’"
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:puer_tea_seeds",
-      "text": "普洱茶主要生长于温暖湿润的热带、亚热带山林地带，尤其适应高海拔地区。它的茶树寿命极长。旅人可在旅途中寻找野生茶树，通过普洱茶种子进行栽培，等待时间沉淀风味。"
+      "text": "Pu'er tea thrives in warm and humid tropical and subtropical mountain forests, particularly in high-altitude regions. The tea trees have an exceptionally long lifespan. Travelers can seek out wild tea trees and cultivate them using Pu'er tea seeds, allowing time to refine the tea’s flavor."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:puer_tea_leave",
-      "text": "普洱茶植株和大多数茶差不多。$(br)每次收获普洱茶叶时，可能获得嫩叶与少量种子。普洱茶的制作方式十分独特，经过日晒晾干后，还需进行长时间的存放与后发酵，使其风味更加醇厚。"
+      "text": "Pu'er tea plants grow similarly to most tea varieties.$(br)Each harvest provides fresh Pu'er tea leaves along with a small number of seeds. The unique processing method of Pu'er tea involves sun-drying the leaves, followed by extended storage and post-fermentation, allowing the tea’s flavor to deepen and develop over time."
     }
   ]
 }

@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:seed_bag",
+      "recipe": "lushscentedparadise:original/seed_bag",
       "text": "The first person who invented the $(l)$(#DAA520)Flower Bag$()$() was truly a $(#FFD700)genius$()! Soon after, a $(#32CD32)gardener's$() best friend, the $(#8B4513)farmer$(), had an idea and created the $(l)$(#DAA520)Seed Bag$()$()!"
     },
     {

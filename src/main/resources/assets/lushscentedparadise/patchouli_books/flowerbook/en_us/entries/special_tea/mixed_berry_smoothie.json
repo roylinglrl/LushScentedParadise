@@ -1,25 +1,25 @@
 {
-  "name": "混合莓果冰沙",
+  "name": "Mixed Berry Smoothie",
   "icon": "lushscentedparadise:mixed_berry_smoothie",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 72,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#FF6B6B)🍓 日月双莓·冰霜圣约 ❄️$()$(br2)$(l)$(#9370DB)「啜饮星辰与阳光的结晶，让血肉暂获元素祝福」$()$(br)当$(#FF6B6B)日光莓干$()的生机、$(#9370DB)星辉莓干$()的灵性、$(#87CEEB)永冻冰晶$()的凛冽与$(#DAA520)琥珀糖浆$()在$(#6A5ACD)月光摇杯$()中激荡——这是能同时赋予$(l)火焰抗性$()、$(l)夜视能力$()与$(l)持续恢复$()的森林秘饮。"
+      "text": "$(#FF6B6B)🍓 Sun & Moon Berry · Frost Covenant ❄️$()$(br2)$(l)$(#9370DB)「A sip of starlight and sunlight fused together, granting elemental blessings to mortal flesh」$()$(br)The vitality of $(#FF6B6B)Sunberry$(), the wisdom of $(#9370DB)Starlight Berry$(), the icy purity of $(#87CEEB)Everfrost Crystal$(), and the sweetness of $(#DAA520)Amber Syrup$() swirl within the $(#6A5ACD)Moonlight Shaker$()—creating a mystical forest elixir that grants $(l)Fire Resistance$(), $(l)Night Vision$(), and $(l)Regeneration$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:mixed_berry_smoothie",
-      "text": "$(#FF6B6B)▌ 三元素祝福 $()$(br2)$(l)$(#FF69B4)💖 莓果脉动$()$(br)伤口处浮现$(#FF6B6B)莓果状光纹$()持续修复$(br2)$(l)$(#FF4500)🛡 龙鳞护膜$()$(br)皮肤覆盖$(#CD5C5C)半透明龙鳞$()隔绝高温$(br2)$(l)$(#4169E1)🌌 星芒滤镜$()$(br)瞳孔映射$(#9370DB)银河微光$()洞悉黑暗"
+      "text": "$(#FF6B6B)▌ Triple Elemental Blessings $()$(br2)$(l)$(#FF69B4)💖 Berry Pulse$()$(br)Wounds glow with $(#FF6B6B)berry-shaped light patterns$() as they heal.$(br2)$(l)$(#FF4500)🛡 Dragon Scale Membrane$()$(br)Skin develops $(#CD5C5C)translucent dragon scales$(), shielding against heat.$(br2)$(l)$(#4169E1)🌌 Starlight Filter$()$(br)Pupils shimmer with $(#9370DB)galactic radiance$(), piercing through darkness."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#9370DB)▌ 月光工艺 $()$(br)- 将$(#FF6B6B)甜浆果$()与$(#9370DB)发光浆果$()晒干成缩水小球状$()$(br)- $(#87CEEB)冰块$()需雕琢成$(#B0E0E6)雪花结晶$()形态$(br)- 混合时以$(#DAA520)蜂蜜$()为基底进行$(#00BFFF)七次冰摇$()$(br2)$(#7FFFD4)※$() 完美成品会呈现$(#FF6B6B)分层极光$()与$(#9370DB)星点闪光$()"
+      "text": "$(br2)$(#9370DB)▌ Moonlight Crafting $()$(br)- Dry $(#FF6B6B)Sweet Berries$() and $(#9370DB)Glow Berries$() into shrunken spheres.$(br)- Carve $(#87CEEB)Ice Blocks$() into $(#B0E0E6)Snowflake Crystals$().$(br)- Shake the mixture with $(#DAA520)Honey$() as the base, performing $(#00BFFF)seven ice shakes$().$(br2)$(#7FFFD4)※$() A perfect blend will display $(#FF6B6B)layered auroras$() and $(#9370DB)star-like sparkles$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#6A5ACD)『 精灵冰窖碑文 』$()$(br)古老树根上的铭刻：$(br)'当$(#FF6B6B)红莓$()吸收$(#DAA520)百日阳光$()、$(#9370DB)黄莓$()凝结$(#00BFFF)整夜月华$()，$(br)饮者将同时获得：$(br)- $(#FF4500)火蜥蜴$()的鳞甲$(br)- $(#4169E1)夜枭$()的瞳孔$(br)- $(#FF69B4)树灵$()的生机$(br)但需避开$(#9370DB)月食$()期间饮用，$(br)否则$(#6A5ACD)星芒滤镜$()将转为$(#000000)永夜诅咒$()'"
+      "text": "$(br2)$(#6A5ACD)『 Elven Ice Cellar Inscription 』$()$(br)An ancient carving on tree roots:$(br)'When $(#FF6B6B)Red Berries$() absorb $(#DAA520)hundred-day sunlight$(),$(br)and $(#9370DB)Yellow Berries$() condense $(#00BFFF)moonlight essence$() overnight,$(br)the drinker shall inherit:$(br)- $(#FF4500)Lizard Fireproof Scales$()$(br)- $(#4169E1)Owl’s Nocturnal Vision$()$(br)- $(#FF69B4)Tree Spirit’s Vitality$()$(br)However, avoid consuming this during a $(#9370DB)Lunar Eclipse$(),$(br)or else the $(#6A5ACD)Starlight Filter$() may transform into a $(#000000)Curse of Eternal Night$()'."
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
-  "name": "茉莉茶",
+  "name": "Jasmine Tea",
   "icon": "lushscentedparadise:jasmine_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 30,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“芬芳馥郁，温和清雅，隐藏之力悄然流转。”$(br2)茉莉茶是一款清香柔和的茶饮，由晒干的茉莉花与糖制成。饮用后可提供短暂的隐身和幸运效果，使旅人在行动时更加神秘且幸运。"
+      "text": "“Fragrant and elegant, its hidden power flows quietly.”$(br2)Jasmine Tea is a delicate and refreshing beverage made from dried jasmine flowers and sugar. Drinking it provides a temporary Invisibility and Luck effect, making travelers more mysterious and fortunate."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)茉莉茶的制作需要$(br)晒干的茉莉花与糖混合熬煮。$(br)适合在潜行或进行重要行动前饮用，带来隐秘的庇护与好运。"
+      "text": "$(br2)$(br)To prepare Jasmine Tea, $(br)boil dried jasmine flowers with sugar.$(br)It is best consumed before stealth missions or important actions, offering a veil of secrecy and fortune."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:jasmine_tea",
-      "text": "饮用茉莉茶后，旅人将获得短暂的隐身和幸运效果，使行动更加隐秘，并有更高的收益。$(br)这是一款适用于隐秘行动的茶饮。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Jasmine Tea, travelers gain a temporary Invisibility and Luck effect, making their actions more discreet and rewarding.$(br)This tea is ideal for covert operations.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

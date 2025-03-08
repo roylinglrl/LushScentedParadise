@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:drying_rack",
+      "recipe": "lushscentedparadise:original/drying_rack",
       "text": "$(#8B4513)Patience, patience.$()$(br)Drying occurs only during the day. Night halts progress."
     },
     {

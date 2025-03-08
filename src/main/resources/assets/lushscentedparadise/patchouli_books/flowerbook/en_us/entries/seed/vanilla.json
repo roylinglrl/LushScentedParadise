@@ -1,21 +1,21 @@
 {
-  "name": "香草",
+  "name": "Vanilla",
   "icon": "lushscentedparadise:vanilla_seeds",
   "category": "lushscentedparadise:seed",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“甘醇幽香，藤蔓之誓。”$(br2)香草原产于潮湿茂密的热带雨林，洁白花朵与细长果荚交织出醉人的微甜气息。它象征着温暖与祝福，被广泛用于调味、酊剂及仪式庆典之中。"
+      "text": "“Rich and mellow, the oath of the vine.”$(br2)Vanilla originates from the humid and dense tropical rainforest, where its delicate white flowers and slender pods intertwine to produce a faintly sweet and intoxicating aroma. It symbolizes warmth and blessings, widely used in flavoring, tinctures, and ceremonial celebrations."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:vanilla_seeds",
-      "text": "香草多依附于雨林中的树干与藤蔓，需湿润且温暖的环境才能顺利生长。旅人若能在野外找到成熟的香草荚，即可获取种子，用于人工栽培。"
+      "text": "Vanilla often clings to tree trunks and vines in rainforests, requiring a warm and moist environment to thrive. Travelers who find mature vanilla pods in the wild can collect seeds for artificial cultivation."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:vanilla_pod",
-      "text": "香草在成熟后，需要$(l)手持剪刀右键$()方可进行收获，以免破坏整株。采下的香草荚可进一步晾晒发酵，释放出馥郁的甜香，用以调制甜品或酿制香甜的糖浆。"
+      "text": "Vanilla must be harvested by $(l)right-clicking with shears$() when mature to avoid damaging the entire plant. The collected pods can be further sun-dried and fermented to release their rich sweetness, making them ideal for crafting desserts or brewing fragrant syrups."
     }
   ]
 }

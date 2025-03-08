@@ -1,25 +1,25 @@
 {
-  "name": "至尊黄金茶",
+  "name": "Supreme Golden Tea",
   "icon": "lushscentedparadise:supreme_golden_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 62,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#FFD700)👑 不朽王权·神躯淬炼 💫$()$(br2)$(l)$(#D4AF37)「饮此神血者，肉身即圣殿，烈焰化沐露」$()$(br)当$(#FF8C00)神授金苹果$()的永生之力、$(#5F9EA0)雪域圣莲$()的冰晶精华、$(#DAA520)太阳蜜露$()的炽烈与$(#D4AF37)金锭$()在$(#8B4513)永恒熔炉$()中达成$(l)三位一体$()的完美融合——这便是炼金术的$(l)登峰造极$()之作。"
+      "text": "$(#FFD700)👑 Immortal Sovereignty · Divine Body Tempering 💫$()$(br2)$(l)$(#D4AF37)「Those who drink this divine blood shall find their flesh a sacred temple, and fire transformed into cleansing dew」$()$(br)When the $(#FF8C00)Eternal Golden Apple$()’s immortality, the $(#5F9EA0)Sacred Ice Lotus$()’s crystal essence, the $(#DAA520)Sunlit Honeydew$()’s fiery brilliance, and the $(#D4AF37)Gold Ingot$() achieve $(l)Trinity Perfection$() in the $(#8B4513)Eternal Furnace$()—this stands as the $(l)apex of alchemical mastery$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:supreme_golden_tea",
-      "text": "$(#D4AF37)▌ 神圣三位一体 $()$(br2)$(l)$(#FF4500)🔥 龙息免疫$()$(br)皮肤表面形成$(#8B0000)熔岩纹$()吸收火元素$(br2)$(l)$(#FF69B4)💖 不朽者之心$()$(br)心脏跳动时迸发$(#FF1493)粉金粒子$()$(br2)$(l)$(#8B4513)🛡 奥金矩阵$()$(br)伤害触及前即被$(#D4AF37)黄金力场$()偏转"
+      "text": "$(#D4AF37)▌ Sacred Trinity $()$(br2)$(l)$(#FF4500)🔥 Dragon’s Breath Immunity$()$(br)Skin forms $(#8B0000)molten markings$(), absorbing fire elements.$(br2)$(l)$(#FF69B4)💖 Heart of the Immortal$()$(br)With every heartbeat, $(#FF1493)pink-gold particles$() pulse outward.$(br2)$(l)$(#8B4513)🛡 Orichalcum Matrix$()$(br)Damage is deflected by a $(#D4AF37)golden force field$() before contact."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#B8860B)▌ 神铸工序 $()$(br)- 用$(#D4AF37)金刀$()挖取$(#FF8C00)金苹果$()的$(#FFD700)金核种子$()$(br)- 将$(#5F9EA0)雪莲$()在$(#87CEEB)寒冷的日光$()中干燥至呈现$(#E6E6FA)冰晶脉络$()$(br)- $(#DAA520)蜂蜜$()需经$(#FF4500)七重炼火$()提纯为$(#D4AF37)液态太阳$()$(br)- 融合时以$(#32CD32)诡异螺旋$()投入$(#D4AF37)金锭$()$(br2)$(#FF0000)⚡$() 当液体升腾$(#FFD700)日轮光晕$()且浮现$(#8B4513)虎纹结晶$()即告神铸完成"
+      "text": "$(br2)$(#B8860B)▌ Divine Forging Process $()$(br)- Use a $(#D4AF37)Golden Blade$() to extract the $(#FF8C00)Gold Core Seeds$() from the $(#FFD700)Golden Apple$().$(br)- Dry the $(#5F9EA0)Ice Lotus$() under $(#87CEEB)cold sunlight$() until $(#E6E6FA)crystal veins$() appear.$(br)- $(#DAA520)Honey$() must be purified through $(#FF4500)seven layers of fire refinement$() to become $(#D4AF37)Liquid Sun$().$(br)- During fusion, add the $(#D4AF37)Gold Ingot$() in a $(#32CD32)mysterious spiral pattern$().$(br2)$(#FF0000)⚡$() The divine infusion is complete when $(#FFD700)sun halo radiance$() appears and $(#8B4513)tiger-stripe crystallization$() emerges."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)『 赫尔墨斯手稿 』$()$(br)翡翠石板第17柱铭文：$(br)'此$(#D4AF37)神饮$()融合$(#FF8C00)永生$()、$(#5F9EA0)纯净$()与$(#DAA520)炽烈$()，$(br)饮者将获得$(#FF4500)苏尔特尔的祝福$()、$(#FF69B4)伊登的青春$()——$(br)而$(#8B4513)奥丁$()的$(#D4AF37)金宫屏障$()将永远隔绝$(#000000)诸神黄昏$()的$(#FF0000)终末烈焰$()'"
+      "text": "$(br2)$(#8B4513)『 Hermes Manuscript 』$()$(br)Emerald Tablet Column 17 Inscription:$(br)'This $(#D4AF37)Divine Drink$() unites $(#FF8C00)Immortality$(), $(#5F9EA0)Purity$(), and $(#DAA520)Fervor$(),$(br)granting the drinker $(#FF4500)Surtr’s Blessing$() and $(#FF69B4)Idunn’s Youth$()—$(br)while $(#8B4513)Odin’s Golden Barrier$() shall forever shield them$(br)from the $(#000000)Ragnarök$() and its $(#FF0000)apocalyptic flames$().'"
     }
   ]
 }

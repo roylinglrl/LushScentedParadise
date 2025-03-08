@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:teapot",
+      "recipe": "lushscentedparadise:original/teapot",
       "text": "$(#8B4513)煮茶$()并非简单的“$(#00BFFF)加水煮沸$()”，而是一个$(#FFD700)讲究火候与时间$()的过程。"
     },
     {

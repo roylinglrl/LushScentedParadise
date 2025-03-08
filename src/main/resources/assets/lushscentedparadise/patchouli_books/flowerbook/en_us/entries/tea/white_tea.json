@@ -1,21 +1,21 @@
 {
-  "name": "白茶",
+  "name": "White Tea",
   "icon": "lushscentedparadise:white_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 21,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“温润柔和，岁月沉香，银毫轻展，焕发生机。”$(br2)白茶是一款清甜甘醇的茶饮，由两份干燥的白茶叶制成。茶汤清透微黄，入口柔和，饮用后可缓慢恢复旅人的生命，使旅途中更安全。"
+      "text": "“Mellow and smooth, aged with time, silver buds unfurl, bringing renewed vitality.”$(br2)White Tea is a delicately sweet and refreshing beverage made from two portions of dried white tea leaves. The tea has a clear, pale yellow hue with a mild taste. Drinking it grants slow health regeneration, making travels safer."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)白茶的制作需要$(br)两份干燥的白茶叶熬煮而成。$(br)适合在恢复状态时饮用，缓慢恢复生命值。"
+      "text": "$(br2)$(br)To prepare White Tea, $(br)boil two portions of dried white tea leaves.$(br)It is best consumed during recovery periods, allowing for gradual health restoration."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:white_tea",
-      "text": "饮用白茶后，旅人将获得生命恢复效果，使生命值缓慢回复。$(br)这是一款适用于长时间恢复的温和茶饮。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking White Tea, travelers gain a health regeneration effect, slowly restoring health over time.$(br)This is a gentle and long-lasting restorative tea, ideal for sustained recovery.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

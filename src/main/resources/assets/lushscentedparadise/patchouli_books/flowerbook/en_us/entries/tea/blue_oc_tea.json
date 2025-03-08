@@ -1,21 +1,21 @@
 {
-  "name": "兰花茶",
+  "name": "Blue Orchid Tea",
   "icon": "lushscentedparadise:blue_oc_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 3,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“兰花幽幽，暗香浮动，静谧而高贵。”$(br2)兰花茶是一种淡雅而神秘的茶饮，由干燥的兰花花瓣制成。其茶汤清澈，带有一丝淡淡的花香，饮下后能为旅人带来幸运，使探险和收获更加顺利。"
+      "text": "“A soft orchid fragrance drifts in the air, serene and noble.”$(br2)Blue Orchid Tea is a delicate and mysterious beverage made from dried orchid petals. The tea is clear with a faint floral scent. Drinking it grants travelers increased Luck, enhancing their chances of finding valuable resources and rewards during their journeys."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)兰花茶的制作十分简单，只需将$(br)干燥的兰花花瓣与糖调和，即可获得这款芳香四溢的茶饮。$(br)适合在探索未知领域前饮用，为旅程增添一丝好运。"
+      "text": "$(br2)$(br)Brewing Blue Orchid Tea is simple—$(br)blend dried orchid petals with sugar to create this aromatic drink.$(br)It is best consumed before venturing into unknown territories, bringing a touch of fortune to the traveler’s journey."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:blue_oc_tea",
-      "text": "饮用兰花茶后，旅人将获得幸运效果，使采集、战斗或探索时更有可能获得额外的奖励。$(br)这是一款神秘而优雅的茶饮，适合那些追求好运的旅人。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Blue Orchid Tea, travelers will receive a Luck effect, increasing their chances of obtaining extra rewards when gathering, fighting, or exploring.$(br)This elegant and mysterious tea is perfect for those seeking good fortune.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

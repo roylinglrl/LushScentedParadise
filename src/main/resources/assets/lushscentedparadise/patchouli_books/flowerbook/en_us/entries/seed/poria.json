@@ -1,21 +1,21 @@
 {
-  "name": "茯苓",
+  "name": "Poria",
   "icon": "lushscentedparadise:poria",
   "category": "lushscentedparadise:seed",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“隐于深林，藏于朽木，温和滋养，强健体魄。”$(br2)茯苓是一种生长于森林中的珍贵菌类，其根部富含营养，广泛用于药用与茶饮。它低调而神秘，静静地在倒木或松树根部繁殖，为旅人提供滋补之力。"
+      "text": "“Hidden in deep forests, growing within decayed wood, gentle yet nourishing, strengthening the body.”$(br2)Poria is a valuable fungus that thrives in the depths of the forest. Its root is rich in nutrients and widely used in medicine and tea brewing. Humble yet mysterious, it quietly spreads along fallen logs or pine tree roots, offering vitality to travelers."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:wild_poria",
-      "text": "野生茯苓主要生长在森林深处，通常寄生于倒下的朽木或老树根上，悄然吸收养分。$(br)茯苓不依赖种子繁殖，而是可以直接将收获的茯苓根埋入泥土，使其继续生长，适合循环种植。"
+      "text": "Wild poria primarily grows deep within forests, usually parasitizing fallen logs or ancient tree roots, silently absorbing nutrients.$(br)Unlike most plants, poria does not rely on seeds for reproduction. Instead, harvested poria roots can be directly buried in the soil to continue growing, making it ideal for cyclical cultivation."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:poria",
-      "text": "成熟的茯苓植株可收获多个茯苓根，并用于持续种植。$(br)茯苓的根部富含温补成分，适用于制作滋养茶饮，帮助旅人在旅途中恢复精力与耐力。"
+      "text": "A mature poria plant yields multiple poria roots, which can be continuously cultivated.$(br)Poria root is rich in warming and nourishing components, making it an excellent ingredient for restorative teas, helping travelers regain energy and endurance on their journeys."
     }
   ]
 }

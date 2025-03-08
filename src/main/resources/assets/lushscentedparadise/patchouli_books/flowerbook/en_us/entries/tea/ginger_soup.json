@@ -1,21 +1,21 @@
 {
-  "name": "姜汤",
+  "name": "Ginger Soup",
   "icon": "lushscentedparadise:ginger_soup",
   "category": "lushscentedparadise:tea",
   "sortnum": 25,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“辛香四溢，暖流入喉，驱散严寒，焕发生机。”$(br2)姜汤是一款温暖而富有生机的热饮，由两块干生姜与糖熬煮而成。汤色金黄透亮，口感微辛回甘，饮用后可提供较长时间的防寒效果，使旅人在冰雪环境中保持温暖。"
+      "text": "“Aromatic warmth flows through the throat, dispelling cold and revitalizing the spirit.”$(br2)Ginger Soup is a revitalizing hot drink made by boiling dried ginger pieces with sugar. The golden-hued broth has a mildly spicy yet sweet aftertaste. Drinking it grants Cold Resistance for an extended duration, helping travelers stay warm in snowy environments."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)姜汤的制作需要$(br)两块干生姜与糖熬煮而成。$(br)适合在寒冷环境或雪原探险时饮用，让旅人抵御严寒，保持活力。"
+      "text": "$(br2)$(br)To prepare Ginger Soup, $(br)boil two pieces of dried ginger with sugar.$(br)This drink is highly recommended for snowy expeditions, ensuring that travelers remain warm and active in harsh cold conditions."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:ginger_soup",
-      "text": "饮用姜汤后，旅人将获得较长时间的防寒效果，使其能够在极寒环境中保持温暖，不受寒冷影响。$(br)这是一款适合雪地探险的茶饮，让旅人在冰雪世界中从容前行。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Ginger Soup, travelers receive an extended Cold Resistance effect, allowing them to remain unaffected by freezing temperatures.$(br)This is an ideal drink for snowy adventures, ensuring comfort in the ice-covered world.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

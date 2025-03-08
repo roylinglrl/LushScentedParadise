@@ -1,25 +1,25 @@
 {
-  "name": "海洋之旅",
+  "name": "Ocean Journey",
   "icon": "lushscentedparadise:ocean_journey",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 64,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#00BFFF)🌊 潮汐契约·人鱼秘酿 🐚$()$(br2)$(l)$(#1E90FF)「饮下这杯凝固的海浪，让血脉与潮汐共鸣」$()$(br)当$(#228B22)深海昆布$()的柔韧、$(#87CEEB)永冻冰晶$()的凛冽、$(#6A5ACD)鹦鹉螺$()的螺旋智慧与$(#DAA520)琥珀蜜露$()在$(#000080)潮汐石臼$()中交融——这是能令$(l)陆地生灵暂获海洋权能$()的远古海民秘药。"
+      "text": "$(#00BFFF)🌊 Tidal Pact · Mermaid’s Secret Brew 🐚$()$(br2)$(l)$(#1E90FF)「Drink this solidified wave, and let your blood resonate with the tides」$()$(br)The flexibility of $(#228B22)Deep Sea Kelp$(), the icy sharpness of $(#87CEEB)Everfrost Crystal$(), the spiral wisdom of $(#6A5ACD)Nautilus Shell$(), and the sweetness of $(#DAA520)Amber Honeydew$() merge within the $(#000080)Tidal Stone Mortar$()—an ancient oceanic elixir capable of $(l)granting terrestrial beings temporary oceanic abilities$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:ocean_journey",
-      "text": "$(#1E90FF)▌ 海神双赐 $()$(br2)$(l)$(#00CED1)🐬 海豚祝福$()$(br)游泳时身后拖曳$(#87CEEB)泡沫轨迹$()速度提升$(br2)$(l)$(#4169E1)🧜 人鱼肺腑$()$(br)水下呼吸自动生成$(#00BFFF)氧气泡$()"
+      "text": "$(#1E90FF)▌ Twin Blessings of the Sea God $()$(br2)$(l)$(#00CED1)🐬 Dolphin’s Blessing$()$(br)Leaves behind $(#87CEEB)bubble trails$() when swimming, increasing speed.$(br2)$(l)$(#4169E1)🧜 Mermaid’s Lungs$()$(br)Automatically generates $(#00BFFF)oxygen bubbles$() underwater."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#228B22)▌ 潮间工艺 $()$(br)- 将$(#228B22)海带$()在$(#00BFFF)潮水$()中浸泡至$(#32CD32)翡翠色$()$(br)- 用$(#6A5ACD)螺壳研钵$()将$(#87CEEB)冰块$()磨成$(#B0E0E6)星沙状粉末$()$(br)- 混合时以$(#000080)逆时针漩涡$()搅拌$(#DAA520)蜂蜜$()$(br2)$(#7FFFD4)※$() 当液体形成$(#00CED1)微型漩涡$()且散发$(#E0FFFF)珍珠光晕$()即告成功"
+      "text": "$(br2)$(#228B22)▌ Intertidal Brewing Process $()$(br)- Soak $(#228B22)Seaweed$() in $(#00BFFF)tidal water$() until it turns $(#32CD32)emerald green$().$(br)- Use a $(#6A5ACD)Shell Mortar$() to grind $(#87CEEB)ice blocks$() into $(#B0E0E6)stardust-like powder$().$(br)- Stir the mixture counterclockwise while blending in $(#DAA520)honey$().$(br2)$(#7FFFD4)※$() When the liquid forms $(#00CED1)mini whirlpools$() and emits $(#E0FFFF)pearl-like glow$(), the brew is complete."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#000080)『 海民石板 』$()$(br)沉船中打捞的玄武岩板上刻着：$(br)'饮此$(#1E90FF)海神契约$()者，$(br)将获得$(#00CED1)德尔斐$()的迅捷与$(#4169E1)安菲特里忒$()的肺腑——$(br)但需谨记，当$(#DAA520)蜜光$()褪去时，$(br)必须立即返回$(#228B22)陆地$()以免化为$(#6A5ACD)珊瑚$()永驻$(#000080)深渊$()'"
+      "text": "$(br2)$(#000080)『 Oceanic Stone Tablet 』$()$(br)An inscription salvaged from a shipwreck:$(br)'Those who drink this $(#1E90FF)Sea God’s Pact$(),$(br)shall receive the $(#00CED1)swiftness of Delphinus$() and the $(#4169E1)lungs of Amphitrite$()—$(br)But remember, when the $(#DAA520)honey glow$() fades,$(br)one must immediately return to $(#228B22)land$() or risk turning into $(#6A5ACD)coral$(), forever bound to the $(#000080)abyss$().'"
     }
   ]
 }

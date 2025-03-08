@@ -1,24 +1,24 @@
 {
-  "name": "野生作物",
+  "name": "Wild Crop",
   "icon": "lushscentedparadise:wild_flax",
   "category": "lushscentedparadise:seed",
   "sortnum": -100,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“风吹遍大地，种子随流落，生命在未知的角落悄然生长。”$(br2)在广阔的世界中，除了由玩家亲手播种的作物，还有一些植物天然生长于不同的环境之中，它们适应各种极端气候，静静地等待着被发现。"
+      "text": "“The wind sweeps across the land, scattering seeds, allowing life to grow in unknown corners.”$(br2)In the vast world, apart from crops cultivated by players, some plants naturally thrive in different environments. These wild crops adapt to extreme climates, quietly awaiting discovery."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)野生作物并非人类培育，而是自然孕育的生命之果，它们可能隐藏在茂密的森林中，生长在贫瘠的沙漠里，甚至扎根于冰冷的冻土之上。$(br)旅人如果细心观察，便能在旅途中发现这些大地的馈赠，采集它们的果实或根茎，将它们引入自己的田园，甚至利用它们来调制茶饮、医药或特殊食物。"
+      "text": "$(br2)$(br)Wild crops are not cultivated by humans but are gifts of nature. They may be hidden in dense forests, growing in barren deserts, or even taking root in frozen tundras.$(br)If travelers observe carefully, they may discover these treasures of the earth, harvesting their fruits or roots to introduce them into their own farms, or even using them to craft teas, medicines, or special foods."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)不同的野生作物适应不同的环境，它们在各类生物群系中自由生长,对于具体每种作物的生长环境，请移步到$(#23a924)$(l:lushscentedparadise:flower)花卉与其他植物$()一章。"
+      "text": "$(br2)$(br)Different wild crops adapt to various environments, growing freely across different biomes. For specific information on each crop’s growth conditions, please refer to the $(#23a924)$(l:lushscentedparadise:flower)Flowers and Other Plants$() section."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)野生作物是自然的馈赠，它们不需要人为干预，便能在不同的土地上生长。只要你用心观察，便会发现世界各地隐藏着各种珍贵的植物，等待你去收获、培育，并赋予它们新的用途。$(br)愿你在旅途中，不错过每一株默默生长的奇妙作物，让大地的恩赐成为你的助力。"
+      "text": "$(br2)$(br)Wild crops are nature’s gifts, requiring no human intervention to flourish in diverse landscapes. If you observe closely, you will find rare and valuable plants hidden across the world, waiting to be harvested, cultivated, and given new purpose.$(br)May you, on your journey, never overlook even the most unassuming plant, allowing the earth’s bounty to aid you along the way."
     }
   ]
 }

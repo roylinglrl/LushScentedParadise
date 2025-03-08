@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:flower_bag",
+      "recipe": "lushscentedparadise:original/flower_bag",
       "text": "The person who invented the $(l)$(#DAA520)Flower Bag$()$() was truly a $(#FFD700)genius$()!"
     },
     {

@@ -1,21 +1,21 @@
 {
-  "name": "金盏花茶",
+  "name": "Marigold Tea",
   "icon": "lushscentedparadise:marigold_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 35,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“阳光洒落，金黄盛放，赋予轻盈跳跃的力量。”$(br2)金盏花茶是一款明亮而富有活力的茶饮，由晒干的金盏花与糖制成。茶汤澄黄透亮，饮用后可提供跳跃提升效果，使旅人的步伐更加轻盈。"
+      "text": "“Sunlight cascades, golden petals bloom, granting the power of light-footed leaps.”$(br2)Marigold Tea is a bright and energizing beverage made from dried marigold petals and sugar. The golden-colored tea has a refreshing taste. Drinking it grants a Jump Boost effect, making travelers’ steps lighter and more agile."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)金盏花茶的制作需要$(br)晒干的金盏花与糖混合熬煮。$(br)适合在崎岖地形或需要跳跃时饮用，让旅人轻松越过障碍。"
+      "text": "$(br2)$(br)To prepare Marigold Tea, $(br)boil dried marigold petals with sugar.$(br)It is best consumed when traversing rugged terrain or situations requiring extra jumping ability, allowing travelers to clear obstacles effortlessly."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:marigold_tea",
-      "text": "饮用金盏花茶后，旅人将获得跳跃提升效果，使其能够跳得更高、更远。$(br)这是一款提升机动性的茶饮，适用于复杂地形。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Marigold Tea, travelers gain a Jump Boost effect, allowing them to jump higher and farther.$(br)This tea is great for improving mobility in complex landscapes.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

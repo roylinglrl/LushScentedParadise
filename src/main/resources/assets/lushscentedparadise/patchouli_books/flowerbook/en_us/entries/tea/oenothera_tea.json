@@ -1,21 +1,21 @@
 {
-  "name": "山桃草茶",
+  "name": "Oenothera Tea",
   "icon": "lushscentedparadise:oenothera_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 36,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“坚韧不拔，迎风摇曳，沉稳之中蕴含守护之力。”$(br2)山桃草茶是一款宁静而富有守护力量的茶饮，由晒干的山桃草与糖制成。茶汤淡粉色，口感柔和，饮用后可提供抗性提升，使旅人在战斗中更加坚韧。"
+      "text": "“Resilient and unwavering, swaying with the wind, carrying a hidden power of protection.”$(br2)Oenothera Tea is a calming and protective beverage made from dried oenothera flowers and sugar. The tea is a delicate pink hue with a gentle taste. Drinking it provides a Resistance boost, making travelers more durable in combat."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)山桃草茶的制作需要$(br)晒干的山桃草与糖混合熬煮。$(br)适合在战斗或危险探险前饮用，增强防御力，减少伤害。"
+      "text": "$(br2)$(br)To prepare Oenothera Tea, $(br)boil dried oenothera flowers with sugar.$(br)It is best consumed before battles or dangerous explorations, enhancing defense and reducing damage taken."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:oenothera_tea",
-      "text": "饮用山桃草茶后，旅人将获得抗性提升，使受到的伤害减少。$(br)这是一款适用于战斗防御的茶饮，让旅人更加坚韧。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Oenothera Tea, travelers gain a Resistance boost, reducing incoming damage.$(br)This tea is ideal for combat preparation, providing enhanced durability.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

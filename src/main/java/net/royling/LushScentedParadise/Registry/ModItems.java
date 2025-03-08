@@ -12,12 +12,16 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.royling.LushScentedParadise.Item.Armor.CXKItem;
+import net.royling.LushScentedParadise.Item.Armor.ColorfulFlowerItem;
+import net.royling.LushScentedParadise.Item.Armor.ModArmorMaterials;
 import net.royling.LushScentedParadise.Item.FlowerFertilizer;
 import net.royling.LushScentedParadise.Item.FlowerSword;
 import net.royling.LushScentedParadise.Item.Flowertea.tea;
 import net.royling.LushScentedParadise.Item.MortarAndPestleItem;
 import net.royling.LushScentedParadise.Item.StorageBagItem.FlowerBagItem;
 import net.royling.LushScentedParadise.Item.StorageBagItem.SeedBagItem;
+import net.royling.LushScentedParadise.Item.colorfulflower.ColorfulFlowerSword;
 import net.royling.LushScentedParadise.LushScentedParadise;
 
 public class ModItems {
@@ -26,8 +30,15 @@ public class ModItems {
 
     public static final RegistryObject<Item> CLEAN_WATER = ITEMS.register("clean_water",
             ()->new Item(new Item.Properties().stacksTo(64)));
+    public static final FoodProperties DIRTY_WATER_P = new FoodProperties.Builder()
+            .nutrition(0).saturationMod(0f)
+            .effect(()->new MobEffectInstance(MobEffects.POISON,1200,0),1.0F)
+            .effect(()->new MobEffectInstance(MobEffects.CONFUSION,600,0),1.0F)
+            .effect(()->new MobEffectInstance(ModEffects.PARASITE_INFECTION.get(),80000,0),1F)
+            .effect(()->new MobEffectInstance(ModEffects.DYSENTERY_INFECTION.get(),80000,0),1F)
+            .alwaysEat().build();
     public static final RegistryObject<Item> DIRTY_WATER = ITEMS.register("dirty_water",
-            ()->new Item(new Item.Properties().stacksTo(64)));
+            ()->new Item(new Item.Properties().stacksTo(64).food(DIRTY_WATER_P)));
     public static final RegistryObject<BlockItem> TEAPOT = ITEMS.register("teapot",
             ()->new BlockItem(ModBlocks.TEAPOT.get(),new Item.Properties()));
     public static final RegistryObject<BlockItem> FLOWER_TABLE = ITEMS.register("flower_table",
@@ -173,17 +184,17 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIED_CACTUS = ITEMS.register("dried_cactus",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
 
     public static final RegistryObject<Item> DRIED_COCOA_BEANS = ITEMS.register("dried_cocoa_beans",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COCOA_POWDER = ITEMS.register("cocoa_powder",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DRIED_GLOW_BERRIES = ITEMS.register("dried_glow_berries",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
 
     public static final RegistryObject<Item> DRIED_SWEET_BERRIES = ITEMS.register("dried_sweet_berries",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
 
     public static final RegistryObject<Item> FLOWER_FERTILIZER = ITEMS.register("flower_fertilizer",()->new FlowerFertilizer(new Item.Properties().stacksTo(64)));
 
@@ -191,9 +202,9 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.COFFEE_TREE.get(),
                     new Item.Properties().stacksTo(64)));
     public static final RegistryObject<Item> COFFEE_BEANS = ITEMS.register("coffee_beans",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(0.3f).build())));
     public static final RegistryObject<Item> COFFEE_POWDER = ITEMS.register("coffee_powder",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(0.3f).build())));
     public static final RegistryObject<Item> DRIED_COFFEE_BEANS = ITEMS.register("dried_coffee_beans",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> VANILLA_SEEDS = ITEMS.register("vanilla_seeds",
@@ -204,15 +215,15 @@ public class ModItems {
     public static final RegistryObject<Item> DRIED_VANILLA_POD = ITEMS.register("dried_vanilla_pod",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MILK_FOAM = ITEMS.register("milk_foam",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
     public static final RegistryObject<Item> VANILLA_SYRUP = ITEMS.register("vanilla_syrup",
             () -> new tea(new Item.Properties().stacksTo(16).food(new FoodProperties.Builder().nutrition(5).saturationMod(0.3f).build()),60));
     public static final RegistryObject<Item> GINGER_POWDER = ITEMS.register("ginger_powder",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
     public static final RegistryObject<Item> CREAM = ITEMS.register("cream",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
     public static final RegistryObject<Item> GINGERBREAD_MAN = ITEMS.register("gingerbread_man",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COOKED_GINGERBREAD_MAN = ITEMS.register("cooked_gingerbread_man",
@@ -224,7 +235,92 @@ public class ModItems {
                     .effect(new MobEffectInstance(MobEffects.REGENERATION,400,0),1f)
                     .effect(new MobEffectInstance(MobEffects.LUCK,2400,0),1F).build())));
 
+    public static final RegistryObject<Item> STAR_SILVER_SEED = ITEMS.register("star_silver_seed",()-> new ItemNameBlockItem(ModBlocks.STAR_SILVER_FLOWER_CROP.get(),new Item.Properties()));
+    public static final RegistryObject<Item> STAR_SILVER_FLOWER_CROP = ITEMS.register("star_silver_flower_crop",()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_STAR_SILVER = ITEMS.register("raw_star_silver",()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STAR_SILVER_INGOT = ITEMS.register("star_silver_ingot",()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STAR_SILVER_ORE_ITEM = ITEMS.register("star_silver_ore",
+            () -> new BlockItem(ModBlocks.STAR_SILVER_ORE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> DEEPSLATE_STAR_SILVER_ORE_ITEM = ITEMS.register("deepslate_star_silver_ore",
+            () -> new BlockItem(ModBlocks.DEEPSLATE_STAR_SILVER_ORE.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> STAR_SILVER_FLOWER_ITEM = ITEMS.register("star_silver_flower",
+            () -> new BlockItem(ModBlocks.STAR_SILVER_FLOWER.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> STAR_SILVER_SWORD = ITEMS.register("star_silver_sword", ()->new SwordItem(Tiers.IRON,3,-2.0f,new Item.Properties().stacksTo(1).durability(468)));
+    public static final RegistryObject<Item> STAR_SILVER_PICKAXE = ITEMS.register("star_silver_pickaxe",
+            () -> new PickaxeItem(Tiers.IRON, 1, -2.8F, new Item.Properties().durability(468)));
+    public static final RegistryObject<Item> STAR_SILVER_AXE = ITEMS.register("star_silver_axe",
+            () -> new AxeItem(Tiers.IRON, 6.0F, -3.0F, new Item.Properties().durability(468)));
+    public static final RegistryObject<Item> STAR_SILVER_SHOVEL = ITEMS.register("star_silver_shovel",
+            () -> new ShovelItem(Tiers.IRON, 1.5F, -3.0F, new Item.Properties().durability(468)));
+    public static final RegistryObject<Item> STAR_SILVER_HOE = ITEMS.register("star_silver_hoe",
+            () -> new HoeItem(Tiers.IRON, -2, -1.0F, new Item.Properties().durability(468)));
+    public static final RegistryObject<Item> STAR_SILVER_HELMET = ITEMS.register("star_silver_helmet",
+            () -> new ArmorItem(ModArmorMaterials.STAR_SILVER, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> STAR_SILVER_CHESTPLATE = ITEMS.register("star_silver_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.STAR_SILVER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> STAR_SILVER_LEGGINGS = ITEMS.register("star_silver_leggings",
+            () -> new ArmorItem(ModArmorMaterials.STAR_SILVER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> STAR_SILVER_BOOTS = ITEMS.register("star_silver_boots",
+            () -> new ArmorItem(ModArmorMaterials.STAR_SILVER, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> ABYSS_SILENCE_MUSHROOM = ITEMS.register("abyss_silence_mushroom",
+            () -> new BlockItem(ModBlocks.ABYSS_SILENCE_MUSHROOM.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> ABYSS_SILENCE_MUSHROOM_BLOCK = ITEMS.register("abyss_silence_mushroom_block",
+            () -> new BlockItem(ModBlocks.ABYSS_SILENCE_MUSHROOM_BLOCK.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> ABYSS_SILENCE_MUSHROOM_CAP = ITEMS.register("abyss_silence_mushroom_cap",
+            () -> new BlockItem(ModBlocks.ABYSS_SILENCE_MUSHROOM_CAP.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> STAR_SILVER_SHEARS = ITEMS.register("star_silver_shears",
+            ()->new ShearsItem(new Item.Properties().stacksTo(1).durability(438)));
+    public static final RegistryObject<Item> DRIED_ABYSS_SILENCE_MUSHROOM = ITEMS.register("dried_star_silver_mushroom",
+            ()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PHANTOM_LOTUS_KOI = ITEMS.register("phantom_lotus_koi",
+            ()->new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
+    public static final RegistryObject<Item> GLOWPETAL_PIGFISH = ITEMS.register("glowpetal_pigfish",
+            ()->new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build())));
+    public static final RegistryObject<Item> STAR_SILVER_FLOWER_POWDER = ITEMS.register("star_silver_flower_powder",
+            ()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ABYSS_MUSHROOM_POWDER = ITEMS.register("abyss_mushroom_powder",
+            ()->new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STAR_SILVER_BLOCK_ITEM = ITEMS.register("star_silver_block",
+            ()->new BlockItem(ModBlocks.STAR_SILVER_BLOCK.get(),new Item.Properties()));
+    public static final RegistryObject<Item> RAW_STAR_SILVER_BLOCK_ITEM = ITEMS.register("raw_star_silver_block",
+            ()->new BlockItem(ModBlocks.RAW_STAR_SILVER_BLOCK.get(),new Item.Properties()));
+    public static final RegistryObject<Item> COLORFUL_FLOWER_BLOCK_ITEM = ITEMS.register("colorful_flower_block",
+            ()->new BlockItem(ModBlocks.COLORFUL_FLOWER_BLOCK.get(),new Item.Properties()));
+    public static final RegistryObject<Item> FLOWER_INGOT = ITEMS.register("colorful_flower_ingot",
+            ()->new Item(new Item.Properties()));
+
+    //CXK套装
+    public static final RegistryObject<Item> CXKHELMET = ITEMS.register("cxkhelmet", CXKItem.Helmet::new);
+    public static final RegistryObject<Item> CXKCHESTPLATE = ITEMS.register("cxkchestplate", CXKItem.Chestplate::new);
+    public static final RegistryObject<Item> CXKLEGGINGS = ITEMS.register("cxkleggings", CXKItem.Leggings::new);
+    public static final RegistryObject<Item> CXKBOOTS = ITEMS.register("cxkboots", CXKItem.Boots::new);
+
+    public static final RegistryObject<Item> COLORFUL_FLOWER_HELMET = ITEMS.register("colorful_flower_helmet", ColorfulFlowerItem.Helmet::new);
+    public static final RegistryObject<Item> COLORFUL_FLOWER_CHESTPLATE = ITEMS.register("colorful_flower_chestplate", ColorfulFlowerItem.Chestplate::new);
+    public static final RegistryObject<Item> COLORFUL_FLOWER_LEGGINGS = ITEMS.register("colorful_flower_leggings", ColorfulFlowerItem.Leggings::new);
+    public static final RegistryObject<Item> COLORFUL_FLOWER_BOOTS = ITEMS.register("colorful_flower_boots", ColorfulFlowerItem.Boots::new);
+
+    //繁花炫彩工具
+    public static final RegistryObject<Item> COLORFUL_FLOWER_SWORD = ITEMS.register("colorful_flower_sword",
+            ()->new ColorfulFlowerSword(Tiers.NETHERITE,4,-2.1F,new Item.Properties().durability(2048).fireResistant()));
+    public static final RegistryObject<Item> COLORFUL_FLOWER_PICKAXE = ITEMS.register("colorful_flower_pickaxe",
+            () -> new PickaxeItem(Tiers.NETHERITE, 2, -3F,
+                    new Item.Properties().durability(2048).fireResistant()));
+    public static final RegistryObject<Item> COLORFUL_FLOWER_AXE = ITEMS.register("colorful_flower_axe",
+            () -> new AxeItem(Tiers.NETHERITE, 6, -2.8F,
+                    new Item.Properties().durability(2048).fireResistant()));
+    public static final RegistryObject<Item> COLORFUL_FLOWER_SHOVEL = ITEMS.register("colorful_flower_shovel",
+            () -> new ShovelItem(Tiers.NETHERITE, 1.0F, -2.8F,
+                    new Item.Properties().durability(2048).fireResistant()));
+    public static final RegistryObject<Item> COLORFUL_FLOWER_HOE = ITEMS.register("colorful_flower_hoe",
+            () -> new HoeItem(Tiers.NETHERITE, -4, -1F,
+                    new Item.Properties().durability(2048).fireResistant()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

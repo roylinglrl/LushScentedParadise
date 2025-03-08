@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:milk",
+      "recipe": "lushscentedparadise:original/milk",
       "text": "“$(#FFFACD)乳白色的温润$()，使$(#8B0000)茶汤$()更柔和，也隐藏着$(#9370DB)意想不到的秘密$()。”$(br)$(#FFD700)中和$()$(#8B0000)茶饮$()中的$(#8B4513)苦涩$()，使其更$(#FF69B4)顺滑$()，并能$(#32CD32)消除某些负面效果$()。"
     },
     {

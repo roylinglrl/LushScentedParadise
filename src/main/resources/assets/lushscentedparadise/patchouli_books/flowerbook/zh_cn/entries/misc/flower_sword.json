@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:flower_sword",
+      "recipe": "lushscentedparadise:original/flower_sword",
       "text": "$(#FF69B4)花之剑$()是$(#DAA520)原初花之剑$()进化后的形态，能够根据$(#FF69B4)副手持有的花朵$()产生独特的战斗效果。"
     },
     {

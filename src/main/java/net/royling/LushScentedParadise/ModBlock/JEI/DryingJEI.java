@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Objects;
 
 
-
+@SuppressWarnings("removal")
 @JeiPlugin
 public class DryingJEI implements IModPlugin {
     @Override

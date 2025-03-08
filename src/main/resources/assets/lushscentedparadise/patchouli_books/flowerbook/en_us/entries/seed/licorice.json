@@ -1,21 +1,21 @@
 {
-  "name": "甘草",
+  "name": "Licorice",
   "icon": "lushscentedparadise:licorice_seeds",
   "category": "lushscentedparadise:seed",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“根深味甘，润泽喉咙，治百草之毒，解四时之寒。”$(br2)甘草是一种耐旱的草本植物，以其甘甜的根部和强大的药用价值而闻名。无论是作为茶饮调配，还是用于解除不适，甘草都被广泛应用于医药与食疗之中。"
+      "text": "“Deep roots, sweet taste, soothing the throat, neutralizing toxins, and dispelling seasonal chills.”$(br2)Licorice is a drought-resistant herbaceous plant, renowned for its sweet roots and powerful medicinal properties. Whether blended into tea or used as a remedy, licorice has long been a staple in both traditional medicine and therapeutic cuisine."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:licorice_seeds",
-      "text": "野生甘草常见于干燥的环境，主要生长在沙漠与萨瓦纳草原等热带地区。旅人可在这些生物群系中找到野生甘草，并采集其种子，以便人工栽培，获取稳定的甘草资源。"
+      "text": "Wild licorice is commonly found in arid environments, primarily thriving in deserts and savanna regions. Travelers can locate wild licorice in these biomes and collect its seeds for artificial cultivation, ensuring a steady supply of this valuable herb."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:licorice_root",
-      "text": "甘草植株在成熟后，可收获甘草根与额外的甘草种子，以供再次种植。$(br)甘草的根部富含药用价值，是制作各类茶饮、药剂的重要原料。其耐旱特性，使其成为旅途中理想的备用作物。"
+      "text": "Once mature, licorice plants yield both licorice roots and additional seeds for further cultivation.$(br)The roots are rich in medicinal compounds, making them an essential ingredient in various teas and herbal preparations. Due to its drought resistance, licorice serves as an excellent emergency crop for travelers on long journeys."
     }
   ]
 }

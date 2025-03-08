@@ -9,7 +9,7 @@ import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.royling.LushScentedParadise.Item.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.ModBlock.newFlower.ModFlowers;
 import net.royling.LushScentedParadise.LushScentedParadise;
 import net.royling.LushScentedParadise.Registry.ModBlocks;
 import net.royling.LushScentedParadise.Registry.ModItems;

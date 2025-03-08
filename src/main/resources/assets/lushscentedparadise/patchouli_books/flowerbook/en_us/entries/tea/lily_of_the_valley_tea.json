@@ -1,21 +1,21 @@
 {
-  "name": "铃兰茶",
+  "name": "Lily of the Valley Tea",
   "icon": "lushscentedparadise:lily_of_the_valley_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 7,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“纯白色如同铃铛的花，暗藏剧毒，甘甜之下，是未知的命运。”$(br2)铃兰茶是一种神秘且危险的茶饮，由干燥的铃兰花瓣制成。其茶汤呈现罕见的紫色，入口甘甜，饮下后能提供急迫效果，但也有一定概率使旅人中毒。"
+      "text": "“Pure white bell-shaped flowers conceal potent toxins—beneath the sweetness lies an uncertain fate.”$(br2)Lily of the Valley Tea is a mysterious and dangerous drink made from dried lily of the valley petals. The tea has a rare purple hue and a deceptively sweet taste. Drinking it grants a temporary Haste effect but also carries a chance of poisoning the traveler."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)铃兰茶的制作方式十分简单，只需将$(br)干燥的铃兰花瓣与糖调和，即可获得这款充满风险与力量的茶饮。$(br)适合在战斗前使用，带来短暂的高效加成，但请谨慎对待它的副作用。"
+      "text": "$(br2)$(br)Lily of the Valley Tea is simple to prepare—$(br)just blend dried lily of the valley petals with sugar to create this risky yet powerful beverage.$(br)It is best used before battle, offering a brief but strong advantage, though caution is advised regarding its side effects."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:lily_of_the_valley_tea",
-      "text": "饮用铃兰茶后，旅人将获得急迫效果，使攻击与挖掘速度短暂提升，但也有一定概率受到中毒影响。$(br)这是一款充满风险的茶饮，适合勇敢的探险者。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Lily of the Valley Tea, travelers gain a Haste effect, temporarily increasing attack and mining speed, but there is also a chance of being poisoned.$(br)This high-risk tea is best suited for bold adventurers.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

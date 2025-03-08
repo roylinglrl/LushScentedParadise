@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:teapot",
+      "recipe": "lushscentedparadise:original/teapot",
       "text": "$(#8B4513)Brewing tea$() is not merely “$(#00BFFF)boiling water$()”; it is a $(#FFD700)delicate balance of heat and time$()."
     },
     {

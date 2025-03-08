@@ -1,25 +1,25 @@
 {
-  "name": "西瓜薄荷特饮",
+  "name": "Watermelon Mint Special Drink",
   "icon": "lushscentedparadise:watermelon_mint_special_drink",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 55,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#FF4444)🍉 赤玉冰魄·疾风协奏 🌿$()$(br2)$(l)$(#98FB98)「让盛夏在血管里奔流，将重力化作玩笑」$()$(br)当$(#FF4444)绯红瓜瓤$()的甘甜遇上$(#3CB371)霜薄荷$()的凛冽，$(#87CEEB)永冻冰晶$()与$(#FFD700)日光糖粒$()在$(#FFB6C1)珊瑚盏$()中碰撞——这是能令$(l)血肉暂获反重力特权$()的季节限定奇迹。"
+      "text": "$(#FF4444)🍉 Crimson Ice Core · Gale Concerto 🌿$()$(br2)$(l)$(#98FB98)「Let midsummer rush through your veins, turning gravity into a mere joke」$()$(br)When the sweetness of $(#FF4444)Scarlet Melon Flesh$() meets the icy sting of $(#3CB371)Frost Mint$(), and $(#87CEEB)Permafrost Crystals$() collide with $(#FFD700)Sunlight Sugar Grains$() within the $(#FFB6C1)Coral Chalice$()—a seasonal miracle is born, capable of granting $(l)temporary anti-gravity privileges$() to mortal flesh."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:watermelon_mint_special_drink",
-      "text": "$(#FF4444)▌ 双阶狂欢 $()$(br2)$(l)$(#98FB98)🦘 袋鼠时刻$()$(br)足尖轻点即可$(#3CB371)腾空三跃$()$(br2)$(l)$(#00BFFF)🌪长风相随$()$(br)奔跑时身后拖曳$(#87CEEB)冰雾轨迹$()"
+      "text": "$(#FF4444)▌ Dual-Stage Euphoria $()$(br2)$(l)$(#98FB98)🦘 Kangaroo Moment$()$(br)A light tap of the foot allows $(#3CB371)triple leaps$().$(br2)$(l)$(#00BFFF)🌪 Wind at Your Back$()$(br)While running, trails of $(#87CEEB)frosty mist$() follow behind."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#3CB371)▌ 冰镇工艺 $()$(br)- 将$(#FF4444)瓜肉$()榨汁后与$(#87CEEB)冰楔$()进行$(#00BFFF)低温熟成$()$(br)- $(#3CB371)薄荷叶$()需在$(#FFD700)糖霜$()中腌制至$(#7FFF00)翡翠通透$()$(br)- 混合时用$(#FFB6C1)轻轻地力量$()以$(#9370DB)每秒一圈$()速率搅拌$(br2)$(#FF69B4)※$() 完美成品会浮现$(#FF4500)彩虹色漩涡$()"
+      "text": "$(br2)$(#3CB371)▌ Ice-Chilling Craft $()$(br)- Extract juice from $(#FF4444)Watermelon Flesh$() and combine it with $(#87CEEB)Ice Wedges$() for $(#00BFFF)low-temperature aging$().$(br)- $(#3CB371)Mint Leaves$() must be soaked in $(#FFD700)Sugar Frost$() until they become $(#7FFF00)emerald translucent$().$(br)- While mixing, stir using $(#FFB6C1)gentle force$() at a speed of $(#9370DB)one rotation per second$().$(br2)$(#FF69B4)※$() A perfect brew will reveal $(#FF4500)rainbow-colored vortices$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#006400)『 沙漠旅人日记 』$()$(br)绿洲商队的石板刻录：$(br)'啜饮这杯$(#FF4444)凝固的盛夏$()后，$(br)我竟能连续跳过$(#3CB371)三头骆驼$()的脊背——$(br)而$(#00BFFF)疾驰$()时掀起的$(#87CEEB)冰晶风暴$()，$(br)让$(#8B0000)烈日$()都为之$(#FFD700)退避三舍$()'"
+      "text": "$(br2)$(#006400)『 Desert Traveler’s Journal 』$()$(br)A record from an oasis caravan stone tablet:$(br)'After sipping this $(#FF4444)solidified midsummer$(),$(br)I found myself leaping over $(#3CB371)three camels' backs$() in succession—$(br)while my $(#00BFFF)sprint$() stirred up a $(#87CEEB)blizzard of frost$(),$(br)even the $(#8B0000)blazing sun$() had to $(#FFD700)retreat in awe$().'"
     }
   ]
 }

@@ -1,25 +1,25 @@
 {
-  "name": "下界风味特饮",
+  "name": "Nether Flavor Drink",
   "icon": "lushscentedparadise:nether_flavor",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 50,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B0000)🔥 炼狱熔铸·恶魔佳酿 🔱$()$(br2)$(l)$(#8B0000)「啜饮熔岩之血，肉身即是堡垒」$()$(br)当$(#800000)地狱疣$()的剧毒被$(#DAA520)金粒$()中和，$(#4B0082)诡异菌$()与$(#8B0000)绯红菌$()在$(#CD5C5C)岩浆气泡$()中达成平衡——这杯能让$(l)血肉抵御炼狱之火$()的神秘饮品便宣告完成。"
+      "text": "$(#8B0000)🔥 Infernal Forging · Demonic Brew 🔱$()$(br2)$(l)$(#8B0000)「Drink the blood of magma, let flesh become the fortress」$()$(br)When the toxicity of $(#800000)Nether Wart$() is neutralized by $(#DAA520)Gold Dust$(), and $(#4B0082)Warped Fungus$() and $(#8B0000)Crimson Fungus$() reach equilibrium in $(#CD5C5C)Lava Bubbles$()—a mystical concoction capable of $(l)granting resistance to infernal flames$() is complete."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:nether_flavor",
-      "text": "$(#800000)▌ 地狱双冕 $()$(br2)$(l)$(#CD5C5C)🛡 炎魔契约$()$(br)连$(#FF4500)岩浆海$()都承认你的通行权$(br2)$(l)$(#8B0000)💀 骸骨重铸$()$(br)骨骼强度堪比$(#696969)黑曜石$()"
+      "text": "$(#800000)▌ Twin Crowns of the Nether $()$(br2)$(l)$(#CD5C5C)🛡 Infernal Pact$()$(br)Even $(#FF4500)Lava Seas$() acknowledge your passage rights.$(br2)$(l)$(#8B0000)💀 Bone Reforging$()$(br)Bones harden to $(#696969)Obsidian-like density$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#4B0082)▌ 深渊工艺 $()$(br)- 在$(#8B0000)炼狱熔炉$()中烘烤$(#800000)地狱疣$()至表面龟裂$(br)- 用$(#DAA520)金槌$()将$(#4B0082)菌丝$()捣出如同$(#483D8B)午夜般的蓝雾$()$(br)- 注入$(#8B0000)绯红汁液$()时需念诵$(#CD5C5C)恶魔低语$()防止出现小恶魔$(br2)$(#FF0000)⚠$() 若液体变成$(#7CFC00)荧光绿$()请立即丢弃"
+      "text": "$(br2)$(#4B0082)▌ Abyssal Crafting $()$(br)- Roast $(#800000)Nether Wart$() in a $(#8B0000)Infernal Furnace$() until the surface cracks.$(br)- Crush $(#4B0082)Fungal Threads$() with a $(#DAA520)Golden Hammer$() until they release a $(#483D8B)midnight-hued mist$().$(br)- When adding $(#8B0000)Crimson Extract$(), chant the $(#CD5C5C)Demonic Whisper$() to prevent the summoning of small demons.$(br2)$(#FF0000)⚠$() If the liquid turns $(#7CFC00)fluorescent green$(), discard immediately."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#800000)『 下界碑文 』$()$(br)刻在$(#696969)黑石$()上的古老警告：$(br)'饮此$(#CD5C5C)熔岩精华$()者，$(br)将获得$(#8B0000)炎魔$()的庇佑与$(#4B0082)猪灵$()的蛮力——$(br)但$(#DAA520)黄金$()的辉光会随时间$(#696969)黯淡$()，$(br)当$(#483D8B)第三次日蚀$()来临，$(br)过度依赖的凡人终需归还$(#FF4500)地狱$()的馈赠'"
+      "text": "$(br2)$(#800000)『 Nether Inscription 』$()$(br)An ancient warning carved into $(#696969)Blackstone$():$(br)'Those who consume this $(#CD5C5C)Lava Essence$(),$(br)shall receive the $(#8B0000)blessing of the Inferno$() and the $(#4B0082)strength of the Piglins$()—$(br)but the $(#DAA520)golden glow$() will $(#696969)fade over time$(),$(br)and when the $(#483D8B)third eclipse$() arrives, $(br)those who over-rely on its power must return their gift to $(#FF4500)the Nether$().'"
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
-  "name": "发光浆果茶",
+  "name": "Glow Berries Tea",
   "icon": "lushscentedparadise:glow_berries_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 12,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“黑暗中的微光，指引前行的道路。”$(br2)发光浆果茶是一种温和而奇特的茶饮，由干燥的发光浆果制成，并以牛奶调和，使其口感顺滑。饮用后可赋予旅人夜视效果，让黑暗的旅途变得更加清晰可见。"
+      "text": "“A faint glow in the darkness, guiding the way forward.”$(br2)Glow Berries Tea is a mild yet mystical beverage made from dried glow berries, blended with milk for a smooth taste. Drinking it grants travelers Night Vision, making dark journeys clearer and more visible."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)发光浆果茶的制作需要$(br)两份干燥的发光浆果和牛奶混合而成。$(br)适合在夜间探索或深入黑暗洞穴时饮用，让旅人能够无惧黑暗，畅行无阻。"
+      "text": "$(br2)$(br)To prepare Glow Berries Tea, $(br)mix two portions of dried glow berries with milk.$(br)It is ideal for nighttime exploration or deep cave adventures, allowing travelers to move without fear of darkness."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:glow_berries_tea",
-      "text": "饮用发光浆果茶后，旅人将获得夜视效果，使黑暗环境变得清晰可见。$(br)这是一款适用于夜间探险的茶饮，让旅人在黑暗之中也能看清方向。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Glow Berries Tea, travelers gain Night Vision, making dark environments appear clear and visible.$(br)This tea is perfect for night adventures, ensuring clear visibility in the shadows.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

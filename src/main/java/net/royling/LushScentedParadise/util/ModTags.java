@@ -24,6 +24,7 @@ public class ModTags {
         public static final TagKey<Item> SEEDS = tag("seeds");
         public static final TagKey<Item> TEA_LEAVES = tag("tea_leaves");
         public static final TagKey<Item> HONEY = tag("honey");
+        public static final TagKey<Item> DRIED_MYSTERIOUS_PETALS = tag("dried_mysterious_petals");
 
         private static TagKey<Item> tag(String name){
             return ItemTags.create(new ResourceLocation(LushScentedParadise.MODID,name));

@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:flower_bag",
+      "recipe": "lushscentedparadise:original/flower_bag",
       "text": "第一个发明$(l)$(#DAA520)采花袋$()$()的人绝对是一个$(#FFD700)天才$()！"
     },
     {

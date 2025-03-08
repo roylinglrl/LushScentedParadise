@@ -1,2 +1,8 @@
-// 1.20.1	2025-02-24T23:57:19.07124	Tags for minecraft:block mod id lushscentedparadise
-3c4c475c4640092a6f7f601f76e6067e1cc4dcab data/minecraft/tags/blocks/mineable/pickaxe.json
+// 1.20.1	2025-03-13T16:41:32.8460621	Tags for minecraft:block mod id lushscentedparadise
+56ed7367ad5b2b377e59702e0261b2f255404c89 data/forge/tags/blocks/ores.json
+56ed7367ad5b2b377e59702e0261b2f255404c89 data/forge/tags/blocks/ores/star_silver.json
+fdd60aced1937c969f75e223563d42ae0e38d938 data/forge/tags/blocks/storage_blocks.json
+2a67b7d16a3e04ec353e904f69f82037c39a4aa9 data/minecraft/tags/blocks/beacon_base_blocks.json
+612f2aae22d161939592bad0e5bb312adeb70d6d data/minecraft/tags/blocks/mineable/axe.json
+ecc11c672e8426a1835e223035a1d96f043e2fd7 data/minecraft/tags/blocks/mineable/pickaxe.json
+8a5b5b4063b58500ff3564d324fbfa9bacff0549 data/minecraft/tags/blocks/needs_iron_tool.json

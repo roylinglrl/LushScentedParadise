@@ -1,25 +1,25 @@
 {
-  "name": "尸山血海特饮",
+  "name": "Horror Soup",
   "icon": "lushscentedparadise:horror_soup",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 52,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B0000)☠ 亡者盛宴·禁忌圣餐 💀$()$(br2)$(l)$(#4B0082)「以血肉为祭品，向深渊索取力量」$()$(br)当$(#8B0000)凋零玫瑰$()的剧毒浸润$(#696969)白骨$()，$(#800000)腐肉$()与$(#006400)蜘蛛复眼$()在$(#483D8B)诅咒坩埚$()中沸腾——这杯能让$(l)凡人获得恶魔之力$()的禁忌之饮便完成了最终调和。"
+      "text": "$(#8B0000)☠ Feast of the Damned · Forbidden Sacrament 💀$()$(br2)$(l)$(#4B0082)「Offer flesh and blood, and demand power from the abyss」$()$(br)When the venom of $(#8B0000)Wither Rose$() seeps into $(#696969)Bone Remnants$(), and $(#800000)Rotten Flesh$() and $(#006400)Spider Eye$() boil within the $(#483D8B)Cursed Cauldron$()—the ultimate infernal concoction, capable of $(l)granting mortals the power of demons$(), reaches its final form."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:horror_soup",
-      "text": "$(#8B0000)▌ 深渊交易 $()$(br2)$(l)$(#FF0000)💢 狂战士之血$()$(br)肌肉纤维迸发出$(#8B0000)非人力量$()$(br2)$(l)$(#DAA520)🛡 骸骨装甲$()$(br)皮肤表面凝结$(#808080)钢铁化角质$()$(br2)$(l)$(#00FF00)👣 幽影疾行$()$(br2)$(#4B0082)☠ 代价烙印 $()$(br)$(l)$(#556B2F)🍂 血肉凋零$()$(br)生命力如$(#8B0000)沙漏$()般流逝$(br2)$(l)$(#8B4513)🍖 噬身之饥$()$(br)胃袋化作永不满足的$(#000000)黑洞$()"
+      "text": "$(#8B0000)▌ Abyssal Pact $()$(br2)$(l)$(#FF0000)💢 Berserker’s Blood$()$(br)Muscle fibers rupture, unleashing $(#8B0000)inhuman strength$().$(br2)$(l)$(#DAA520)🛡 Bone Armor$()$(br)Skin hardens into $(#808080)steel-like keratin$().$(br2)$(l)$(#00FF00)👣 Shadow Stride$()$(br2)$(#4B0082)☠ Mark of the Price $()$(br)$(l)$(#556B2F)🍂 Flesh Decay$()$(br)Life force drains away like an $(#8B0000)hourglass$().$(br2)$(l)$(#8B4513)🍖 Endless Hunger$()$(br)The stomach becomes a $(#000000)bottomless void$() that can never be filled."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#696969)▌ 炼狱工序 $()$(br)- 将$(#8B0000)凋零茶汤$()加热至$(#FF0000)沸腾血泡$()状态$(br)- 按$(#696969)？：？$()比例投入$(#800000)腐肉块$()与$(#006400)蜘蛛眼$()$(br)- 最后撒入$(#FFFFFF)骨头$()时必须闭气$(br2)$(#FF4500)⚡$() 若液体浮现$(#7CFC00)翡翠色泡沫$()，立即$(#696969)跑！$()不要回头！"
+      "text": "$(br2)$(#696969)▌ Infernal Crafting Process $()$(br)- Heat $(#8B0000)Wither Tea Extract$() until it boils into a $(#FF0000)frothing blood-red liquid$().$(br)- Add $(#696969)？:？$() proportions of $(#800000)Rotten Flesh Chunks$() and $(#006400)Spider Eyes$().$(br)- When adding $(#FFFFFF)Bone Powder$(), hold your breath.$(br2)$(#FF4500)⚡$() If $(#7CFC00)emerald green foam$() appears, run! $(#696969)Do not look back!$()"
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#800000)『 黑炼金手札 』$()$(br)被焚毁的禁忌典籍残页记载：$(br)'饮下这杯$(#8B0000)恶魔涎液$()者，$(br)将获得$(#FF0000)撕碎末影龙$()的力量与$(#DAA520)抵挡凋零炮火$()的躯壳——$(br)但$(#4B0082)每滴力量$()都需用$(#556B2F)自身血肉$()支付，$(br)直到$(#696969)白骨$()成为$(#000000)深渊$()最好的$(#8B4513)祭品$()'"
+      "text": "$(br2)$(#800000)『 Black Alchemist’s Notes 』$()$(br)A scorched fragment of a forbidden text reads:$(br)'Those who consume this $(#8B0000)Demon’s Ichor$(),$(br)shall gain the power to $(#FF0000)tear through the Ender Dragon$(),$(br)and the resilience to $(#DAA520)withstand the Wither’s barrage$()—$(br)but $(#4B0082)every drop of strength$() must be paid for with $(#556B2F)their own flesh$(),$(br)until $(#696969)only bones remain$(), a $(#000000)perfect offering$() to the abyss.'"
     }
   ]
 }

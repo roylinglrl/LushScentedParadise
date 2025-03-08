@@ -1,4 +1,4 @@
-package net.royling.LushScentedParadise.Item.newFlower;
+package net.royling.LushScentedParadise.ModBlock.newFlower;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.Item;

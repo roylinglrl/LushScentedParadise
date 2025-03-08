@@ -1,21 +1,21 @@
 {
-  "name": "凋零玫瑰茶",
+  "name": "Wither Rose Tea",
   "icon": "lushscentedparadise:wither_rose_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 11,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“美丽的花朵，孕育的不一定是芬芳，可能是毁灭。”$(br2)凋零玫瑰茶是一种充满危险的茶饮，由干燥的凋零玫瑰制成，并以蜂蜜调和其独特的气息。饮用后可获得高强度的力量加成，但也有可能使旅人陷入凋零状态。"
+      "text": "“A beautiful flower does not always bring fragrance—it may bring destruction.”$(br2)Wither Rose Tea is a dangerous yet potent beverage made from dried wither roses, blended with honey to balance its unique essence. Drinking it grants a powerful Strength boost, but there is also a chance that the traveler will be afflicted with the Wither effect."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)凋零玫瑰茶的制作方式需谨慎，只需将$(br)干燥的凋零玫瑰与蜂蜜混合，即可获得这款充满力量却带有风险的茶饮。$(br)适合在战斗前使用，但请确保自己能承受其带来的副作用。"
+      "text": "$(br2)$(br)Wither Rose Tea must be prepared with caution—$(br)simply blend dried wither roses with honey to create this risky yet powerful tea.$(br)It is best consumed before battle, but be sure you can handle the potential side effects."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:wither_rose_tea",
-      "text": "饮用凋零玫瑰茶后，旅人将获得高强度的力量加成，使攻击力大幅提升，但也有概率触发凋零效果，对自身造成持续伤害。$(br)这是一款极端的茶饮，适合那些愿意以风险换取强大力量的冒险者。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Wither Rose Tea, travelers gain a powerful Strength boost, significantly increasing attack power. However, there is also a chance of triggering the Wither effect, causing continuous damage.$(br)This is an extreme tea, suited for adventurers willing to take risks in exchange for great strength.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

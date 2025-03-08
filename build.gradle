@@ -93,8 +93,8 @@ dependencies {
     compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84.1-FORGE:api")
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-84.1-FORGE")
 
-    compileOnly fg.deobf("vazkii.botania:Botania:1.20.1-447-FORGE:api")
-    runtimeOnly fg.deobf("vazkii.botania:Botania:1.20.1-447-FORGE")
+    compileOnly fg.deobf("vazkii.botania:Botania:1.20.1-444-FORGE:api")
+    runtimeOnly fg.deobf("vazkii.botania:Botania:1.20.1-444-FORGE")
 }
 
 

@@ -8,7 +8,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.royling.LushScentedParadise.util.ModTags;
-import net.royling.LushScentedParadise.Item.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.ModBlock.newFlower.ModFlowers;
 
 import java.util.Random;
 

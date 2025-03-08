@@ -1,21 +1,21 @@
 {
-  "name": "孢子花茶",
+  "name": "Spore Blossom Tea",
   "icon": "lushscentedparadise:spore_blossom_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 16,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“孢子弥漫，气息轻盈，微风拂面，或许也能带起旅人的脚步。”$(br2)孢子花茶是一款富有奇妙效果的茶饮，由干燥的孢子花与糖制成。它的茶汤散发着淡淡的森林气息，饮用后可能让旅人短暂地感受到漂浮的奇妙体验。"
+      "text": "“Spores drift in the air, light and weightless—a gentle breeze might just lift the traveler’s steps.”$(br2)Spore Blossom Tea is a mystical beverage made from dried spore blossoms and sugar. The tea carries a faint forest aroma. Drinking it may grant travelers a brief sensation of floating, offering a unique experience."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)孢子花茶的制作需要$(br)干燥的孢子花与糖混合调制。$(br)适合在旅途中尝试，但请注意，它可能会让你暂时漂浮起来，带来意想不到的变化。"
+      "text": "$(br2)$(br)To prepare Spore Blossom Tea, $(br)blend dried spore blossoms with sugar.$(br)It is an intriguing drink to try during travels, but be aware—it may cause temporary levitation, leading to unexpected outcomes."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:spore_blossom_tea",
-      "text": "饮用孢子花茶后，旅人将体验到奇妙的效果，有小概率获得短暂的漂浮状态。$(br)这是一款充满未知可能的茶饮，适合那些渴望新奇体验的冒险者。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Spore Blossom Tea, travelers may experience a mysterious effect, with a small chance of gaining a temporary Levitation state.$(br)This tea is full of surprises, perfect for adventurers seeking new and unexpected experiences.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

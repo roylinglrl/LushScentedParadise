@@ -1,25 +1,26 @@
 {
-  "name": "猩红玛格丽特",
+  "name": "Scarlet Margarita",
   "icon": "lushscentedparadise:scarlet_margarita",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 68,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B0000)🔥 赤能过载·矛盾协奏 💫$()$(br2)$(l)$(#FF4500)「以速度为代价，换取撕裂黑暗的赤瞳与粉碎顽岩的怪力」$()$(br)当$(#8B0000)红石$()的能量脉冲、$(#00BFFF)萤石$()的冷光、$(#FF4500)烈焰粉$()的躁动被$(#9370DB)薰衣草$()强行糅合——这是能令$(l)血肉承受能量过载$()的危险炼金杰作。"
+      "text": "$(#8B0000)🔥 Crimson Overload · Paradoxical Symphony 💫$()$(br2)$(l)$(#FF4500)「Sacrificing speed in exchange for eyes that pierce darkness and fists that shatter stone」$()$(br)The $(#8B0000)energy pulses of Redstone$(), the $(#00BFFF)cold glow of Glowstone$(), and the $(#FF4500)volatile blaze of Blaze Powder$() are forcibly fused with $(#9370DB)Lavender$()—a dangerous alchemical masterpiece capable of $(l)forcing mortal flesh to endure energy overload$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:scarlet_margarita",
-      "text": "$(#8B0000)▌ 能量悖论 $()$(br2)$(l)$(#FF0000)⚡ 赤能过载$()$(br)攻击时拳峰迸发$(#FF4500)熔岩裂纹$()特效$(br2)$(l)$(#4169E1)🦉 夜枭赤瞳$()$(br)视野染上$(#8B0000)血月滤镜$()穿透黑暗$(br2)$(#808080)⚠ 能量反噬 $()$(br)$(l)$(#696969)⛓ 红石锁链$()$(br)移动时足部缠绕$(#8B0000)能量流苏$()减速"
+      "text": "$(#8B0000)▌ Energy Paradox $()$(br2)$(l)$(#FF0000)⚡ Crimson Overload$()$(br)Fists erupt with $(#FF4500)molten lava crack$() effects when striking.$(br2)$(l)$(#4169E1)🦉 Night Owl’s Crimson Vision$()$(br)A $(#8B0000)blood moon filter$() covers the view, piercing through darkness.$(br2)$(l)$(#808080)⚠ Energy Backlash $()$(br)$(l)$(#696969)⛓ Redstone Shackles$()$(br)Feet become entangled with $(#8B0000)energy tassels$(), reducing movement speed."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#9370DB)▌ 危险炼成 $()$(br)- 将$(#8B0000)红石粉$()与$(#FF4500)烈焰粉$()混合$(#00BFFF)萤石$()研磨至$(#FF0000)发光状态$()$(br)- 加入$(#9370DB)薰衣草$()时必须念诵$(#8B0000)三遍中和咒文$()$(br)- 混合时保持$(#4169E1)逆时针单方向$()搅拌$(br2)$(#FFD700)※$() 当液体呈现$(#FF4500)熔岩脉动$()与$(#9370DB)紫雾升腾$()时立即停火"
+      "text": "$(br2)$(#9370DB)▌ Dangerous Brewing $()$(br)- Grind $(#8B0000)Redstone Dust$() and $(#FF4500)Blaze Powder$() with $(#00BFFF)Glowstone$() until it reaches $(#FF0000)luminescent form$().$(br)- When adding $(#9370DB)Lavender$(), one must chant the $(#8B0000)Neutralization Spell three times$().$(br)- Stir $(#4169E1)counterclockwise in a single direction$() throughout the process.$(br2)$(#FFD700)※$() Stop heating immediately when the liquid exhibits $(#FF4500)lava pulsations$() and $(#9370DB)purple mist$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B0000)『 禁忌炼金笔记 』$()$(br)被烧焦的羊皮纸残页：$(br)'此饮同时包含$(#8B0000)毁灭$()与$(#9370DB)秩序$()，$(br)在获得$(#FF4500)挖掘怪力$()与$(#4169E1)夜视赤瞳$()的同时，$(br)你的$(#696969)双腿$()会像陷入$(#8B0000)能量沼泽$()般沉重——$(br)这是$(#FF0000)能量守恒$()对$(#00BFFF)贪婪者$()的$(#9370DB)温柔警告$()'"
+      "text": "$(br2)$(#8B0000)『 Forbidden Alchemy Notes 』$()$(br)A scorched parchment fragment:$(br)'This drink contains both $(#8B0000)destruction$() and $(#9370DB)order$(),$(br)granting $(#FF4500)tremendous excavation strength$() and $(#4169E1)night-piercing crimson vision$(),$(br)yet your $(#696969)legs$() will feel as if trapped in $(#8B0000)an energy swamp$()—$(br)a $(#FF0000)law of energy conservation$(), a $(#00BFFF)gentle warning$() for the $(#9370DB)greedy$().'"
     }
   ]
 }
+

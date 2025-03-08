@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:flower_table",
+      "recipe": "lushscentedparadise:original/flower_table",
       "text": "要让一名$(#A9A9A9)普通村民$()转职为$(#FF69B4)花匠$()，你需要为TA们提供一张$(#8B4513)采花工作台$()作为$(#A9A9A9)工作方块$()。"
     },
     {

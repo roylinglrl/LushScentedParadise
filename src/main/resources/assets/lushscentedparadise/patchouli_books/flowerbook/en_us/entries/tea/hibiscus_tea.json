@@ -1,21 +1,21 @@
 {
-  "name": "木槿茶",
+  "name": "Hibiscus Tea",
   "icon": "lushscentedparadise:hibiscus_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 28,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“绽放的木槿，带来瞬间的甘甜与治愈。”$(br2)木槿茶是一款色泽鲜艳、口感微酸的茶饮，由晒干的木槿花与糖调和而成。饮用后可提供瞬间治疗效果，使旅人快速恢复生命值。"
+      "text": "“Blooming hibiscus brings a fleeting moment of sweetness and healing.”$(br2)Hibiscus Tea is a vibrant and slightly sour drink made from dried hibiscus petals and sugar. Drinking it grants an Instant Health effect, allowing travelers to quickly recover lost health."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)木槿茶的制作需要$(br)晒干的木槿花与糖混合熬煮。$(br)适合在紧急情况下饮用，迅速恢复生命值，让旅人继续前行。"
+      "text": "$(br2)$(br)To prepare Hibiscus Tea, $(br)boil dried hibiscus petals with sugar.$(br)It is perfect for emergency situations, rapidly restoring health and helping travelers continue their journey."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:hibiscus_tea",
-      "text": "饮用木槿茶后，旅人将获得瞬间治疗效果，使生命值立即恢复。$(br)这是一款适用于紧急救助的茶饮。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Hibiscus Tea, travelers gain an Instant Health effect, immediately restoring health.$(br)This tea is ideal for emergency recovery.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

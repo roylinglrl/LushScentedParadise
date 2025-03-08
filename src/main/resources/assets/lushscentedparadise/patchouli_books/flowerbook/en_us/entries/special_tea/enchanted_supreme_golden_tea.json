@@ -1,25 +1,25 @@
 {
-  "name": "附魔的至尊黄金茶",
+  "name": "Enchanted Supreme Golden Tea",
   "icon": "lushscentedparadise:enchanted_supreme_golden_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 63,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#FFD700)🌟 圣域铸就·君临天下 🏰$()$(br2)$(l)$(#D4AF37)「这是诸神宴席上的禁忌饮品，凡人啜饮即触神威」$()$(br)当$(#FF8C00)附魔金苹果$()的永生符文、$(#D4AF37)圣殿金砖$()的神性、$(#5F9EA0)千年雪莲$()的纯净与$(#DAA520)纯真原蜜$()的炽烈在$(#483D8B)圣光茶壶$()中交融——此乃$(l)物质界防御魔法的巅峰之作$()。"
+      "text": "$(#FFD700)🌟 Divine Forging · Reign Over All 🏰$()$(br2)$(l)$(#D4AF37)「A forbidden drink from the banquet of gods, where mere mortals sip and tremble before divine power」$()$(br)When the eternal sigils of the $(#FF8C00)Enchanted Golden Apple$(), the divinity of the $(#D4AF37)Sacred Gold Bricks$(), the purity of the $(#5F9EA0)Millennium Snow Lotus$(), and the blazing essence of $(#DAA520)Pure Primal Honey$() merge within the $(#483D8B)Holy Light Teapot$()—this is the pinnacle of $(l)defensive magic in the material world$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:enchanted_supreme_golden_tea",
-      "text": "$(#9370DB)▌ 五重神恩 $()$(br)$(l)$(#8B0000)🛡圣光壁垒$()$(br)体表浮现$(#D4AF37)天使羽翼$()状护盾$(br2)$(l)$(#FF69B4)💫 生命潮汐$()$(br)伤口以$(#FF1493)可见速度$()再生愈合$(br2)$(l)$(#FF4500)🔥 龙炎免疫$()$(br)皮肤覆盖$(#CD5C5C)龙鳞状$()魔法纹章$(br2)$(l)$(#4169E1)👁鹰眼术$()$(br)瞳孔切换$(#000080)猫头鹰$()的夜视模式$(br2)$(l)$(#32CD32)🍃 自然庇护$()$(br)所有伤害触发$(#98FB98)翡翠光晕$()减免$()"
+      "text": "$(#9370DB)▌ Five Divine Blessings $()$(br2)$(l)$(#8B0000)🛡 Holy Light Barrier$()$(br)Ethereal $(#D4AF37)angelic wings$() form a protective shield.$(br2)$(l)$(#FF69B4)💫 Tide of Life$()$(br)Wounds regenerate $(#FF1493)at a visible rate$().$(br2)$(l)$(#FF4500)🔥 Immunity to Dragonfire$()$(br)Skin is covered in $(#CD5C5C)dragon-scale$() magic runes.$(br2)$(l)$(#4169E1)👁 Eagle Vision$()$(br)Pupils shift into $(#000080)owl$() night vision mode.$(br2)$(l)$(#32CD32)🍃 Nature’s Sanctuary$()$(br)All damage triggers $(#98FB98)emerald light waves$() that reduce harm."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#4B0082)▌ 神圣铸造 $()$(br)- 用$(#9370DB)星银匕首$()雕刻$(#FF8C00)金苹果$()的$(#FFD700)表面$()使之更易融入汤中$(br)- 将$(#5F9EA0)雪莲$()置于$(#00BFFF)月光之下$()干燥$(#DAA520)七天七夜$()$(br)- $(#D4AF37)金块$()需经$(#FF0000)龙息熔炼$()成$(#D4AF37)液态圣金$()$(br)- 在$(#483D8B)五芒星阵$()中完成$(#32CD32)生命之泉$()的灌注$(br2)$(#8A2BE2)※$() 当液体呈现$(#FFD700)双翼天使$()浮雕即告成功"
+      "text": "$(br2)$(#4B0082)▌ Divine Forging Process $()$(br)- Use a $(#9370DB)Star Silver Dagger$() to carve $(#FF8C00)golden apple sigils$() onto its $(#FFD700)surface$(), allowing better fusion into the brew.$(br)- Dry the $(#5F9EA0)snow lotus$() under $(#00BFFF)moonlight$() for $(#DAA520)seven days and nights$().$(br)- $(#D4AF37)Gold blocks$() must be $(#FF0000)smelted in dragon’s breath$() to become $(#D4AF37)liquid divine gold$().$(br)- Infuse the blend within a $(#483D8B)pentagram$() alongside $(#32CD32)Life’s Spring Essence$().$(br2)$(#8A2BE2)※$() A perfect brew forms a $(#FFD700)winged angel$() relief upon the surface."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#2F4F4F)『 天界圣典 』$()$(br)六翼天使的羽毛书记载：$(br)'此饮蕴含：$(br)- $(#FF8C00)米迦勒$()的炎抗祝福$(br)- $(#4169E1)加百列$()的夜视神眸$(br)- $(#32CD32)拉斐尔$()的治愈光辉$(br)- $(#9370DB)乌列$()的绝对防御$(br)- $(#D4AF37)梅塔特隆$()的秩序守护$(br)心灵不诚的凡人饮者将承受$(#FF0000)每隔三刻钟$()的$(#8B0000)神圣反噬$()，$(br)这是触碰$(#483D8B)神之领域$()的必要代价'"
+      "text": "$(br2)$(#2F4F4F)『 The Sacred Tome of Heaven 』$()$(br)Records from the Six-Winged Angel's Feathered Scroll:$(br)'This elixir contains:$(br)- $(#FF8C00)Michael$()’s flame resistance blessing$(br)- $(#4169E1)Gabriel$()’s night vision sight$(br)- $(#32CD32)Raphael$()’s healing radiance$(br)- $(#9370DB)Uriel$()’s absolute defense$(br)- $(#D4AF37)Metatron$()’s divine order protection$(br)Those whose hearts are not pure shall suffer $(#FF0000)divine backlash every three hours$(),$(br)for to touch the realm of gods is to bear $(#8B0000)the consequence of hubris$().'"
     }
   ]
 }

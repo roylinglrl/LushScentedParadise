@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:milk",
+      "recipe": "lushscentedparadise:original/milk",
       "text": "\"$(#FFFACD)The creamy softness$() makes $(#8B0000)tea$() smoother and hides $(#9370DB)unexpected secrets$().\"$(br)$(#FFD700)Neutralizes$() $(#8B0000)bitterness$() in tea, making it more $(#FF69B4)velvety$(), and can $(#32CD32)remove certain negative effects$()."
     },
     {

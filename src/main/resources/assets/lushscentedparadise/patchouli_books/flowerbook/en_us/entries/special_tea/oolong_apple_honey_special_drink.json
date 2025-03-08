@@ -1,25 +1,25 @@
 {
-  "name": "乌龙苹果蜂蜜特饮",
+  "name": "Oolong Apple Honey Special Drink",
   "icon": "lushscentedparadise:oolong_apple_honey_special_drink",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 49,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#556B2F)🌳 古木晨露·三倍祝福 🍎$()$(br2)$(l)$(#8B0000)「饮下这杯秋日馈赠，让命运之风永驻身侧」$()$(br)当$(#6B8E23)陈年乌龙$()的浑厚遇上$(#FF4500)霜降苹果$()的清甜，$(#DAA520)岩蜜$()裹挟着$(#8A2BE2)山桃草$()的祝福——这是能让冒险者同时获得$(l)速度、力量与幸运$()的传奇复合茶饮。"
+      "text": "$(#556B2F)🌳 Ancient Wood Morning Dew · Triple Blessing 🍎$()$(br2)$(l)$(#8B0000)「Drink this autumn gift and let the winds of fate forever be by your side」$()$(br)When the richness of $(#6B8E23)Aged Oolong$() meets the crisp sweetness of $(#FF4500)Frost-Touched Apples$(), and $(#DAA520)Rock Honey$() embraces the blessings of $(#8A2BE2)Gaura$()—a legendary blend is formed, granting $(l)Speed, Strength, and Luck$() to adventurers."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:oolong_apple_honey_special_drink",
-      "text": "$(#6B8E23)▌ 秋日三重奏 $()$(br2)$(l)$(#000080)⚡ 山风疾走$()$(br)步履如掠过松针的晨鹿$(br2)$(l)$(#006400)🍀 四叶觉醒$()$(br)连$(#8A2BE2)紫晶矿脉$()都愿为你展露$(br2)$(l)$(#8B0000)💪 橡木之力$()$(br)肌肉中奔涌着古树年轮的能量"
+      "text": "$(#6B8E23)▌ Autumn’s Triple Melody $()$(br2)$(l)$(#000080)⚡ Mountain Gale Dash$()$(br)Footsteps glide like a deer leaping over pine needles.$(br2)$(l)$(#006400)🍀 Four-Leaf Awakening$()$(br)Even $(#8A2BE2)Amethyst Veins$() reveal themselves in your presence.$(br2)$(l)$(#8B0000)💪 Oakwood Strength$()$(br)Muscles pulse with the energy of ancient tree rings."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)▌ 秘酿工序 $()$(br)- 将$(#6B8E23)乌龙茶叶$()焙烤至散发$(#8A2BE2)紫檀香$()$(br)- $(#FF4500)苹果汁$()需经$(#4682B4)滤网$()三次过滤$(br)- 撒入$(#8A2BE2)山桃草粉$()时需吟唱$(#556B2F)古树祷文$()$(br2)$(#FFD700)※$() 当茶汤呈现$(#228B22)翡翠环$()即达最佳状态"
+      "text": "$(br2)$(#8B4513)▌ Secret Brewing Process $()$(br)- Roast $(#6B8E23)Oolong Tea Leaves$() until they emit a $(#8A2BE2)purple sandalwood fragrance$().$(br)- $(#FF4500)Apple Juice$() must be filtered three times using a $(#4682B4)fine sieve$().$(br)- When adding $(#8A2BE2)Gaura Powder$(), one must chant the $(#556B2F)Ancient Tree Prayer$().$(br2)$(#FFD700)※$() The tea reaches its peak state when a $(#228B22)jade-green halo$() forms on the surface."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#4B0082)『 秋实颂歌 』$()$(br)精灵的丰收祭典这样传颂：$(br)'捧起这杯$(#6B8E23)古木$()与$(#FF4500)鲜果$()的契约，$(br)让$(#000080)山风$()缠绕双足，$(#006400)幸运$()栖于肩头——$(br)而$(#8B0000)力量$()将如$(#8A2BE2)紫晶根系$()般$(l)深植血脉$()'"
+      "text": "$(br2)$(#4B0082)『 Hymn of Autumn Harvest 』$()$(br)The elven festival of abundance sings:$(br)'Raise this cup of $(#6B8E23)Ancient Wood$() and $(#FF4500)Fresh Fruit$(),$(br)let the $(#000080)mountain winds$() embrace your steps, and$(br)let $(#006400)Luck$() rest upon your shoulders—$(br)for $(#8B0000)Strength$() shall be rooted deep in your $(#8A2BE2)Amethyst Core$() forever.'"
     }
   ]
 }

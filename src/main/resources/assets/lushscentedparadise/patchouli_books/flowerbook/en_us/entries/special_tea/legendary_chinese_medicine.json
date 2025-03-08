@@ -1,25 +1,25 @@
 {
-  "name": "传奇中药汤",
+  "name": "Legendary Chinese Medicine",
   "icon": "lushscentedparadise:legendary_chinese_medicine",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 58,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#556B2F)🍵 四象归元·百秽不侵 🧪$()$(br2)$(l)$(#8B4513)「先破后立，以草木之精重塑阴阳平衡」$()$(br)当$(#DAA520)甘草$()甘缓、$(#8A9A5B)葛根$()升阳、$(#F5F5DC)茯苓$()渗湿与$(#D4AF37)黄芪$()固表在$(#6B8E23)青铜药釜$()中达成$(l)君臣佐使$()的完美配伍——这是能$(l)驱邪扶正$()的上古岐黄秘术结晶。"
+      "text": "$(#556B2F)🍵 Four Symbols Restoration · Immunity to All Evils 🧪$()$(br2)$(l)$(#8B4513)「Destruction before rebirth, harnessing the essence of herbs to restore the balance of Yin and Yang」$()$(br)The soothing sweetness of $(#DAA520)Licorice$(), the Yang-rising energy of $(#8A9A5B)Pueraria Root$(), the moisture-absorbing nature of $(#F5F5DC)Poria$(), and the protective strength of $(#D4AF37)Astragalus$() harmonize perfectly within the $(#6B8E23)Bronze Apothecary Cauldron$()—a supreme ancient alchemical formula known for $(l)expelling impurities and reinforcing vitality$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:legendary_chinese_medicine",
-      "text": "$(#6B8E23)▌ 阴阳双济 $()$(br2)$(l)$(#00FF00)✨ 金针度厄$()$(br)经脉中$(#7CFC00)青芒流转$()涤净所有$(#8A2BE2)异常气机$()$(br2)$(l)$(#4682B4)🛡 混元护体$()$(br)体表浮现$(#000080)太极气旋$()吸收伤害$(br2)$(l)$(#D4AF37)💊 百草辟易$()$(br)五脏六腑如沐$(#FFD700)金匮真炁$()"
+      "text": "$(#6B8E23)▌ Dual Yin-Yang Balance $()$(br2)$(l)$(#00FF00)✨ Golden Needle Salvation$()$(br)$(#7CFC00)Emerald energy$() courses through meridians, purging $(#8A2BE2)all impurities$().$(br2)$(l)$(#4682B4)🛡 Primal Unity Barrier$()$(br)A $(#000080)Taiji energy vortex$() manifests, absorbing damage.$(br2)$(l)$(#D4AF37)💊 Hundred Herbs Expulsion$()$(br)The five vital organs are bathed in $(#FFD700)pure golden Qi$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)▌ 古法炮制 $()$(br)- 将$(#DAA520)甘草$()在$(#FFD700)午时阳光$()下曝晒至$(#8B4513)琥珀化$()$(br)- 用$(#6B8E23)雷击木杵$()捣碎$(#8A9A5B)葛根$()成$(#CD853F)龙鳞状薄片$()$(br)- $(#F5F5DC)茯苓$()需经$(#00BFFF)九蒸九晒$()至散发$(#E6E6FA)月华光泽$()$(br)- $(#D4AF37)黄芪$()与$(#FF6347)朱砂$()在$(#800000)子时火候$()下合煎$(br2)$(#32CD32)⚕$() 药汤呈现$(#DAA520)金琥珀色$()且$(#006400)百草浮图$()即告成功"
+      "text": "$(br2)$(#8B4513)▌ Ancient Herbal Refinement $()$(br)- Sun-dry $(#DAA520)Licorice$() under $(#FFD700)midday sunlight$() until it reaches $(#8B4513)amber crystallization$().$(br)- Crush $(#8A9A5B)Pueraria Root$() with a $(#6B8E23)thunderstruck wooden pestle$() into $(#CD853F)dragon-scale-like flakes$().$(br)- $(#F5F5DC)Poria$() must undergo $(#00BFFF)nine steaming and nine drying cycles$() until it glows with $(#E6E6FA)moonlight radiance$().$(br)- Boil $(#D4AF37)Astragalus$() with $(#FF6347)Cinnabar$() at $(#800000)midnight fire intensity$().$(br2)$(#32CD32)⚕$() If the decoction turns $(#DAA520)golden amber$() and reveals $(#006400)a floating herbal mandala$(), the brew is perfected."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#4B0082)『 黄帝内经·佚文 』$()$(br)上古岐伯曰：$(br)'饮此$(#6B8E23)四象汤$()者，$(br)先历$(#00FF00)刮骨洗髓$()之痛，后得$(#4682B4)混元一体$()之躯——$(br)其$(#D4AF37)黄芪$()固卫、$(#8A9A5B)葛根$()通络、$(#F5F5DC)茯苓$()安神、$(#DAA520)甘草$()和中，$(br)实乃$(#8B4513)夺天地造化$()的$(#000080)医道极致$()'"
+      "text": "$(br2)$(#4B0082)『 The Lost Pages of the Yellow Emperor’s Canon 』$()$(br)Ancient physician Qi Bo once said:$(br)'Those who consume this $(#6B8E23)Four Symbols Soup$(),$(br)shall first endure the $(#00FF00)pain of marrow cleansing$(),$(br)but shall then attain the $(#4682B4)unified essence of the cosmos$()—$(br)For $(#D4AF37)Astragalus$() fortifies, $(#8A9A5B)Pueraria$() unblocks, $(#F5F5DC)Poria$() calms, and $(#DAA520)Licorice$() harmonizes.$(br)Thus, it is the $(#8B4513)greatest gift of nature$(), an unparalleled pinnacle of $(#000080)the way of medicine$().'"
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
-  "name": "丁香茶",
+  "name": "Lilac Tea",
   "icon": "lushscentedparadise:lilac_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 8,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“花开素雅，香气温润，细腻之中，暗藏疗愈之力。”$(br2)丁香茶是一款带有淡雅辛香的茶饮，由干燥的丁香花制成。它的茶汤清透，入口微甘，能在短时间内缓慢恢复旅人的生命，使疲惫的身体得到舒缓。"
+      "text": "“Elegant blossoms with a gentle fragrance, carrying hidden restorative power.”$(br2)Lilac Tea is a delicately spiced tea made from dried lilac petals. The tea is clear, with a mild sweetness that lingers. Drinking it provides slow health regeneration over a short period, helping travelers recover from fatigue."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)丁香茶的制作方式十分简单，只需将$(br)干燥的丁香花瓣与糖调和，即可获得这款温暖而疗愈的茶饮。$(br)适合在旅途中小憩时饮用，让身心得到短暂的恢复。"
+      "text": "$(br2)$(br)Lilac Tea is simple to prepare—$(br)just blend dried lilac petals with sugar to create this warm and soothing tea.$(br)It is best enjoyed as a short break during travels, offering momentary recovery."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:lilac_tea",
-      "text": "饮用丁香茶后，旅人将获得短时间的生命恢复，使身体缓慢回复生机。$(br)这是一款温和而实用的茶饮，适合在战斗或旅途间隙补充状态。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Lilac Tea, travelers gain a temporary health regeneration effect, allowing their vitality to slowly recover.$(br)This gentle and practical tea is useful for replenishing energy between battles or during long journeys.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

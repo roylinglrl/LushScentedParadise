@@ -1,21 +1,21 @@
 {
-  "name": "乌龙茶",
+  "name": "Oolong Tea",
   "icon": "lushscentedparadise:oolong_tea_seeds",
   "category": "lushscentedparadise:seed",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“半发半醇，花果交融，刚柔并济，尽显风骨。”$(br2)乌龙茶，介于绿茶与红茶之间，因其独特的半发酵工艺而独具特色。茶叶色泽墨绿，冲泡后汤色金黄透亮，香气层次丰富，既有绿茶的清香，又带有红茶的甘醇，被誉为‘茶中妙品’。"
+      "text": "“Half-fermented, richly layered, a perfect balance of strength and smoothness.”$(br2)Oolong tea falls between green and black tea, distinguished by its unique semi-fermentation process. Its deep-green leaves, when brewed, produce a golden, translucent infusion with a complex aroma. Possessing both the freshness of green tea and the richness of black tea, oolong tea is often praised as ‘the perfect tea.’"
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:oolong_tea_seeds",
-      "text": "乌龙茶生长于温暖湿润的山地、丘陵地带，尤其适应昼夜温差较大的环境。其叶片肥厚，富含茶多酚，适合制作风味浓郁的茶饮。旅人可在野外寻找野生茶树，通过乌龙茶种子进行人工栽培，打造自己的茶园。"
+      "text": "Oolong tea thrives in warm, humid mountainous and hilly regions, particularly in environments with significant temperature differences between day and night. Its thick, nutrient-rich leaves contain high levels of polyphenols, making them ideal for crafting flavorful tea beverages. Travelers can find wild tea trees in nature and cultivate their own tea plantations using oolong tea seeds."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:oolong_tea_leave",
-      "text": "乌龙茶植株适应性强，耐旱耐湿，但需充足光照以保证茶叶品质。$(br)乌龙茶的生长周期适中，每次采摘后，玩家可获得乌龙茶叶，并有概率掉落额外的乌龙茶种子。其独特的半发酵工艺，使茶叶既保留了清新口感，又拥有独特的焙火香气。"
+      "text": "Oolong tea plants are highly resilient, tolerating both drought and humidity, but they require ample sunlight to develop high-quality leaves.$(br)Once mature, harvesting yields oolong tea leaves with a chance to drop additional seeds. The tea’s distinctive semi-fermentation process preserves its fresh, vegetal notes while imparting a unique roasted aroma."
     }
   ]
 }

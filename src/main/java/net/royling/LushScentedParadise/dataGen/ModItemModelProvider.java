@@ -11,6 +11,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.royling.LushScentedParadise.Botania.BotaniaFood.BotaniaFoods;
 import net.royling.LushScentedParadise.Botania.LSPBotaniaItems;
 import net.royling.LushScentedParadise.Item.coffee.ModCoffee;
+import net.royling.LushScentedParadise.Item.milktea.ModMilktea;
+import net.royling.LushScentedParadise.Item.snack.ModSnack;
 import net.royling.LushScentedParadise.LushScentedParadise;
 import net.royling.LushScentedParadise.Item.Flowertea.ModFoods;
 import net.royling.LushScentedParadise.Registry.ModItems;
@@ -201,8 +203,57 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.GINGERBREAD_MAN);
         simpleItem(ModItems.COOKED_GINGERBREAD_MAN);
         simpleItem(ModItems.CHOCOLATE);
-
-
+        simpleItem(ModSnack.MACARON);
+        simpleItem(ModSnack.VANILLA_WHIPPED_CREAM);
+        simpleItem(ModSnack.VANILLA_ICE_CREAM);
+        simpleItem(ModSnack.PUDDING);
+        simpleTeaItem(ModMilktea.TRADITION_MILKTEA);
+        simpleTeaItem(ModMilktea.HKSTYLE_SILKSTOCKING_MILKTEA);
+        simpleTeaItem(ModMilktea.MILK_CAP_MILKTEA);
+        simpleTeaItem(ModMilktea.PUDDING_MILKTEA);
+        simpleTeaItem(ModMilktea.BROWNSUGAR_MILKTEA);
+        simpleTeaItem(ModMilktea.CHOCOLATE_MILKTEA);
+        simpleTeaItem(ModMilktea.JASMINE_OOLONG_MILKTEA);
+        simpleTeaItem(ModMilktea.ROSE_BLACKTEA_MILKTEA);
+        simpleTeaItem(ModMilktea.VANILLA_MILKTEA);
+        simpleTeaItem(ModMilktea.GINGER_MILKTEA);
+        simpleTeaItem(ModMilktea.LAVENDER_MILKTEA);
+        simpleTeaItem(ModMilktea.COFFEE_MILKTEA);
+        simpleTeaItem(ModMilktea.GLOW_BERRIES_MILKTEA);
+        simpleTeaItem(ModMilktea.VIOLET_MILKTEA);
+        simpleTeaItem(ModFoods.ICE_BLACK_TEA);
+        simpleItem(ModItems.STAR_SILVER_SEED);
+        simpleItem(ModItems.RAW_STAR_SILVER);
+        simpleItem(ModItems.STAR_SILVER_INGOT);
+        simpleHeldItem(ModItems.STAR_SILVER_SWORD);
+        simpleHeldItem(ModItems.STAR_SILVER_AXE);
+        simpleHeldItem(ModItems.STAR_SILVER_PICKAXE);
+        simpleHeldItem(ModItems.STAR_SILVER_SHOVEL);
+        simpleHeldItem(ModItems.STAR_SILVER_HOE);
+        simpleItem(ModItems.STAR_SILVER_HELMET);
+        simpleItem(ModItems.STAR_SILVER_CHESTPLATE);
+        simpleItem(ModItems.STAR_SILVER_LEGGINGS);
+        simpleItem(ModItems.STAR_SILVER_BOOTS);
+        simpleItem(ModItems.STAR_SILVER_SHEARS);
+        simpleItem(ModItems.DRIED_ABYSS_SILENCE_MUSHROOM);
+        simpleItem(ModItems.PHANTOM_LOTUS_KOI);
+        simpleItem(ModItems.GLOWPETAL_PIGFISH);
+        simpleItem(ModItems.STAR_SILVER_FLOWER_CROP);
+        simpleTeaItem(ModFoods.ABYSSAL_BREW);
+        simpleTeaItem(ModFoods.STAR_SILVER_POTION);
+        simpleTeaItem(ModFoods.CELESTIAL_EXTRACT);
+        simpleItem(ModItems.STAR_SILVER_FLOWER_POWDER);
+        simpleItem(ModItems.ABYSS_MUSHROOM_POWDER);
+        simpleItem(ModItems.FLOWER_INGOT);
+        simpleItem(ModItems.COLORFUL_FLOWER_AXE);
+        simpleItem(ModItems.COLORFUL_FLOWER_SHOVEL);
+        simpleItem(ModItems.COLORFUL_FLOWER_SWORD);
+        simpleItem(ModItems.COLORFUL_FLOWER_PICKAXE);
+        simpleItem(ModItems.COLORFUL_FLOWER_HOE);
+        simpleItem(ModItems.COLORFUL_FLOWER_HELMET);
+        simpleItem(ModItems.COLORFUL_FLOWER_CHESTPLATE);
+        simpleItem(ModItems.COLORFUL_FLOWER_LEGGINGS);
+        simpleItem(ModItems.COLORFUL_FLOWER_BOOTS);
 
 
 
@@ -212,6 +263,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(LushScentedParadise.MODID,"item/"+item.getId().getPath()));
+    }
+    @SuppressWarnings("removal")
+    private ItemModelBuilder simpleHeldItem(RegistryObject<Item> item){
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
                 new ResourceLocation(LushScentedParadise.MODID,"item/"+item.getId().getPath()));
     }
     @SuppressWarnings("removal")

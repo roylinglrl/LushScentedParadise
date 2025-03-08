@@ -1,21 +1,21 @@
 {
-  "name": "普洱茶",
+  "name": "Pu'er Tea",
   "icon": "lushscentedparadise:puer_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 23,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“岁月沉淀，陈韵悠长，厚重醇香，悄然聚集福运。”$(br2)普洱茶是一款经年陈化、口感深邃的茶饮，由两份干燥的普洱茶叶制成。茶汤深红透亮，滋味醇厚，饮用后可提供幸运加成，使旅人更易获得额外的收获。"
+      "text": "“Aged through time, rich and mellow, deep and fragrant, quietly gathering fortune.”$(br2)Pu'er Tea is a well-aged and profoundly flavored tea made from two portions of dried pu'er tea leaves. The tea is deep red with a bright hue and a thick, rich taste. Drinking it grants a Luck effect, increasing the traveler’s chances of obtaining extra rewards."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)普洱茶的制作需要$(br)两份干燥的普洱茶叶熬煮而成。$(br)适合在采集、战斗或交易前饮用，以提升好运气。"
+      "text": "$(br2)$(br)To prepare Pu'er Tea, $(br)boil two portions of dried pu'er tea leaves.$(br)It is best consumed before gathering, trading, or combat to enhance fortune and luck."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:puer_tea",
-      "text": "饮用普洱茶后，旅人将获得幸运加成，使战斗与采集更容易获得额外奖励。$(br)这是一款适用于提升运势的茶饮。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Pu'er Tea, travelers gain a Luck effect, making it easier to obtain extra rewards during combat and gathering.$(br)This tea is ideal for enhancing one’s fortune.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

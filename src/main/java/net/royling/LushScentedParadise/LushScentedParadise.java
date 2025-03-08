@@ -23,9 +23,12 @@ import net.royling.LushScentedParadise.Botania.LSPBotaniaItems;
 import net.royling.LushScentedParadise.Item.Flowertea.ModFoods;
 import net.royling.LushScentedParadise.Item.StorageBagItem.StorageBagScreen;
 import net.royling.LushScentedParadise.Item.coffee.ModCoffee;
+import net.royling.LushScentedParadise.Item.colorfulflower.MagicArrowRenderer;
+import net.royling.LushScentedParadise.Item.milktea.ModMilktea;
+import net.royling.LushScentedParadise.Item.snack.ModSnack;
 import net.royling.LushScentedParadise.Registry.*;
 import net.royling.LushScentedParadise.ModBlock.TeapotBlock.TeapotScreen;
-import net.royling.LushScentedParadise.Item.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.ModBlock.newFlower.ModFlowers;
 import net.royling.LushScentedParadise.villager.ModVillagers;
 import org.slf4j.Logger;
 
@@ -35,6 +38,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(LushScentedParadise.MODID)
+@SuppressWarnings("removal")
 public class LushScentedParadise
 {
     // Define mod id in a common place for everything to reference
@@ -74,6 +78,9 @@ public class LushScentedParadise
             BotaniaEffects.EFFECTS.register(modEventBus);
         }
         ModCoffee.COFFEES.register(modEventBus);
+        ModSnack.SNACKS.register(modEventBus);
+        ModMilktea.MILKTEAS.register(modEventBus);
+        ModFeatures.FEATURES.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -132,6 +139,7 @@ public class LushScentedParadise
         @SubscribeEvent
         public static void registerRenders(EntityRenderersEvent.RegisterRenderers event){
             ModEntityRenderers.registerRenderers(event);
+            event.registerEntityRenderer(ModEntities.MAGIC_ARROW.get(), MagicArrowRenderer::new);
         }
     }
 }

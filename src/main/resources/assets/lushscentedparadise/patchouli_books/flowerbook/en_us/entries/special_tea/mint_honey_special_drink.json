@@ -1,25 +1,25 @@
 {
-  "name": "蜂蜜薄荷特饮",
+  "name": "Mint Honey Special Drink",
   "icon": "lushscentedparadise:mint_honey_special_drink",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 47,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#C1B82A)🍯 琥珀琼浆·清凉秘仪 ✦$()$(br2)$(l)$(#98FB98)「沙漠旅人的生命绿洲，熔岩行者的清凉铠甲」$()$(br)当$(#FFA500)岩蜜$()浸润$(#3CB371)干薄荷$()的清凉因子，$(#F5F5DC)滨菊花瓣$()在$(#DAA520)黄金糖浆$()中舒展时——这杯能$(l)同时治愈伤痛与灼热$()的神奇饮品便诞生了。"
+      "text": "$(#C1B82A)🍯 Amber Nectar · Cooling Secret ✦$()$(br2)$(l)$(#98FB98)「An oasis for desert travelers, a cooling armor for lava walkers」$()$(br)When $(#FFA500)Rock Honey$() infuses $(#3CB371)Dried Mint$() with its refreshing elements, and $(#F5F5DC)Coastal Daisy Petals$() unfold within $(#DAA520)Golden Syrup$()—a miraculous elixir that $(l)soothes both wounds and scorching heat$() is born."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:mint_honey_special_drink",
-      "text": "$(#3CB371)▌ 三重庇护 $()$(br2)$(l)$(#FF69B4)❤ 生命泉涌$()$(br)温暖的能量瞬间驱散伤痛$(br2)$(l)$(#87CEEB)🍃 疾风祝福$()$(br)双足仿佛踏过晨露浸润的草原$(br2)$(l)$(#FF4500)🔥 烈焰退避$()$(br)连$(#CD5C5C)岩浆$()的热浪都会为之让步"
+      "text": "$(#3CB371)▌ Triple Protection $()$(br2)$(l)$(#FF69B4)❤ Fountain of Life$()$(br)A warm energy instantly washes away pain.$(br2)$(l)$(#87CEEB)🍃 Wind’s Blessing$()$(br)Feet feel as if gliding over dew-soaked grass.$(br2)$(l)$(#FF4500)🔥 Flame Repulsion$()$(br)Even the $(#CD5C5C)heat waves of magma$() shy away."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#DAA520)▌ 酿制手札 $()$(br)- 将$(#FFA500)蜂蜜$()与$(#AFEEEE)晨露$()交融至呈现$(#AAA4CD)琉璃质感$()$(br)- $(#3CB371)薄荷叶$()需在$(#4682B4)干净的石臼$()中研磨出$(#E0FFFF)清凉雾气$()$(br)- 撒入$(#F5F5DC)滨菊花粉$()时须以$(#9370DB)疯狂的速度$()顺时针搅拌七圈$(br2)$(#FFD700)※$() 当液体浮现$(#7FFF00)翡翠波纹$()时立即离火"
+      "text": "$(br2)$(#DAA520)▌ Brewing Notes $()$(br)- Blend $(#FFA500)honey$() with $(#AFEEEE)morning dew$() until it forms a $(#AAA4CD)glass-like texture$().$(br)- Grind $(#3CB371)mint leaves$() in a $(#4682B4)clean stone mortar$() until $(#E0FFFF)chilled mist$() rises.$(br)- When adding $(#F5F5DC)coastal daisy pollen$(), stir $(#9370DB)at extreme speed$() clockwise for seven rounds.$(br2)$(#FFD700)※$() When $(#7FFF00)emerald ripples$() appear, immediately remove from heat."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)『 沙海茶谣 』$()$(br)游牧民族的歌谣传唱：$(br)'当$(#FFA500)蜂王$()将盛夏封存于琥珀，$(br)采撷$(#3CB371)薄荷$()的清凉与$(#F5F5DC)滨菊$()的坚韧——$(br)这杯$(#98FB98)翡翠琼浆$()能让$(#FF4500)火焰$()低头，$(br)令$(#CD853F)沙暴$()中跋涉的旅人重获$(#FF69B4)新生$()'"
+      "text": "$(br2)$(#8B4513)『 Sandsea Tea Ballad 』$()$(br)A nomadic hymn:$(br)'When the $(#FFA500)Honey Queen$() seals summer’s warmth in amber,$(br)and $(#3CB371)mint’s coolness$() meets the resilience of $(#F5F5DC)coastal daisies$()—$(br)this $(#98FB98)emerald nectar$() shall make $(#FF4500)flames$() bow,$(br)and grant those lost in $(#CD853F)the sandstorm$() a $(#FF69B4)new beginning$().'"
     }
   ]
 }

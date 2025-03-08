@@ -1,25 +1,25 @@
 {
-  "name": "巧克力百合茶",
+  "name": "Chocolate Lily Tea",
   "icon": "lushscentedparadise:chocolate_lily_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 54,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#6B4423)🍫 雪原甘霖·天鹅绒帷幕 🌸$()$(br2)$(l)$(#DAA520)「让苦涩化作羽翼，用甜蜜抵御严冬」$()$(br)当$(#B19CD9)风干百合$()的清香渗入$(#6B4423)熔岩可可$()的浓醇，$(#FFD700)岩蜜$()与$(#B0B0B0)雪乳$()在$(#8B4513)橡木茶筅$()的搅拌下融合——这是能在$(l)暴风雪中创造温暖绿洲$()的奇迹饮品。"
+      "text": "$(#6B4423)🍫 Snowfield Nectar · Velvet Curtain 🌸$()$(br2)$(l)$(#DAA520)「Let bitterness sprout wings, let sweetness shield against the winter’s bite」$()$(br)The delicate aroma of $(#B19CD9)dried lilies$() merges with the rich essence of $(#6B4423)molten cocoa$(), while $(#FFD700)rock honey$() and $(#B0B0B0)snow cream$() are whisked together using a $(#8B4513)oaken tea whisk$()—a miraculous beverage capable of $(l)creating a warm oasis within the blizzard$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:chocolate_lily_tea",
-      "text": "$(#6B4423)▌ 双重庇护 $()$(br2)$(l)$(#87CEEB)🪶 绒羽缓降$()$(br)坠落时如$(#B19CD9)百合花瓣$()飘落深谷$(br2)$(l)$(#4169E1)❄ 蜜脂护膜$()$(br)体表形成$(#B0B0B0)珍珠质隔热层$()抵御严寒"
+      "text": "$(#6B4423)▌ Dual Protection $()$(br2)$(l)$(#87CEEB)🪶 Feathered Descent$()$(br)Falling feels as gentle as $(#B19CD9)lily petals$() drifting into a canyon.$(br2)$(l)$(#4169E1)❄ Honeyed Barrier$()$(br)A $(#B0B0B0)pearl-like insulating layer$() forms around the body, shielding against extreme cold."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)▌ 熔炉工序 $()$(br)- 将$(#6B4423)可可粉$()与$(#DAA520)结晶蜜$()炼成$(#804000)岩浆状糖浆$()$(br)- $(#B19CD9)百合花瓣$()需在$(#4682B4)低温度情况下$()干燥至$(#E6E6FA)半透明$()$(br)- 注入$(#B0B0B0)乳脂$()时须保持$(#00BFFF)螺旋轨迹$()搅拌$(br2)$(#FFD700)※$() 成功时液体呈现$(#CD853F)虎纹挂壁$()"
+      "text": "$(br2)$(#8B4513)▌ Forge-Brewing Process $()$(br)- Melt $(#6B4423)cocoa powder$() and $(#DAA520)crystalized honey$() into a $(#804000)lava-like syrup$().$(br)- $(#B19CD9)Lily petals$() must be dried $(#4682B4)at low temperatures$() until they become $(#E6E6FA)semi-translucent$().$(br)- When adding $(#B0B0B0)cream$(), it must be whisked in a $(#00BFFF)spiral motion$().$(br2)$(#FFD700)※$() A perfect brew will display a $(#CD853F)tiger-stripe pattern$() along the cup’s walls."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#6B4423)『 极地手札 』$()$(br)雪原驿站长的日记片段：$(br)'啜饮这杯$(#B19CD9)花冠$()与$(#6B4423)熔岩$()的孩子，$(br)纵身跃下$(#4169E1)冰隙$()时竟如$(#87CEEB)雪鸮$()般优雅滑翔——$(br)而$(#B0B0B0)凝乳$()在血管编织的$(#DAA520)金丝护网$()，$(br)连$(#696969)永冻层$()的恶意都化作$(#FFD700)暖阳$()轻抚'"
+      "text": "$(br2)$(#6B4423)『 Polar Station Journal 』$()$(br)An entry from a snowfield outpost keeper:$(br)'Sipping this blend of $(#B19CD9)flower crowns$() and $(#6B4423)molten essence$(),$(br)I leaped into an $(#4169E1)ice crevasse$() and glided down like a $(#87CEEB)snowy owl$().$(br)Meanwhile, the $(#B0B0B0)cream$() wove a $(#DAA520)golden silk shield$() within my veins,$(br)turning the $(#696969)permafrost’s chill$() into nothing but a $(#FFD700)gentle embrace$().'"
     }
   ]
 }

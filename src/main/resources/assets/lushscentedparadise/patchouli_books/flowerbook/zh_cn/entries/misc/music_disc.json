@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:music_disc",
+      "recipe": "lushscentedparadise:original/music_disc",
       "text": "$(#FFD700)音乐的力量$()不仅能$(#32CD32)放松身心$()，还能为$(#00BFFF)旅人$()带来$(#FF69B4)更加沉浸式的体验$()。$(br)在一个$(#ADD8E6)宁静的午后$()，伴随着$(#32CD32)微风和鸟鸣$()，插上唱片，让这首$(#FFD700)轻柔的旋律$()陪伴你的$(#8B4513)劳作时光$()。"
     },
     {

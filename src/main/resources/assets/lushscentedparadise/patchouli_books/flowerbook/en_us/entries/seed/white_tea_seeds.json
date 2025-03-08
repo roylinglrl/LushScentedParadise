@@ -1,22 +1,21 @@
 {
-  "name": "白茶",
+  "name": "White Tea",
   "icon": "lushscentedparadise:white_tea_seeds",
   "category": "lushscentedparadise:seed",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“银毫轻展，玉露生香，未经雕琢，尽显自然本真。”$(br2)白茶，以其最原始、最天然的加工方式闻名。不同于绿茶和红茶，白茶几乎不经揉捻与发酵，仅依赖自然风干，使茶叶保持最纯净的风味。其茶汤清澈淡雅，甘甜之中透着悠长的回味，被誉为‘茶中仙子’。"
+      "text": "“Silver buds unfold, jade dew emits fragrance, unprocessed and pure in its natural essence.”$(br2)White tea is renowned for its most primitive and natural processing method. Unlike green and black tea, white tea undergoes minimal rolling or fermentation, relying solely on natural drying to preserve its purest flavor. Its infusion is clear and elegant, with a lingering sweet aftertaste, earning it the title of ‘Fairy of Teas.’"
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:white_tea_seeds",
-      "text": "白茶生长于温暖湿润的丘陵和森林地带，尤以高海拔环境品质最佳。其幼嫩的茶芽表面覆盖着细密的白毫，赋予其独特的银白色外观。旅人若想培育白茶，可寻找野生茶树，或通过白茶种子进行人工种植，打造一片宁静清幽的茶园。"
+      "text": "White tea thrives in warm and humid hilly and forested regions, with the highest quality found at high altitudes. Its tender buds are covered with fine silvery hairs, giving them a distinctive white appearance. Travelers seeking to cultivate white tea can search for wild tea trees or use white tea seeds to establish a tranquil tea garden."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:white_tea_leave",
-      "text": "白茶植株对环境要求较高，喜温暖湿润，但耐寒性比绿茶更强。$(br)白茶的成熟周期较长，每次采摘可获得少量嫩芽，并有概率掉落额外的白茶种子，供旅人继续扩展茶园。由于其未经揉捻与发酵，白茶在晾晒后可直接泡制，风味清雅甘醇。"
+      "text": "White tea plants have strict environmental requirements, preferring warmth and humidity but showing greater cold resistance than green tea.$(br)The plant has a longer growth cycle, with each harvest yielding a small number of tender buds and a chance to drop additional white tea seeds for further expansion. Since white tea undergoes no rolling or fermentation, it can be brewed directly after drying, producing a delicate and refreshing taste."
     }
   ]
 }
-

@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:flower_sword",
+      "recipe": "lushscentedparadise:original/flower_sword",
       "text": "$(#FF69B4)The Flower Sword$() is the evolved form of the $(#DAA520)Primordial Flower Sword$(), gaining unique combat abilities based on the $(#FF69B4)flower held in the off-hand$()."
     },
     {

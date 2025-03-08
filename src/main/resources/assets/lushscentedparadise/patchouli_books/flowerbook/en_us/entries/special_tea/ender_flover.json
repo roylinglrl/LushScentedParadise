@@ -1,25 +1,25 @@
 {
-  "name": "末地风味特饮",
+  "name": "Ender Flavor Drink",
   "icon": "lushscentedparadise:ender_flavor",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 51,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#9370DB)🌌 虚空低语·星间琼浆 🌀$()$(br2)$(l)$(#4B0082)「饮尽杯中星河，让末影之眼为你闪烁」$()$(br)将$(#DAA520)琥珀蜂蜜$()注入$(#B0B0B0)月乳$()的柔光，$(#800080)紫颂精华$()与$(#BA55D3)紫苏花瓣$()在$(#483D8B)虚空涟漪$()中共振——这是能令$(l)血肉共鸣星辰轨迹$()的跨界秘饮。"
+      "text": "$(#9370DB)🌌 Void Whispers · Cosmic Nectar 🌀$()$(br2)$(l)$(#4B0082)「Drink the galaxy within your cup, let the Ender Eye shimmer for you」$()$(br)$(#DAA520)Amber honey$() merges into the soft glow of $(#B0B0B0)moon milk$(), while $(#800080)Chorus fruit essence$() and $(#BA55D3)Perilla petals$() resonate within $(#483D8B)void ripples$()—a transcendent elixir that lets $(l)flesh synchronize with the orbits of the stars$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:ender_flavor",
-      "text": "$(#4B0082)▌ 虚空双生 $()$(br2)$(l)$(#4169E1)👁 星瞳洞悉$()$(br)连$(#000000)虚空$()最幽微的$(#9370DB)星屑$()都清晰可辨$(br2)$(l)$(#FF69B4)💫 星核脉动$()$(br)伤口愈合时浮现$(#FF0000)玫瑰星云$()状光纹"
+      "text": "$(#4B0082)▌ Void Duality $()$(br2)$(l)$(#4169E1)👁 Star Insight$()$(br)Even the faintest $(#000000)void dust$() particles become $(#9370DB)clearly visible$().$(br2)$(l)$(#FF69B4)💫 Star Core Pulse$()$(br)During wound healing, $(#FF0000)rose nebula$()-shaped luminescent patterns appear."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#800080)▌ 星间仪式 $()$(br)- 用$(#483D8B)末地石臼$()将$(#BA55D3)紫苏花$()研磨成$(#E6E6FA)星尘粉末的颜色$()$(br)- $(#800080)紫颂果$()需在$(#DAA520)蜂蜜$()中浸泡至呈现$(#9370DB)诡异的纠缠光效$()$(br)- 注入$(#B0B0B0)乳脂$()时须小心可能出现的$(#4B0082)空间折叠$()$(br2)$(#ADD8E6)※$() 成功时液体表面会形成$(#00BFFF)星璇$()状漩涡"
+      "text": "$(br2)$(#800080)▌ Interstellar Ritual $()$(br)- Use a $(#483D8B)End Stone Mortar$() to grind $(#BA55D3)Perilla flowers$() into $(#E6E6FA)stardust powder$().$(br)- $(#800080)Chorus fruit$() must be soaked in $(#DAA520)honey$() until it displays $(#9370DB)a mysterious entangled glow$().$(br)- When adding $(#B0B0B0)cream$(), be cautious of potential $(#4B0082)spatial distortions$().$(br2)$(#ADD8E6)※$() A successful brew will form a $(#00BFFF)galactic vortex$() on the liquid’s surface."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#483D8B)『 星海纪事 』$()$(br)末影长老的岩板铭文记载：$(br)'当$(#BA55D3)紫苏花$()在$(#DAA520)蜜海$()中绽放，$(br)饮者将获得如同$(#4169E1)末影龙$()注视黑暗的瞳孔，$(br)而$(#FF69B4)伤口$()愈合时迸发的$(#FF0000)星芒$()——$(br)正是$(#9370DB)失落星辰$()对$(#4B0082)坚韧生命$()的致敬'"
+      "text": "$(br2)$(#483D8B)『 Chronicles of the Starsea 』$()$(br)An inscription recorded by the Ender Elders:$(br)'When $(#BA55D3)Perilla petals$() bloom within the $(#DAA520)honey sea$(),$(br)the drinker shall gain eyes like those of the $(#4169E1)Ender Dragon$(),$(br)peering into darkness itself, while$(br)$(#FF69B4)wounds$() will heal with radiant $(#FF0000)stellar bursts$()—$(br)a tribute from the $(#9370DB)lost stars$() to $(#4B0082)unyielding life$().'"
     }
   ]
 }

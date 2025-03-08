@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:drying_rack",
+      "recipe": "lushscentedparadise:original/drying_rack",
       "text": "$(#8B4513)耐心，耐心。$()$(br)$(#DAA520)焚膏油以继晷$()，$(#A0522D)恒兀兀以穷年$()。$(br)晾晒必须在晾晒台的上方没有遮挡，且白天才能进行，夜晚会暂停。"
     },
     {

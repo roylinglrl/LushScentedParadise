@@ -1,21 +1,21 @@
 {
-  "name": "绿茶",
+  "name": "Green Tea",
   "icon": "lushscentedparadise:green_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 19,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“清新淡雅，苦尽甘来，嫩叶轻展，赋予轻盈步伐。”$(br2)绿茶是一款清爽提神的茶饮，由两份干燥的绿茶叶制成。茶汤翠绿透亮，入口微苦回甘，饮用后可提供速度加成，使旅人在旅途中更加轻盈。"
+      "text": "“Refreshing and delicate, bitter at first but sweet aftertaste. Tender leaves unfold, granting a light and swift step.”$(br2)Green Tea is a revitalizing drink made from two portions of dried green tea leaves. The tea liquor is bright green, with a slight bitterness that turns into a lingering sweetness. Drinking it provides a Speed boost, making travelers feel lighter on their feet."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)绿茶的制作需要$(br)两份干燥的绿茶叶熬煮而成。$(br)适合在赶路或长途探索时饮用，让你行走更迅捷轻快。"
+      "text": "$(br2)$(br)To prepare Green Tea, $(br)boil two portions of dried green tea leaves.$(br)It is an excellent choice for long-distance travel or exploration, allowing you to move more swiftly and effortlessly."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:green_tea",
-      "text": "饮用绿茶后，旅人将获得速度加成，使移动速度暂时提升。$(br)这是一款适合旅途中使用的轻盈茶饮。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Green Tea, travelers gain a temporary Speed boost, increasing their movement speed.$(br)This light and refreshing tea is perfect for traveling and exploration.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

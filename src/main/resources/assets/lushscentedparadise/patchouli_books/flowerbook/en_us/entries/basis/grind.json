@@ -15,7 +15,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:mortar_and_pestle",
+      "recipe": "lushscentedparadise:original/mortar_and_pestle",
       "text": "$(#8B4513)Grinding$() is not merely crushing an item; it is a $(#FFD700)craft of extracting natural essences$(). Every $(#A9A9A9)meticulous grind$() may create new $(#8B0000)flavors$(), new $(#32CD32)medicinal effects$(), or even $(#8A2BE2)unlock new possibilities$()."
     },
     {

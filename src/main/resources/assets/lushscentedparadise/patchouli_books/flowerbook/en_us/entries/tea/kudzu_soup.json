@@ -1,21 +1,21 @@
 {
-  "name": "葛根汤",
+  "name": "Kudzu Soup",
   "icon": "lushscentedparadise:kudzu_soup",
   "category": "lushscentedparadise:tea",
   "sortnum": 42,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“藤蔓生机，舒展筋骨，化解疲劳，轻盈步伐。”$(br2)葛根汤是一款清爽解乏的药汤，由干燥的葛根与糖调制而成。茶汤淡黄色，口感柔和甘甜，饮用后可提供速度加成，并解除挖掘疲劳状态，让旅人重新焕发活力。"
+      "text": "“Vines brimming with life, stretching muscles, relieving fatigue, and lightening one's steps.”$(br2)Kudzu Soup is a revitalizing medicinal broth made from dried kudzu root and sugar. The pale yellow tea has a mild and sweet taste. Drinking it grants a Speed boost and removes Mining Fatigue, helping travelers regain energy."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)葛根汤的制作需要$(br)两份干燥的葛根与糖混合熬煮。$(br)适合在长途跋涉或劳动后饮用，帮助旅人恢复状态。"
+      "text": "$(br2)$(br)To prepare Kudzu Soup, $(br)boil two portions of dried kudzu root with sugar.$(br)It is perfect for consumption after long journeys or labor, helping travelers restore their energy."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:kudzu_soup",
-      "text": "饮用葛根汤后，旅人将获得速度加成，并解除挖掘疲劳状态，使工作和行走更加轻松。$(br)这是一款适用于长时间劳作后的恢复茶饮。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Kudzu Soup, travelers receive a Speed boost and have Mining Fatigue removed, making work and movement easier.$(br)This tea is ideal for recovery after prolonged exertion.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

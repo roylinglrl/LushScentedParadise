@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:flower_table",
+      "recipe": "lushscentedparadise:original/flower_table",
       "text": "To turn a $(#A9A9A9)regular villager$() into a $(#FF69B4)Florist$(), you need to provide them with a $(#8B4513)Flower Workbench$() as their $(#A9A9A9)job site block$()."
     },
     {

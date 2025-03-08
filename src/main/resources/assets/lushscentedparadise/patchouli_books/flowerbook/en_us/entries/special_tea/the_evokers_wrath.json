@@ -1,25 +1,25 @@
 {
-  "name": "唤魔者之怒",
+  "name": "The Evoker's Wrath",
   "icon": "lushscentedparadise:the_evokers_wrath",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 77,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#4B0082)💢 咒血沸腾·无尽战意 ⚔️$()$(br2)$(l)$(#9370DB)「饮此咒术精粹者，凡躯将承载远古咒怨之怒」$()$(br)当$(#808080)噬魂铁剑$()的杀意、$(#50C878)翡翠魔核$()的灵力、$(#FFFFFF)祭坛羊绒$()的纯净与$(#FF4500)血咒红花$()在$(#483D8B)咒术釜$()中完成$(l)杀戮献祭$()——这是能让$(l)肌肉纤维化为战争兵器$()的禁忌战饮。"
+      "text": "$(#4B0082)💢 Cursed Blood Boiling · Endless Battle Fury ⚔️$()$(br2)$(l)$(#9370DB)「Drink this sorcery extract, and mortal flesh shall bear the rage of ancient curses」$()$(br)When the $(#808080)Soul-Devouring Iron Blade$()’s murderous will, $(#50C878)Emerald Arcane Core$()’s raw power, $(#FFFFFF)Altar Wool$()’s purity, and $(#FF4500)Blood-Cursed Scarlet Bloom$() complete a $(l)slaughter sacrifice$() within the $(#483D8B)Cursed Ritual Cauldron$()—this forbidden war elixir shall $(l)transform muscles into weapons of destruction$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:the_evokers_wrath",
-      "text": "$(#4B0082)▌ 咒怨三阶 $()$(br2)$(l)$(#FF0000)🔥 狂暴脉冲$()$(br)攻击时拳峰迸发$(#FF4500)岩浆裂纹$()$(br2)$(l)$(#9370DB)🌀 无尽战意$()$(br)力量效果持续$(#50C878)三昼夜$()$(br2)$(l)$(#483D8B)⚡ 咒能过载$()$(br)体表浮现$(#4B0082)符文电路$()强化输出$(br2)$(#808080)"
+      "text": "$(#4B0082)▌ Threefold Curse of Wrath $()$(br2)$(l)$(#FF0000)🔥 Frenzied Pulse$()$(br)Fists explode with $(#FF4500)magma fissures$() upon impact.$(br2)$(l)$(#9370DB)🌀 Endless Battle Will$()$(br)Strength persists for $(#50C878)three days and nights$().$(br2)$(l)$(#483D8B)⚡ Overcharged Curse Energy$()$(br)$(#4B0082)Runic circuits$() appear on the skin, amplifying combat output."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#50C878)▌ 咒术仪式 $()$(br)- 用$(#808080)铁剑$()斩杀$(#FF4500)烈焰傀儡$()获取$(#8B0000)噬魂铁汁$()$(br)- 将$(#50C878)绿宝石$()研磨成$(#32CD32)翡翠星尘$()注入$(#FFFFFF)羊毛滤网$()$(br)- 以$(#FF4500)红花$()书写$(#4B0082)古代咒文$()于釜壁$(br)- 混合时念诵$(#9370DB)三遍杀戮真言$()$(br2)$(#FF0000)※$() 当液体升腾$(#4B0082)紫色咒焰$()并浮现$(#FFD700)武器幻影$()即告成功"
+      "text": "$(br2)$(#50C878)▌ Ritual of the Curse $()$(br)- Slay a $(#FF4500)Blazing Construct$() with an $(#808080)Iron Sword$() to obtain $(#8B0000)Soul-Devouring Iron Essence$().$(br)- Grind $(#50C878)Emeralds$() into $(#32CD32)Emerald Stardust$() and filter it through $(#FFFFFF)Wool Mesh$().$(br)- Inscribe $(#4B0082)ancient war curses$() onto the cauldron walls using $(#FF4500)Blood-Cursed Scarlet Bloom$().$(br)- Chant the $(#9370DB)Slaughter Mantra three times$() while mixing.$(br2)$(#FF0000)※$() The brew is complete when $(#4B0082)purple hex flames$() rise and $(#FFD700)phantom weapons$() manifest."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#483D8B)『 咒术禁典残页 』$()$(br)浸透血渍的羊皮纸记载：$(br)'此饮蕴含：$(br)- $(#808080)百人斩铁剑$()的杀戮记忆$(br)- $(#50C878)翡翠$()储存的千年灵力$(br)- $(#FF4500)红花$())的嗜血渴望$(br)对于噬杀的饮者，其身体将如$(#4B0082)战争傀儡$()不知疲倦，每$(#9370DB)1秒$()都需支付$(#8B0000)生命税$()$(br)当$(#FFD700)武器幻影$()消散时，$(br)若未及时补充$(#32CD32)翡翠药引$()，$(br)血肉将$(#696969)永久石化$()'"
+      "text": "$(br2)$(#483D8B)『 Forbidden Sorcery Manuscript 』$()$(br)Blood-stained parchment records:$(br)'This drink holds:$(br)- The slaughter memory of $(#808080)a hundred-kills iron blade$().$(br)- The millennia-old arcane power of $(#50C878)Emeralds$().$(br)- The $(#FF4500)bloodlust$() contained within Scarlet Bloom.$(br)For those who thirst for war, their flesh shall become $(#4B0082)a tireless war machine$(),$(br)but every $(#9370DB)1 second$(), they must pay a $(#8B0000)life toll$().$(br)When $(#FFD700)phantom weapons$() fade, $(br)if they do not replenish $(#32CD32)Emerald Essence$() in time, $(br)their blood and flesh shall be $(#696969)forever petrified$()…'"
     }
   ]
 }

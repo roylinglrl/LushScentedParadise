@@ -1,25 +1,25 @@
 {
-  "name": "鲜花聚会",
+  "name": "Flower Party",
   "icon": "lushscentedparadise:flower_party",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 67,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#FF69B4)🌸 四时花诏·群芳盛宴 🌼$()$(br2)$(l)$(#BA55D3)「当四种花灵共舞，凡人也能暂获自然神格」$()$(br)让$(#BA55D3)木槿$()的坚韧、$(#D4AF37)金银花$()的澄明、$(#8B0000)玫瑰$()的热烈与$(#9370DB)薰衣草$()的宁神在$(#32CD32)翡翠坩埚$()中完成$(l)四季轮回$()的仪式——这是能同时唤醒$(l)自然四相$()的终极花灵秘药。"
+      "text": "$(#FF69B4)🌸 Four-Season Floral Decree · Banquet of Blossoms 🌼$()$(br2)$(l)$(#BA55D3)「When four flower spirits dance together, even mortals may temporarily attain a divine nature」$()$(br)The resilience of $(#BA55D3)hibiscus$(), the clarity of $(#D4AF37)honeysuckle$(), the passion of $(#8B0000)rose$(), and the tranquility of $(#9370DB)lavender$() merge within the $(#32CD32)Emerald Crucible$() to complete the $(l)ritual of seasonal cycles$()—the ultimate floral elixir capable of summoning $(l)the four aspects of nature$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:flower_party",
-      "text": "$(#FF69B4)▌ 四重花诏 $()$(br2)$(l)$(#4169E1)🦉 夜枭之瞳$()$(br)瞳孔倒映$(#000080)月光$()的每道涟漪$(br2)$(l)$(#32CD32)🌪 风语疾行$()$(br)足尖缠绕$(#98FB98)青岚花瓣$()$(br2)$(l)$(#7CFC00)🍀 幸运风暴$()$(br)行动轨迹残留$(#00FF00)四叶草$()光尘$(br2)$(l)$(#FF1493)💫 花灵愈合$()$(br)伤口迸发$(#FF69B4)樱花状$()治疗光纹"
+      "text": "$(#FF69B4)▌ The Fourfold Floral Decree $()$(br2)$(l)$(#4169E1)🦉 Owl’s Gaze$()$(br)Pupils reflect $(#000080)moonlight ripples$().$(br2)$(l)$(#32CD32)🌪 Gale Step$()$(br)Petals of $(#98FB98)green breeze$() swirl around your feet.$(br2)$(l)$(#7CFC00)🍀 Lucky Storm$()$(br)Leaves a trail of $(#00FF00)glowing four-leaf clovers$().$(br2)$(l)$(#FF1493)💫 Floral Healing$()$(br)Wounds burst forth with $(#FF69B4)sakura-shaped$() healing light."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B0000)▌ 花灵仪式 $()$(br)- 用$(#BA55D3)干净的石臼$()将各色干花研磨成$(#9370DB)粗糙的粉末$()$(br)- 按$(#32CD32)东-南-西-北$()方位依次投入$(#D4AF37)金银花，玫瑰，木槿，薰衣草$()$(br)- 搅拌时保持$(#FF69B4)逆时针七圈$()后再$(#4169E1)顺时针三圈$()$(br)- 最后用$(#00BFFF)滤网$()完成过滤$(br2)$(#FFD700)※$() 成功时液体呈现$(#FF69B4)四色漩涡$()与$(#7CFC00)荧光花粉$()"
+      "text": "$(br2)$(#8B0000)▌ Floral Ritual $()$(br)- Use a $(#BA55D3)clean mortar$() to grind each dried flower into a $(#9370DB)coarse powder$().$(br)- Add $(#D4AF37)honeysuckle, rose, hibiscus, and lavender$() in order, following the $(#32CD32)east-south-west-north$() sequence.$(br)- Stir counterclockwise $(#FF69B4)seven times$(), then clockwise $(#4169E1)three times$().$(br)- Finish by filtering through a $(#00BFFF)fine sieve$().$(br2)$(#FFD700)※$() A successful brew will form a $(#FF69B4)four-colored vortex$() with $(#7CFC00)luminous pollen$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#9370DB)『 花语史诗 』$()$(br)古代德鲁伊的树皮书记载：$(br)'当$(#BA55D3)木槿$()的守护、$(#D4AF37)金银花$()的净化、$(#8B0000)玫瑰$()的勇气与$(#9370DB)薰衣草$()的预知$(br)在$(#32CD32)翡翠坩埚$()中合而为一时，$(br)饮者将同时获得：$(br)- $(#4169E1)夜行者的瞳孔$()$(br)- $(#32CD32)风精灵的迅捷$()$(br)- $(#7CFC00)幸运女神的微笑$()$(br)- $(#FF69B4)生命母神的抚触$()$(br)但需在$(#FF1493)四色光晕$()消失前回到$(#98FB98)自然祭坛$()'"
+      "text": "$(br2)$(#9370DB)『 Epic of the Flower Language 』$()$(br)An ancient druid text records:$(br)'When the $(#BA55D3)protection of hibiscus$(),$(br)the $(#D4AF37)purification of honeysuckle$(),$(br)the $(#8B0000)courage of the rose$(), and$(br)the $(#9370DB)foresight of lavender$()$(br)unite within the $(#32CD32)Emerald Crucible$(),$(br)the drinker shall receive:$()$(br)- $(#4169E1)The eyes of a nocturnal hunter$()$(br)- $(#32CD32)The swiftness of wind spirits$()$(br)- $(#7CFC00)The smile of Lady Luck$()$(br)- $(#FF69B4)The gentle touch of the Mother of Life$()$(br)However, they must return to the $(#98FB98)Nature Altar$() before the $(#FF1493)four-colored glow$() fades.'"
     }
   ]
 }

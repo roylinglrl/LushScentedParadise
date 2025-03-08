@@ -1,25 +1,25 @@
 {
-  "name": "肉骨茶",
+  "name": "Bak Kut Teh",
   "icon": "lushscentedparadise:bak_kut_geh",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 59,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B4513)🍖 龙虎交汇·金汤镇魂 🦴$()$(br2)$(l)$(#D2691E)「以药汤淬骨，让凡躯暂获龙虎之力」$()$(br)当$(#6B8E23)传奇中药汤$()的精华渗入$(#A9A9A9)龙纹骨殖$()，$(#CD5C5C)霜降豚肉$()与$(#FF8C00)地精胡萝卜$()在$(#800000)朱雀砂锅$()中翻腾——这是能令$(l)血肉突破凡俗界限$()的南洋秘传圣品。"
+      "text": "$(#8B4513)🍖 Dragon and Tiger Fusion · Golden Broth of Fortitude 🦴$()$(br2)$(l)$(#D2691E)「Tempered through medicinal broth, the mortal body briefly attains the strength of dragons and tigers」$()$(br)The essence of $(#6B8E23)legendary herbal broth$() seeps into $(#A9A9A9)dragon-marked bones$(), while $(#CD5C5C)frost-aged pork$() and $(#FF8C00)goblin carrots$() simmer in a $(#800000)vermillion phoenix claypot$()—a sacred secret of the South Seas, said to $(l)push mortal flesh beyond its limits$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:bak_kut_geh",
-      "text": "$(#8B0000)▌ 三才归元 $()$(br2)$(l)$(#8B4513)🦴 铁骨结界$()$(br)体表浮现$(#696969)玄武岩纹$()吸收巨量伤害$(br2)$(l)$(#D4AF37)💊 百炼金身$()$(br)五脏六腑流转$(#FFD700)不灭金光$()$(br2)$(l)$(#32CD32)✨ 骨血重塑$()$(br)伤口处迸发$(#7CFC00)翡翠色新生脉络$()"
+      "text": "$(#8B0000)▌ Three Forces of Restoration $()$(br2)$(l)$(#8B4513)🦴 Ironbone Barrier$()$(br)Basalt-like $(#696969)stone veins$() appear on the skin, absorbing massive damage.$(br2)$(l)$(#D4AF37)💊 Tempered Golden Body$()$(br)Organs circulate with $(#FFD700)indestructible golden energy$().$(br2)$(l)$(#32CD32)✨ Bone and Blood Renewal$()$(br)Wounds burst forth with $(#7CFC00)emerald regenerative pathways$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#6B8E23)▌ 星洲古法 $()$(br)- 用$(#8B4513)玄铁砍刀$()将$(#A9A9A9)龙骨$()剁成$(#D3D3D3)七星连珠$()状$(br)- $(#CD5C5C)豚肉$()需与$(#6B8E23)药汤$()文火同煨$(#FF4500)三炷香$()$(br)- 投入$(#FF8C00)胡萝卜$()时须念诵$(#DAA520)潮州古咒$()$(br2)$(#FF0000)⚠$() 当砂锅传出$(#8B0000)龙吟声$()且汤面浮现$(#D4AF37)虎纹骨相$()即告大成"
+      "text": "$(br2)$(#6B8E23)▌ Ancient Singapura Recipe $()$(br)- Use a $(#8B4513)black iron cleaver$() to chop $(#A9A9A9)dragon bones$() into $(#D3D3D3)seven-star linked beads$().$(br)- $(#CD5C5C)Pork$() must be slow-cooked with $(#6B8E23)medicinal broth$() for $(#FF4500)three incense sticks’ time$().$(br)- When adding $(#FF8C00)carrots$(), one must recite an $(#DAA520)ancient Teochew chant$().$(br2)$(#FF0000)⚠$() When the claypot emits a $(#8B0000)dragon’s roar$(), and $(#D4AF37)tiger-striped bone patterns$() appear on the surface, the brew is complete."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B4513)『 南洋食补秘录 』$()$(br)马六甲老药师的竹简记载：$(br)'此$(#8B0000)金汤$()以$(#6B8E23)四象药基$()为引，$(br)佐$(#A9A9A9)虎骨$()通络、$(#CD5C5C)豚精$()养血、$(#FF8C00)地精$()明目——$(br)饮者得$(#8B4513)玄武护体$()、$(#D4AF37)白虎锐气$()，$(br)纵$(#FF0000)末影龙息$()亦难破$(#32CD32)青龙生机$()半分'"
+      "text": "$(br2)$(#8B4513)『 Southern Herbal Cuisine Record 』$()$(br)An ancient scroll from Malacca:$(br)'This $(#8B0000)golden broth$(), guided by $(#6B8E23)the four-element foundation$(),$(br)draws strength from $(#A9A9A9)tiger bones$(), nurtures blood with $(#CD5C5C)pork essence$(),$(br)and enhances sight with $(#FF8C00)goblin roots$()—$(br)granting the drinker $(#8B4513)Tortoise Shell Protection$(),$(br)$(#D4AF37)White Tiger's Sharpness$(),$(br)and resilience even against $(#FF0000)Ender Dragon’s Breath$(),$(br)for the $(#32CD32)Azure Dragon’s life force$() shall not be easily broken.'"
     }
   ]
 }

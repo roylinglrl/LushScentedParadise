@@ -1,26 +1,29 @@
 package net.royling.LushScentedParadise.dataGen;
 
+import net.minecraft.advancements.critereon.EnchantmentPredicate;
+import net.minecraft.advancements.critereon.ItemPredicate;
+import net.minecraft.advancements.critereon.MinMaxBounds;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
+import net.minecraft.world.level.storage.loot.entries.AlternativesEntry;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.predicates.MatchTool;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
-import net.minecraftforge.fml.common.Mod;
+import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
-import net.royling.LushScentedParadise.Item.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.ModBlock.newFlower.ModFlowers;
 import net.royling.LushScentedParadise.Registry.ModBlocks;
 import net.royling.LushScentedParadise.Registry.ModItems;
 import org.jetbrains.annotations.NotNull;
@@ -38,9 +41,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.TEAPOT.get());
         this.dropSelf(ModBlocks.FLOWER_TABLE.get());
         this.dropSelf(ModBlocks.DRYING_RACK.get());
-
-        this.dropSelf(ModFlowers.SORT_SILENT_ORCHID_ABYSS.get());
-        this.dropSelf(ModFlowers.TALL_SILENT_ORCHID_ABYSS.get());
 
         this.dropSelf(ModFlowers.VIOLET.get());
         this.dropSelf(ModFlowers.HIBISCUS.get());
@@ -81,9 +81,23 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropWildCrop(ModFlowers.WILD_VANILLA.get(), ModItems.VANILLA_SEEDS.get());
         this.dropOther(ModBlocks.COFFEE_TREE.get(), Items.AIR);
         this.dropOther(ModBlocks.VANILLA_CROP.get(), Items.AIR);
+        this.dropOther(ModBlocks.STAR_SILVER_FLOWER.get(),ModItems.STAR_SILVER_SEED.get());
+        this.dropOther(ModBlocks.ABYSS_SILENCE_MUSHROOM.get(),ModItems.ABYSS_SILENCE_MUSHROOM.get());
+        this.dropOther(ModBlocks.ABYSS_SILENCE_MUSHROOM_BLOCK.get(),ModItems.ABYSS_SILENCE_MUSHROOM.get());
+        this.dropOther(ModBlocks.ABYSS_SILENCE_MUSHROOM_CAP.get(),ModItems.ABYSS_SILENCE_MUSHROOM.get());
 
 
+        this.add(ModBlocks.STAR_SILVER_ORE.get(),block -> createOreDrop(block,ModItems.RAW_STAR_SILVER.get()));
+        this.add(ModBlocks.DEEPSLATE_STAR_SILVER_ORE.get(),block -> createOreDrop(block,ModItems.RAW_STAR_SILVER.get()));
 
+        dropWithSilkTouchOrItem(ModBlocks.ABYSS_SILENCE_MUSHROOM_BLOCK.get(),ModItems.ABYSS_SILENCE_MUSHROOM.get());
+        dropWithSilkTouchOrItem(ModBlocks.ABYSS_SILENCE_MUSHROOM_CAP.get(),ModItems.ABYSS_SILENCE_MUSHROOM.get());
+
+        this.dropOther(ModBlocks.STAR_SILVER_FLOWER_CROP.get(),Items.AIR);
+        this.dropOther(ModBlocks.STAR_SILVER_CLUSTER.get(),Items.AIR);
+        this.dropSelf(ModBlocks.STAR_SILVER_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_STAR_SILVER_BLOCK.get());
+        this.dropSelf(ModBlocks.COLORFUL_FLOWER_BLOCK.get());
 
         LootItemCondition.Builder greentea$builder = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(ModFlowers.GREEN_TEA.get())
@@ -213,5 +227,25 @@ public class ModBlockLootTables extends BlockLootSubProvider {
             }
         }
         add(block,LootTable.lootTable().withPool(pool));
+    }
+
+    private void dropWithSilkTouchOrItem(Block targetBlock, Item dropItem) {
+        this.add(targetBlock, createSilkTouchOrItemLootTable(targetBlock, dropItem));
+    }
+    private LootTable.Builder createSilkTouchOrItemLootTable(Block targetBlock,Item dropItem){
+        LootItemCondition.Builder silkTouch = MatchTool.toolMatches(
+                ItemPredicate.Builder.item()
+                        .hasEnchantment(new EnchantmentPredicate(Enchantments.SILK_TOUCH, MinMaxBounds.Ints.atLeast(1)))
+        );
+
+        return LootTable.lootTable().withPool(
+                LootPool.lootPool()
+                        .setRolls(ConstantValue.exactly(1))
+                        .add(AlternativesEntry.alternatives(
+                                LootItem.lootTableItem(targetBlock).when(silkTouch), // 🎯 精准采集掉落方块本身
+                                LootItem.lootTableItem(dropItem) // 🎯 否则掉落设定的物品
+                                        .apply(SetItemCountFunction.setCount(UniformGenerator.between(0, 2)))
+                        ))
+        );
     }
 }

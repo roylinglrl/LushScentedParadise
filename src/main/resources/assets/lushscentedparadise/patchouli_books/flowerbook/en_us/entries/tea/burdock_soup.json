@@ -1,21 +1,21 @@
 {
-  "name": "牛蒡汤",
+  "name": "Burdock Soup",
   "icon": "lushscentedparadise:burdock_soup",
   "category": "lushscentedparadise:tea",
   "sortnum": 41,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“根茎深扎，刚劲有力，坚韧守护，抵御风霜。”$(br2)牛蒡汤是一款带有浓郁草本风味的药汤，由干燥的牛蒡与糖调制而成。茶汤深棕色，入口微苦回甘，饮用后可提供抗性提升效果，并解除减速状态。"
+      "text": "“Roots dig deep, strong and resilient, guarding against the harshest storms.”$(br2)Burdock Soup is a medicinal broth with a rich herbal flavor, made from dried burdock and sugar. The deep brown tea has a slightly bitter taste that turns sweet over time. Drinking it provides Resistance and removes Slowness effects."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)牛蒡汤的制作需要$(br)两份干燥的牛蒡与糖混合熬煮。$(br)适合在战斗或行动受限时饮用，让旅人更具抵抗力。"
+      "text": "$(br2)$(br)To prepare Burdock Soup, $(br)boil two portions of dried burdock with sugar.$(br)It is best consumed during battle or when movement is restricted, offering travelers increased resilience."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:burdock_soup",
-      "text": "饮用牛蒡汤后，旅人将获得抗性提升效果，并解除减速状态，使行动更加自由。$(br)这是一款适用于防御强化的药汤。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Burdock Soup, travelers will receive a Resistance effect and have Slowness removed, allowing for greater mobility.$(br)This medicinal broth is perfect for defensive reinforcement.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

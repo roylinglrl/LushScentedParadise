@@ -1,25 +1,25 @@
 {
-  "name": "岩浆特饮",
+  "name": "Lava Special Drink",
   "icon": "lushscentedparadise:lava_special_drink",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 70,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#8B0000)🌋 熔核铸甲·炼狱甘霖 🔥$()$(br2)$(l)$(#FF4500)「让岩浆在血管奔流，把伤害化作熔炉的轻吻」$()$(br)当$(#8B0000)岩浆膏$()的灼魂之力、$(#4B0082)地狱疣$()的剧毒、$(#FF0000)干红花$()的活血与$(#D2691E)干姜$()的辛辣在$(#CD5C5C)恶魔砧板$()上融合——这是能令$(l)血肉短暂化为熔岩生物$()的地狱契约饮品。"
+      "text": "$(#8B0000)🌋 Molten Core Armor · Infernal Elixir 🔥$()$(br2)$(l)$(#FF4500)「Let magma surge through your veins, turning damage into a mere caress of the furnace」$()$(br)The scorching power of $(#8B0000)Magma Cream$(), the toxicity of $(#4B0082)Nether Wart$(), the blood-circulating energy of $(#FF0000)Dried Safflower$(), and the spiciness of $(#D2691E)Dried Ginger$() fuse upon the $(#CD5C5C)Demonic Cutting Board$()—creating a pact-bound infernal drink capable of $(l)temporarily transforming flesh into a lava-born entity$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:lava_special_drink",
-      "text": "$(#8B0000)▌ 熔火双效 $()$(br2)$(l)$(#FF4500)🛡 永恒熔甲$()$(br)皮肤表面结晶$(#CD5C5C)黑曜石纹$()隔绝高温$(br2)$(l)$(#FF69B4)💥 岩浆脉动$()$(br)饮用瞬间迸发$(#FF1493)赤红治疗波$()"
+      "text": "$(#8B0000)▌ Dual Infernal Effects $()$(br2)$(l)$(#FF4500)🛡 Eternal Magma Armor$()$(br)Skin crystallizes into $(#CD5C5C)obsidian patterns$(), insulating against extreme heat.$(br2)$(l)$(#FF69B4)💥 Lava Pulse$()$(br)Upon drinking, $(#FF1493)scarlet healing waves$() explode outward."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#4B0082)▌ 恶魔工艺 $()$(br)- 用$(#696969)地狱岩臼$()将$(#8B0000)岩浆膏$()捣成$(#CD5C5C)液态火种$()$(br)- 将$(#4B0082)地狱疣$()与$(#D2691E)姜片$()在$(#FF4500)硫磺火$()中烘烤至$(#8B0000)焦糖化$()$(br)- 加入$(#FF0000)红花$()时需完成$(#FFD700)逆十字$()搅拌轨迹$(br2)$(#FF0000)⚠️$() 当液体呈现$(#8B0000)熔岩分层$()并散发$(#FF4500)硫磺蒸汽$()时立即封装"
+      "text": "$(br2)$(#4B0082)▌ Demonic Crafting $()$(br)- Use a $(#696969)Nether Rock Mortar$() to crush $(#8B0000)Magma Cream$() into $(#CD5C5C)Liquid Fire Seeds$().$(br)- Roast $(#4B0082)Nether Wart$() and $(#D2691E)Ginger Slices$() over $(#FF4500)Sulfur Flames$() until they reach $(#8B0000)caramelization$().$(br)- Stir in $(#FF0000)Safflower$() using a $(#FFD700)reverse-cross$() motion.$(br2)$(#FF0000)⚠️$() Once the liquid forms $(#8B0000)lava layers$() and emits $(#FF4500)sulfuric steam$(), immediately seal the container."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#8B0000)『 炎魔手札 』$()$(br)熔岩巨兽甲壳上的刻文：$(br)'饮此$(#CD5C5C)契约之血$()者，$(br)将获得$(#FF4500)炎魔的祝福$()——$(br)在$(#8B0000)三次月相轮回$()内无视$(#FF0000)炼狱之火$()，$(br)并享受$(#FF69B4)短暂的新生脉冲$()$(br)但切忌在$(#4B0082)血月$()期间饮用，$(br)否则$(#696969)黑曜石纹$()将转为$(#000000)永恒诅咒$()'"
+      "text": "$(br2)$(#8B0000)『 Infernal Behemoth Codex 』$()$(br)Engraved upon a magma beast’s shell:$(br)'Those who drink this $(#CD5C5C)contracted blood$(),$(br)shall receive the $(#FF4500)blessing of the Infernal Lord$()—$(br)For $(#8B0000)three lunar cycles$(), they shall withstand $(#FF0000)hellfire$(),$(br)and enjoy the $(#FF69B4)brief pulse of rebirth$().$(br)However, consuming it under a $(#4B0082)Blood Moon$()$(br)will turn the $(#696969)obsidian markings$() into $(#000000)a permanent curse$().'"
     }
   ]
 }

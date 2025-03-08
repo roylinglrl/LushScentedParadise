@@ -1,21 +1,21 @@
 {
-  "name": "金银花茶",
+  "name": "Honeysuckle Tea",
   "icon": "lushscentedparadise:honeysuckle_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 26,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“藤蔓缠绕，清香甘甜，驱散浊气，回归清爽。”$(br2)金银花茶是一款具有净化作用的草本茶饮，由干忍冬花与糖调和而成。茶汤微黄，带有淡淡的花香，饮用后可治愈中毒，使旅人在危机时刻恢复清明。"
+      "text": "“Vines entwine, a refreshing floral sweetness clears away toxins and restores clarity.”$(br2)Honeysuckle Tea is a purifying herbal drink made from dried honeysuckle flowers and sugar. The tea has a pale yellow color with a light floral fragrance. Drinking it removes poison effects, allowing travelers to regain their composure in times of crisis."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)金银花茶的制作需要$(br)干忍冬花与糖混合熬煮。$(br)适合在遭受毒素侵袭时饮用，快速解除中毒状态，恢复清爽体态。"
+      "text": "$(br2)$(br)To prepare Honeysuckle Tea, $(br)boil dried honeysuckle flowers with sugar.$(br)It is best consumed when afflicted by poison, providing a quick detoxification effect to restore well-being."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:honeysuckle_tea",
-      "text": "饮用金银花茶后，旅人将解除中毒效果，使身体恢复健康。$(br)这是一款清新解毒的茶饮，适合对抗各种毒素侵害。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Honeysuckle Tea, travelers will have poison effects removed, restoring their health.$(br)This is a detoxifying and refreshing tea, ideal for combating various toxins.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

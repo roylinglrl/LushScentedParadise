@@ -1,13 +1,16 @@
 package net.royling.LushScentedParadise.ModBlock.DryingRack;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.network.Connection;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
+import net.minecraft.world.Container;
 import net.minecraft.world.SimpleContainer;
 import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -18,7 +21,7 @@ import net.royling.LushScentedParadise.Registry.ModRecipeTypes;
 import java.util.Arrays;
 
 
-public class DryingRackBlockEntity extends BlockEntity {
+public class DryingRackBlockEntity extends BlockEntity implements Container{
     public static final int SLOT_COUNT=9;
     public final NonNullList<ItemStack> items = NonNullList.withSize(SLOT_COUNT,ItemStack.EMPTY);
     public int[] dryingProgress = new int[SLOT_COUNT];
@@ -69,6 +72,10 @@ public class DryingRackBlockEntity extends BlockEntity {
                 return;
             }
         }
+    }
+    public void dropItem(Level level, BlockPos pos, ItemStack stack){
+        ItemEntity entity = new ItemEntity(level,pos.getX()+0.5,pos.getY()+0.7,pos.getZ()+0.5,stack.copy());
+        level.addFreshEntity(entity);
     }
     public void tick(){
         if(!level.isClientSide){
@@ -162,5 +169,81 @@ public class DryingRackBlockEntity extends BlockEntity {
             level.sendBlockUpdated(this.worldPosition, this.getBlockState(), this.getBlockState(), 3);
         }
     }
+    private boolean isValidInput(ItemStack stack){
+        return level.getRecipeManager()
+                .getRecipeFor(ModRecipeTypes.DRYING_RECIPE.get(), new SimpleContainer(stack), level)
+                .isPresent();
+    }
+    private boolean isValidOutput(ItemStack stack) {
+        return level.getRecipeManager()
+                .getAllRecipesFor(ModRecipeTypes.DRYING_RECIPE.get())
+                .stream()
+                .anyMatch(recipe -> ItemStack.isSameItem(recipe.getOutput(),stack));
+    }
 
+    @Override
+    public int getContainerSize() {
+        return SLOT_COUNT;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return items.stream().allMatch(ItemStack::isEmpty);
+    }
+
+    @Override
+    public ItemStack getItem(int i) {
+        return items.get(i);
+    }
+
+    @Override
+    public ItemStack removeItem(int i, int i1) {
+        ItemStack stack = items.get(i);
+        if(!stack.isEmpty() && isValidOutput(stack)){
+            items.set(i,ItemStack.EMPTY);
+            dryingProgress[i]=0;
+            setChanged();
+            sync();
+            return stack;
+        }
+        return ItemStack.EMPTY;
+    }
+
+    @Override
+    public ItemStack removeItemNoUpdate(int i) {
+        return items.set(1,ItemStack.EMPTY);
+    }
+
+    @Override
+    public void setItem(int i, ItemStack itemStack) {
+        if(isValidInput(itemStack)&&items.get(i).isEmpty()){
+            ItemStack newstack =itemStack.copy();
+            newstack.setCount(1);
+            items.set(i,newstack);
+            dryingProgress[i]=0;
+            setChanged();
+            sync();
+        }
+    }
+
+    @Override
+    public boolean stillValid(Player player) {
+        return true;
+    }
+
+    @Override
+    public void clearContent() {
+        items.clear();;
+        Arrays.fill(dryingProgress,0);
+    }
+
+    @Override
+    public boolean canPlaceItem(int pIndex, ItemStack pStack) {
+        return isValidInput(pStack)&&items.get(pIndex).isEmpty();
+    }
+
+    @Override
+    public boolean canTakeItem(Container pTarget, int pIndex, ItemStack pStack) {
+        return !items.get(pIndex).isEmpty()&&isValidOutput(items.get(pIndex));
+    }
 }

@@ -1,25 +1,25 @@
 {
-  "name": "极寒炼乳花茶",
+  "name": "Extremely Cold Condensed Milk Scented Tea",
   "icon": "lushscentedparadise:extremely_cold_condensed_milk_scented_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 65,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#87CEEB)❄️ 霜魂凝萃·冰甲圣饮 🥛$()$(br2)$(l)$(#4682B4)「以速度为代价，换取连雪崩都无法撼动的绝对防御」$()$(br)将$(#87CEEB)千年雪莲$()的极寒精华、$(#B0E0E6)霜原炼乳$()的柔韧、$(#00BFFF)永恒冰核$()的凛冽与$(#DAA520)岩层蜜胶$()在$(#483D8B)寒铁釜$()中低温融合——这是能令$(l)血肉短暂化为冰晶铠甲$()的雪山部族禁术。"
+      "text": "$(#87CEEB)❄️ Frost Essence Condensation · Ice Armor Holy Drink 🥛$()$(br2)$(l)$(#4682B4)「Sacrificing speed in exchange for an absolute defense unshaken even by avalanches」$()$(br)The extreme cold essence of $(#87CEEB)Millennium Snow Lotus$(), the flexibility of $(#B0E0E6)Frostfield Condensed Milk$(), the biting chill of $(#00BFFF)Eternal Ice Core$(), and the resilience of $(#DAA520)Rock Honey Gel$() are fused under low temperatures within the $(#483D8B)Cold Iron Cauldron$()—an ancient mountain tribe ritual capable of $(l)temporarily transforming flesh into crystalline ice armor$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:extremely_cold_condensed_milk_scented_tea",
-      "text": "$(#00BFFF)▌ 冰霜平衡 $()$(br2)$(l)$(#696969)⛓ 霜足禁锢$()$(br)移动时足部凝结$(#87CEEB)冰晶锁链$()$(br2)$(l)$(#4682B4)🛡 永冻护甲$()$(br)体表覆盖$(#00CED1)蓝钻冰层$()抵抗高额伤害$(br2)$(l)$(#87CEEB)❄ 雪羽缓降$()$(br)坠落时周身飘落$(#E0FFFF)缓速雪花$()"
+      "text": "$(#00BFFF)▌ Frost Balance $()$(br2)$(l)$(#696969)⛓ Frostbound Shackles$()$(br)Feet encased in $(#87CEEB)frost chains$() while moving.$(br2)$(l)$(#4682B4)🛡 Eternal Frozen Armor$()$(br)A layer of $(#00CED1)blue diamond ice$() forms over the body, absorbing immense damage.$(br2)$(l)$(#87CEEB)❄ Snow Feather Descent$()$(br)Falling is slowed as $(#E0FFFF)gentle snowflakes$() swirl around."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#483D8B)▌ 霜裔工艺 $()$(br)- 用$(#87CEEB)利刃$()将$(#00BFFF)冰块$()切削成$(#B0E0E6)雪绒状晶体$()$(br)- 将$(#87CEEB)雪莲$()在$(#DAA520)蜂蜜$()中$(#4682B4)低温浸渍$()三天三夜$(br)- 混合$(#B0E0E6)炼乳$()时需保持$(#00BFFF)零度以下$()环境$(br2)$(#7FFFD4)※$() 当液体呈现$(#87CEEB)冰裂纹理$()且散发$(#E0FFFF)霜雾$()即为成功"
+      "text": "$(br2)$(#483D8B)▌ Frostborne Crafting $()$(br)- Use a $(#87CEEB)sharp blade$() to shave $(#00BFFF)ice blocks$() into $(#B0E0E6)snowflake-like crystals$().$(br)- Soak $(#87CEEB)Snow Lotus$() in $(#DAA520)honey$() under $(#4682B4)low temperatures$() for three days and nights.$(br)- When mixing $(#B0E0E6)condensed milk$(), ensure the environment remains $(#00BFFF)below freezing$().$(br2)$(#7FFFD4)※$() A successful brew will display $(#87CEEB)fractured ice patterns$() and emit $(#E0FFFF)frost mist$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#2F4F4F)『 极光宫殿禁书记载 』$()$(br)古老冰碑上的警告铭文：$(br)'饮此$(#87CEEB)霜魂饮$()者，$(br)将获得$(#4682B4)冰巨人的抗性$()与$(#00CED1)雪鸮的缓降$()——$(br)但$(#696969)每步前行$()都需突破$(#87CEEB)冰之枷锁$()，$(br)这是独裁者$(#483D8B)冰雪女王$()对$(#DAA520)窃取神力$()者的$(#00BFFF)必要惩戒$()'"
+      "text": "$(br2)$(#2F4F4F)『 Forbidden Record of the Aurora Palace 』$()$(br)An inscription found on an ancient frost monolith:$(br)'Those who drink this $(#87CEEB)Frost Essence Elixir$(),$(br)shall inherit the $(#4682B4)resilience of the Ice Giants$() and the $(#00CED1)gentle descent of the Snow Owl$()—$(br)but $(#696969)each step$() must break through the $(#87CEEB)Shackles of Ice$(),$(br)as a necessary punishment decreed by the $(#483D8B)Snow Queen$() upon those who dare $(#DAA520)steal divine power$().'"
     }
   ]
 }

@@ -10,7 +10,7 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "lushscentedparadise:music_disc",
+      "recipe": "lushscentedparadise:original/music_disc",
       "text": "$(#FFD700)The power of music$() not only $(#32CD32)relaxes the body and mind$(), but also enhances $(#00BFFF)the journey$() with a $(#FF69B4)more immersive experience$().$(br)On a $(#ADD8E6)peaceful afternoon$(), with $(#32CD32)gentle breezes and birdsong$() around you, insert the disc and let this $(#FFD700)soft melody$() accompany your $(#8B4513)labor and leisure$()."
     },
     {

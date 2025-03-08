@@ -1,34 +1,35 @@
 package net.royling.LushScentedParadise.dataGen;
 
+import com.google.gson.JsonObject;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.crafting.AbstractCookingRecipe;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.ShapelessRecipe;
+import net.minecraft.world.item.crafting.*;
+import net.minecraft.world.item.enchantment.Enchantment;
+import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.ItemLike;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.common.Mod;
 import net.royling.LushScentedParadise.Botania.LSPBotaniaItems;
 import net.royling.LushScentedParadise.Item.Flowertea.ModFoods;
 import net.royling.LushScentedParadise.Item.coffee.ModCoffee;
-import net.royling.LushScentedParadise.Item.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.Item.milktea.ModMilktea;
+import net.royling.LushScentedParadise.ModBlock.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.Item.snack.ModSnack;
 import net.royling.LushScentedParadise.LushScentedParadise;
+import net.royling.LushScentedParadise.Registry.ModBlocks;
 import net.royling.LushScentedParadise.Registry.ModItems;
 import net.royling.LushScentedParadise.Registry.ModRecipeSerializers;
 import net.royling.LushScentedParadise.dataGen.modRecipeBuilder.DryingRecipeBuilder;
 import net.royling.LushScentedParadise.dataGen.modRecipeBuilder.TeapotRecipeBuilder;
 import net.royling.LushScentedParadise.util.ModTags;
-import vazkii.botania.api.BotaniaRegistries;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -552,7 +553,29 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 Ingredient.of(ModItems.DRIED_HERBACEOUS_PEONY.get()),
                 Ingredient.of(Items.PUFFERFISH)
         ), new ItemStack(ModFoods.THE_DEVILS_CALL.get()),200);
-//endregion
+
+        addTeapotRecipe(pWriter,"star_silver_potion", List.of(
+                Ingredient.of(ModItems.STAR_SILVER_FLOWER_CROP.get()),
+                Ingredient.of(ModItems.STAR_SILVER_INGOT.get()),
+                Ingredient.of(ModItems.DRIED_LILY.get()),
+                Ingredient.of(Items.SUGAR)
+        ), new ItemStack(ModFoods.STAR_SILVER_POTION.get()),400);
+
+        addTeapotRecipe(pWriter,"abyssal_brew", List.of(
+                Ingredient.of(ModItems.DRIED_ABYSS_SILENCE_MUSHROOM.get()),
+                Ingredient.of(ModItems.DRIED_LILY_OF_THE_VALLEY.get()),
+                Ingredient.of(ModItems.PHANTOM_LOTUS_KOI.get()),
+                Ingredient.of(Items.SUGAR)
+        ), new ItemStack(ModFoods.ABYSSAL_BREW.get()),600);
+
+        addTeapotRecipe(pWriter,"celestial_extract", List.of(
+                Ingredient.of(ModItems.DRIED_ABYSS_SILENCE_MUSHROOM.get()),
+                Ingredient.of(ModItems.STAR_SILVER_FLOWER_CROP.get()),
+                Ingredient.of(ModItems.VANILLA_SYRUP.get()),
+                Ingredient.of(Items.SUGAR)
+        ), new ItemStack(ModFoods.CELESTIAL_EXTRACT.get()),200);
+
+
         //折叠的煮茶配方
         addTeapotRecipe(pWriter,"vanilla_syrup",List.of(Ingredient.of(ModItems.DRIED_VANILLA_POD.get()),Ingredient.of(Items.SUGAR),Ingredient.of(Items.SUGAR)),new ItemStack(ModItems.VANILLA_SYRUP.get()),600);
 
@@ -569,37 +592,295 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         addTeapotRecipe(pWriter,"jasmine_coffee",List.of(Ingredient.of(ModItems.COFFEE_POWDER.get()),Ingredient.of(ModItems.DRIED_JASMINE.get()),Ingredient.of(ModItems.MILK.get())),new ItemStack(ModCoffee.JASMINE_COFFEE.get()),600);
 
+        addTeapotRecipe(pWriter,"tradition_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()),Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get())),
+                new ItemStack(ModMilktea.TRADITION_MILKTEA.get()),600);
+
+        addTeapotRecipe(pWriter, "hkstyle_silkstocking_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(ModItems.MILK_FOAM.get())),
+                new ItemStack(ModMilktea.HKSTYLE_SILKSTOCKING_MILKTEA.get()), 800);
+
+        addTeapotRecipe(pWriter, "milk_cap_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_GREEN_TEA_LEAVE.get()), Ingredient.of(ModItems.CREAM.get())),
+                new ItemStack(ModMilktea.MILK_CAP_MILKTEA.get()), 600);
+
+        addTeapotRecipe(pWriter, "pudding_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(ModSnack.PUDDING.get())),
+                new ItemStack(ModMilktea.PUDDING_MILKTEA.get()), 700);
+
+        addTeapotRecipe(pWriter, "brownsugar_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(Items.SUGAR),Ingredient.of(Items.SUGAR)),
+                new ItemStack(ModMilktea.BROWNSUGAR_MILKTEA.get()), 650);
+
+        addTeapotRecipe(pWriter, "chocolate_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(ModItems.COCOA_POWDER.get())),
+                new ItemStack(ModMilktea.CHOCOLATE_MILKTEA.get()), 650);
+
+        addTeapotRecipe(pWriter, "jasmine_oolong_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_OOLONG_TEA_LEAVE.get()), Ingredient.of(ModItems.DRIED_JASMINE.get())),
+                new ItemStack(ModMilktea.JASMINE_OOLONG_MILKTEA.get()), 700);
+
+        addTeapotRecipe(pWriter, "rose_blacktea_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(ModItems.DRIED_ROSE.get())),
+                new ItemStack(ModMilktea.ROSE_BLACKTEA_MILKTEA.get()), 750);
+
+        addTeapotRecipe(pWriter, "vanilla_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(ModItems.DRIED_VANILLA_POD.get())),
+                new ItemStack(ModMilktea.VANILLA_MILKTEA.get()), 700);
+
+        addTeapotRecipe(pWriter, "ginger_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(ModItems.GINGER_POWDER.get())),
+                new ItemStack(ModMilktea.GINGER_MILKTEA.get()), 650);
+
+        addTeapotRecipe(pWriter, "lavender_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(ModItems.DRIED_LAVENDER.get())),
+                new ItemStack(ModMilktea.LAVENDER_MILKTEA.get()), 750);
+
+        addTeapotRecipe(pWriter, "coffee_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(ModItems.COFFEE_POWDER.get())),
+                new ItemStack(ModMilktea.COFFEE_MILKTEA.get()), 800);
+
+        addTeapotRecipe(pWriter, "glow_berries_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_GREEN_TEA_LEAVE.get()), Ingredient.of(Items.GLOW_BERRIES)),
+                new ItemStack(ModMilktea.GLOW_BERRIES_MILKTEA.get()), 750);
+
+        addTeapotRecipe(pWriter, "violet_milktea",
+                List.of(Ingredient.of(ModItems.MILK.get()), Ingredient.of(ModItems.DRIED_BLACK_TEA_LEAVE.get()), Ingredient.of(ModItems.DRIED_VIOLET.get())),
+                new ItemStack(ModMilktea.VIOLET_MILKTEA.get()), 750);
+//endregion
+
         addShapelessRecipe(pWriter,"coffee_beans",ModItems.COFFEE_BEANS.get(),1,ModItems.COFFEE_FRUIT.get());
         addShapelessRecipe(pWriter,"milk_foam",ModItems.MILK_FOAM.get(),1,ModItems.MILK.get(),ModItems.MORTAR_AND_PESTLE.get());
         addShapelessRecipe(pWriter,"coffee_powder",ModItems.COFFEE_POWDER.get(),1,ModItems.DRIED_COFFEE_BEANS.get(),ModItems.DRIED_COFFEE_BEANS.get(),ModItems.DRIED_COFFEE_BEANS.get(),ModItems.DRIED_COFFEE_BEANS.get(),ModItems.MORTAR_AND_PESTLE.get());
         addDryingRecipe(pWriter,"dried_coffee_beans",ModItems.COFFEE_BEANS.get(),ModItems.DRIED_COFFEE_BEANS.get(),1200);
         addDryingRecipe(pWriter,"dried_vanilla_pod",ModItems.VANILLA_POD.get(),ModItems.DRIED_VANILLA_POD.get(),600);
+        addDryingRecipe(pWriter,"dried_abyss_silence_mushroom",ModItems.ABYSS_SILENCE_MUSHROOM.get(),ModItems.DRIED_ABYSS_SILENCE_MUSHROOM.get(),600);
         addShapelessRecipe(pWriter,"cream",ModItems.CREAM.get(),1,ModItems.MILK_FOAM.get(),ModItems.MORTAR_AND_PESTLE.get());
         addShapelessRecipe(pWriter,"butter",ModItems.BUTTER.get(),1,ModItems.CREAM.get(),ModItems.MORTAR_AND_PESTLE.get());
         addShapelessRecipe(pWriter,"ginger_powder",ModItems.GINGER_POWDER.get(),1,ModItems.DRIED_GINGER_ITEM.get(),ModItems.MORTAR_AND_PESTLE.get());
         addShapelessRecipe(pWriter,"gingerbread_man",ModItems.GINGERBREAD_MAN.get(),1,ModItems.GINGER_POWDER.get(),Items.WHEAT,Items.SUGAR,Items.EGG,ModItems.BUTTER.get());
         addShapelessRecipe(pWriter,"chocolate",ModItems.CHOCOLATE.get(),2,ModItems.COCOA_POWDER.get(),ModItems.COCOA_POWDER.get(),Items.SUGAR,ModItems.MILK_FOAM.get(),ModItems.VANILLA_SYRUP.get());
+        addShapelessRecipe(pWriter,"macaron", ModSnack.MACARON.get(),4,ModItems.COCOA_POWDER.get(),Items.EGG,Items.SUGAR,ModItems.VANILLA_SYRUP.get(),ModItems.DRIED_HIBISCUS.get());
+        addShapelessRecipe(pWriter,"vanilla_whipped_cream", ModSnack.VANILLA_WHIPPED_CREAM.get(),1,ModItems.CREAM.get(),Items.SUGAR,ModItems.VANILLA_SYRUP.get());
+        addShapelessRecipe(pWriter,"vanilla_ice_cream", ModSnack.VANILLA_ICE_CREAM.get(),1,ModItems.CREAM.get(),Items.SUGAR,ModItems.DRIED_VANILLA_POD.get(),Items.EGG);
+        addShapelessRecipe(pWriter,"pudding", ModSnack.PUDDING.get(),1,ModItems.MILK.get(),Items.SUGAR,Items.EGG,Items.EGG);
+        addShapelessRecipe(pWriter,"hibiscus_dye",Items.PINK_DYE,1,ModFlowers.HIBISCUS.get());
+        addShapelessRecipe(pWriter,"jasmine_dye",Items.WHITE_DYE,1,ModFlowers.JASMINE.get());
+        addShapelessRecipe(pWriter,"lavender_dye",Items.PURPLE_DYE,1,ModFlowers.LAVENDER.get());
+        addShapelessRecipe(pWriter,"lily_dye",Items.WHITE_DYE,1,ModFlowers.LILY.get());
+        addShapelessRecipe(pWriter,"marigold_dye",Items.LIGHT_GRAY_DYE,1,ModFlowers.MARIGOLD.get());
+        addShapelessRecipe(pWriter,"oenothrea_dye",Items.LIGHT_GRAY_DYE,1,ModFlowers.OENOTHERA_LINDHEIMERI.get());
+        addShapelessRecipe(pWriter,"peony_dye",Items.MAGENTA_DYE,1,ModFlowers.PEONY.get());
+        addShapelessRecipe(pWriter,"perilla_dye",Items.PURPLE_DYE,1,ModFlowers.PERILLA.get());
+        addShapelessRecipe(pWriter,"safflower_dye",Items.YELLOW_DYE,1,ModFlowers.SAFFLOWER.get());
+        addShapelessRecipe(pWriter,"snow_lotus_dye",Items.WHITE_DYE,1,ModFlowers.SNOW_LOTUS.get());
+        addShapelessRecipe(pWriter,"violet_dye",Items.PURPLE_DYE,1,ModFlowers.VIOLET.get());
+        addShapelessRecipe(pWriter,"coffee_dye",Items.BROWN_DYE,1,ModItems.DRIED_COFFEE_BEANS.get());
+        addShapelessRecipe(pWriter,"vanilla_seeds",ModItems.VANILLA_SEEDS.get(),1,ModItems.VANILLA_POD.get());
+        addShapelessRecipe(pWriter,"ice_black_tea",ModFoods.ICE_BLACK_TEA.get(),1,ModFoods.BLACK_TEA.get(),Items.ICE,Items.SUGAR);
 
+        addShapelessRecipe(pWriter,"star_silver_flower_powder",ModItems.STAR_SILVER_FLOWER_POWDER.get(),1,ModItems.STAR_SILVER_FLOWER_CROP.get(),ModItems.MORTAR_AND_PESTLE.get());
+        addShapelessRecipe(pWriter,"abyss_mushroom_powder",ModItems.ABYSS_MUSHROOM_POWDER.get(),1,ModItems.DRIED_ABYSS_SILENCE_MUSHROOM.get(),ModItems.MORTAR_AND_PESTLE.get());
+
+        addOreRecipe(pWriter, "star_silver_ore", ModBlocks.STAR_SILVER_ORE.get(), ModItems.STAR_SILVER_INGOT.get(), 0.7f, 200);
+        addOreRecipe(pWriter, "raw_star_silver", ModItems.RAW_STAR_SILVER.get(), ModItems.STAR_SILVER_INGOT.get(), 0.7f, 200);
+        addOreRecipe(pWriter, "deepslate_star_silver_ore", ModItems.DEEPSLATE_STAR_SILVER_ORE_ITEM.get(), ModItems.STAR_SILVER_INGOT.get(), 0.7f, 200);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT,ModItems.STAR_SILVER_SWORD.get()).define('#',ModItems.STAR_SILVER_INGOT.get()).define('S',Items.STICK)
+                .pattern("#").pattern("#").pattern("S")
+                .unlockedBy("has_star_silver_ingot",has(ModItems.STAR_SILVER_INGOT.get()))
+                .save((recipeConsumer)->pWriter.accept(new EnchantedResult(recipeConsumer,new ResourceLocation(LushScentedParadise.MODID,"star_silver_sword"), Enchantments.MOB_LOOTING,1)));
+
+        addArmorRecipe(pWriter, "star_silver_helmet", ModItems.STAR_SILVER_HELMET.get(), "###", "# #");
+        addArmorRecipe(pWriter, "star_silver_chestplate", ModItems.STAR_SILVER_CHESTPLATE.get(), "# #", "###", "###");
+        addArmorRecipe(pWriter, "star_silver_leggings", ModItems.STAR_SILVER_LEGGINGS.get(), "###", "# #", "# #");
+        addArmorRecipe(pWriter, "star_silver_boots", ModItems.STAR_SILVER_BOOTS.get(), "# #", "# #");
+        // 星银镐
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STAR_SILVER_PICKAXE.get())
+                .define('#', ModItems.STAR_SILVER_INGOT.get()).define('S', Items.STICK)
+                .pattern("###")
+                .pattern(" S ")
+                .pattern(" S ")
+                .unlockedBy("has_star_silver_ingot", has(ModItems.STAR_SILVER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STAR_SILVER_AXE.get())
+                .define('#', ModItems.STAR_SILVER_INGOT.get()).define('S', Items.STICK)
+                .pattern("## ")
+                .pattern("#S ")
+                .pattern(" S ")
+                .unlockedBy("has_star_silver_ingot", has(ModItems.STAR_SILVER_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STAR_SILVER_SHOVEL.get())
+                .define('#', ModItems.STAR_SILVER_INGOT.get()).define('S', Items.STICK)
+                .pattern("#")
+                .pattern("S")
+                .pattern("S")
+                .unlockedBy("has_star_silver_ingot", has(ModItems.STAR_SILVER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STAR_SILVER_HOE.get())
+                .define('#', ModItems.STAR_SILVER_INGOT.get()).define('S', Items.STICK)
+                .pattern("## ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .unlockedBy("has_star_silver_ingot", has(ModItems.STAR_SILVER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.STAR_SILVER_SHEARS.get())
+                .define('#', ModItems.STAR_SILVER_INGOT.get())
+                .pattern(" #")
+                .pattern("# ")
+                .unlockedBy("has_star_silver_ingot", has(ModItems.STAR_SILVER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.COLORFUL_FLOWER_SWORD.get())
+                .define('C',ModItems.FLOWER_INGOT.get())
+                .define('E',Items.DIAMOND_SWORD)
+                .define('T',ModItems.STAR_SILVER_SWORD.get())
+                .define('F',ModItems.ORIGINAL_FLOWER_SWORD.get())
+                .define('D',ModItems.STAR_SILVER_INGOT.get())
+                .define('R',ModFoods.CELESTIAL_EXTRACT.get())
+                .define('W',Items.EMERALD)
+                .pattern("CWC")
+                .pattern("ETF")
+                .pattern("DRD")
+                .unlockedBy("has_flower_ingot",has(ModItems.FLOWER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.COLORFUL_FLOWER_PICKAXE.get())
+                .define('C',ModItems.FLOWER_INGOT.get())
+                .define('E',Items.DIAMOND_PICKAXE)
+                .define('T',Items.GLOW_BERRIES)
+                .define('F',ModItems.STAR_SILVER_PICKAXE.get())
+                .define('D',ModItems.STAR_SILVER_INGOT.get())
+                .define('R',ModItems.ABYSS_MUSHROOM_POWDER.get())
+                .define('W',Items.GOLD_INGOT)
+                .pattern("CWC")
+                .pattern("ETF")
+                .pattern("DRD")
+                .unlockedBy("has_flower_ingot",has(ModItems.FLOWER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.COLORFUL_FLOWER_AXE.get())
+                .define('C',ModItems.FLOWER_INGOT.get())
+                .define('E',Items.DIAMOND_AXE)
+                .define('F',ModItems.STAR_SILVER_AXE.get())
+                .define('T',Items.OAK_SAPLING)
+                .define('D',ModItems.STAR_SILVER_INGOT.get())
+                .define('R',ModCoffee.ESPRESSO.get())
+                .define('W',Items.REDSTONE)
+                .pattern("CWC")
+                .pattern("ETF")
+                .pattern("DRD")
+                .unlockedBy("has_flower_ingot",has(ModItems.FLOWER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.COLORFUL_FLOWER_SHOVEL.get())
+                .define('C',ModItems.FLOWER_INGOT.get())
+                .define('E',Items.DIAMOND_SHOVEL)
+                .define('F',ModItems.STAR_SILVER_SHOVEL.get())
+                .define('T',Items.GRASS_BLOCK)
+                .define('D',ModItems.STAR_SILVER_INGOT.get())
+                .define('R',ModItems.CHOCOLATE.get())
+                .define('W',Items.DIAMOND)
+                .pattern("CWC")
+                .pattern("ETF")
+                .pattern("DRD")
+                .unlockedBy("has_flower_ingot",has(ModItems.FLOWER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.COLORFUL_FLOWER_HOE.get())
+                .define('C',ModItems.FLOWER_INGOT.get())
+                .define('E',Items.DIAMOND_HOE)
+                .define('F',ModItems.STAR_SILVER_HOE.get())
+                .define('T',Items.WHEAT_SEEDS)
+                .define('D',ModItems.STAR_SILVER_INGOT.get())
+                .define('R',ModSnack.PUDDING.get())
+                .define('W',Items.LAPIS_LAZULI)
+                .pattern("CWC")
+                .pattern("ETF")
+                .pattern("DRD")
+                .unlockedBy("has_flower_ingot",has(ModItems.FLOWER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.COLORFUL_FLOWER_HELMET.get())
+                .define('C',ModItems.FLOWER_INGOT.get())
+                .define('E',Items.DIAMOND_HELMET)
+                .define('F',ModItems.STAR_SILVER_HELMET.get())
+                .define('T',Items.KELP)
+                .define('D',ModItems.STAR_SILVER_INGOT.get())
+                .define('R',ModFoods.OCEAN_JOURNEY.get())
+                .define('W',Items.GOLD_INGOT)
+                .pattern("CWC")
+                .pattern("ETF")
+                .pattern("DRD")
+                .unlockedBy("has_flower_ingot",has(ModItems.FLOWER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.COLORFUL_FLOWER_CHESTPLATE.get())
+                .define('C',ModItems.FLOWER_INGOT.get())
+                .define('E',Items.DIAMOND_CHESTPLATE)
+                .define('F',ModItems.STAR_SILVER_CHESTPLATE.get())
+                .define('T',Items.LEATHER)
+                .define('D',ModItems.STAR_SILVER_INGOT.get())
+                .define('R',ModFoods.LAVA_SPECIAL_DRINK.get())
+                .define('W',Items.EMERALD)
+                .pattern("CWC")
+                .pattern("ETF")
+                .pattern("DRD")
+                .unlockedBy("has_flower_ingot",has(ModItems.FLOWER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.COLORFUL_FLOWER_LEGGINGS.get())
+                .define('C',ModItems.FLOWER_INGOT.get())
+                .define('E',Items.DIAMOND_LEGGINGS)
+                .define('F',ModItems.STAR_SILVER_LEGGINGS.get())
+                .define('T',Items.SUGAR)
+                .define('D',ModItems.STAR_SILVER_INGOT.get())
+                .define('R',ModFoods.FLOWER_PARTY.get())
+                .define('W',Items.LAPIS_LAZULI)
+                .pattern("CWC")
+                .pattern("ETF")
+                .pattern("DRD")
+                .unlockedBy("has_flower_ingot",has(ModItems.FLOWER_INGOT.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS,ModItems.COLORFUL_FLOWER_BOOTS.get())
+                .define('C',ModItems.FLOWER_INGOT.get())
+                .define('E',Items.DIAMOND_BOOTS)
+                .define('F',ModItems.STAR_SILVER_BOOTS.get())
+                .define('T',Items.SUNFLOWER)
+                .define('D',ModItems.STAR_SILVER_INGOT.get())
+                .define('R',ModMilktea.ROSE_BLACKTEA_MILKTEA.get())
+                .define('W',Items.DIAMOND)
+                .pattern("CWC")
+                .pattern("ETF")
+                .pattern("DRD")
+                .unlockedBy("has_flower_ingot",has(ModItems.FLOWER_INGOT.get()))
+                .save(pWriter);
+
+
+
+
+        NineToOneRecipe(pWriter,ModItems.RAW_STAR_SILVER.get(),ModItems.RAW_STAR_SILVER_BLOCK_ITEM.get());
+        NineToOneRecipe(pWriter,ModItems.STAR_SILVER_INGOT.get(),ModItems.STAR_SILVER_BLOCK_ITEM.get());
+        OneToNineRecipe(pWriter,ModItems.STAR_SILVER_BLOCK_ITEM.get(),ModItems.STAR_SILVER_INGOT.get(),9);
+        OneToNineRecipe(pWriter,ModItems.RAW_STAR_SILVER_BLOCK_ITEM.get(),ModItems.RAW_STAR_SILVER.get(),9);
+        NineToOneRecipe(pWriter,ModItems.FLOWER_INGOT.get(),ModItems.COLORFUL_FLOWER_BLOCK_ITEM.get());
+        OneToNineRecipe(pWriter,ModItems.COLORFUL_FLOWER_BLOCK_ITEM.get(),ModItems.FLOWER_INGOT.get(),9);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,ModItems.FLOWER_INGOT.get(),1)
+                .define('F', ItemTags.FLOWERS).define('A',ModItems.STAR_SILVER_FLOWER_POWDER.get()).define('B',ModItems.PHANTOM_LOTUS_KOI.get()).define('C',ModItems.GLOWPETAL_PIGFISH.get()).define('#',ModItems.STAR_SILVER_INGOT.get()).define('D',ModItems.ABYSS_MUSHROOM_POWDER.get())
+                .pattern("FAF")
+                .pattern("B#C")
+                .pattern("FDF")
+                .unlockedBy("has_item", has(ModItems.STAR_SILVER_INGOT.get()))
+                .save(pWriter,new ResourceLocation(LushScentedParadise.MODID,"colorful_flower_ingot_recipe"));
     }
 
 
-    protected static void oreCooking(Consumer<FinishedRecipe> pFinishedRecipeConsumer, RecipeSerializer<? extends AbstractCookingRecipe> pCookingSerializer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
-        for(ItemLike itemlike : pIngredients) {
-            SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), pCategory, pResult,
-                    pExperience, pCookingTime, pCookingSerializer).group(pGroup).unlockedBy(getHasName(itemlike),
-                    has(itemlike)).save(pFinishedRecipeConsumer, LushScentedParadise.MODID+ ":" +getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
-        }
-
-    }
-
+    //添加干燥配方
     protected void addDryingRecipe(Consumer<FinishedRecipe> consumer, String name, Item input, Item output, int dryingTime){
         DryingRecipeBuilder.drying(ModRecipeSerializers.DRYING_RECIPE.get(),input,output,dryingTime)
                 .save(consumer,new ResourceLocation(LushScentedParadise.MODID,name));
     }
+    //添加茶壶配方
     protected void addTeapotRecipe(Consumer<FinishedRecipe> consumer, String name, List<Ingredient> inputs, ItemStack result, int brewTime){
         TeapotRecipeBuilder.teapot(ModRecipeSerializers.TEAPOT_RECIPE.get(), inputs,result,brewTime)
                 .save(consumer,new ResourceLocation(LushScentedParadise.MODID,name));
     }
+    //添加无序合成配方
     protected void addShapelessRecipe(Consumer<FinishedRecipe> consumer,String name,ItemLike output,int count,ItemLike... inputs){
         {
             ShapelessRecipeBuilder builder = ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, output, count);
@@ -610,5 +891,97 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     .save(consumer, new ResourceLocation(LushScentedParadise.MODID, name));
         }
     }
+    //添加矿石煅烧配方
+    protected void addOreRecipe(Consumer<FinishedRecipe> consumer,String name,ItemLike input,ItemLike output,float experience,int cookingTime){
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(input), RecipeCategory.MISC, output, experience, cookingTime)
+                .unlockedBy("has_" + name, has(input))
+                .save(consumer, new ResourceLocation("lushscentedparadise", "smelting/" + name));
+        SimpleCookingRecipeBuilder.blasting(Ingredient.of(input), RecipeCategory.MISC, output, experience, cookingTime / 2)
+                .unlockedBy("has_" + name, has(input))
+                .save(consumer, new ResourceLocation("lushscentedparadise", "blasting/" + name));
+    }
+    private void addArmorRecipe(Consumer<FinishedRecipe> consumer, String name, ItemLike result, String... pattern) {
+        ShapedRecipeBuilder builder = ShapedRecipeBuilder.shaped(RecipeCategory.MISC, result)
+                .define('#', ModItems.STAR_SILVER_INGOT.get());
+        for (String row : pattern) {
+            builder.pattern(row);
+        }
+        builder.unlockedBy("has_star_silver_ingot", has(ModItems.STAR_SILVER_INGOT.get()))
+                .save(consumer, new ResourceLocation("lushscentedparadise", name));
+    }
+    private void NineToOneRecipe(Consumer<FinishedRecipe> consumer, Item input, Item output) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC,output)
+                .define('#', input)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .unlockedBy("has_item", has(input))
+                .save(consumer);
+    }
+    private void OneToNineRecipe(Consumer<FinishedRecipe> consumer, ItemLike input, ItemLike output, int count) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, output, count)
+                .requires(input)
+                .unlockedBy("has_item", has(input))
+                .save(consumer);
+    }
+
+//合成附带附魔的方法
+    public class EnchantedResult implements FinishedRecipe {
+        private final FinishedRecipe baseRecipe;
+        private final ResourceLocation id;
+        private final Enchantment enchantment;
+        private final int level;
+
+        public EnchantedResult(FinishedRecipe baseRecipe, ResourceLocation id, Enchantment enchantment, int level) {
+            this.baseRecipe = baseRecipe;
+            this.id = id;
+            this.enchantment = enchantment;
+            this.level = level;
+        }
+
+        @Override
+        public void serializeRecipeData(JsonObject json) {
+            baseRecipe.serializeRecipeData(json);
+            JsonObject result = json.getAsJsonObject("result");
+            if (result == null) result = new JsonObject();
+
+            // ✅ 1. 获取正确的附魔 ID
+            ResourceLocation enchantmentID = BuiltInRegistries.ENCHANTMENT.getKey(enchantment);
+
+            // ✅ 2. 创建 NBT 附魔标签
+            CompoundTag nbt = new CompoundTag();
+            ListTag enchantmentsList = new ListTag();
+            CompoundTag enchantmentEntry = new CompoundTag();
+            enchantmentEntry.putString("id", enchantmentID.toString()); // 确保 `minecraft:looting`
+            enchantmentEntry.putInt("lvl", level);
+            enchantmentsList.add(enchantmentEntry);
+            nbt.put("Enchantments", enchantmentsList);
+
+            // ✅ 3. 添加 NBT 数据到 JSON
+            result.addProperty("nbt", nbt.toString());
+            json.add("result", result);
+        }
+
+        @Override
+        public ResourceLocation getId() {
+            return id;
+        }
+
+        @Override
+        public RecipeSerializer<?> getType() {
+            return baseRecipe.getType();
+        }
+
+        @Override
+        public JsonObject serializeAdvancement() {
+            return baseRecipe.serializeAdvancement();
+        }
+
+        @Override
+        public ResourceLocation getAdvancementId() {
+            return baseRecipe.getAdvancementId();
+        }
+    }
 
 }
+

@@ -1,25 +1,25 @@
 {
-  "name": "鳞甲百合茶",
+  "name": "Turtle Shell Lily Tea",
   "icon": "lushscentedparadise:turtle_shell_lily_tea",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 76,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#2F4F4F)🐢 古甲契约·根脉共生 🌸$()$(br2)$(l)$(#8B4513)「以速度为祭品，换取千年龟甲般的绝对防御」$()$(br)当$(#98FB98)翡翠百合$()的生机、$(#EEE8AA)月光茉莉$()的净化、$(#32CD32)铃兰露萃$()的坚韧与$(#556B2F)龙龟鳞甲$()在$(#6B8E23)古树釜$()中熬炼——这是能让$(l)血肉与大地同频$()的终极守护秘饮。"
+      "text": "$(#2F4F4F)🐢 Ancient Shell Pact · Rooted Symbiosis 🌸$()$(br2)$(l)$(#8B4513)「Sacrificing speed to gain an impenetrable defense like millennium-old turtle shell」$()$(br)When the vitality of $(#98FB98)Emerald Lily$(), the purification of $(#EEE8AA)Moonlight Jasmine$(), the resilience of $(#32CD32)Lily of the Valley Essence$(), and the protection of $(#556B2F)Dragon Turtle Scales$() are refined within the $(#6B8E23)Ancient Tree Cauldron$()—this ultimate guardian elixir allows $(l)flesh to harmonize with the earth$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:turtle_shell_lily_tea",
-      "text": "$(#556B2F)▌ 龟甲三誓 $()$(br2)$(l)$(#6B8E23)🛡 年轮护甲$()$(br)皮肤表面浮现$(#2F4F4F)龟裂纹理$()吸收伤害$(br2)$(l)$(#98FB98)🌱 根系愈合$()$(br)伤口缓慢生长$(#32CD32)藤蔓状修复组织$()$(br2)$(l)$(#8B4513)🌳 大地共鸣$()$(br)所有抗性如$(#556B2F)古树根系$()深植血脉$(br2)$(#808080)⚠ 自然惩戒 $()$(br)$(l)$(#696969)🌿 根须缠绕$()$(br)移动时地面生长$(#2F4F4F)迟缓藤蔓$()"
+      "text": "$(#556B2F)▌ Threefold Oath of the Turtle Shell $()$(br2)$(l)$(#6B8E23)🛡 Tree-Ring Armor$()$(br)Skin develops $(#2F4F4F)cracked turtle-like textures$(), absorbing damage.$(br2)$(l)$(#98FB98)🌱 Root Healing$()$(br)Wounds slowly generate $(#32CD32)vine-like regenerative tissue$().$(br2)$(l)$(#8B4513)🌳 Earth Resonance$()$(br)All resistances become $(#556B2F)as deep-rooted as ancient trees$().$(br2)$(#808080)⚠ Natural Punishment $()$(br)$(l)$(#696969)🌿 Root Binding$()$(br)Ground sprouts $(#2F4F4F)slowing vines$() while walking."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#6B8E23)▌ 古法熬炼 $()$(br)- 将$(#556B2F)鳞甲$()在$(#98FB98)百合露$()中浸泡至$(#32CD32)翡翠软化$()$(br)- $(#EEE8AA)茉莉花$()需经$(#DAA520)正午阳光$()晒出$(#FFD700)金丝脉络$()$(br)- 用$(#32CD32)铃兰花$()包裹$(#2F4F4F)甲片$()进行$(#6B8E23)三天三夜$()的$(#8B4513)地脉共振$()$(br2)$(#FFD700)※$() 当液体呈现$(#556B2F)年轮纹路$()并散发$(#98FB98)青草气息$()即达完美"
+      "text": "$(br2)$(#6B8E23)▌ Ancient Brewing Method $()$(br)- Soak $(#556B2F)Scales$() in $(#98FB98)Lily Dew$() until they turn $(#32CD32)Emerald Softened$().$(br)- $(#EEE8AA)Jasmine Flowers$() must be sun-dried under $(#DAA520)noon sunlight$() until $(#FFD700)golden silk veins$() appear.$(br)- Wrap $(#32CD32)Lily of the Valley$() around $(#2F4F4F)Shell Pieces$() for $(#6B8E23)three days and nights$() during $(#8B4513)Earth Pulse Resonance$().$(br2)$(#FFD700)※$() The tea reaches perfection when $(#556B2F)tree-ring patterns$() emerge and $(#98FB98)fresh grassy fragrance$() spreads."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#2F4F4F)『 森林石碑铭文 』$()$(br)被苔藓覆盖的古代碑刻：$(br)'饮此$(#6B8E23)大地血脉$()者，$(br)将获得：$(br)- $(#556B2F)山岳龟$()的甲壳防御$(br)- $(#98FB98)世界树$()的缓慢治愈$(br)- $(#8B4513)战争古树$()的元素抗性$(br)但必须承受$(#696969)森林之怒$()——$(br)你的$(#2F4F4F)每个步伐$()都将深陷$(#32CD32)根须泥沼$()，$(br)这是自然对$(#DAA520)贪婪守护者$()的$(#8B4513)永恒试炼$()'"
+      "text": "$(br2)$(#2F4F4F)『 Ancient Forest Inscription 』$()$(br)A moss-covered stone tablet:$(br)'Those who drink this $(#6B8E23)Earth Blood$(),$(br)shall receive:$(br)- The shell defense of $(#556B2F)Mountain Turtles$().$(br)- The slow regenerative power of $(#98FB98)World Trees$().$(br)- The elemental resistance of $(#8B4513)War Trees$().$(br)But they must endure the $(#696969)Wrath of the Forest$()—$(br)for each $(#2F4F4F)step they take$(),$(br)they shall sink into $(#32CD32)rooted marshland$(),$(br)a $(#8B4513)trial for those greedy for nature’s gifts$().'"
     }
   ]
 }

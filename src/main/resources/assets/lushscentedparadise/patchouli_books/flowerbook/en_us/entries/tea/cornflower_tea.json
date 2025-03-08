@@ -1,21 +1,21 @@
 {
-  "name": "矢车菊茶",
+  "name": "Cornflower Tea",
   "icon": "lushscentedparadise:cornflower_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 6,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“蓝色的星辰，轻轻地随风摇曳，微苦回甘，坚韧而沉静。”$(br2)矢车菊茶是一种带有微苦风味的茶饮，由干燥的矢车菊花瓣制成。其色泽清亮，香气淡雅，饮用后可提升旅人的抗性，使其在战斗或危险环境中更具韧性。"
+      "text": "“Like blue stars swaying gently in the wind, slightly bitter yet soothing, resilient and serene.”$(br2)Cornflower Tea is a slightly bitter herbal drink made from dried cornflower petals. With its clear color and subtle fragrance, drinking it enhances a traveler’s resistance, providing increased durability in battles or dangerous environments."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)矢车菊茶的制作方式十分简单，只需将$(br)干燥的矢车菊花瓣与糖调和，即可获得这款赋予坚韧之力的茶饮。$(br)适合在面对强敌或艰难旅程前饮用，增强自身防御力。"
+      "text": "$(br2)$(br)Cornflower Tea is simple to make—$(br)blend dried cornflower petals with sugar to craft this drink of resilience.$(br)It is best consumed before facing formidable foes or embarking on perilous journeys to boost defense."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:cornflower_tea",
-      "text": "饮用矢车菊茶后，旅人将获得短暂的抗性提升，使身体更能承受外界伤害。$(br)这是一款象征坚韧的茶饮，适合战斗与探险之时使用。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Cornflower Tea, travelers will receive a temporary resistance boost, allowing them to withstand external damage more effectively.$(br)This tea symbolizes resilience and is ideal for combat and exploration.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

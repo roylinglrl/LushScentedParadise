@@ -1,25 +1,25 @@
 {
-  "name": "潮汐来袭",
+  "name": "The Tide Is Coming",
   "icon": "lushscentedparadise:the_tide_is_coming",
   "category": "lushscentedparadise:special_tea",
   "sortnum": 74,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(#1E90FF)🌊 怒海契约·深渊觉醒 🐚$()$(br2)$(l)$(#00CED1)「饮此潮涌精华者，将化身海啸的一部分」$()$(br)当$(#FFD700)膨胀河豚$()的剧毒被$(#4682B4)海晶共振$()中和，$(#228B22)龙鳞铠甲$()的防御与$(#00BFFF)深渊海带$()的柔韧在$(#000080)潮汐研钵$()中达成平衡——这是能让$(l)陆生者短暂成为海洋霸主$()的禁忌秘药。"
+      "text": "$(#1E90FF)🌊 Wrath of the Ocean · Abyssal Awakening 🐚$()$(br2)$(l)$(#00CED1)「Those who drink this tidal essence shall become one with the tsunami」$()$(br)When the poison of $(#FFD700)Swollen Pufferfish$() is neutralized by $(#4682B4)Prismarine Resonance$(), the defense of $(#228B22)Dragon Scale Armor$() and the flexibility of $(#00BFFF)Abyssal Kelp$() achieve balance in the $(#000080)Tidal Mortar$()—this becomes a forbidden elixir capable of $(l)granting land-dwellers temporary dominion over the sea$()."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:the_tide_is_coming",
-      "text": "$(#00BFFF)▌ 海神三叉戟 $()$(br2)$(l)$(#32CD32)🐬 激流尾鳍$()$(br)游泳时拖曳$(#7FFFD4)荧光湍流$()速度倍增$(br2)$(l)$(#FF4500)⚡ 深海矿镐$()$(br)攻击时引发$(#CD5C5C)高压水刃$()效果$(br2)$(l)$(#4169E1)🌀 永续气泡$()$(br)头顶自动生成$(#00CED1)旋转氧环$()"
+      "text": "$(#00BFFF)▌ Trident of the Sea God $()$(br2)$(l)$(#32CD32)🐬 Riptide Tailfin$()$(br)Leaves behind $(#7FFFD4)glowing turbulence$() when swimming, doubling speed.$(br2)$(l)$(#FF4500)⚡ Deep-Sea Pickaxe$()$(br)Attacks unleash $(#CD5C5C)high-pressure water blades$().$(br2)$(l)$(#4169E1)🌀 Perpetual Air Bubble$()$(br)Generates $(#00CED1)rotating oxygen rings$() overhead automatically."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#228B22)▌ 深渊调制 $()$(br)- 将$(#FFD700)河豚毒腺$()与$(#4682B4)海晶粉$()用$(#000080)海水$()调和至$(#00BFFF)电蓝色$()$(br)- $(#228B22)鳞甲$()需在$(#00CED1)月光潮汐$()中浸泡$(#1E90FF)三昼夜$()$(br)- 加入$(#00BFFF)海带$()时需完成$(#7FFFD4)螺旋九转$()搅拌轨迹$(br2)$(#9370DB)※$() 当液体形成$(#00BFFF)层叠浪纹$()并浮现$(#FFD700)鱼群幻影$()即告成功"
+      "text": "$(br2)$(#228B22)▌ Abyssal Brewing $()$(br)- Mix $(#FFD700)Pufferfish Venom Glands$() with $(#4682B4)Prismarine Powder$() in $(#000080)Seawater$() until it turns $(#00BFFF)electric blue$().$(br)- $(#228B22)Dragon Scales$() must be soaked in $(#00CED1)Moonlit Tides$() for $(#1E90FF)three days and nights$().$(br)- When adding $(#00BFFF)Kelp$(), stir in a $(#7FFFD4)spiral-nine-turn$() motion.$(br2)$(#9370DB)※$() The brew is perfected when $(#00BFFF)layered wave patterns$() appear, revealing $(#FFD700)phantom fish schools$()."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(#000080)『 失落海图笔记 』$()$(br)被海水侵蚀的航海日志残页：$(br)'饮下这杯$(#00BFFF)液态暴风眼$()后，$(br)你将同时获得：$(br)- $(#32CD32)旗鱼$()的疾速$(br)- $(#FF4500)深海蠕虫$()的挖掘力$(br)- $(#4169E1)章鱼$()的水下生存$(br)但需在$(#9370DB)潮汐退却$()前返回陆地，$(br)否则$(#000080)海洋$()将永远将你标记为$(#228B22)叛逃者$()'"
+      "text": "$(br2)$(#000080)『 Lost Sea Chart Records 』$()$(br)A seawater-damaged navigator's log:$(br)'Upon consuming this $(#00BFFF)Liquid Storm Eye$(),$(br)one shall gain:$(br)- The $(#32CD32)speed of a Sailfish$().$(br)- The $(#FF4500)digging power of a Deep-Sea Worm$().$(br)- The $(#4169E1)underwater adaptability of an Octopus$().$(br)But they must return to $(#9370DB)land before the tides retreat$(),$(br)lest the $(#000080)ocean$() forever mark them as $(#228B22)traitors$().'"
     }
   ]
 }

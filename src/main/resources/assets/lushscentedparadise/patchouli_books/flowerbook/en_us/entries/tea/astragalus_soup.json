@@ -1,21 +1,21 @@
 {
-  "name": "黄芪汤",
+  "name": "Astragalus Soup",
   "icon": "lushscentedparadise:astragalus_soup",
   "category": "lushscentedparadise:tea",
   "sortnum": 40,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“温补强身，滋养气血，重焕体力。”$(br2)黄芪汤是一款富有滋补效果的药汤，由干燥的黄芪与糖调制而成。茶汤金黄透亮，带有浓郁的草本香气，饮用后可提供生命恢复效果，并解除饥饿状态。"
+      "text": "“Warmly nourishes the body, replenishes vital energy, and restores stamina.”$(br2)Astragalus Soup is a restorative medicinal broth made from dried astragalus and sugar. The golden-yellow tea is transparent and exudes a rich herbal aroma. Consuming it provides health regeneration and alleviates hunger."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)黄芪汤的制作需要$(br)两份干燥的黄芪与糖混合熬煮。$(br)适合在饥饿或体力低下时饮用，让旅人恢复状态，继续前行。"
+      "text": "$(br2)$(br)To prepare Astragalus Soup, $(br)boil two portions of dried astragalus with sugar. $(br)It is best consumed when hungry or fatigued, helping travelers regain their strength and continue their journey."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:astragalus_soup",
-      "text": "饮用黄芪汤后，旅人将获得生命恢复效果，并解除饥饿状态，使身体重新焕发活力。$(br)这是一款适用于长途旅行的滋补药汤。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Astragalus Soup, travelers will receive a health regeneration effect and have their hunger alleviated, restoring vitality. $(br)This nourishing medicinal broth is ideal for long journeys. $(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }

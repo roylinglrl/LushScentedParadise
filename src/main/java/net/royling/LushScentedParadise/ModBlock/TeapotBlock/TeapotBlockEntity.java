@@ -2,6 +2,7 @@ package net.royling.LushScentedParadise.ModBlock.TeapotBlock;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.MenuProvider;
@@ -25,9 +26,11 @@ import net.royling.LushScentedParadise.Registry.ModRecipeTypes;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.Objects;
 import java.util.Optional;
 
 public class TeapotBlockEntity extends BlockEntity implements MenuProvider {
+    private int particleCooldown = 0;
     private final ItemStackHandler itemHandler = new ItemStackHandler(6) {
         @Override
         protected void onContentsChanged(int slot) {
@@ -57,7 +60,7 @@ public class TeapotBlockEntity extends BlockEntity implements MenuProvider {
     public @Nullable AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player pPlayer) {
         return new TeapotMenu(pContainerId,pPlayerInventory,this,data);
     }
-    public void tick() {
+    public void serverTick() {
         if (!level.isClientSide) {
             updateHeatingState();
             Optional<TeapotRecipe> recipe = getCurrentRecipe();
@@ -90,15 +93,27 @@ public class TeapotBlockEntity extends BlockEntity implements MenuProvider {
             setChanged();
         }
     }
+    public void clientTick(BlockState state){
+        boolean isHeated = state.getValue(TeapotBlock.HEATED);
+        if(isHeated) {
+            if (particleCooldown <= 0) {
+                spawnSteamParticles();
+                particleCooldown = 15;
+            } else {
+                particleCooldown--;
+            }
+        }
+
+    }
     private Optional<TeapotRecipe> getCurrentRecipe() {
         SimpleContainer inventory = new SimpleContainer(5);
         for (int i = 0; i < 5; i++) {
             inventory.setItem(i, itemHandler.getStackInSlot(i));
         }
-        return level.getRecipeManager().getRecipeFor(ModRecipeTypes.TEAPOT_RECIPE.get(), inventory, level);
+        return Objects.requireNonNull(level).getRecipeManager().getRecipeFor(ModRecipeTypes.TEAPOT_RECIPE.get(), inventory, level);
     }
     private boolean craftItem(TeapotRecipe recipe) {
-        ItemStack result = recipe.getResultItem(level.registryAccess());
+        ItemStack result = recipe.getResultItem(Objects.requireNonNull(level).registryAccess());
         ItemStack outputSlotStack = itemHandler.getStackInSlot(5);
         if(outputSlotStack.isEmpty()){
             itemHandler.setStackInSlot(5,result.copy());
@@ -119,8 +134,12 @@ public class TeapotBlockEntity extends BlockEntity implements MenuProvider {
         return true;
     }
     public void updateHeatingState() {
-        BlockState below = level.getBlockState(worldPosition.below());
-        isHeated = below.is(Blocks.CAMPFIRE) || below.is(Blocks.SMOKER);
+        BlockState below = Objects.requireNonNull(level).getBlockState(worldPosition.below());
+        boolean heatedNow = below.is(Blocks.CAMPFIRE) || below.is(Blocks.SMOKER);
+        if (heatedNow != isHeated) {
+            isHeated = heatedNow;
+            level.setBlock(worldPosition, getBlockState().setValue(TeapotBlock.HEATED, isHeated), 3);
+        }
     }
     public boolean isHeated() {
         return isHeated;
@@ -150,6 +169,26 @@ public class TeapotBlockEntity extends BlockEntity implements MenuProvider {
     }
     public ItemStackHandler getInventory() {
         return itemHandler;
+    }
+    private void spawnSteamParticles() {
+        double x = worldPosition.getX() + 0.5;
+        double y = worldPosition.getY() + 0.75;
+        double z = worldPosition.getZ() + 0.5;
+        Direction facing = getBlockState().getValue(TeapotBlock.FACING);
+        switch (facing) {
+            case NORTH: x += 0.3;break;
+            case EAST: z += 0.3;break;
+            case SOUTH: x -= 0.3;break;
+            case WEST: z -= 0.3;break;
+            default: break;
+        }
+        for (int i = 0; i < 3; i++) {
+            level.addParticle(ParticleTypes.CAMPFIRE_COSY_SMOKE,
+                    x + (level.random.nextDouble() - 0.5) * 0.1,
+                    y + (level.random.nextDouble() * 0.1),
+                    z + (level.random.nextDouble() - 0.5) * 0.1,
+                    0.0, 0.03, 0.0);
+        }
     }
 
 }

@@ -1,21 +1,21 @@
 {
-  "name": "亚麻籽茶",
+  "name": "Flax Tea",
   "icon": "lushscentedparadise:flax_tea",
   "category": "lushscentedparadise:tea",
   "sortnum": 44,
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "“纤维坚韧，滋养身心，守护之力，庇护旅人。”$(br2)亚麻籽茶是一款带有微妙坚果风味的茶饮，由晒干的亚麻籽与糖调制而成。茶汤呈淡棕色，口感醇厚，饮用后可提供伤害吸收效果，为旅人提供额外的保护。"
+      "text": "“Resilient fibers, nourishing the body and mind—providing protection for travelers.”$(br2)Flax Tea is a rich, nutty-flavored drink made from dried flax seeds and sugar. The light brown tea has a smooth taste and grants an Absorption effect upon consumption, offering extra protection for travelers."
     },
     {
       "type": "patchouli:text",
-      "text": "$(br2)$(br)亚麻籽茶的制作需要$(br)两份干燥的亚麻籽与糖混合熬煮。$(br)适合在战斗或危险环境中饮用，增强生存能力。"
+      "text": "$(br2)$(br)To prepare Flax Tea, $(br)boil two portions of dried flax seeds with sugar.$(br)It is ideal for drinking before battles or in dangerous environments to enhance survival capabilities."
     },
     {
       "type": "patchouli:spotlight",
       "item": "lushscentedparadise:flax_tea",
-      "text": "饮用亚麻籽茶后，旅人将获得伤害吸收效果，使其在受到伤害时额外获得防护。$(br)这是一款适用于战斗前的增益茶饮。$(br)安装JEI后对着图标按下R键可以查询配方"
+      "text": "Upon drinking Flax Tea, travelers receive an Absorption effect, providing additional protection against incoming damage.$(br)This is a beneficial tea for pre-battle preparation.$(br)If JEI is installed, press R while hovering over the icon to view the recipe."
     }
   ]
 }
