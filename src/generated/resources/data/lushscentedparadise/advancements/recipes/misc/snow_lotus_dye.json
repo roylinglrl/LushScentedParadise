@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_snow_lotus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lushscentedparadise:snow_lotus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lushscentedparadise:snow_lotus_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_snow_lotus",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lushscentedparadise:snow_lotus_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

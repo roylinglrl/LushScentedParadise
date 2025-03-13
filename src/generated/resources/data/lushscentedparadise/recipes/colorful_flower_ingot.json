@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:colorful_flower_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "lushscentedparadise:colorful_flower_ingot"
+  }
+}

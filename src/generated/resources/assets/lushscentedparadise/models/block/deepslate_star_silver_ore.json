@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lushscentedparadise:block/deepslate_star_silver_ore"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_herbaceous_peony": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lushscentedparadise:herbaceous_peony"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lushscentedparadise:peony_dye"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_herbaceous_peony",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lushscentedparadise:peony_dye"
+    ]
+  },
+  "sends_telemetry_event": false
+}

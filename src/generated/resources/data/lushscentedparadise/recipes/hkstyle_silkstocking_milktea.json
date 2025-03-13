@@ -1,0 +1,18 @@
+{
+  "type": "lushscentedparadise:teapot",
+  "brew_time": 800,
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:milk"
+    },
+    {
+      "item": "lushscentedparadise:dried_black_tea_leave"
+    },
+    {
+      "item": "lushscentedparadise:milk_foam"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:hkstyle_silkstocking_milktea"
+  }
+}

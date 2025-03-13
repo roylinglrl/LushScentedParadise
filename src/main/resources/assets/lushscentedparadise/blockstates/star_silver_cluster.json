@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "age=0": { "model": "lushscentedparadise:block/star_silver_cluster_stage0" },
+    "age=1": { "model": "lushscentedparadise:block/star_silver_cluster_stage1" },
+    "age=2": { "model": "lushscentedparadise:block/star_silver_cluster_stage2" },
+    "age=3": { "model": "lushscentedparadise:block/star_silver_cluster_stage3" }
+  }
+}

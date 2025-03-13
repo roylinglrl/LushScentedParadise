@@ -1,0 +1,22 @@
+{
+  "name": "姜饼人",
+  "icon": "lushscentedparadise:gingerbread_man",
+  "category": "lushscentedparadise:refreshments",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "“香甜酥脆，略带辛香，搭配茶饮更添风味。”$(br2)姜饼人是一款经典的茶点，由面粉、生姜、蜂蜜和糖精心烘焙而成。$(br)它不仅拥有酥脆可口的口感，还能在旅途中提供适量的饱食度，让旅人补充体力，同时享受温暖的甜味。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "lushscentedparadise:gingerbread_man",
+      "text": "姜饼人的制作需要$(br)面粉、干姜粉、黄油、鸡蛋和糖烘焙而成。$(br)适合在品茶时搭配食用，让每一口茶汤都更具层次感。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:cooked_gingerbread_man",
+      "text": "食用姜饼人后，旅人将恢复适量饱食度，并感受到一丝微妙的暖意。$(br)这是一款适合搭配各种茶饮的经典茶点，让旅程更加甜美。$(br)安装JEI后对着图标按下R键可以查询配方"
+    }
+  ]
+}

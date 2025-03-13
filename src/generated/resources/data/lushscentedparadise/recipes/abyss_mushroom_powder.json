@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:dried_star_silver_mushroom"
+    },
+    {
+      "item": "lushscentedparadise:mortar_and_pestle"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:abyss_mushroom_powder"
+  }
+}

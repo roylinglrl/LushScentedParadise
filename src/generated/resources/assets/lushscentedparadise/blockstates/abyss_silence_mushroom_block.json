@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "lushscentedparadise:block/abyss_silence_mushroom_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "lushscentedparadise:block/abyss_silence_mushroom_block"
+    },
+    "axis=z": {
+      "model": "lushscentedparadise:block/abyss_silence_mushroom_block",
+      "x": 90
+    }
+  }
+}

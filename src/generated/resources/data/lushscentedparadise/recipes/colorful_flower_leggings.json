@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "lushscentedparadise:colorful_flower_ingot"
+    },
+    "D": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "E": {
+      "item": "minecraft:diamond_leggings"
+    },
+    "F": {
+      "item": "lushscentedparadise:star_silver_leggings"
+    },
+    "R": {
+      "item": "lushscentedparadise:flower_party"
+    },
+    "T": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "ETF",
+    "DRD"
+  ],
+  "result": {
+    "item": "lushscentedparadise:colorful_flower_leggings"
+  },
+  "show_notification": true
+}

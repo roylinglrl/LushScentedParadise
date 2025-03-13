@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "lushscentedparadise:colorful_flower_ingot"
+    },
+    "D": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "E": {
+      "item": "minecraft:diamond_sword"
+    },
+    "F": {
+      "item": "lushscentedparadise:original_flower_sword"
+    },
+    "R": {
+      "item": "lushscentedparadise:celestial_extract"
+    },
+    "T": {
+      "item": "lushscentedparadise:star_silver_sword"
+    },
+    "W": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "ETF",
+    "DRD"
+  ],
+  "result": {
+    "item": "lushscentedparadise:colorful_flower_sword"
+  },
+  "show_notification": true
+}

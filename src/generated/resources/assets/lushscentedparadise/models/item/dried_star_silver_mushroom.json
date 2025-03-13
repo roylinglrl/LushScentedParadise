@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lushscentedparadise:item/dried_star_silver_mushroom"
+  }
+}

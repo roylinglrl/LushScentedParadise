@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:jasmine"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_dye"
+  }
+}

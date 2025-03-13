@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "lushscentedparadise:block/teapot" },
+    "facing=south": { "model": "lushscentedparadise:block/teapot", "y": 180 },
+    "facing=east": { "model": "lushscentedparadise:block/teapot", "y": 90 },
+    "facing=west": { "model": "lushscentedparadise:block/teapot", "y": 270 }
+  }
+}

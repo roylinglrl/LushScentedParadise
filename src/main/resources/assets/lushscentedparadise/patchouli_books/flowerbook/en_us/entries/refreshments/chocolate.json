@@ -1,0 +1,22 @@
+{
+  "name": "巧克力",
+  "icon": "lushscentedparadise:chocolate",
+  "category": "lushscentedparadise:refreshments",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "“丝滑甘醇，苦甜交融，入口即化的甜蜜享受。”$(br2)巧克力是一款经典的甜点，由可可粉、糖、奶泡和香草糖浆精心调制而成。$(br)它不仅是一种美味的零食，还能在旅途中提供饱食度，让旅人恢复体力，同时享受浓郁的可可风味。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "lushscentedparadise:chocolate",
+      "text": "巧克力的制作需要$(br)两份可可粉、一份糖、奶泡和香草糖浆熬制而成，每次可制作两块巧克力。$(br)适合在品茶时搭配食用，为旅程增添一抹甜美。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:chocolate",
+      "text": "食用巧克力后，旅人将恢复适量饱食度，并享受到巧克力带来的愉悦心情。$(br)这是一款适合搭配各种茶饮的经典甜点，让茶歇时光更加美好。$(br)安装JEI后对着图标按下R键可以查询配方"
+    }
+  ]
+}

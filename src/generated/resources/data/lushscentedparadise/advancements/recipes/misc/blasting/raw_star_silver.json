@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_star_silver": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lushscentedparadise:raw_star_silver"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lushscentedparadise:blasting/raw_star_silver"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_star_silver",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lushscentedparadise:blasting/raw_star_silver"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,21 @@
+{
+  "type": "lushscentedparadise:teapot",
+  "brew_time": 200,
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:dried_star_silver_mushroom"
+    },
+    {
+      "item": "lushscentedparadise:star_silver_flower_crop"
+    },
+    {
+      "item": "lushscentedparadise:vanilla_syrup"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:celestial_extract"
+  }
+}

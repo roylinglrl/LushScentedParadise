@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:herbaceous_peony"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_dye"
+  }
+}

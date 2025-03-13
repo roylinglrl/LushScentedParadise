@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "lushscentedparadise:colorful_flower_ingot"
+    },
+    "D": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "E": {
+      "item": "minecraft:diamond_shovel"
+    },
+    "F": {
+      "item": "lushscentedparadise:star_silver_shovel"
+    },
+    "R": {
+      "item": "lushscentedparadise:chocolate"
+    },
+    "T": {
+      "item": "minecraft:grass_block"
+    },
+    "W": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "ETF",
+    "DRD"
+  ],
+  "result": {
+    "item": "lushscentedparadise:colorful_flower_shovel"
+  },
+  "show_notification": true
+}

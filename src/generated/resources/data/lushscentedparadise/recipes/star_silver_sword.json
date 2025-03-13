@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "#",
+    "S"
+  ],
+  "result": {
+    "item": "lushscentedparadise:star_silver_sword",
+    "nbt": "{Enchantments:[{id:\"minecraft:looting\",lvl:1}]}"
+  },
+  "show_notification": true
+}

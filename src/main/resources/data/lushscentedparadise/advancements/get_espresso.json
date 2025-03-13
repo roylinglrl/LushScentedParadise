@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "lushscentedparadise:espresso"
+    },
+    "title": {
+      "translate": "advancement.lushscentedparadise.make_espresso.title"
+    },
+    "description": {
+      "translate": "advancement.lushscentedparadise.make_espresso.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lushscentedparadise:get_dried_coffee_beans",
+  "criteria": {
+    "brew_espresso": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["lushscentedparadise:espresso"]
+          }
+        ]
+      }
+    }
+  }
+}

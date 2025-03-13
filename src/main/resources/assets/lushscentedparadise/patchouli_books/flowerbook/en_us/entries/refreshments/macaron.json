@@ -1,0 +1,22 @@
+{
+  "name": "马卡龙",
+  "icon": "lushscentedparadise:macaron",
+  "category": "lushscentedparadise:refreshments",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "“酥脆轻盈，色彩缤纷，甜美的法式浪漫。”$(br2)马卡龙是一款小巧精致的甜点，由可可粉、鸡蛋、糖、香草糖浆，以及一份用于染色的干燥木槿花调制而成。$(br)外壳酥脆，内馅柔软，入口即化，搭配茶饮享用，能带来双重美味体验。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "lushscentedparadise:macaron",
+      "text": "制作马卡龙需要可可粉、鸡蛋、糖、香草糖浆和一份干燥木槿花。$(br)每次制作可获得一批色彩缤纷的马卡龙，适合作为茶歇时的甜点。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:macaron",
+      "text": "食用马卡龙后，旅人将恢复适量饱食度，并感受到甜美轻盈的口感。$(br)这是一款适用于搭配各种茶饮的精致甜点，为茶歇增添一抹法式风情。$(br)安装JEI后对着图标按下R键可以查询配方"
+    }
+  ]
+}

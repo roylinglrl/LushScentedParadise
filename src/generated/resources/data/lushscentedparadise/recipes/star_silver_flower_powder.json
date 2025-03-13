@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:star_silver_flower_crop"
+    },
+    {
+      "item": "lushscentedparadise:mortar_and_pestle"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:star_silver_flower_powder"
+  }
+}

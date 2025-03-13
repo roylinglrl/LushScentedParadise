@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "lushscentedparadise:item/star_silver_pickaxe"
+  }
+}

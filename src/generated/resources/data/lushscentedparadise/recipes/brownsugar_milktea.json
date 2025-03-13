@@ -1,0 +1,21 @@
+{
+  "type": "lushscentedparadise:teapot",
+  "brew_time": 650,
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:milk"
+    },
+    {
+      "item": "lushscentedparadise:dried_black_tea_leave"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:brownsugar_milktea"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "lushscentedparadise:colorful_flower_ingot"
+    },
+    "D": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "E": {
+      "item": "minecraft:diamond_hoe"
+    },
+    "F": {
+      "item": "lushscentedparadise:star_silver_hoe"
+    },
+    "R": {
+      "item": "lushscentedparadise:pudding"
+    },
+    "T": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "W": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "ETF",
+    "DRD"
+  ],
+  "result": {
+    "item": "lushscentedparadise:colorful_flower_hoe"
+  },
+  "show_notification": true
+}

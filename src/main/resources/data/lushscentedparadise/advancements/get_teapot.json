@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "lushscentedparadise:teapot"
+    },
+    "title": {
+      "translate": "advancement.lushscentedparadise.make_teapot.title"
+    },
+    "description": {
+      "translate": "advancement.lushscentedparadise.make_teapot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lushscentedparadise:get_drying_rack",
+  "criteria": {
+    "craft_teapot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["lushscentedparadise:teapot"]
+          }
+        ]
+      }
+    }
+  }
+}

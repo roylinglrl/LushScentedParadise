@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "lushscentedparadise:block/abyss_silence_mushroom_block_top",
+    "side": "lushscentedparadise:block/abyss_silence_mushroom_block_side"
+  }
+}

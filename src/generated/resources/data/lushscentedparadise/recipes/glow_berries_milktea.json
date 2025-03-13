@@ -1,0 +1,18 @@
+{
+  "type": "lushscentedparadise:teapot",
+  "brew_time": 750,
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:milk"
+    },
+    {
+      "item": "lushscentedparadise:dried_green_tea_leave"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:glow_berries_milktea"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "布丁",
+  "icon": "lushscentedparadise:pudding",
+  "category": "lushscentedparadise:refreshments",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "“柔软细腻，香甜顺滑，每一口都是满满的幸福感。”$(br2)布丁是一款经典的甜点，由牛奶、鸡蛋和糖精心蒸煮而成。$(br)它的口感丝滑，甜而不腻，搭配茶饮享用，更能提升整体风味，带来悠闲的下午茶时光。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "lushscentedparadise:pudding",
+      "text": "制作布丁需要$(br)牛奶、鸡蛋和两份糖。$(br)经过精心蒸煮，即可获得这款绵密香甜的美味甜品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:pudding",
+      "text": "食用布丁后，旅人将恢复适量饱食度，并感受到丝滑顺口的口感。$(br)这是一款适合搭配各种茶饮的经典甜点，让茶歇时光更加温馨美好。$(br)安装JEI后对着图标按下R键可以查询配方"
+    }
+  ]
+}

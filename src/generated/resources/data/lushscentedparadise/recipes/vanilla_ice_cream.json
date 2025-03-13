@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:cream"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "lushscentedparadise:dried_vanilla_pod"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:vanilla_ice_cream"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:dried_coffee_beans"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_dye"
+  }
+}

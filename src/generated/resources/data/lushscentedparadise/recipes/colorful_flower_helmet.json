@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "lushscentedparadise:colorful_flower_ingot"
+    },
+    "D": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "E": {
+      "item": "minecraft:diamond_helmet"
+    },
+    "F": {
+      "item": "lushscentedparadise:star_silver_helmet"
+    },
+    "R": {
+      "item": "lushscentedparadise:ocean_journey"
+    },
+    "T": {
+      "item": "minecraft:kelp"
+    },
+    "W": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "ETF",
+    "DRD"
+  ],
+  "result": {
+    "item": "lushscentedparadise:colorful_flower_helmet"
+  },
+  "show_notification": true
+}

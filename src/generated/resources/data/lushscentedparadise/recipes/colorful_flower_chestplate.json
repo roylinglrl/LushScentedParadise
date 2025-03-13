@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "lushscentedparadise:colorful_flower_ingot"
+    },
+    "D": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "E": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "F": {
+      "item": "lushscentedparadise:star_silver_chestplate"
+    },
+    "R": {
+      "item": "lushscentedparadise:lava_special_drink"
+    },
+    "T": {
+      "item": "minecraft:leather"
+    },
+    "W": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "ETF",
+    "DRD"
+  ],
+  "result": {
+    "item": "lushscentedparadise:colorful_flower_chestplate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "lushscentedparadise:vanilla_syrup"
+    },
+    "title": {
+      "translate": "advancement.lushscentedparadise.make_vanilla_syrup.title"
+    },
+    "description": {
+      "translate": "advancement.lushscentedparadise.make_vanilla_syrup.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lushscentedparadise:get_vanilla_pod",
+  "criteria": {
+    "craft_vanilla_syrup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["lushscentedparadise:vanilla_syrup"]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+
+{
+  "variants": {
+    "facing=down": {
+      "model": "lushscentedparadise:block/star_silver_flower",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "lushscentedparadise:block/star_silver_flower"
+    },
+    "facing=north": {
+      "model": "lushscentedparadise:block/star_silver_flower",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "lushscentedparadise:block/star_silver_flower",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lushscentedparadise:block/star_silver_flower",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "lushscentedparadise:block/star_silver_flower",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

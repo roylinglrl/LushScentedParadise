@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:snow_lotus"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_dye"
+  }
+}

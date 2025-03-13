@@ -1,0 +1,22 @@
+{
+  "name": "香草冰淇淋",
+  "icon": "lushscentedparadise:vanilla_ice_cream",
+  "category": "lushscentedparadise:refreshments",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "“丝滑浓郁，香甜醇厚，冰凉的甜蜜享受。”$(br2)香草冰淇淋是一款经典的甜点，由奶油、糖、香草荚与鸡蛋精心调制而成。$(br)它口感柔滑，带有天然的香草风味，既可单独品尝，也能搭配其他甜点或茶饮，让旅人享受沁凉的美味。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "lushscentedparadise:vanilla_ice_cream",
+      "text": "制作香草冰淇淋需要$(br)奶油、糖、香草荚和鸡蛋。$(br)经过搅拌与冷冻，即可获得这款醇厚美味的甜品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:vanilla_ice_cream",
+      "text": "食用香草冰淇淋后，旅人将恢复适量饱食度，并感受到丝滑沁凉的口感。$(br)这是一款适合搭配各种甜点或茶饮的经典冰品。$(br)安装JEI后对着图标按下R键可以查询配方"
+    }
+  ]
+}

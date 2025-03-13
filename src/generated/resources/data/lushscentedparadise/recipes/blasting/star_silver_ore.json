@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "lushscentedparadise:star_silver_ore"
+  },
+  "result": "lushscentedparadise:star_silver_ingot"
+}

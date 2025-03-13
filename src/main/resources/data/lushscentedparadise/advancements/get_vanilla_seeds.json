@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "lushscentedparadise:vanilla_seeds"
+    },
+    "title": {
+      "translate": "advancement.lushscentedparadise.get_vanilla_seeds.title"
+    },
+    "description": {
+      "translate": "advancement.lushscentedparadise.get_vanilla_seeds.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lushscentedparadise:get_flower",
+  "criteria": {
+    "obtain_vanilla_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["lushscentedparadise:vanilla_seeds"]
+          }
+        ]
+      }
+    }
+  }
+}

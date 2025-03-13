@@ -1,0 +1,21 @@
+{
+  "type": "lushscentedparadise:teapot",
+  "brew_time": 400,
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:star_silver_flower_crop"
+    },
+    {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    {
+      "item": "lushscentedparadise:dried_lily"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:star_silver_potion"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lushscentedparadise:block/abyss_silence_mushroom_cap"
+  }
+}

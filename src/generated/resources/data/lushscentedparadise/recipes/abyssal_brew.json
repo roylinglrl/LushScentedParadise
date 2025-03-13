@@ -1,0 +1,21 @@
+{
+  "type": "lushscentedparadise:teapot",
+  "brew_time": 600,
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:dried_star_silver_mushroom"
+    },
+    {
+      "item": "lushscentedparadise:dried_lily_of_the_valley"
+    },
+    {
+      "item": "lushscentedparadise:phantom_lotus_koi"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:abyssal_brew"
+  }
+}

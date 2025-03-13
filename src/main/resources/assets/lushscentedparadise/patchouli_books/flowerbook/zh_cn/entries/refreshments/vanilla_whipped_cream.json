@@ -1,0 +1,22 @@
+{
+  "name": "香草掼奶油",
+  "icon": "lushscentedparadise:vanilla_whipped_cream",
+  "category": "lushscentedparadise:refreshments",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "“丝滑绵密，奶香四溢，赋予甜点更醇厚的口感。”$(br2)香草掼奶油是一款用于搭配甜点和茶饮的奶油调料，由奶油、糖和香草糖浆轻盈搅打而成。$(br)它不仅可以单独品尝，更能作为多种甜点的绝佳搭配，使每一口都更加浓郁顺滑。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "lushscentedparadise:vanilla_whipped_cream",
+      "text": "制作香草掼奶油需要奶油、糖和香草糖浆。$(br)轻盈搅打后，即可获得这款细腻柔滑的奶油。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:vanilla_whipped_cream",
+      "text": "香草掼奶油可以用于搭配甜点或茶饮，增添更丰富的风味。$(br)它是各种精致茶点的理想搭配，为旅程带来额外的美味享受。$(br)安装JEI后对着图标按下R键可以查询配方"
+    }
+  ]
+}

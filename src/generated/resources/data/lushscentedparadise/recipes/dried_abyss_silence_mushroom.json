@@ -1,0 +1,8 @@
+{
+  "type": "lushscentedparadise:drying",
+  "dryingTime": 600,
+  "input": {
+    "item": "lushscentedparadise:abyss_silence_mushroom"
+  },
+  "output": "lushscentedparadise:dried_star_silver_mushroom"
+}

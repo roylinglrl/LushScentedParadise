@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "lushscentedparadise:colorful_flower_ingot"
+    },
+    "D": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "E": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "F": {
+      "item": "lushscentedparadise:star_silver_pickaxe"
+    },
+    "R": {
+      "item": "lushscentedparadise:abyss_mushroom_powder"
+    },
+    "T": {
+      "item": "minecraft:glow_berries"
+    },
+    "W": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "ETF",
+    "DRD"
+  ],
+  "result": {
+    "item": "lushscentedparadise:colorful_flower_pickaxe"
+  },
+  "show_notification": true
+}

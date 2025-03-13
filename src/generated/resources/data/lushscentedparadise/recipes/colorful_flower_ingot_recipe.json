@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "A": {
+      "item": "lushscentedparadise:star_silver_flower_powder"
+    },
+    "B": {
+      "item": "lushscentedparadise:phantom_lotus_koi"
+    },
+    "C": {
+      "item": "lushscentedparadise:glowpetal_pigfish"
+    },
+    "D": {
+      "item": "lushscentedparadise:abyss_mushroom_powder"
+    },
+    "F": {
+      "tag": "minecraft:flowers"
+    }
+  },
+  "pattern": [
+    "FAF",
+    "B#C",
+    "FDF"
+  ],
+  "result": {
+    "item": "lushscentedparadise:colorful_flower_ingot"
+  },
+  "show_notification": true
+}

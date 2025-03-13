@@ -1,0 +1,18 @@
+{
+  "type": "lushscentedparadise:teapot",
+  "brew_time": 650,
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:milk"
+    },
+    {
+      "item": "lushscentedparadise:dried_black_tea_leave"
+    },
+    {
+      "item": "lushscentedparadise:cocoa_powder"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:chocolate_milktea"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "lushscentedparadise:teapot",
+  "brew_time": 600,
+  "ingredients": [
+    {
+      "item": "lushscentedparadise:milk"
+    },
+    {
+      "item": "lushscentedparadise:dried_black_tea_leave"
+    }
+  ],
+  "result": {
+    "item": "lushscentedparadise:tradition_milktea"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "minecraft:deep_dark",
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:taiga",
+    "minecraft:snowy_plains",
+    "minecraft:swamp",
+    "minecraft:jungle"
+  ],
+  "features": "lushscentedparadise:abyss_silence_mushroom",
+  "step": "underground_decoration"
+}

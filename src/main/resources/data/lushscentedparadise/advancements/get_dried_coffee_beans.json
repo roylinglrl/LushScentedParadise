@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "lushscentedparadise:dried_coffee_beans"
+    },
+    "title": {
+      "translate": "advancement.lushscentedparadise.get_dried_coffee_beans.title"
+    },
+    "description": {
+      "translate": "advancement.lushscentedparadise.get_dried_coffee_beans.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lushscentedparadise:get_coffee_fruit",
+  "criteria": {
+    "obtain_dried_coffee_beans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["lushscentedparadise:dried_coffee_beans"]
+          }
+        ]
+      }
+    }
+  }
+}

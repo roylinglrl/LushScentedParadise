@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": {
+      "translate": "advancement.lushscentedparadise.high_speed_fall.title"
+    },
+    "description": {
+      "translate": "advancement.lushscentedparadise.high_speed_fall.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lushscentedparadise:get_flower",
+  "criteria": {
+    "fall_with_fast_falling": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": {
+          "effects": {
+            "lushscentedparadise:fast_falling": {}
+          }
+        },
+        "distance": {
+          "absolute": {
+            "min": 100,
+            "max": 65536
+          }
+        }
+      }
+    }
+  }
+}

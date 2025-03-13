@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "lushscentedparadise:colorful_flower_ingot"
+    },
+    "D": {
+      "item": "lushscentedparadise:star_silver_ingot"
+    },
+    "E": {
+      "item": "minecraft:diamond_boots"
+    },
+    "F": {
+      "item": "lushscentedparadise:star_silver_boots"
+    },
+    "R": {
+      "item": "lushscentedparadise:rose_blacktea_milktea"
+    },
+    "T": {
+      "item": "minecraft:sunflower"
+    },
+    "W": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "ETF",
+    "DRD"
+  ],
+  "result": {
+    "item": "lushscentedparadise:colorful_flower_boots"
+  },
+  "show_notification": true
+}

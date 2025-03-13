@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_star_silver_flower_crop": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lushscentedparadise:star_silver_flower_crop"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lushscentedparadise:star_silver_flower_powder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_star_silver_flower_crop",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lushscentedparadise:star_silver_flower_powder"
+    ]
+  },
+  "sends_telemetry_event": false
+}

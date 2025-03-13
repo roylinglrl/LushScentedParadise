@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "lushscentedparadise:music_disc"
+    },
+    "title": {
+      "translate": "advancement.lushscentedparadise.get_mod_music_disc.title"
+    },
+    "description": {
+      "translate": "advancement.lushscentedparadise.get_mod_music_disc.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lushscentedparadise:get_flower",
+  "criteria": {
+    "obtain_mod_music_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["lushscentedparadise:music_disc"]
+          }
+        ]
+      }
+    }
+  }
+}
