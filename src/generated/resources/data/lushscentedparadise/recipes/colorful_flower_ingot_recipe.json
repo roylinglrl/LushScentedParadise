@@ -6,25 +6,34 @@
       "item": "lushscentedparadise:star_silver_ingot"
     },
     "A": {
-      "item": "lushscentedparadise:star_silver_flower_powder"
+      "item": "lushscentedparadise:axolotl_tea"
     },
     "B": {
-      "item": "lushscentedparadise:phantom_lotus_koi"
+      "item": "lushscentedparadise:star_silver_flower_powder"
     },
     "C": {
-      "item": "lushscentedparadise:glowpetal_pigfish"
+      "item": "lushscentedparadise:horror_soup"
     },
     "D": {
-      "item": "lushscentedparadise:abyss_mushroom_powder"
+      "item": "lushscentedparadise:triespresso"
+    },
+    "E": {
+      "item": "lushscentedparadise:violet_milktea"
     },
     "F": {
-      "tag": "minecraft:flowers"
+      "item": "lushscentedparadise:mixed_berry_smoothie"
+    },
+    "G": {
+      "item": "lushscentedparadise:abyss_mushroom_powder"
+    },
+    "H": {
+      "item": "lushscentedparadise:flower_party"
     }
   },
   "pattern": [
-    "FAF",
-    "B#C",
-    "FDF"
+    "ABC",
+    "D#E",
+    "FGH"
   ],
   "result": {
     "item": "lushscentedparadise:colorful_flower_ingot"

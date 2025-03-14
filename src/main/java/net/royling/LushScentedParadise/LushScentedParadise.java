@@ -2,8 +2,10 @@ package net.royling.LushScentedParadise;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,15 +28,21 @@ import net.royling.LushScentedParadise.Item.coffee.ModCoffee;
 import net.royling.LushScentedParadise.Item.colorfulflower.MagicArrowRenderer;
 import net.royling.LushScentedParadise.Item.milktea.ModMilktea;
 import net.royling.LushScentedParadise.Item.snack.ModSnack;
+import net.royling.LushScentedParadise.ModEntity.GlowpetalPigfish;
+import net.royling.LushScentedParadise.ModEntity.PhantomLotusKoi;
 import net.royling.LushScentedParadise.Registry.*;
 import net.royling.LushScentedParadise.ModBlock.TeapotBlock.TeapotScreen;
 import net.royling.LushScentedParadise.ModBlock.newFlower.ModFlowers;
+import net.royling.LushScentedParadise.loot.ModLootModifiers;
 import net.royling.LushScentedParadise.villager.ModVillagers;
 import org.slf4j.Logger;
 
 import java.util.AbstractMap;
 import java.util.Collection;
 import java.util.concurrent.ConcurrentLinkedQueue;
+
+import static net.royling.LushScentedParadise.Registry.ModEntities.GLOWPETAL_PIGFISH;
+import static net.royling.LushScentedParadise.Registry.ModEntities.PHANTOM_LOTUS_KOI;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(LushScentedParadise.MODID)
@@ -81,6 +89,7 @@ public class LushScentedParadise
         ModSnack.SNACKS.register(modEventBus);
         ModMilktea.MILKTEAS.register(modEventBus);
         ModFeatures.FEATURES.register(modEventBus);
+        ModLootModifiers.LOOTTABLE_MODIFIER_SERIALIZERS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -134,12 +143,18 @@ public class LushScentedParadise
                 if(ModList.get().isLoaded("botania")) {
                     MenuScreens.register(BotaniaMenuTypes.MANA_TEAPOT_MENU.get(), ManaTeapotScreen::new);
                 }
+                SpawnPlacements.register(GLOWPETAL_PIGFISH.get(),SpawnPlacements.Type.IN_WATER, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                        GlowpetalPigfish::checkUndergroundWaterSpawnRules);
+                SpawnPlacements.register(PHANTOM_LOTUS_KOI.get(),SpawnPlacements.Type.IN_WATER, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                        PhantomLotusKoi::checkUndergroundWaterSpawnRules);
+
             });
         }
         @SubscribeEvent
         public static void registerRenders(EntityRenderersEvent.RegisterRenderers event){
             ModEntityRenderers.registerRenderers(event);
             event.registerEntityRenderer(ModEntities.MAGIC_ARROW.get(), MagicArrowRenderer::new);
+
         }
     }
 }

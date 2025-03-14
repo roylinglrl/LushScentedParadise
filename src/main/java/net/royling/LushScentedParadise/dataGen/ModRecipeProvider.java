@@ -572,7 +572,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 Ingredient.of(ModItems.DRIED_ABYSS_SILENCE_MUSHROOM.get()),
                 Ingredient.of(ModItems.STAR_SILVER_FLOWER_CROP.get()),
                 Ingredient.of(ModItems.VANILLA_SYRUP.get()),
-                Ingredient.of(Items.SUGAR)
+                Ingredient.of(ModItems.GLOWPETAL_PIGFISH.get())
         ), new ItemStack(ModFoods.CELESTIAL_EXTRACT.get()),200);
 
 
@@ -861,10 +861,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC,ModItems.FLOWER_INGOT.get(),1)
-                .define('F', ItemTags.FLOWERS).define('A',ModItems.STAR_SILVER_FLOWER_POWDER.get()).define('B',ModItems.PHANTOM_LOTUS_KOI.get()).define('C',ModItems.GLOWPETAL_PIGFISH.get()).define('#',ModItems.STAR_SILVER_INGOT.get()).define('D',ModItems.ABYSS_MUSHROOM_POWDER.get())
-                .pattern("FAF")
-                .pattern("B#C")
-                .pattern("FDF")
+                .define('#',ModItems.STAR_SILVER_INGOT.get())//
+                .define('A',ModFoods.AXOLOTL_TEA.get())//
+                .define('B',ModItems.STAR_SILVER_FLOWER_POWDER.get())//
+                .define('C',ModFoods.HORROR_SOUP.get())//
+                .define('D',ModCoffee.TRIESPRESSO.get())
+                .define('E',ModMilktea.VIOLET_MILKTEA.get())
+                .define('F',ModFoods.MIXED_BERRY_SMOOTHIE.get())
+                .define('G',ModItems.ABYSS_MUSHROOM_POWDER.get())//
+                .define('H',ModFoods.FLOWER_PARTY.get())
+                .pattern("ABC")
+                .pattern("D#E")
+                .pattern("FGH")
                 .unlockedBy("has_item", has(ModItems.STAR_SILVER_INGOT.get()))
                 .save(pWriter,new ResourceLocation(LushScentedParadise.MODID,"colorful_flower_ingot_recipe"));
     }

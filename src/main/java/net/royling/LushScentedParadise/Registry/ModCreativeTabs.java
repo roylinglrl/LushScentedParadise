@@ -346,6 +346,12 @@ public class ModCreativeTabs {
                         pOutput.accept(new ItemStack(ModItems.COLORFUL_FLOWER_CHESTPLATE.get()));
                         pOutput.accept(new ItemStack(ModItems.COLORFUL_FLOWER_LEGGINGS.get()));
                         pOutput.accept(new ItemStack(ModItems.COLORFUL_FLOWER_BOOTS.get()));
+                        pOutput.accept(new ItemStack(ModItems.PHANTOM_LOTUS_KOI_BUCKET.get()));
+                        pOutput.accept(new ItemStack(ModItems.GLOWPETAL_PIGFISH_BUCKET.get()));
+
+                        pOutput.accept(new ItemStack(ModItems.GLOWPETAL_PIGFISH_EGGS.get()));
+                        pOutput.accept(new ItemStack(ModItems.PHANTOM_LOTUS_KOI_EGGS.get()));
+                        pOutput.accept(new ItemStack(ModItems.SPECTRAL_STEED_EGGS.get()));
                     }))
                     .build());
 

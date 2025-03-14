@@ -1,5 +1,6 @@
 package net.royling.LushScentedParadise.Registry;
 
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -8,6 +9,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.material.Fluids;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -322,6 +325,15 @@ public class ModItems {
             () -> new HoeItem(Tiers.NETHERITE, -4, -1F,
                     new Item.Properties().durability(2048).fireResistant()));
 
+    public static final RegistryObject<Item> PHANTOM_LOTUS_KOI_BUCKET = ITEMS.register("phantom_lotus_koi_bucket",()->new MobBucketItem(ModEntities.PHANTOM_LOTUS_KOI,()-> Fluids.WATER,()-> SoundEvents.BUCKET_EMPTY_FISH,new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.COMMON)));
+    public static final RegistryObject<Item> GLOWPETAL_PIGFISH_BUCKET = ITEMS.register("glowpetal_pigfish_bucket",()->new MobBucketItem(ModEntities.GLOWPETAL_PIGFISH,()-> Fluids.WATER,()-> SoundEvents.BUCKET_EMPTY_FISH,new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.COMMON)));
+//刷怪蛋
+    public static final RegistryObject<Item> PHANTOM_LOTUS_KOI_EGGS = ITEMS.register("phantom_lotus_koi_egg",()->new ForgeSpawnEggItem(
+            ModEntities.PHANTOM_LOTUS_KOI,-1,-1,new Item.Properties()));
+    public static final RegistryObject<Item> GLOWPETAL_PIGFISH_EGGS = ITEMS.register("glowpetal_pigfish_egg",()->new ForgeSpawnEggItem(
+            ModEntities.GLOWPETAL_PIGFISH,-1,-1,new Item.Properties()));
+    public static final RegistryObject<Item> SPECTRAL_STEED_EGGS = ITEMS.register("spectral_steed_egg",()->new ForgeSpawnEggItem(
+            ModEntities.SPECTRAL_STEED,-1,-1,new Item.Properties()));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

@@ -12,5 +12,6 @@ public class ModEventSubscriber {
     @SubscribeEvent
     public static void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
         ModEntities.registerAttributes(event);
+
     }
 }

@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-13T16:29:53.3229946	Loot Tables
+// 1.20.1	2025-03-14T14:52:42.4193119	Loot Tables
 cb9cff9446cc5c6cf957977516a98cf6f9bc2c2b data/lushscentedparadise/loot_tables/blocks/abyss_silence_mushroom.json
 a4dee56814aa6b9d1d2c4788fce874d163d3a335 data/lushscentedparadise/loot_tables/blocks/abyss_silence_mushroom_block.json
 c59c5764be3f93d6e524c964aad24790d06671a4 data/lushscentedparadise/loot_tables/blocks/abyss_silence_mushroom_cap.json
@@ -65,3 +65,5 @@ a3481764f58700e175abcbf310df7ba4c0d03c31 data/lushscentedparadise/loot_tables/bl
 9bab9e77447922cb1f857285e0dcc9c4be2df142 data/lushscentedparadise/loot_tables/blocks/wild_tea.json
 ebbde469bed624c33386093769ab3c7dfac63cf3 data/lushscentedparadise/loot_tables/blocks/wild_vanilla.json
 ed0203e17817163406b4a230919d0a2a3d7e59cd data/lushscentedparadise/loot_tables/blocks/wild_verbena.json
+f45116d8d0aa92636caa77f91593d092bfc8070f data/lushscentedparadise/loot_tables/entities/glowpetal_pigfish.json
+71d953154137feff29067d35412e12ecf9353299 data/lushscentedparadise/loot_tables/entities/phantom_lotus_koi.json

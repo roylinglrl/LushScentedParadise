@@ -245,15 +245,20 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.STAR_SILVER_FLOWER_POWDER);
         simpleItem(ModItems.ABYSS_MUSHROOM_POWDER);
         simpleItem(ModItems.FLOWER_INGOT);
-        simpleItem(ModItems.COLORFUL_FLOWER_AXE);
-        simpleItem(ModItems.COLORFUL_FLOWER_SHOVEL);
-        simpleItem(ModItems.COLORFUL_FLOWER_SWORD);
-        simpleItem(ModItems.COLORFUL_FLOWER_PICKAXE);
-        simpleItem(ModItems.COLORFUL_FLOWER_HOE);
+        simpleHeldItem(ModItems.COLORFUL_FLOWER_AXE);
+        simpleHeldItem(ModItems.COLORFUL_FLOWER_SHOVEL);
+        simpleHeldItem(ModItems.COLORFUL_FLOWER_SWORD);
+        simpleHeldItem(ModItems.COLORFUL_FLOWER_PICKAXE);
+        simpleHeldItem(ModItems.COLORFUL_FLOWER_HOE);
         simpleItem(ModItems.COLORFUL_FLOWER_HELMET);
         simpleItem(ModItems.COLORFUL_FLOWER_CHESTPLATE);
         simpleItem(ModItems.COLORFUL_FLOWER_LEGGINGS);
         simpleItem(ModItems.COLORFUL_FLOWER_BOOTS);
+        simpleItem(ModItems.GLOWPETAL_PIGFISH_BUCKET);
+        simpleItem(ModItems.PHANTOM_LOTUS_KOI_BUCKET);
+        simpleItem(ModItems.GLOWPETAL_PIGFISH_EGGS);
+        simpleItem(ModItems.PHANTOM_LOTUS_KOI_EGGS);
+        simpleItem(ModItems.SPECTRAL_STEED_EGGS);
 
 
 

@@ -24,6 +24,13 @@
     {
       "type": "patchouli:text",
       "text": "$(br2)$(br2)Embark on your $(#1E90FF)journey$(), and may this book lead you to the $(#FF69B4)fragrances$() and $(#8A2BE2)wonders$() of the world.$(br2)——Mod Author $(#6495ED)Royling$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["lushscentedparadise:textures/image/royling.png"],
+      "title": "Royling",
+      "border": true,
+      "text": "Mod Author $(#6495ED)Royling$()"
     }
   ]
 }

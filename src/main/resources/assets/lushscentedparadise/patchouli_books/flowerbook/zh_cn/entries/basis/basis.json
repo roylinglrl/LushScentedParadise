@@ -24,6 +24,13 @@
     {
       "type": "patchouli:text",
       "text": "$(br2)$(br2)踏上$(#1E90FF)旅途$()吧，愿这本手册能引领你发现$(#FF69B4)世界的芬芳$()与$(#8A2BE2)奇迹$()。$(br2)——Mod作者 $(#6495ED)蓝若绫Royling$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": ["lushscentedparadise:textures/image/royling.png"],
+      "title": "Royling",
+      "border": true,
+      "text": "Mod作者 $(#6495ED)蓝若绫RY$()"
     }
   ]
 }
