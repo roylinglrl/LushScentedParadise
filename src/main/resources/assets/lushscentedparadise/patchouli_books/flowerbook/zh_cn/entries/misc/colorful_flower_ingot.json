@@ -1,0 +1,26 @@
+{
+  "name": "繁花炫彩锭",
+  "icon": "lushscentedparadise:colorful_flower_ingot",
+  "category": "lushscentedparadise:misc",
+  "sortnum": 60,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#FF69B4)$(l)【万象凝华】$()$(br2)“$(#9370DB)星屑为骨$()，$(#483D8B)深渊作脉$()，$(#FFD700)百花成魂$()。”$(br2)此锭需以星银锭为基，融合星银花粉、深渊沉寂蘑菇粉，再经六色花饮淬炼。古籍《万华录》载：‘九转熔炉炼真色，一锭光寒照琳琅’。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "lushscentedparadise:colorful_flower_ingot_recipe",
+      "text": "合成需：$(br)$(#778899)· 星银锭$()$(br)$(#9370DB)· 星银花粉$()$(br)$(#2F4F4F)· 深渊蘑菇粉$()$(br)$(#FF69B4)· 六种不同花卉茶饮$()$(br2)花饮须分置熔炉六方，以地脉之火煅烧七日。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "用此锭可升级$()$(#778899)星银装备$()，使其强度等同$(#4B0082)下界合金$()。$(br2)《锻冶秘典》云：‘星落凡铁终有尽，万华开时破苍穹’。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:colorful_flower_sword",
+      "text": "$(#FF69B4)繁花炫彩剑$()右键发动$()$(#FF4500)【万华绽】$()：$(br)获得$(#32CD32)力量I$()效果12秒，冷却30秒。$(br2)剑锋过处百花虚影缭绕，如古谣所唱：‘一剑春色老，千山尽芳菲’"
+    }
+  ]
+}

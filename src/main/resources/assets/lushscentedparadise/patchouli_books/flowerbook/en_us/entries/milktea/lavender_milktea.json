@@ -1,0 +1,17 @@
+{
+  "name": "薰衣草奶茶",
+  "icon": "lushscentedparadise:lavender_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 79,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#9370DB)$(l)【紫雾凝香】$()$(br2)'$(#E6E6FA)晓露浸薰裳$()，$(#D8BFD8)烟霞入玉瓯$()'$(br2)普罗旺斯古卷载：'三季风干一季采，九蒸九晒方得魂'。茶汤氤氲紫气，饮时如坠紫色云海。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:lavender_milktea",
+      "text": "$(#800080)干制薰衣草$()与$(#FFFFFF)羊乳$()低温慢萃，缀以$(#DDA0DD)结晶花蜜$()。$(br2)饮后获得$(#9370DB)夜视$()，如民谚云：'一盏紫烟消永夜'。"
+    }
+  ]
+}

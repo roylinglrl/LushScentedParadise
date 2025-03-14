@@ -1,0 +1,4 @@
+// 1.20.1	2025-03-14T16:11:45.4115038	Global Loot Modifiers : lushscentedparadise
+ace780a52b5d380aaba69f381d6c33d7656246bd data/forge/loot_modifiers/global_loot_modifiers.json
+66127566a7a6a23442afe81661cb5666f88defd9 data/lushscentedparadise/loot_modifiers/glowpetal_pigfish_form_fishing.json
+211fb71209d4cb76ec2f849826aa626352dfbc4b data/lushscentedparadise/loot_modifiers/phantom_lotus_koi_form_fishing.json

@@ -1,0 +1,22 @@
+{
+  "name": "发光豚鱼",
+  "icon": "lushscentedparadise:glowpetal_pigfish",
+  "category": "lushscentedparadise:misc",
+  "sortnum": 56,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#FFD700)$(l)【发光豚鱼】$()$(br2)“$(#DAA520)鎏金跃幽窟$()，$(#ADD8E6)豚影碎寒潭$()。”$(br2)其鳞片折射地脉微光，游动时如熔金流淌，独居地下暗河。《穴居志》叹：‘非是人间烟火色，偏作地心一点明’"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:glowpetal_pigfish",
+      "text": "仅见于$(#228B22)繁茂洞穴水域$()，烤制后恢复$(#FF69B4)8点饥饿值$()。$(br)矿工歌谣：‘石棱划破鎏金背，半篓鱼鲜半篓星’"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "lushscentedparadise:glowpetal_pigfish",
+      "text": "仅存于繁茂洞穴"
+    }
+  ]
+}

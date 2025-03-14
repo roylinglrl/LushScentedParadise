@@ -1,0 +1,17 @@
+{
+  "name": "传统奶茶",
+  "icon": "lushscentedparadise:tradition_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 70,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#8B4513)$(l)【古法醇香】$()$(br2)'$(#D2B48C)茶烟透竹牖$()，$(#FFD700)乳沫染晨光$()'$(br2)遵循百年古方熬煮，茶汤浓醇如琥珀，牛乳温润似初雪。《茶经补遗》载：'三沸水，七分茶，十分乳，方得天地一味'。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:tradition_milktea",
+      "text": "$(#6B8E23)红茶叶$()与$(#FFFFFF)鲜牛乳$()的完美融合，辅以$(#DAA520)古法黄糖$()调和。$(br2)茶谚云：'铜壶慢火金边现，一盏温香慰风尘'，饮后可短暂提升奔跑能力。"
+    }
+  ]
+}

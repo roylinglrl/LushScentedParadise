@@ -1,0 +1,17 @@
+{
+  "name": "玫瑰花茶奶茶",
+  "icon": "lushscentedparadise:rose_blacktea_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 78,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#FF69B4)$(l)【朱颜饮露】$()$(br2)'$(#FF1493)玫瑰泣血瓣$()，$(#8B0000)红汤煮朝霞$()'$(br2)《百花谱》云：'取晨曦未晞之玫瑰，配三沸滇红，可酿倾城色'。盏中浮沉着未化的花瓣，如美人迟暮。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:rose_blacktea_milktea",
+      "text": "$(#FFB6C1)墨红玫瑰$()与$(#8B0000)古树红茶$()共舞，缀以$(#FFD700)结晶蜜露$()。$(br2)饮时周身飘落虚拟花瓣，暂时提升$(#FF1493)最大生命值$()"
+    }
+  ]
+}

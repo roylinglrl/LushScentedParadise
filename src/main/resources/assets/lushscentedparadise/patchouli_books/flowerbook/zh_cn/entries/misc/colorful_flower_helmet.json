@@ -1,0 +1,32 @@
+{
+  "name": "炫彩繁花装备",
+  "icon": "lushscentedparadise:colorful_flower_helmet",
+  "category": "lushscentedparadise:misc",
+  "sortnum": 61,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#FF69B4)$(l)【万华战甲】$()$(br2)“$(#9370DB)星屑淬甲胄$()，$(#FFD700)花魄铸锋芒$()。”$(br2)以繁花炫彩锭锻造的护甲，兼具华美与实用。《天工开物》赞曰：‘百花熔作甲，一步一重天’"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:colorful_flower_helmet",
+      "text": "$(#00BFFF)【碧渊游鳞】$()$(br)头盔赋予穿戴者$(#32CD32)如鱼得水的泳速$()，古谣云：‘莲动三江月，轻衫破浪行’"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:colorful_flower_chestplate",
+      "text": "$(#FF4500)【鎏金心脉】$()$(br)胸甲提升$(#FF69B4)生命上限$()，典籍载：‘百花凝作心头血，敢向阎罗借春秋’"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:colorful_flower_leggings",
+      "text": "$(#32CD32)【踏风逐影】$()$(br)护腿增强$(#00BFFF)移动速度$()，剑客歌曰：‘一步香尘起，千里不留行’"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:colorful_flower_boots",
+      "text": "$(#9370DB)【凌虚步月】$()$(br)战靴令穿戴者$(#483D8B)跨越更高台阶$()，无需跳跃。$(br)《山河志异》记：‘履下生云梯，拾阶上青冥’"
+    }
+  ]
+}

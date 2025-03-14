@@ -1,0 +1,27 @@
+{
+  "name": "深渊沉寂蘑菇",
+  "icon": "lushscentedparadise:abyss_silence_mushroom",
+  "category": "lushscentedparadise:flower",
+  "sortnum": 52,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#483D8B)$(l)【暗影帷幕】$()$(br2)“洞穴深处的寂静，是它吞噬脚步声的证明。”$(br2)菌盖如墨色天鹅绒，菌褶间流淌着幽蓝荧光。其孢子能吸收声波，古时盗贼会将其粉末涂于鞋底以潜行。据《地窟密录》记载，某些地下祭坛的守卫者会佩戴此菇雕刻的护符，使自身化作无声的幽灵。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:abyss_silence_mushroom",
+      "text": "簇生于洞穴暗河的湿滑岩壁，菌丝网络能感知震动。若以骨粉催化，菌盖将暴涨至一人高，荧光转为深紫，触碰时连心跳声都会被短暂湮没。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:dried_star_silver_mushroom",
+      "text": "摘录自盗墓者残破的皮卷：$(br)“我们按传说将蘑菇置于钟乳石尖端风干，七日后它缩成核桃大小，质地如黑曜石般坚硬。老瘸子开玩笑地磨碎它泡水喝——然后他消失了整整三分钟，只在泥地上留下一串无主的脚印……”"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:abyssal_brew",
+      "text": "研磨干菇成粉，与夜露共沸。饮下后身体逐渐透明，连呼吸都化作虚无，但舌尖会残留针刺般的麻木感。$(br2)$(#2F4F4F)《影裔训诫》警告：$()$(br)‘遁入阴影者，须在茶凉前归来——否则暗影将认你为同类，永世囚于地脉的回声之间。’"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "紫罗兰奶茶",
+  "icon": "lushscentedparadise:violet_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 82,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#8A2BE2)$(l)【紫宸饮露】$()$(br2)'$(#9370DB)幽瓣承星屑$()，$(#E6E6FA)琼浆淬月华$()'$(br2)《异卉谱》载：'紫罗生于绝壁，三年一绽，取晨露未干者入茶，可酿九重天香'。茶汤泛着皇室紫晕，如将暮色封存于盏。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:violet_milktea",
+      "text": "$(#4B0082)高山紫罗兰$()与$(#FFB6C1)骆驼乳$()低温冷萃，花脉纹路凝于盏壁。$(br2)饮时喉间似有蝶翼轻颤，可暂时获得$(#800080)力量与速度$()效果，如古谚云：'目盲心愈明'。"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "布丁奶茶",
+  "icon": "lushscentedparadise:pudding_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 73,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#FFE4B5)$(l)【凝脂琼露】$()$(br2)'$(#FFF8DC)玉碗盛琥珀$()，$(#DAA520)布丁化春冰$()'$(br2)茶汤中悬浮着颤若凝脂的布丁，《饮馔录》叹：'三分茶韵七分柔，滑入喉间万事休'。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:pudding_milktea",
+      "text": "以$(#6B8E23)伯爵红茶$()为基，融入$(#FFE4B5)焦糖布丁$()块。$(br2)饮时布丁随勺轻晃如月下琼脂，可短暂提升$(#9370DB)伤害吸收$()。"
+    }
+  ]
+}

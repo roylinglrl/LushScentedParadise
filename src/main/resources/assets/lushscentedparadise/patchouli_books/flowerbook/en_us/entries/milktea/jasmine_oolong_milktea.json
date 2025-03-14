@@ -1,0 +1,17 @@
+{
+  "name": "茉莉乌龙奶茶",
+  "icon": "lushscentedparadise:jasmine_oolong_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 76,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#87CEEB)$(l)【雪魄冰魂】$()$(br2)'$(#F0FFF0)茉莉凝霜魄$()，$(#6B8E23)乌龙蕴月华$()'$(br2)以高山冻顶乌龙为骨，晨露茉莉为魂。《茗战录》载：'七窨一提香透纸，盏中犹存雪岭云'。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:jasmine_oolong_milktea",
+      "text": "$(#3CB371)七窨茉莉$()与$(#556B2F)炭焙乌龙$()层层相叠，茶汤清冽带蜜韵。$(br2)饮时如踏月下花田，可暂时提供$(#9370DB)水下呼吸$()状态。"
+    }
+  ]
+}

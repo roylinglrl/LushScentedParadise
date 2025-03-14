@@ -1,0 +1,17 @@
+{
+  "name": "港式丝袜奶茶",
+  "icon": "lushscentedparadise:hkstyle_silkstocking_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 71,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#FFD700)$(l)【鎏金丝滑】$()$(br2)'$(#800080)丝帛滤日月$()，$(#FF4500)鎏金注玉壶$()'$(br2)以特制丝网反复拉制，茶汤如绸缎倾泻。港岛民谣唱道：'七冲八撞九回肠，一口丝滑忘炎凉'。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:hkstyle_silkstocking_milktea",
+      "text": "$(#4B0082)锡兰红茶$()经九次高空冲拉，与$(#8B0000)炼乳$()交融成鎏金色。$(br2)《饮中八仙注》评：'丝滑过喉如剑斩愁，三息回甘似见香江月'。"
+    }
+  ]
+}

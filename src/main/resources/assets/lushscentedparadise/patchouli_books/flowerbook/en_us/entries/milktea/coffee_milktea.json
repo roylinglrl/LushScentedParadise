@@ -1,0 +1,17 @@
+{
+  "name": "咖啡奶茶",
+  "icon": "lushscentedparadise:coffee_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 75,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#6F4E37)$(l)【晨昏交响】$()$(br2)'$(#3E2723)咖啡破晓色$()，$(#D2B48C)乳沫染暮云$()'$(br2)茶咖交融如昼夜更迭，《醒世通言》记：'一盏能醒千年梦，半口可忘万里愁'。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:coffee_milktea",
+      "text": "融合$(#4B3621)深度烘焙咖啡$()与$(#6B8E23)锡兰红茶$()。$(br2)饮用后获得$(#808080)急迫$()能力，矿工谣云：'地底无光何须惧，一盏鎏金照幽冥'。"
+    }
+  ]
+}

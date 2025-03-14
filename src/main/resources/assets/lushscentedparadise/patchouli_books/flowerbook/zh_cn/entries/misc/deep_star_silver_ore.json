@@ -1,0 +1,26 @@
+{
+  "name": "深层星银矿石",
+  "icon": "lushscentedparadise:deepslate_star_silver_ore",
+  "category": "lushscentedparadise:misc",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#2F4F4F)$(l)【星脉矿核】$()$(br2)深层星银矿石埋藏于极深地层，结晶密度更高，表面星纹呈现熔融状。开采需使用铁镐，忧郁过于深入地下，矿石表面不会伴生$(#9370DB)星银花$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:deepslate_star_silver_ore",
+      "text": "生成于$()$(#483D8B)Y=-64至Y=-0$()的极深岩层，需铁镐开采。每块矿石必伴生$()$(#9370DB)三朵以上星银花$()，花朵尺寸是地表变种的两倍，花心凝结着液态星辉。"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "lushscentedparadise:smelting/deepslate_star_silver_ore",
+      "text": "熔炼后获得的$()$(#2F4F4F)星银锭$()泛着亮紫色泽，与普通星银锭性能完全一致，打造的盔甲能抵消$()$(#4B0082)10%一定伤害$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$()$(br2)《地脉异闻录》残页：$(br)'曾有狂徒生吞未熔炼的深层星银矿石，三日后他的瞳孔化作星云旋涡，皮肤下浮现银河纹路——第七天黎明，他在众目睽睽下碎成漫天星尘，只留下一簇永不凋零的星银花。'"
+    }
+  ]
+}

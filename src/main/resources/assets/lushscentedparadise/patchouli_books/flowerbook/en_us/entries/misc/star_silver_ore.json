@@ -1,0 +1,22 @@
+{
+  "name": "星银矿石",
+  "icon": "lushscentedparadise:star_silver_ore",
+  "category": "lushscentedparadise:misc",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#778899)$(l)【地脉星痕】$()$(br2)星银矿石常见于地下岩层，表面泛着银蓝色冷光，常与$(#9370DB)星银花$()共生。矿工可通过其螺旋状结晶纹路辨识，开采时需使用铁镐或更高级工具。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:star_silver_ore",
+      "text": "生成于地下$()$(#00BFFF)Y=-5至Y=80$()的岩石中，矿脉周围偶尔附着微小$(#9370DB)星银花$()。矿石经熔炼可得$()$(#778899)星银锭$()，质地坚韧适合锻造基础工具。"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "lushscentedparadise:smelting/star_silver_ore",
+      "text": "每块矿石可熔炼为1个$()$(#778899)星银锭$()，其物理性质与铁锭相似，适合制造日常工具与武器。"
+    }
+  ]
+}

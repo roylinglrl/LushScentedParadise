@@ -1,0 +1,17 @@
+{
+  "name": "黑糖奶茶",
+  "icon": "lushscentedparadise:brownsugar_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 74,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#8B4513)$(l)【琥珀熔金】$()$(br2)'$(#A52A2A)炭火熬糖砂$()，$(#FFD700)挂壁作流霞$()'$(br2)黑糖沿杯壁凝结成虎纹斑驳，古籍《糖霜谱》载：'九蒸九晒方成色，一盏甜香透地脉'。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:brownsugar_milktea",
+      "text": "选用$(#8B0000)古法黑糖$()与$(#FFFFFF)厚乳$()慢火熬制。$(br2)饮后周身泛起暖意，可提供$(#483D8B)力量$()效果，如民谚云：'糖砂化尽三冬雪'。"
+    }
+  ]
+}

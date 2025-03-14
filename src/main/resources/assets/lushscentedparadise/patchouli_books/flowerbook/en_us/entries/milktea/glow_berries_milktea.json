@@ -1,0 +1,17 @@
+{
+  "name": "发光浆果奶茶",
+  "icon": "lushscentedparadise:glow_berries_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 81,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#00BFFF)$(l)【地心极光】$()$(br2)'$(#87CEFA)浆果凝星屑$()，$(#1E90FF)茶汤注银河$()'$(br2)洞穴壁画描绘：'幽蓝果实破岩生，采撷为饮通幽冥'，盏中荧光随晃动流转，如捧星河。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:glow_berries_milktea",
+      "text": "$(#40E0D0)发光浆果$()榨汁混合$(#FFFFFF)冰博客奶$()，缀$(#7FFFD4)薄荷晶粒$()。$(br2)饮用后周身散发$(#00FFFF)微光$()并提供$(#00008B)夜视$()效果，持续如极昼。"
+    }
+  ]
+}

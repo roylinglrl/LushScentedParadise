@@ -1,0 +1,17 @@
+{
+  "name": "姜奶茶",
+  "icon": "lushscentedparadise:ginger_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 80,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#D2691E)$(l)【金砂煨雪】$()$(br2)'$(#FF4500)姜山焚地脉$()，$(#FFD700)乳海纳天光$()'$(br2)《岭南异物志》记：'老姜九晒存辛烈，遇乳化刚为绕指柔'，茶汤表面浮金砂状姜末，如熔岩入雪原。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:ginger_milktea",
+      "text": "$(#8B0000)三年陈姜$()与$(#6B8E23)阿萨姆红茶$()猛火熬煮。$(br2)饮时喉间燃起暖流，可抵御$(#4682B4)燃烧$()的效果。"
+    }
+  ]
+}

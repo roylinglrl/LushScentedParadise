@@ -1,0 +1,17 @@
+{
+  "name": "香草奶茶",
+  "icon": "lushscentedparadise:vanilla_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 83,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#F5DEB3)$(l)【云纱裹玉】$()$(br2)'$(#DEB887)荚裂现玄珠$()，$(#FFF8DC)乳沸化金绸$()'$(br2)玛雅《神赐录》记：'香草荚需经六月日晒夜露，方得黑金脂纹'。茶汤流淌着琥珀色暖意，似将阳光酿作液体。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:vanilla_milktea",
+      "text": "$(#8B4513)陈年香草荚$()与$(#FAEBD7)水牛奶$()文火慢煨，表层浮$(#D2B48C)焦糖脆衣$()。$(br2)饮用后获得$(#FFD700)幸运$()效果，如民谣所唱：'一盏温香续断弦'。"
+    }
+  ]
+}

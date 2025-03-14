@@ -1,0 +1,14 @@
+{
+  "type": "lushscentedparadise:add_item",
+  "conditions": [
+    {
+      "chance": 0.1,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:gameplay/fishing/fish"
+    }
+  ],
+  "item": "lushscentedparadise:phantom_lotus_koi"
+}

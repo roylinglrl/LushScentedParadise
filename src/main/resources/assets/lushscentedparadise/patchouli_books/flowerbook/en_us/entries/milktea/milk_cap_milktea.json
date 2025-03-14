@@ -1,0 +1,17 @@
+{
+  "name": "奶盖奶茶",
+  "icon": "lushscentedparadise:milk_cap_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 72,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#FFFFFF)$(l)【云顶琼脂】$()$(br2)'$(#F5DEB3)雪沫浮金盏$()，$(#9370DB)咸甜破虚空$()'$(br2)顶层奶盖绵密如终年积雪，底层茶汤清冽似山涧寒泉。《饮膳札记》评：'三分茶韵七分云，饮罢方知有重天'。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:milk_cap_milktea",
+      "text": "$(#87CEEB)高山绿茶$()为底，覆盖$(#FFFAF0)手打淡奶油$()与$(#D2691E)玫瑰盐$()调制的咸甜奶盖。$(br2)饮时需45度角轻抿，方可同时尝尽云雪两重天。"
+    }
+  ]
+}

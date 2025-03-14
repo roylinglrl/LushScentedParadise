@@ -1,0 +1,22 @@
+{
+  "name": "幽莲锦鲤",
+  "icon": "lushscentedparadise:phantom_lotus_koi",
+  "category": "lushscentedparadise:misc",
+  "sortnum": 55,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#4169E1)$(l)【幽莲锦鲤】$()$(br2)“$(#00BFFF)蓝鳞浮浅沼$()，$(#FFD700)金纹织流云$()。”$(br2)此鱼通体湛蓝如夜穹初染，脊线缀以鎏金纹路，常隐于沼泽莲叶之下。渔谣有云：‘三篙点破水中天，一尾惊鸿入俎鲜’。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:phantom_lotus_koi",
+      "text": "仅存于$(#32CD32)沼泽浅水$()，烤制后恢复$(#FF69B4)6点饥饿值$()。$(br)《沼居杂咏》载：‘莲动知鱼戏，炊烟起处是归期’"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "lushscentedparadise:phantom_lotus_koi",
+      "text": "仅存于沼泽表层浅水"
+    }
+  ]
+}

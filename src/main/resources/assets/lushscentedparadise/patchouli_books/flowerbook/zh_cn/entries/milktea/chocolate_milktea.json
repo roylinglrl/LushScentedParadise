@@ -1,0 +1,17 @@
+{
+  "name": "巧克力奶茶",
+  "icon": "lushscentedparadise:chocolate_milktea",
+  "category": "lushscentedparadise:milktea",
+  "sortnum": 77,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#6B4423)$(l)【熔金裹玉】$()$(br2)'$(#8B4513)可可倾玄瀑$()，$(#D2691E)乳脂化金砂$()'$(br2)玛雅古卷残篇记：'神赐苦豆遇牛乳，方知人间有极乐'，此饮可谓东西合璧之绝唱。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:chocolate_milktea",
+      "text": "$(#4B3621)70%黑巧$()与$(#FFFFFF)水牛乳$()慢火交融，表层撒$(#CD853F)可可碎$()。$(br2)饮用后获得$(#8B0000)抗性提升$()效果，如古谚云：'磐石化蜜流'。"
+    }
+  ]
+}

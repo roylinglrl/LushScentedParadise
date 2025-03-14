@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mangrove_swamp",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "lushscentedparadise:phantom_lotus_koi",
+    "weight": 15,
+    "minCount": 2,
+    "maxCount": 6
+  }
+}

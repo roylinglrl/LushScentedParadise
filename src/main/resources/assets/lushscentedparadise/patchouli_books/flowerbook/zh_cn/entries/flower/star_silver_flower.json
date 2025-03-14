@@ -1,0 +1,27 @@
+{
+  "name": "星银花",
+  "icon": "lushscentedparadise:star_silver_flower",
+  "category": "lushscentedparadise:flower",
+  "sortnum": 51,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#9370DB)$(l)【地脉之瞳】$()$(br2)“星辰陨落之地，岩隙间绽放的紫色低语。”$(br2)星银花仅依附星银矿石生长，其花瓣如碎裂的紫水晶，花蕊泛着幽蓝微光。矿工传说中，它们诞生于星银与地脉共鸣的瞬间，根系能穿透矿石汲取星辰之力。若在黑暗中凝视花心，或能窥见远古星图的残影。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:star_silver_flower",
+      "text": "深藏于地下矿脉，花朵仅有指尖大小，茎秆纤细如银丝。天然星银花无法直接入药，但其种子蕴藏未被激发的星辰能量，需人工培育方能释放。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:star_silver_seed",
+      "text": "摘录自《矿工手记》$(br)“我曾在星银矿脉的裂缝中发现微光，拾起一粒比尘埃还小的种子。将它埋入沃土后，那花苞竟在月夜膨胀如拳，藤蔓缠绕出银河的纹路……”$(br)种植后的星银花可长至三倍大小，花瓣结晶化，触碰时有星屑洒落。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "lushscentedparadise:star_silver_potion",
+      "text": "以人工培育的星银花为主材，配以星银锭与百合花，于星夜熬制。饮下后双眸暂现星芒，可洞察岩层深处的矿脉走向，身躯亦如镀银般迅捷。$(br2)$(#4B0082)然古籍警示——若心无敬畏，星辉或将反噬，令血肉化为冰冷的星银……$()"
+    }
+  ]
+}
