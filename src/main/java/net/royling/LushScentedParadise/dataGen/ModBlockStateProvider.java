@@ -112,7 +112,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         itemModels().withExistingParent(name(block),modLoc("block/"+name(block)));
     }
     private void logBlockWithAxis(Block block){
-        ModelFile model = models().cubeColumn(name(block),modLoc("block/"+name(block)+"_side"),modLoc("block/"+name(block)+"_top"));
+        ModelFile model = models().cubeColumn(name(block),
+                modLoc("block/"+name(block)+"_side"),
+                modLoc("block/"+name(block)+"_top"));
         getVariantBuilder(block).forAllStates(state -> {
             Direction.Axis axis = state.getValue(RotatedPillarBlock.AXIS);
             return ConfiguredModel.builder().modelFile(model).rotationX(axis == Direction.Axis.Y ? 0:90).rotationY(axis== Direction.Axis.X?90:0).build();

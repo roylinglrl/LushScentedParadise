@@ -32,12 +32,12 @@ public class GlobalLootModifiers extends GlobalLootModifierProvider {
     protected void start() {
         add("phantom_lotus_koi_form_fishing",new AddItemModifier(new LootItemCondition[]{
                 LootItemRandomChanceCondition.randomChance(0.1f).build(),
-                new LootTableIdCondition.Builder(new ResourceLocation("gameplay/fishing/fish")).build()
+                new LootTableIdCondition.Builder(ResourceLocation.fromNamespaceAndPath("minecraft","gameplay/fishing/fish")).build()
         }, ModItems.PHANTOM_LOTUS_KOI.get()));
         add("glowpetal_pigfish_form_fishing",new AddItemModifier(new LootItemCondition[]{
                 LootItemRandomChanceCondition.randomChance(0.1f).build(),
 
-                new LootTableIdCondition.Builder(new ResourceLocation("gameplay/fishing/fish")).build()
+                new LootTableIdCondition.Builder(ResourceLocation.fromNamespaceAndPath("minecraft","gameplay/fishing/fish")).build()
         }, ModItems.GLOWPETAL_PIGFISH.get()));
     }
 }

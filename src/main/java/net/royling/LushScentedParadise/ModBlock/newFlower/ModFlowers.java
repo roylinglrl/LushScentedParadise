@@ -93,7 +93,7 @@ public class ModFlowers {
 
     public static final RegistryObject<Block> POTTED_HONEYSUCKLE = FLOWERS.register("potted_honeysuckle",
             () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModFlowers.HONEYSUCKLE, BlockBehaviour.Properties.copy(Blocks.POTTED_POPPY).noCollission().noOcclusion()));
-
+//物品
     public static final RegistryObject<Item> VIOLET_ITEM = FLOWER_ITEMS.register("violet",
             ()->new BlockItem(VIOLET.get(),new Item.Properties()));
     public static final RegistryObject<Item> HONEYSUCKLE_ITEM = FLOWER_ITEMS.register("honeysuckle",

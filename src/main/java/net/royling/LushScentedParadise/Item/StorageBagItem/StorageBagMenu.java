@@ -75,6 +75,6 @@ public class StorageBagMenu extends AbstractContainerMenu {
 
     @Override
     public boolean stillValid(Player player) {
-        return !bagStack.isEmpty()&&player.getInventory().contains(bagStack);
+        return !bagStack.isEmpty() && player.containerMenu == this;
     }
 }

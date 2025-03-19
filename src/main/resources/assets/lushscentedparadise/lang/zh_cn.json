@@ -224,6 +224,7 @@
   "item.lushscentedparadise.glow_berries_tea": "发光浆果茶",
   "item.lushscentedparadise.glowpetal_pigfish": "发光豚鱼",
   "item.lushscentedparadise.glowpetal_pigfish_bucket": "发光浆果豚鱼桶",
+  "item.lushscentedparadise.glowpetal_pigfish_egg": "生成 发光浆果豚鱼",
   "item.lushscentedparadise.golden_soup": "黄金汤",
   "item.lushscentedparadise.green_tea": "绿茶",
   "item.lushscentedparadise.green_tea_leave": "绿茶",
@@ -285,6 +286,7 @@
   "item.lushscentedparadise.perilla_tea": "紫苏花茶",
   "item.lushscentedparadise.phantom_lotus_koi": "幽莲锦鲤",
   "item.lushscentedparadise.phantom_lotus_koi_bucket": "幽灵锦鲤桶",
+  "item.lushscentedparadise.phantom_lotus_koi_egg": "生成 幽莲锦鲤",
   "item.lushscentedparadise.poppy_tea": "虞美人茶",
   "item.lushscentedparadise.poria": "茯苓",
   "item.lushscentedparadise.poria_seeds": "茯苓种子",
@@ -304,6 +306,7 @@
   "item.lushscentedparadise.silent_orchid_abyss": "深渊沉寂兰（暂未实现生成）",
   "item.lushscentedparadise.snow_lotus_tea": "雪莲茶",
   "item.lushscentedparadise.sparkling_matcha": "闪耀抹茶",
+  "item.lushscentedparadise.spectral_steed_egg": "生成 幽魂骏马",
   "item.lushscentedparadise.spore_blossom_tea": "孢子花茶",
   "item.lushscentedparadise.star_silver_axe": "星银斧",
   "item.lushscentedparadise.star_silver_boots": "星银靴子",
@@ -361,6 +364,8 @@
   "item.lushscentedparadise.wild_verbena": "野生马鞭草",
   "item.lushscentedparadise.wither_rose_tea": "凋零玫瑰茶",
   "jei.lushscentedparadise.brewtime": "烹饪时间:%s",
+  "jei.lushscentedparadise.mana_teapot.recipe": "魔力茶壶",
+  "jei.lushscentedparadise.needmana": "需要魔力: %s",
   "jei.lushscentedparadise.teapot.recipe": "煮茶",
   "jei.title.drying": "晒干",
   "lsp.flowerbook.text": "以泛黄羊皮纸装订的古籍，封面浮刻着会随月相变幻的花图腾。这本游吟诗人从沙漠遗迹中复原的手册记载着数种植物的禁忌与培育秘术。当指尖触碰书页时，干枯的标本会重新舒展绽放，空气中会再次浮动若有若无的茉莉幽香。",
@@ -475,7 +480,7 @@
   "tooltip.lushscentedparadise.white_daisy_tea.text1": "遵循古老花语者的诫命，让辉光重铸腐朽之木",
   "tooltip.lushscentedparadise.white_tea.text1": "适合色谱恐惧症患者",
   "tooltip.lushscentedparadise.wither_rose_tea.text1": "想cosplay戏剧女王凋灵骷髅？请饮",
-  "item.lushscentedparadise.glowpetal_pigfish_egg": "生成 发光浆果豚鱼",
-  "item.lushscentedparadise.phantom_lotus_koi_egg": "生成 幽莲锦鲤",
-  "item.lushscentedparadise.spectral_steed_egg": "生成 幽魂骏马"
+  "item.lushscentedparadise.cooked_phantom_lotus_koi": "熟幽莲锦鲤",
+  "item.lushscentedparadise.cooked_glowpetal_pigfish": "熟发光浆果豚鱼",
+  "block.lushscentedparadise.colorful_flower_block": "繁花炫彩块"
 }

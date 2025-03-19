@@ -154,7 +154,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DRIED_GLOW_BERRIES);
         simpleItem(ModItems.DRIED_SWEET_BERRIES);
 
-        simpleItem(ModItems.FLOWER_BOOK);
         simpleItem(ModItems.MORTAR_AND_PESTLE);
 
         //植物魔法扩展
@@ -177,6 +176,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(LSPBotaniaItems.MANA_WATER);
         simpleTeaItem(BotaniaFoods.ARCANA_TEA);
         simpleTeaItem(BotaniaFoods.WHITE_DAISY_TEA);
+
         simpleItem(ModItems.FLOWER_FERTILIZER);
         simpleItem(ModItems.COFFEE_FRUIT);
         simpleItem(ModItems.COFFEE_BEANS);
@@ -207,6 +207,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModSnack.VANILLA_WHIPPED_CREAM);
         simpleItem(ModSnack.VANILLA_ICE_CREAM);
         simpleItem(ModSnack.PUDDING);
+
         simpleTeaItem(ModMilktea.TRADITION_MILKTEA);
         simpleTeaItem(ModMilktea.HKSTYLE_SILKSTOCKING_MILKTEA);
         simpleTeaItem(ModMilktea.MILK_CAP_MILKTEA);
@@ -222,6 +223,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleTeaItem(ModMilktea.GLOW_BERRIES_MILKTEA);
         simpleTeaItem(ModMilktea.VIOLET_MILKTEA);
         simpleTeaItem(ModFoods.ICE_BLACK_TEA);
+
         simpleItem(ModItems.STAR_SILVER_SEED);
         simpleItem(ModItems.RAW_STAR_SILVER);
         simpleItem(ModItems.STAR_SILVER_INGOT);
@@ -259,10 +261,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.GLOWPETAL_PIGFISH_EGGS);
         simpleItem(ModItems.PHANTOM_LOTUS_KOI_EGGS);
         simpleItem(ModItems.SPECTRAL_STEED_EGGS);
-
-
-
-
+        simpleItem(ModItems.COOKED_PHANTOM_LOTUS_KOI);
+        simpleItem(ModItems.COOKED_GLOWPETAL_PIGFISH);
     }
     @SuppressWarnings("removal")
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){

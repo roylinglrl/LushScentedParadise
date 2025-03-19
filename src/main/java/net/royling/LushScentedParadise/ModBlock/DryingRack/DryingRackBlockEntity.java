@@ -73,10 +73,6 @@ public class DryingRackBlockEntity extends BlockEntity implements Container{
             }
         }
     }
-    public void dropItem(Level level, BlockPos pos, ItemStack stack){
-        ItemEntity entity = new ItemEntity(level,pos.getX()+0.5,pos.getY()+0.7,pos.getZ()+0.5,stack.copy());
-        level.addFreshEntity(entity);
-    }
     public void tick(){
         if(!level.isClientSide){
             if(level.isDay()&&level.canSeeSky(worldPosition.above())) {
@@ -233,7 +229,7 @@ public class DryingRackBlockEntity extends BlockEntity implements Container{
 
     @Override
     public void clearContent() {
-        items.clear();;
+        items.clear();
         Arrays.fill(dryingProgress,0);
     }
 

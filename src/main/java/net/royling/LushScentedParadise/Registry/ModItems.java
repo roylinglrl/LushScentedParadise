@@ -169,15 +169,7 @@ public class ModItems {
     public static final RegistryObject<Item> MUSIC_DISC =
             ITEMS.register("music_disc",()->new RecordItem(6,ModSounds.MUSIC_DISC,
                     new Item.Properties().stacksTo(1).rarity(Rarity.RARE),1020));
-    public static final RegistryObject<Item> FLOWER_BOOK = ITEMS.register("flowerbook",()->new Item(new Item.Properties().stacksTo(1)){
-        @Override
-        public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
-            if(!pLevel.isClientSide){
-                return InteractionResultHolder.pass(pPlayer.getItemInHand(pUsedHand));
-            }
-            return InteractionResultHolder.success(pPlayer.getItemInHand(pUsedHand));
-        }
-    });
+
     //1.1版本
     public static final RegistryObject<Item> MORTAR_AND_PESTLE = ITEMS.register("mortar_and_pestle", ()->new MortarAndPestleItem(new Item.Properties().stacksTo(1).durability(64)));
     public static final RegistryObject<Item> DRIED_WITHER_ROSE = ITEMS.register("dried_wither_rose",
@@ -334,6 +326,10 @@ public class ModItems {
             ModEntities.GLOWPETAL_PIGFISH,-1,-1,new Item.Properties()));
     public static final RegistryObject<Item> SPECTRAL_STEED_EGGS = ITEMS.register("spectral_steed_egg",()->new ForgeSpawnEggItem(
             ModEntities.SPECTRAL_STEED,-1,-1,new Item.Properties()));
+    public static final RegistryObject<Item> COOKED_PHANTOM_LOTUS_KOI = ITEMS.register("cooked_phantom_lotus_koi",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(0.4f).build())));
+    public static final RegistryObject<Item> COOKED_GLOWPETAL_PIGFISH = ITEMS.register("cooked_glowpetal_pigfish",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(0.4f).build())));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

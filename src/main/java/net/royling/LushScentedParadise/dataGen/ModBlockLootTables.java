@@ -90,8 +90,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.STAR_SILVER_ORE.get(),block -> createOreDrop(block,ModItems.RAW_STAR_SILVER.get()));
         this.add(ModBlocks.DEEPSLATE_STAR_SILVER_ORE.get(),block -> createOreDrop(block,ModItems.RAW_STAR_SILVER.get()));
 
-        dropWithSilkTouchOrItem(ModBlocks.ABYSS_SILENCE_MUSHROOM_BLOCK.get(),ModItems.ABYSS_SILENCE_MUSHROOM.get());
-        dropWithSilkTouchOrItem(ModBlocks.ABYSS_SILENCE_MUSHROOM_CAP.get(),ModItems.ABYSS_SILENCE_MUSHROOM.get());
+        dropWithSilkTouchOrItem(ModBlocks.ABYSS_SILENCE_MUSHROOM_BLOCK.get(), ModItems.ABYSS_SILENCE_MUSHROOM.get());
+        dropWithSilkTouchOrItem(ModBlocks.ABYSS_SILENCE_MUSHROOM_CAP.get(), ModItems.ABYSS_SILENCE_MUSHROOM.get());
 
         this.dropOther(ModBlocks.STAR_SILVER_FLOWER_CROP.get(),Items.AIR);
         this.dropOther(ModBlocks.STAR_SILVER_CLUSTER.get(),Items.AIR);
@@ -207,7 +207,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         LootPool.Builder cropDropPool = LootPool.lootPool()
                 .add(LootItem.lootTableItem(pGrowenCropItem).when(pDropGrowenCropCondition)
                         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE,0.5714286F,3))
-                        //.apply(SetItemCountFunction.setCount(ConstantValue.exactly(3)))
                         .otherwise(LootItem.lootTableItem(pSeedItem)));
 
         LootPool.Builder seedDropPool = LootPool.lootPool()
@@ -232,6 +231,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     private void dropWithSilkTouchOrItem(Block targetBlock, Item dropItem) {
         this.add(targetBlock, createSilkTouchOrItemLootTable(targetBlock, dropItem));
     }
+
     private LootTable.Builder createSilkTouchOrItemLootTable(Block targetBlock,Item dropItem){
         LootItemCondition.Builder silkTouch = MatchTool.toolMatches(
                 ItemPredicate.Builder.item()

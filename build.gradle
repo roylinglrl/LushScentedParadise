@@ -63,6 +63,7 @@ repositories {
         url = "https://maven.blamejared.com/"}
     maven {name = "ModMaven"
         url = "https://modmaven.dev"}
+
     maven { url "https://maven.ryanliptak.com/" }
     maven {url "https://cursemaven.com"
     }
@@ -73,6 +74,34 @@ repositories {
     }
     maven { url 'https://maven.blamejared.com' }
     maven {url = "https://maven.theillusivec4.top/"
+    }
+    maven {
+        // Shedaniel's maven (Architectury API)
+        url = "https://maven.architectury.dev"
+        content {
+            includeGroup "dev.architectury"
+        }
+    }
+    maven {
+        // saps.dev Maven (KubeJS and Rhino)
+        url = "https://maven.saps.dev/minecraft"
+        content {
+            includeGroup "dev.latvian.mods"
+        }
+    }
+    maven {
+        url "https://maven.latvian.dev/releases"
+        content {
+            includeGroup "dev.latvian.mods"
+            includeGroup "dev.latvian.apps"
+        }
+    }
+
+    maven {
+        url 'https://jitpack.io'
+        content {
+            includeGroup "com.github.rtyley"
+        }
     }
 }
 
@@ -95,6 +124,10 @@ dependencies {
 
     compileOnly fg.deobf("vazkii.botania:Botania:1.20.1-444-FORGE:api")
     runtimeOnly fg.deobf("vazkii.botania:Botania:1.20.1-444-FORGE")
+
+    implementation fg.deobf("dev.architectury:architectury-forge:9.2.14")
+    implementation fg.deobf("dev.latvian.mods:kubejs-forge:2001.6.5-build.16")
+    implementation fg.deobf("dev.latvian.mods:rhino-forge:2001.2.3-build.6")
 }
 
 

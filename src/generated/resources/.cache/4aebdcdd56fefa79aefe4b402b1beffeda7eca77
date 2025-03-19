@@ -1,4 +1,4 @@
-// 1.20.1	2025-03-14T19:40:46.8944157	Item Models: lushscentedparadise
+// 1.20.1	2025-03-19T22:35:40.1972026	Item Models: lushscentedparadise
 c6daa5484c43d7a4c865396d2722c652ba780882 assets/lushscentedparadise/models/item/abyssal_brew.json
 df4d56c297c84d15931212283132968ae11474ac assets/lushscentedparadise/models/item/abyss_mushroom_powder.json
 6ce5da6212983ebaca26bf3bbd94ddd944b0d470 assets/lushscentedparadise/models/item/americano.json
@@ -37,6 +37,8 @@ f7c1c136861d49c1cff269b2ad78981d24f5a4fc assets/lushscentedparadise/models/item/
 15f04648f3456fef5c18d985bdd5f9a86cc97299 assets/lushscentedparadise/models/item/colorful_flower_shovel.json
 fb379113ff38e6fdd49865ab7dfd170e3c7a3ec2 assets/lushscentedparadise/models/item/colorful_flower_sword.json
 9c8305ca3f472b5391363a1279dcd129a2aac429 assets/lushscentedparadise/models/item/cooked_gingerbread_man.json
+ce4bcf40d6b6563b9155d8c3bd0ac27963aabed5 assets/lushscentedparadise/models/item/cooked_glowpetal_pigfish.json
+d31786e5a7a30e7d0a4aa3452a7ad4fc3dd74446 assets/lushscentedparadise/models/item/cooked_phantom_lotus_koi.json
 06f8210dc3cc251dea00c6749484ece5eab58e6d assets/lushscentedparadise/models/item/coral_mint_sparkling_water.json
 85946c42a337eb9cc1695090a33bd9cc8c177c51 assets/lushscentedparadise/models/item/cornflower_tea.json
 509fb03a34b93e2ce3aab7c9326b9786e134b185 assets/lushscentedparadise/models/item/cream.json
@@ -110,7 +112,6 @@ ed7268388affd4bb3e1eb7bbd84c782250f37af4 assets/lushscentedparadise/models/item/
 6376dfbc0de7510a804bf2844a1aea0bdb889462 assets/lushscentedparadise/models/item/fern_tea.json
 9378f284de6872f5f0f51d9b7bc5e287b27f12d4 assets/lushscentedparadise/models/item/fire_hibiscus_tea.json
 953199022df971a90fa081d8924887d266027bd6 assets/lushscentedparadise/models/item/flax_tea.json
-bd8e37e479eab21b3c0826a330b0e36dbf3c93f0 assets/lushscentedparadise/models/item/flowerbook.json
 a71eb5c760c1e80aa9728ef6c45e5c9c8f743941 assets/lushscentedparadise/models/item/flower_bag.json
 5a4337df84955d6003c5bbf084837e980e3083a2 assets/lushscentedparadise/models/item/flower_fertilizer.json
 eb0fa965d874b85656c2f1efdd077a581829f7cc assets/lushscentedparadise/models/item/flower_party.json

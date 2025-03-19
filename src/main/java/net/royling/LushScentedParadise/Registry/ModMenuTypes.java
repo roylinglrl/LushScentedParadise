@@ -17,8 +17,10 @@ public class ModMenuTypes {
     public static final RegistryObject<MenuType<TeapotMenu>> TEAPOT_MENU =
             MENUS.register("teapot_menu",
                     () -> IForgeMenuType.create(TeapotMenu::new));
+
     public static final RegistryObject<MenuType<StorageBagMenu>> STORAGE_BAG_MENU=
-            MENUS.register("storage_bag",()->IForgeMenuType.create(StorageBagMenu::new));
+            MENUS.register("storage_bag",
+                    ()->IForgeMenuType.create(StorageBagMenu::new));
 
     public static void register(IEventBus eventBus) {
         MENUS.register(eventBus);

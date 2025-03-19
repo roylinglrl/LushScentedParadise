@@ -12,6 +12,9 @@ public class pickUpEvent {
     @SubscribeEvent
     public static void onItemPickup(EntityItemPickupEvent event){
         Player player = event.getEntity();
+        if (player.containerMenu != null && player.containerMenu != player.inventoryMenu) {
+            return;
+        }
         ItemStack pickedItem = event.getItem().getItem();
         for(ItemStack slot : player.getInventory().items){
             if(slot.getItem()instanceof StorageBagItem bagItem){

@@ -1,7 +1,7 @@
-// 1.20.1	2025-03-13T16:41:32.845062	Tags for minecraft:item mod id lushscentedparadise
+// 1.20.1	2025-03-19T22:35:40.1932029	Tags for minecraft:item mod id lushscentedparadise
 3488f08e26e1a311e36fbd529acd7b5e5dd79a7d data/forge/tags/items/armors.json
 6f5d9cf3aa9ccd675388284e729109cfbe3ce3de data/forge/tags/items/armors/boots.json
-98abfc6b21338c60e443b5d37e0042b438bf89d0 data/forge/tags/items/armors/chestplate.json
+98abfc6b21338c60e443b5d37e0042b438bf89d0 data/forge/tags/items/armors/chestplates.json
 9d84d565d397675b4b2b4e05b11e4de972ec2cf8 data/forge/tags/items/armors/helmets.json
 6a797ec59fd19f92f8ae0b4f83587ebabb219b86 data/forge/tags/items/armors/leggings.json
 055e968c29bef1c05da0ebe920d2fe2bc0c66fdd data/forge/tags/items/crops.json
@@ -16,6 +16,7 @@ c429185694f1a2b7f1d3a85c31798b7281e266d0 data/forge/tags/items/storage_blocks.js
 4e2de0ec7906af6fe8badf13a19a8265a4dcf75e data/minecraft/tags/items/axes.json
 2b82e8131e331015b6e8fe435e6a335609608222 data/minecraft/tags/items/breaks_decorated_pots.json
 d92c475c68d5db856dff74fa65c0b0fe684c2a3e data/minecraft/tags/items/cluster_max_harvestables.json
+4c201846920d0a1a478b5db422d8e4297b369ae7 data/minecraft/tags/items/creeper_drop_music_discs.json
 cf6c8dd267c53cf1115db0250c6ee0cdc6e86495 data/minecraft/tags/items/fishes.json
 a4149948a656435b2f8db13b60cb87820dd7a8b9 data/minecraft/tags/items/flowers.json
 cfcfa6caa4d094015defadbf671e15de2049803a data/minecraft/tags/items/hoes.json

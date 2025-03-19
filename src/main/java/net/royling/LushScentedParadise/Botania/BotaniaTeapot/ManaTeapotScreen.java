@@ -25,5 +25,6 @@ public class ManaTeapotScreen extends AbstractContainerScreen<ManaTeapotMenu> {
         int mana = Math.min(this.menu.getmana(),80);
         System.out.println("Mana:"+mana);
         guiGraphics.blit(TEXTURE,x+60,y+60,176,16,mana,3);
+        this.renderTooltip(guiGraphics,i,i1);
     }
 }

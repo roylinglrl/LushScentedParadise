@@ -33,7 +33,7 @@ public class BotaniaFoods {
             .effect(()->new MobEffectInstance(BotaniaEffects.NATURE_RESONANCE.get(),1200,0),1F).build();
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, LushScentedParadise.MODID);
-
+    //阿卡纳茶
     public static final RegistryObject<Item> ARCANA_TEA = ITEMS.register("arcana_tea",()->new tea(new Item.Properties().food(BotaniaFoods.ARCANA_TEA_P).stacksTo(16),25){
         @Override
         public ItemStack finishUsingItem(ItemStack pStack, Level pLevel, LivingEntity pLivingEntity) {
@@ -51,6 +51,7 @@ public class BotaniaFoods {
             super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
         }
     });
+    //白雏菊茶
     public static final RegistryObject<Item> WHITE_DAISY_TEA = ITEMS.register("white_daisy_tea",
             ()->new tea(new Item.Properties().food(BotaniaFoods.WHITE_DAISY_P).stacksTo(16),25){
                 @Override
@@ -59,4 +60,5 @@ public class BotaniaFoods {
                     super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
                 }
             });
+
 }

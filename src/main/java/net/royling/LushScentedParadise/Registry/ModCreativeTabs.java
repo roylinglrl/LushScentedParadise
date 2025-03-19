@@ -332,11 +332,14 @@ public class ModCreativeTabs {
                         pOutput.accept(new ItemStack(ModItems.MUSIC_DISC.get()));
                         pOutput.accept(new ItemStack(ModItems.PHANTOM_LOTUS_KOI.get()));
                         pOutput.accept(new ItemStack(ModItems.GLOWPETAL_PIGFISH.get()));
+                        pOutput.accept(new ItemStack(ModItems.COOKED_PHANTOM_LOTUS_KOI.get()));
+                        pOutput.accept(new ItemStack(ModItems.COOKED_GLOWPETAL_PIGFISH.get()));
                         pOutput.accept(new ItemStack(ModItems.STAR_SILVER_FLOWER_POWDER.get()));
                         pOutput.accept(new ItemStack(ModItems.ABYSS_MUSHROOM_POWDER.get()));
                         pOutput.accept(new ItemStack(ModBlocks.STAR_SILVER_BLOCK.get()));
                         pOutput.accept(new ItemStack(ModBlocks.RAW_STAR_SILVER_BLOCK.get()));
                         pOutput.accept(new ItemStack(ModItems.FLOWER_INGOT.get()));
+                        pOutput.accept(new ItemStack(ModItems.COLORFUL_FLOWER_BLOCK_ITEM.get()));
                         pOutput.accept(new ItemStack(ModItems.COLORFUL_FLOWER_SWORD.get()));
                         pOutput.accept(new ItemStack(ModItems.COLORFUL_FLOWER_AXE.get()));
                         pOutput.accept(new ItemStack(ModItems.COLORFUL_FLOWER_PICKAXE.get()));

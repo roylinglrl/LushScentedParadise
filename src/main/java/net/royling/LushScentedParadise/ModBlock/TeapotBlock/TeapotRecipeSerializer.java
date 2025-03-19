@@ -28,7 +28,7 @@ public class TeapotRecipeSerializer implements RecipeSerializer<TeapotRecipe> {
         int brewTime = GsonHelper.getAsInt(json, "brew_time", 200);
 
         return new TeapotRecipe(recipeId, ingredients, output, brewTime);
-    }
+}
     @Override
     public TeapotRecipe fromNetwork(ResourceLocation recipeId, FriendlyByteBuf buffer) {
         int size = buffer.readInt();

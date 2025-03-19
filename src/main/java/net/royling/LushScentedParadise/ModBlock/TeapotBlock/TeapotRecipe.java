@@ -22,6 +22,7 @@ public class TeapotRecipe implements Recipe<Container> {
     private final List<Ingredient> ingredients;
     private final ItemStack result;
     private final int brewTime;
+
     public TeapotRecipe(ResourceLocation id,List<Ingredient> ingredients,ItemStack result,int brewTime){
         this.id=id;
         this.ingredients = ingredients;

@@ -875,6 +875,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("FGH")
                 .unlockedBy("has_item", has(ModItems.STAR_SILVER_INGOT.get()))
                 .save(pWriter,new ResourceLocation(LushScentedParadise.MODID,"colorful_flower_ingot_recipe"));
+
+        foodCooked(pWriter,"cooked_phantom_lotus_koi",ModItems.PHANTOM_LOTUS_KOI.get(),ModItems.COOKED_PHANTOM_LOTUS_KOI.get(),3,200);
+        foodCooked(pWriter,"cooked_glowpetal_pigfish",ModItems.GLOWPETAL_PIGFISH.get(),ModItems.COOKED_GLOWPETAL_PIGFISH.get(),3,200);
     }
 
 
@@ -907,6 +910,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         SimpleCookingRecipeBuilder.blasting(Ingredient.of(input), RecipeCategory.MISC, output, experience, cookingTime / 2)
                 .unlockedBy("has_" + name, has(input))
                 .save(consumer, new ResourceLocation("lushscentedparadise", "blasting/" + name));
+    }
+    protected void foodCooked(Consumer<FinishedRecipe> consumer,String name,ItemLike input,ItemLike output,float exp,int cookingTime){
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(input),RecipeCategory.MISC,output,exp,cookingTime)
+                .unlockedBy("has_" + name, has(input))
+                .save(consumer,new ResourceLocation(LushScentedParadise.MODID,"smelting/"+name));
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(input),RecipeCategory.MISC,output,exp,cookingTime/2)
+                .unlockedBy("has_" + name, has(input))
+                .save(consumer,new ResourceLocation(LushScentedParadise.MODID,"smoking/"+name));
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(input),RecipeCategory.MISC,output,exp,cookingTime*3)
+                .unlockedBy("has_" + name, has(input))
+                .save(consumer,new ResourceLocation(LushScentedParadise.MODID,"campfirecooking/"+name));
     }
     private void addArmorRecipe(Consumer<FinishedRecipe> consumer, String name, ItemLike result, String... pattern) {
         ShapedRecipeBuilder builder = ShapedRecipeBuilder.shaped(RecipeCategory.MISC, result)

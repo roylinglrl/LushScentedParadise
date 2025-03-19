@@ -26,6 +26,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.MUSIC_DISC.get());
 
+        this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.MUSIC_DISC.get());
+
+
         this.tag(ItemTags.PICKAXES).add(
                 ModItems.STAR_SILVER_PICKAXE.get(),
                 ModItems.COLORFUL_FLOWER_PICKAXE.get()
@@ -136,7 +140,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 ModItems.COLORFUL_FLOWER_LEGGINGS.get()
 
         );
-        this.tag(TagKey.create(ForgeRegistries.ITEMS.getRegistryKey(),new ResourceLocation("forge","armors/chestplate"))).add(
+        this.tag(TagKey.create(ForgeRegistries.ITEMS.getRegistryKey(),new ResourceLocation("forge","armors/chestplates"))).add(
                 ModItems.STAR_SILVER_CHESTPLATE.get(),
                 ModItems.COLORFUL_FLOWER_CHESTPLATE.get()
 
